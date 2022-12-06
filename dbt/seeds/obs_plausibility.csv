@@ -1,0 +1,1546 @@
+expectation_name,system,code,ucum_code,low,high
+White Oak IgE Ab [Units/volume] in Serum between 0.0 and 100.0 %,http://loinc.org,6189-5,%,0.0,100.0
+Peanut IgE Ab [Units/volume] in Serum between 4.0 and 1000.0 %,http://loinc.org,6206-7,%,4.0,1000.0
+"Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (CKD-EPI) between 10.0 and 150.0 mL/min/1.73.m2",http://loinc.org,62238-1,mL/min/1.73.m2,10.0,150.0
+25-Hydroxyvitamin D2+25-Hydroxyvitamin D3 [Mass/volume] in Serum or Plasma between 10.0 and 1000.0 pg/mL,http://loinc.org,62292-8,pg/mL,10.0,1000.0
+Soybean IgE Ab [Units/volume] in Serum between 0.0 and 100.0 %,http://loinc.org,6248-9,%,0.0,100.0
+"Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (CKD-EPI) between 10.0 and 120.0 mL/min",http://loinc.org,62238-1,mL/min,10.0,120.0
+25-Hydroxyvitamin D2+25-Hydroxyvitamin D3 [Mass/volume] in Serum or Plasma between 5.0 and 1000.0 ng/mL,http://loinc.org,62292-8,ng/mL,5.0,1000.0
+Potassium [Moles/volume] in Blood between 3.0 and 8.0 10*-3.eq/L,http://loinc.org,6298-4,10*-3.eq/L,3.0,8.0
+Urea nitrogen [Mass/volume] in Blood between 0.0 and 1000.0 mg/dL,http://loinc.org,6299-2,mg/dL,0.0,1000.0
+INR in Platelet poor plasma by Coagulation assay between 0.0 and 30.0 V,http://loinc.org,6301-6,V,0.0,30.0
+Potassium [Moles/volume] in Blood between 3.0 and 10.0 mmol/L,http://loinc.org,6298-4,mmol/L,3.0,10.0
+INR in Platelet poor plasma by Coagulation assay between 0.0 and 30.0 pc,http://loinc.org,6301-6,pc,0.0,30.0
+INR in Platelet poor plasma by Coagulation assay between 0.0 and 30.0 ms,http://loinc.org,6301-6,ms,0.0,30.0
+INR in Platelet poor plasma by Coagulation assay between 0.0 and 30.0 kg,http://loinc.org,6301-6,kg,0.0,30.0
+INR in Platelet poor plasma by Coagulation assay between 0.0 and 30.0 [pnt],http://loinc.org,6301-6,[pnt],0.0,30.0
+INR in Platelet poor plasma by Coagulation assay between 0.0 and 30.0 mg/dL,http://loinc.org,6301-6,mg/dL,0.0,30.0
+INR in Platelet poor plasma by Coagulation assay between 0.0 and 30.0 10*6/mL,http://loinc.org,6301-6,10*6/mL,0.0,30.0
+INR in Platelet poor plasma by Coagulation assay between 0.0 and 30.0 mmol/L,http://loinc.org,6301-6,mmol/L,0.0,30.0
+INR in Platelet poor plasma by Coagulation assay between 0.0 and 30.0 mL,http://loinc.org,6301-6,mL,0.0,30.0
+INR in Platelet poor plasma by Coagulation assay between 0.0 and 30.0 cm,http://loinc.org,6301-6,cm,0.0,30.0
+INR in Platelet poor plasma by Coagulation assay between 0.0 and 30.0 mg,http://loinc.org,6301-6,mg,0.0,30.0
+INR in Platelet poor plasma by Coagulation assay between 0.0 and 30.0 s,http://loinc.org,6301-6,s,0.0,30.0
+INR in Platelet poor plasma by Coagulation assay between 0.0 and 30.0 %,http://loinc.org,6301-6,%,0.0,30.0
+INR in Platelet poor plasma by Coagulation assay between 0.0 and 30.0 .,http://loinc.org,6301-6,.,0.0,30.0
+INR in Platelet poor plasma by Coagulation assay between 0.01 and 30.0 {ratio},http://loinc.org,6301-6,{ratio},0.01,30.0
+INR in Platelet poor plasma by Coagulation assay between 0.0 and 30.0 L,http://loinc.org,6301-6,L,0.0,30.0
+INR in Platelet poor plasma by Coagulation assay between 0.0 and 30.0 F,http://loinc.org,6301-6,F,0.0,30.0
+INR in Platelet poor plasma by Coagulation assay between 0.0 and 30.0 [U],http://loinc.org,6301-6,[U],0.0,30.0
+Troponin T.cardiac [Mass/volume] in Serum or Plasma between 1.0 and 40.0 ng/mL,http://loinc.org,6598-7,ng/mL,1.0,40.0
+Troponin T.cardiac [Mass/volume] in Serum or Plasma between 0.0 and 10.0 ug/L,http://loinc.org,6598-7,ug/L,0.0,10.0
+Leukocytes [#/volume] in Blood by Automated count between 0.0 and 150.0 kPa,http://loinc.org,6690-2,kPa,0.0,150.0
+Leukocytes [#/volume] in Blood by Automated count between 0.0 and 10.0 g{creat},http://loinc.org,6690-2,g{creat},0.0,10.0
+Leukocytes [#/volume] in Blood by Automated count between 0.0 and 180.0 10*3/mL,http://loinc.org,6690-2,10*3/mL,0.0,180.0
+Leukocytes [#/volume] in Blood by Automated count between 0.0 and 11.0 10*3/mm3,http://loinc.org,6690-2,10*3/mm3,0.0,11.0
+Leukocytes [#/volume] in Blood by Automated count between 0.01 and 11.0 10*3/uL,http://loinc.org,6690-2,10*3/uL,0.01,11.0
+Leukocytes [#/volume] in Blood by Automated count between 0.0 and 150.0 mg/dL,http://loinc.org,6690-2,mg/dL,0.0,150.0
+Leukocytes [#/volume] in Blood by Automated count between 0.0 and 11.0 10*6/mL,http://loinc.org,6690-2,10*6/mL,0.0,11.0
+Leukocytes [#/volume] in Blood by Automated count between 0.0 and 9000.0 mm3,http://loinc.org,6690-2,mm3,0.0,9000.0
+Leukocytes [#/volume] in Blood by Automated count between 0.0 and 10000.0 /uL,http://loinc.org,6690-2,/uL,0.0,10000.0
+Leukocytes [#/volume] in Blood by Automated count between 0.0 and 100.0 %,http://loinc.org,6690-2,%,0.0,100.0
+Leukocytes [#/volume] in Blood by Automated count between 0.0 and 11.0 [U],http://loinc.org,6690-2,[U],0.0,11.0
+Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma between 20.0 and 731.0 [iU]/L,http://loinc.org,6768-6,[iU]/L,20.0,731.0
+Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma between 1.0 and 236.0 mg/dL,http://loinc.org,6768-6,mg/dL,1.0,236.0
+Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma between 4.2 and 37.0 g/dL,http://loinc.org,6768-6,g/dL,4.2,37.0
+Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma between 20.0 and 731.0 [U]/L,http://loinc.org,6768-6,[U]/L,20.0,731.0
+"Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood between 10.0 and 150.0 mL/min/1.73.m2",http://loinc.org,69405-9,mL/min/1.73.m2,10.0,150.0
+"Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood between 5.0 and 200.0 mL/min",http://loinc.org,69405-9,mL/min,5.0,200.0
+Basophils [#/volume] in Blood by Automated count between 0.0 and 400.0 10*9/L,http://loinc.org,704-7,10*9/L,0.0,400.0
+Basophils [#/volume] in Blood by Manual count between 0.01 and 1.0 10*3/mm3,http://loinc.org,705-4,10*3/mm3,0.01,1.0
+Basophils/100 leukocytes in Blood by Automated count between 0.001 and 1000.0 %,http://loinc.org,706-2,%,0.001,1000.0
+Blasts [#/volume] in Blood by Manual count between 1.0 and 326.0 10*3/uL,http://loinc.org,708-8,10*3/uL,1.0,326.0
+Blasts/100 leukocytes in Blood by Manual count between 0.0 and 112.0 10*3/uL,http://loinc.org,709-6,10*3/uL,0.0,112.0
+Basophils [#/volume] in Blood by Automated count between 0.0 and 400000.0 10*3/mL,http://loinc.org,704-7,10*3/mL,0.0,400000.0
+Basophils [#/volume] in Blood by Manual count between 0.0 and 0.4 10*3/uL,http://loinc.org,705-4,10*3/uL,0.0,0.4
+Blasts/100 leukocytes in Blood by Manual count between 0.0 and 328.0 10*6/mL,http://loinc.org,709-6,10*6/mL,0.0,328.0
+Basophils [#/volume] in Blood by Automated count between 0.0 and 400000000.0 10*3/L,http://loinc.org,704-7,10*3/L,0.0,400000000.0
+Basophils [#/volume] in Blood by Manual count between 7.0 and 350.0 /uL,http://loinc.org,705-4,/uL,7.0,350.0
+Basophils [#/volume] in Blood by Automated count between 0.0 and 400000000000.0 /L,http://loinc.org,704-7,/L,0.0,400000000000.0
+Basophils [#/volume] in Blood by Automated count between 0.001 and 400.0 10*3/mm3,http://loinc.org,704-7,10*3/mm3,0.001,400.0
+Basophils [#/volume] in Blood by Automated count between 0.001 and 400.0 10*3/uL,http://loinc.org,704-7,10*3/uL,0.001,400.0
+Basophils [#/volume] in Blood by Automated count between 0.0 and 1.0 10*6/mL,http://loinc.org,704-7,10*6/mL,0.0,1.0
+Basophils [#/volume] in Blood by Automated count between 0.001 and 400.0 /uL,http://loinc.org,704-7,/uL,0.001,400.0
+Basophils [#/volume] in Blood by Automated count between 0.001 and 100.0 %,http://loinc.org,704-7,%,0.001,100.0
+Eosinophils [#/volume] in Blood by Automated count between 0.0 and 1.0 g{tot'prot},http://loinc.org,711-2,g{tot'prot},0.0,1.0
+Eosinophils [#/volume] in Blood by Manual count between 0.0 and 3.0 10*3/mm3,http://loinc.org,712-0,10*3/mm3,0.0,3.0
+Eosinophils/100 leukocytes in Blood by Automated count between 0.0 and 100.0 %,http://loinc.org,713-8,%,0.0,100.0
+Eosinophils/100 leukocytes in Blood by Manual count between 0.0 and 1000.0 10*3/uL,http://loinc.org,714-6,10*3/uL,0.0,1000.0
+Hematocrit [Pure volume fraction] of Blood by Automated count between 1.0 and 50.0 %,http://loinc.org,71833-8,%,1.0,50.0
+Hemoglobin [Mass/volume] in Blood between 0.0 and 20.0 mg/kg,http://loinc.org,718-7,mg/kg,0.0,20.0
+Eosinophils [#/volume] in Blood by Automated count between 0.0 and 1.0 10*9/L,http://loinc.org,711-2,10*9/L,0.0,1.0
+Eosinophils/100 leukocytes in Blood by Manual count between 0.0 and 10.0 %,http://loinc.org,714-6,%,0.0,10.0
+Hemoglobin [Mass/volume] in Blood between 0.0 and 15.0 m,http://loinc.org,718-7,m,0.0,15.0
+Eosinophils [#/volume] in Blood by Automated count between 0.0 and 1.0 10*3/mL,http://loinc.org,711-2,10*3/mL,0.0,1.0
+Eosinophils [#/volume] in Blood by Manual count between 0.0 and 600.0 /uL,http://loinc.org,712-0,/uL,0.0,600.0
+Hemoglobin [Mass/volume] in Blood between 0.0 and 115.0 kg,http://loinc.org,718-7,kg,0.0,115.0
+Eosinophils [#/volume] in Blood by Automated count between 0.0 and 1.0 /L,http://loinc.org,711-2,/L,0.0,1.0
+Eosinophils [#/volume] in Blood by Manual count between 0.0 and 10.0 %,http://loinc.org,712-0,%,0.0,10.0
+Hemoglobin [Mass/volume] in Blood between 0.0 and 17.0 [pnt],http://loinc.org,718-7,[pnt],0.0,17.0
+Eosinophils [#/volume] in Blood by Automated count between 0.0 and 1.0 10*3/mm3,http://loinc.org,711-2,10*3/mm3,0.0,1.0
+Hemoglobin [Mass/volume] in Blood between 0.0 and 4000.0 [oz_av],http://loinc.org,718-7,[oz_av],0.0,4000.0
+Eosinophils [#/volume] in Blood by Automated count between 0.0 and 1.0 10*3/uL,http://loinc.org,711-2,10*3/uL,0.0,1.0
+Hemoglobin [Mass/volume] in Blood between 0.0 and 15.0 /dL,http://loinc.org,718-7,/dL,0.0,15.0
+Eosinophils [#/volume] in Blood by Automated count between 0.0 and 1.0 10*6/mL,http://loinc.org,711-2,10*6/mL,0.0,1.0
+Hemoglobin [Mass/volume] in Blood between 0.0 and 15.0 ug/dL,http://loinc.org,718-7,ug/dL,0.0,15.0
+Eosinophils [#/volume] in Blood by Automated count between 0.0 and 1000.0 /uL,http://loinc.org,711-2,/uL,0.0,1000.0
+Hemoglobin [Mass/volume] in Blood between 0.0 and 6.0 mmol/L,http://loinc.org,718-7,mmol/L,0.0,6.0
+Eosinophils [#/volume] in Blood by Automated count between 0.0 and 7.0 %,http://loinc.org,711-2,%,0.0,7.0
+Hemoglobin [Mass/volume] in Blood between 0.0 and 14.0 [lb_us],http://loinc.org,718-7,[lb_us],0.0,14.0
+Hemoglobin [Mass/volume] in Blood between 1.0 and 100.0 g/dL,http://loinc.org,718-7,g/dL,1.0,100.0
+Hemoglobin [Mass/volume] in Blood between 0.0 and 1000.0 g/L,http://loinc.org,718-7,g/L,0.0,1000.0
+Hemoglobin [Mass/volume] in Blood between 0.0 and 60.0 mL,http://loinc.org,718-7,mL,0.0,60.0
+Hemoglobin [Mass/volume] in Blood between 0.0 and 110.0 cm,http://loinc.org,718-7,cm,0.0,110.0
+Hemoglobin [Mass/volume] in Blood between 0.0 and 17.0 mg,http://loinc.org,718-7,mg,0.0,17.0
+Hemoglobin [Mass/volume] in Blood between 0.0 and 35.0 pg,http://loinc.org,718-7,pg,0.0,35.0
+Hemoglobin [Mass/volume] in Blood between 0.0 and 100.0 %,http://loinc.org,718-7,%,0.0,100.0
+Lymphocytes [#/volume] in Blood by Automated count between 0.0 and 1.0 10*3/mL,http://loinc.org,731-0,10*3/mL,0.0,1.0
+Lymphocytes [#/volume] in Blood by Manual count between 0.01 and 50.0 10*3/uL,http://loinc.org,732-8,10*3/uL,0.01,50.0
+Lymphocytes/100 leukocytes in Blood by Automated count between 0.0 and 100.0 %,http://loinc.org,736-9,%,0.0,100.0
+Lymphocytes/100 leukocytes in Blood by Manual count between 0.01 and 50.0 10*3/uL,http://loinc.org,737-7,10*3/uL,0.01,50.0
+Lymphocytes [#/volume] in Blood by Manual count between 0.0 and 3000.0 /uL,http://loinc.org,732-8,/uL,0.0,3000.0
+Lymphocytes/100 leukocytes in Blood by Manual count between 0.0 and 1000.0 10*6/mL,http://loinc.org,737-7,10*6/mL,0.0,1000.0
+Lymphocytes [#/volume] in Blood by Automated count between 0.01 and 50.0 10*3/uL,http://loinc.org,731-0,10*3/uL,0.01,50.0
+Lymphocytes [#/volume] in Blood by Manual count between 0.0 and 100.0 %,http://loinc.org,732-8,%,0.0,100.0
+Lymphocytes/100 leukocytes in Blood by Manual count between 0.0 and 100.0 %,http://loinc.org,737-7,%,0.0,100.0
+Lymphocytes [#/volume] in Blood by Automated count between 0.0 and 1000.0 10*6/mL,http://loinc.org,731-0,10*6/mL,0.0,1000.0
+Lymphocytes [#/volume] in Blood by Automated count between 0.0 and 10000.0 /uL,http://loinc.org,731-0,/uL,0.0,10000.0
+Lymphocytes [#/volume] in Blood by Automated count between 0.0 and 100.0 %,http://loinc.org,731-0,%,0.0,100.0
+Monocytes [#/volume] in Blood by Automated count between 0.0 and 1.0 10*3/mL,http://loinc.org,742-7,10*3/mL,0.0,1.0
+Monocytes [#/volume] in Blood by Manual count between 0.0 and 100.0 %,http://loinc.org,743-5,%,0.0,100.0
+Monocytes [#/volume] in Blood by Automated count between 0.0 and 1000.0 10*3/uL,http://loinc.org,742-7,10*3/uL,0.0,1000.0
+Monocytes [#/volume] in Blood by Automated count between 0.0 and 1000.0 10*6/mL,http://loinc.org,742-7,10*6/mL,0.0,1000.0
+Monocytes [#/volume] in Blood by Automated count between 0.0 and 3000.0 /uL,http://loinc.org,742-7,/uL,0.0,3000.0
+Monocytes [#/volume] in Blood by Automated count between 0.0 and 100.0 %,http://loinc.org,742-7,%,0.0,100.0
+Myelocytes/100 leukocytes in Blood by Manual count between 0.0 and 100.0 %,http://loinc.org,749-2,%,0.0,100.0
+Neutrophils [#/volume] in Blood by Automated count between 0.01 and 50.0 10*9/L,http://loinc.org,751-8,10*9/L,0.01,50.0
+Neutrophils [#/volume] in Blood by Automated count between 0.01 and 50.0 10*3/mm3,http://loinc.org,751-8,10*3/mm3,0.01,50.0
+Neutrophils [#/volume] in Blood by Manual count between 1.0 and 50000.0 /uL,http://loinc.org,753-4,/uL,1.0,50000.0
+Neutrophils [#/volume] in Blood by Automated count between 0.01 and 50.0 10*3/uL,http://loinc.org,751-8,10*3/uL,0.01,50.0
+Neutrophils [#/volume] in Blood by Automated count between 1.0 and 50000.0 /uL,http://loinc.org,751-8,/uL,1.0,50000.0
+Systolic blood pressure by Noninvasive between 10.0 and 250.0 mm[Hg],http://loinc.org,76534-7,mm[Hg],10.0,250.0
+Segmented neutrophils/100 leukocytes in Blood by Manual count between 25.0 and 100.0 %,http://loinc.org,769-0,%,25.0,100.0
+Neutrophils/100 leukocytes in Blood by Automated count between 45.0 and 75.0 %,http://loinc.org,770-8,%,45.0,75.0
+Platelet mean volume [Entitic volume] in Blood by Rees-Ecker between 7.0 and 20.0 fL,http://loinc.org,776-5,fL,7.0,20.0
+Fibrin D-dimer [Units/volume] in Platelet poor plasma between 0.0 and 3.0 ug/mL,http://loinc.org,7799-0,ug/mL,0.0,3.0
+MCHC [Mass/volume] by Automated count between 27.0 and 40.0 g/dL,http://loinc.org,786-4,g/dL,27.0,40.0
+Fibrin D-dimer [Units/volume] in Platelet poor plasma between 0.0 and 2500.0 ng/mL,http://loinc.org,7799-0,ng/mL,0.0,2500.0
+MCHC [Mass/volume] by Automated count between 27.0 and 40.0 g/L,http://loinc.org,786-4,g/L,27.0,40.0
+Fibrin D-dimer [Units/volume] in Platelet poor plasma between 0.0 and 2.0 mg/L,http://loinc.org,7799-0,mg/L,0.0,2.0
+MCHC [Mass/volume] by Automated count between 27.0 and 40.0 pg,http://loinc.org,786-4,pg,27.0,40.0
+Fibrin D-dimer [Units/volume] in Platelet poor plasma between 0.0 and 1500.0 ug/L,http://loinc.org,7799-0,ug/L,0.0,1500.0
+MCHC [Mass/volume] by Automated count between 27.0 and 40.0 %,http://loinc.org,786-4,%,27.0,40.0
+Platelets [#/volume] in Blood by Automated count between 100.0 and 600.0 10*9/L,http://loinc.org,777-3,10*9/L,100.0,600.0
+Platelets [#/volume] in Blood by Automated count between 1.0 and 4000.0 10*3/mm3,http://loinc.org,777-3,10*3/mm3,1.0,4000.0
+Platelets [#/volume] in Blood by Automated count between 100.0 and 1000.0 10*3/uL,http://loinc.org,777-3,10*3/uL,100.0,1000.0
+Platelets [#/volume] in Blood by Automated count between 1.0 and 10.0 10*6/mL,http://loinc.org,777-3,10*6/mL,1.0,10.0
+Platelets [#/volume] in Blood by Automated count between 10.0 and 1000.0 /mm3,http://loinc.org,777-3,/mm3,10.0,1000.0
+MCV [Entitic volume] by Automated count between 70.0 and 120.0 fL,http://loinc.org,787-2,fL,70.0,120.0
+Erythrocyte distribution width [Ratio] by Automated count between 12.0 and 54.0 fL,http://loinc.org,788-0,fL,12.0,54.0
+Erythrocytes [#/volume] in Blood by Automated count between 0.0 and 6.0 uL,http://loinc.org,789-8,uL,0.0,6.0
+Erythrocyte distribution width [Ratio] by Automated count between 0.0 and 100.0 %,http://loinc.org,788-0,%,0.0,100.0
+Erythrocytes [#/volume] in Blood by Automated count between 0.0 and 2.0 10*3/mL,http://loinc.org,789-8,10*3/mL,0.0,2.0
+Erythrocytes [#/volume] in Blood by Automated count between 0.0 and 5.0 10*3/mm3,http://loinc.org,789-8,10*3/mm3,0.0,5.0
+Erythrocytes [#/volume] in Blood by Automated count between 0.0 and 100.0 10*3/uL,http://loinc.org,789-8,10*3/uL,0.0,100.0
+Erythrocytes [#/volume] in Blood by Automated count between 0.0 and 100.0 10*6/mL,http://loinc.org,789-8,10*6/mL,0.0,100.0
+Erythrocytes [#/volume] in Blood by Automated count between 0.01 and 6.0 10*6/uL,http://loinc.org,789-8,10*6/uL,0.01,6.0
+Erythrocytes [#/volume] in Blood by Automated count between 0.0 and 6.0 g/dL,http://loinc.org,789-8,g/dL,0.0,6.0
+Leukocytes [#/volume] in Blood by Manual count between 0.0 and 100.0 10*3/uL,http://loinc.org,804-5,10*3/uL,0.0,100.0
+Leukocytes [#/volume] in Cerebral spinal fluid by Manual count between 0.0 and 11.0 /mm3,http://loinc.org,806-0,/mm3,0.0,11.0
+Leukocytes [#/volume] in Cerebral spinal fluid by Manual count between 0.0 and 200.0 /uL,http://loinc.org,806-0,/uL,0.0,200.0
+Body height between 0.2 and 2.5 m,http://loinc.org,8302-2,m,0.2,2.5
+Body temperature between 34.0 and 45.0 Cel,http://loinc.org,8310-5,Cel,34.0,45.0
+Waist Circumference at umbilicus by Tape measure between 15.0 and 74.0 [in_us],http://loinc.org,8280-0,[in_us],15.0,74.0
+Waist Circumference at umbilicus by Tape measure between 40.0 and 222.0 cm,http://loinc.org,8280-0,cm,40.0,222.0
+Body height between 2.0 and 275.0 [in_i],http://loinc.org,8302-2,[in_i],2.0,275.0
+Body height between 20000.0 and 250000.0 mm,http://loinc.org,8302-2,mm,20000.0,250000.0
+Body height between 20.0 and 250.0 cm,http://loinc.org,8302-2,cm,20.0,250.0
+Systolic blood pressure--sitting between 10.0 and 250.0 mm[Hg],http://loinc.org,8459-0,mm[Hg],10.0,250.0
+Systolic blood pressure--standing between 10.0 and 250.0 mm[Hg],http://loinc.org,8460-8,mm[Hg],10.0,250.0
+Systolic blood pressure--supine between 10.0 and 250.0 mm[Hg],http://loinc.org,8461-6,mm[Hg],10.0,250.0
+Diastolic blood pressure between 30.0 and 200.0 mm[Hg],http://loinc.org,8462-4,mm[Hg],30.0,200.0
+Mean blood pressure between 10.0 and 500.0 mm[Hg],http://loinc.org,8478-0,mm[Hg],10.0,500.0
+Systolic blood pressure by palpation between 10.0 and 250.0 mm[Hg],http://loinc.org,8479-8,mm[Hg],10.0,250.0
+Systolic blood pressure between 10.0 and 250.0 mm[Hg],http://loinc.org,8480-6,mm[Hg],10.0,250.0
+Q-T interval corrected between 0.0 and 1000.0 No matching concept,http://loinc.org,8636-3,No matching concept,0.0,1000.0
+Heart rate between 10.0 and 500.0 {counts}/min,http://loinc.org,8867-4,{counts}/min,10.0,500.0
+Respiratory rate between 0.0 and 100.0 ',http://loinc.org,9279-1,',0.0,100.0
+Respiratory rate between 0.0 and 100.0 /min,http://loinc.org,9279-1,/min,0.0,100.0
+Cholesterol.total/Cholesterol in HDL [Percentile] between 2.0 and 75.0 %,http://loinc.org,9322-9,%,2.0,75.0
+Cholesterol.total/Cholesterol in HDL [Mass Ratio] in Serum or Plasma between 2.0 and 158.0 {ratio},http://loinc.org,9830-1,{ratio},2.0,158.0
+Cholesterol.total/Cholesterol in HDL [Mass Ratio] in Serum or Plasma between 1.0 and 75.0 %,http://loinc.org,9830-1,%,1.0,75.0
+Alanine aminotransferase measurement between 5.0 and 2000.0 [U],http://snomed.info/sct,34608000,[U],5.0,2000.0
+Glucose measurement between 0.0 and 9.0 nmol/L,http://snomed.info/sct,36048009,nmol/L,0.0,9.0
+Glucose measurement between 0.0 and 2.0 g/L,http://snomed.info/sct,36048009,g/L,0.0,2.0
+Systolic blood pressure on admission between 10.0 and 250.0 mm[Hg],http://snomed.info/sct,399304008,mm[Hg],10.0,250.0
+Sitting systolic blood pressure between 10.0 and 250.0 mm[Hg],http://snomed.info/sct,407554009,mm[Hg],10.0,250.0
+Lying systolic blood pressure between 10.0 and 250.0 mm[Hg],http://snomed.info/sct,407556006,mm[Hg],10.0,250.0
+Basophils/100 leukocytes in Blood by Manual count between 0.001 and 1000.0 %,http://loinc.org,707-0,%,0.001,1000.0
+Eosinophils [#/volume] in Blood by Manual count between 0.001 and 20.0 10*3/uL,http://loinc.org,712-0,10*3/uL,0.001,20.0
+Hemoglobin [Mass/volume] in Blood between 0.0 and 100.0 fL,http://loinc.org,718-7,fL,0.0,100.0
+Lymphocytes [#/volume] in Blood by Automated count between 0.0 and 4.0 10*3/mm3,http://loinc.org,731-0,10*3/mm3,0.0,4.0
+Monocytes [#/volume] in Blood by Automated count between 0.0 and 1000.0 10*3/mm3,http://loinc.org,742-7,10*3/mm3,0.0,1000.0
+Neutrophils [#/volume] in Blood by Manual count between 0.01 and 50.0 10*3/uL,http://loinc.org,753-4,10*3/uL,0.01,50.0
+Platelets [#/volume] in Blood by Automated count between 100000.0 and 1000000.0 /uL,http://loinc.org,777-3,/uL,100000.0,1000000.0
+Erythrocytes [#/volume] in Blood by Automated count between 0.0 and 5.0 /mm3,http://loinc.org,789-8,/mm3,0.0,5.0
+Erythrocytes [#/volume] in Blood by Automated count between 0.0 and 60.0 %,http://loinc.org,789-8,%,0.0,60.0
+Thyroperoxidase Ab [Units/volume] in Serum or Plasma between 0.0 and 1000.0 [iU]/mL,http://loinc.org,8099-4,[iU]/mL,0.0,1000.0
+Body surface area between 1.0 and 52.0 m2,http://loinc.org,8277-6,m2,1.0,52.0
+Body height between 2.0 and 275.0 [in_us],http://loinc.org,8302-2,[in_us],2.0,275.0
+Standing systolic blood pressure between 10.0 and 250.0 mm[Hg],http://snomed.info/sct,400974009,mm[Hg],10.0,250.0
+Body temperature between 36.0 and 71.0 F,http://loinc.org,8310-5,F,36.0,71.0
+Serum total cholesterol measurement between 1.0 and 15.0 mmol/L,http://snomed.info/sct,412808005,mmol/L,1.0,15.0
+Serum total cholesterol measurement between 50.0 and 500.0 mg/dL,http://snomed.info/sct,412808005,mg/dL,50.0,500.0
+Measurement of total cholesterol and triglycerides between 1.0 and 15.0 mmol/L,http://snomed.info/sct,443915001,mmol/L,1.0,15.0
+Measurement of total cholesterol and triglycerides between 50.0 and 500.0 mg/dL,http://snomed.info/sct,443915001,mg/dL,50.0,500.0
+C-reactive protein measurement between 0.1 and 50.0 mg/dL,http://snomed.info/sct,55235003,mg/dL,0.1,50.0
+C-reactive protein measurement between 0.0 and 544.0 mg/L,http://snomed.info/sct,55235003,mg/L,0.0,544.0
+C-reactive protein measurement between 1.0 and 18.0 mg,http://snomed.info/sct,55235003,mg,1.0,18.0
+Serum creatinine level between 10.0 and 30.0 mg/L,http://snomed.info/sct,1000731000000107,mg/L,10.0,30.0
+Serum creatinine level between 0.1 and 5.0 mg/dL,http://snomed.info/sct,1000731000000107,mg/dL,0.1,5.0
+Plasma total cholesterol level between 1.0 and 15.0 mmol/L,http://snomed.info/sct,1017161000000104,mmol/L,1.0,15.0
+Plasma total cholesterol level between 50.0 and 500.0 mg/dL,http://snomed.info/sct,1017161000000104,mg/dL,50.0,500.0
+"Creatinine Measurement, serum between 10.0 and 200.0 umol/L",http://snomed.info/sct,113075003,umol/L,10.0,200.0
+Total cholesterol measurement between 0.0 and 100.0 %,http://snomed.info/sct,121868005,%,0.0,100.0
+Total cholesterol measurement between 0.0 and 1000.0 nmol/L,http://snomed.info/sct,121868005,nmol/L,0.0,1000.0
+Total cholesterol measurement between 50.0 and 500.0 mg/dL,http://snomed.info/sct,121868005,mg/dL,50.0,500.0
+Total cholesterol measurement between 1.0 and 10.0 g/L,http://snomed.info/sct,121868005,g/L,1.0,10.0
+Serum creatinine level between 10.0 and 200.0 umol/L,http://snomed.info/sct,1000731000000107,umol/L,10.0,200.0
+"Creatinine Measurement, serum between 0.1 and 5.0 mg/dL",http://snomed.info/sct,113075003,mg/dL,0.1,5.0
+MCH [Entitic mass] by Automated count between 0.0 and 100.0 pg,http://loinc.org,785-6,pg,0.0,100.0
+Input/Output between 0.0 and  mL,http://loinc.org,IO_OUT,mL,0.0,
+MCH [Entitic mass] by Automated count between 0.0 and 100.0 %,http://loinc.org,785-6,%,0.0,100.0
+Cancer Ag 125 [Units/volume] in Serum or Plasma between 1.0 and 628.0 [iU]/mL,http://loinc.org,10334-1,[iU]/mL,1.0,628.0
+Digoxin [Mass/volume] in Serum or Plasma between 0.0 and 2.0 ng/mL,http://loinc.org,10535-3,ng/mL,0.0,2.0
+Globulin [Mass/volume] in Serum by calculation between 2.0 and 4.0 g/dL,http://loinc.org,10834-0,g/dL,2.0,4.0
+Prostate Specific Ag Free [Mass/volume] in Serum or Plasma between 0.0 and 10.0 ng/mL,http://loinc.org,10886-0,ng/mL,0.0,10.0
+Cancer Ag 125 [Units/volume] in Serum or Plasma between 1.0 and 628.0 [arb'U]/mL,http://loinc.org,10334-1,[arb'U]/mL,1.0,628.0
+Digoxin [Mass/volume] in Serum or Plasma between 0.0 and 3.0 ng/dL,http://loinc.org,10535-3,ng/dL,0.0,3.0
+Prostate Specific Ag Free [Mass/volume] in Serum or Plasma between 0.0 and 10.0 ug/L,http://loinc.org,10886-0,ug/L,0.0,10.0
+Cancer Ag 125 [Units/volume] in Serum or Plasma between 1.0 and 628.0 10*3.[U]/L,http://loinc.org,10334-1,10*3.[U]/L,1.0,628.0
+Digoxin [Mass/volume] in Serum or Plasma between 0.0 and 2.0 ug/L,http://loinc.org,10535-3,ug/L,0.0,2.0
+Digoxin [Mass/volume] in Serum or Plasma between 0.0 and 2.0 nmol/L,http://loinc.org,10535-3,nmol/L,0.0,2.0
+Cancer Ag 125 [Units/volume] in Serum or Plasma between 1.0 and 628.0 umol/L,http://loinc.org,10334-1,umol/L,1.0,628.0
+Kappa light chains [Mass/volume] in Serum or Plasma between 0.0 and 500.0 mg/dL,http://loinc.org,11050-2,mg/dL,0.0,500.0
+Cholesterol in LDL/Cholesterol in HDL [Mass Ratio] in Serum or Plasma between 1.0 and 28.0 {ratio},http://loinc.org,11054-4,{ratio},1.0,28.0
+Tacrolimus [Mass/volume] in Blood between 0.0 and 51.0 ng/mL,http://loinc.org,11253-2,ng/mL,0.0,51.0
+Rheumatoid factor [Units/volume] in Serum or Plasma between 0.0 and 100.0 [iU]/mL,http://loinc.org,11572-5,[iU]/mL,0.0,100.0
+Kappa light chains [Mass/volume] in Serum or Plasma between 0.0 and 150.0 mg/L,http://loinc.org,11050-2,mg/L,0.0,150.0
+Cholesterol [Mass/volume] in Body fluid between 50.0 and 500.0 mg/dL,http://loinc.org,12183-0,mg/dL,50.0,500.0
+aPTT in Control Blood by Coagulation assay between 18.0 and 60.0 '',http://loinc.org,12185-5,'',18.0,60.0
+Creatine kinase.MB/Creatine kinase.total in Serum or Plasma by Electrophoresis between 1.0 and 326.0 ng/mL,http://loinc.org,12187-1,ng/mL,1.0,326.0
+Creatine kinase.MB/Creatine kinase.total in Serum or Plasma by Electrophoresis between 0.0 and 100.0 %,http://loinc.org,12187-1,%,0.0,100.0
+Creatinine [Mass/volume] in Body fluid between 10.0 and 30.0 mg/L,http://loinc.org,12190-5,mg/L,10.0,30.0
+Creatinine [Mass/volume] in Body fluid between 0.1 and 5.0 mg/dL,http://loinc.org,12190-5,mg/dL,0.1,5.0
+Prostate Specific Ag Free/Prostate specific Ag.total in Serum or Plasma between 10.0 and 45.0 %,http://loinc.org,12841-3,%,10.0,45.0
+Iron/Transferrin [Mass Ratio] in Serum or Plasma between 0.0 and 100.0 %,http://loinc.org,13452-8,%,0.0,100.0
+Cholesterol in LDL [Mass/volume] in Serum or Plasma by calculation between 35.0 and 596.0 nmol/L,http://loinc.org,13457-7,nmol/L,35.0,596.0
+Cholesterol in VLDL [Mass/volume] in Serum or Plasma by calculation between 6.0 and 100.0 ug/dL,http://loinc.org,13458-5,ug/dL,6.0,100.0
+Cholesterol in LDL [Mass/volume] in Serum or Plasma by calculation between 45.0 and 400.0 mg/dL,http://loinc.org,13457-7,mg/dL,45.0,400.0
+Calcium.ionized [Moles/volume] in Serum or Plasma by calculation between 3.0 and 6.0 mg/dL,http://loinc.org,13959-2,mg/dL,3.0,6.0
+Creatine kinase.MB [Mass/volume] in Serum or Plasma between 0.0 and 1000.0 ng/mL,http://loinc.org,13969-1,ng/mL,0.0,1000.0
+Lactate [Mass/volume] in Serum or Plasma between 0.0 and 170.0 mg/dL,http://loinc.org,14118-4,mg/dL,0.0,170.0
+Sex hormone binding globulin [Moles/volume] in Serum or Plasma between 0.0 and 100.0 %,http://loinc.org,13967-5,%,0.0,100.0
+Lactate [Mass/volume] in Serum or Plasma between 0.0 and 100.0 mmol/L,http://loinc.org,14118-4,mmol/L,0.0,100.0
+Reticulocytes [#/volume] in Blood between 0.0 and 1000.0 10*3/uL,http://loinc.org,14196-0,10*3/uL,0.0,1000.0
+Reticulocytes [#/volume] in Blood between 0.0 and 100.0 %,http://loinc.org,14196-0,%,0.0,100.0
+Bicarbonate [Moles/volume] in Venous blood between 18.0 and 47.0 10*-3.eq/L,http://loinc.org,14627-4,10*-3.eq/L,18.0,47.0
+Bilirubin.total [Moles/volume] in Serum or Plasma between 0.01 and 11.0 mg/dL,http://loinc.org,14631-6,mg/dL,0.01,11.0
+Cholesterol [Moles/volume] in Serum or Plasma between 1.0 and 15.0 mmol/L,http://loinc.org,14647-2,mmol/L,1.0,15.0
+Creatinine [Moles/volume] in Serum or Plasma between 0.1 and 5.0 mg/dL,http://loinc.org,14682-9,mg/dL,0.1,5.0
+Creatinine [Moles/volume] in Urine between 300.0 and 3000.0 mg/L,http://loinc.org,14683-7,mg/L,300.0,3000.0
+Phosphate [Moles/volume] in Serum or Plasma between 2.0 and 17.0 mg/dL,http://loinc.org,14879-1,mg/dL,2.0,17.0
+Urea nitrogen [Moles/volume] in Serum or Plasma between 5.0 and 100.0 mg/dL,http://loinc.org,14937-7,mg/dL,5.0,100.0
+Microalbumin [Mass/volume] in Urine between 0.0 and 1000.0 ug/mL,http://loinc.org,14957-5,ug/mL,0.0,1000.0
+Glucose [Mass/volume] in Serum or Plasma --1 hour post 100 g glucose PO between 1.0 and 250.0 mg/dL,http://loinc.org,1501-6,mg/dL,1.0,250.0
+Glucose [Mass/volume] in Serum or Plasma --1 hour post 75 g glucose PO between 1.0 and 250.0 mg/dL,http://loinc.org,1507-3,mg/dL,1.0,250.0
+Glucose [Mass/volume] in Serum or Plasma --2 hours post 100 g glucose PO between 1.0 and 200.0 mg/dL,http://loinc.org,1514-9,mg/dL,1.0,200.0
+Bilirubin.conjugated [Mass/volume] in Serum or Plasma between 0.01 and 100.0 mg/dL,http://loinc.org,15152-2,mg/dL,0.01,100.0
+Glucose [Mass/volume] in Serum or Plasma --2 hours post 75 g glucose PO between 1.0 and 1100.0 mg/dL,http://loinc.org,1518-0,mg/dL,1.0,1100.0
+Rheumatoid factor [Units/volume] in Serum by Nephelometry between 0.0 and 100.0 [iU]/mL,http://loinc.org,15205-8,[iU]/mL,0.0,100.0
+Glucose [Mass/volume] in Serum or Plasma --2 hours post meal between 1.0 and 200.0 mg/dL,http://loinc.org,1521-4,mg/dL,1.0,200.0
+Glucose [Mass/volume] in Serum or Plasma --3 hours post 100 g glucose PO between 1.0 and 200.0 mg/dL,http://loinc.org,1530-5,mg/dL,1.0,200.0
+Bicarbonate [Moles/volume] in Venous blood between 18.0 and 47.0 mmol/L,http://loinc.org,14627-4,mmol/L,18.0,47.0
+Cholesterol [Moles/volume] in Serum or Plasma between 50.0 and 500.0 mg/dL,http://loinc.org,14647-2,mg/dL,50.0,500.0
+Creatinine [Moles/volume] in Serum or Plasma between 10.0 and 200.0 umol/L,http://loinc.org,14682-9,umol/L,10.0,200.0
+Creatinine [Moles/volume] in Urine between 17.0 and 500.0 mg/dL,http://loinc.org,14683-7,mg/dL,17.0,500.0
+Phosphate [Moles/volume] in Serum or Plasma between 1.0 and 26.0 mmol/L,http://loinc.org,14879-1,mmol/L,1.0,26.0
+Microalbumin [Mass/volume] in Urine between 0.0 and 1000.0 mg/dL,http://loinc.org,14957-5,mg/dL,0.0,1000.0
+Microalbumin/Creatinine [Mass Ratio] in Urine between 0.001 and 100.0 ug/mg,http://loinc.org,14959-1,ug/mg,0.001,100.0
+Rheumatoid factor [Units/volume] in Serum by Nephelometry between 0.0 and 1000.0 [iU]/L,http://loinc.org,15205-8,[iU]/L,0.0,1000.0
+Microalbumin [Mass/volume] in Urine between 0.0 and 1000.0 ug/mg,http://loinc.org,14957-5,ug/mg,0.0,1000.0
+Microalbumin/Creatinine [Mass Ratio] in Urine between 0.001 and 100.0 mg/g,http://loinc.org,14959-1,mg/g,0.001,100.0
+Microalbumin [Mass/volume] in Urine between 0.0 and 1000.0 ug/dL,http://loinc.org,14957-5,ug/dL,0.0,1000.0
+Microalbumin/Creatinine [Mass Ratio] in Urine between 0.0 and 100.0 %,http://loinc.org,14959-1,%,0.0,100.0
+Microalbumin [Mass/volume] in Urine between 0.0 and 1000.0 mg/L,http://loinc.org,14957-5,mg/L,0.0,1000.0
+Microalbumin [Mass/volume] in Urine between 0.0 and 1000.0 mg/g,http://loinc.org,14957-5,mg/g,0.0,1000.0
+Glucose [Mass/volume] in Serum or Plasma --12 hours fasting between 1.0 and 150.0 mg/dL,http://loinc.org,1554-5,mg/dL,1.0,150.0
+Fasting glucose [Mass/volume] in Venous blood between 1.0 and 1000.0 mg/dL,http://loinc.org,1557-8,mg/dL,1.0,1000.0
+Fasting glucose [Mass/volume] in Serum or Plasma between 50.0 and 200.0 pg/mL,http://loinc.org,1558-6,pg/mL,50.0,200.0
+Fasting glucose [Mass/volume] in Serum or Plasma between 50.0 and 200.0 ng/mL,http://loinc.org,1558-6,ng/mL,50.0,200.0
+Fasting glucose [Mass/volume] in Serum or Plasma between 50.0 and 500.0 mg/dL,http://loinc.org,1558-6,mg/dL,50.0,500.0
+Fasting glucose [Mass/volume] in Serum or Plasma between 0.0 and 10.0 mmol/L,http://loinc.org,1558-6,mmol/L,0.0,10.0
+Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma between 5.0 and 2000.0 u,http://loinc.org,1742-6,u,5.0,2000.0
+Calcitriol [Mass/volume] in Serum or Plasma between 11.0 and 81.0 ng/mL,http://loinc.org,1649-3,ng/mL,11.0,81.0
+Calcitriol [Mass/volume] in Serum or Plasma between 20.0 and 373.0 pmol/L,http://loinc.org,1649-3,pmol/L,20.0,373.0
+Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma between 5.0 and 2000.0 mg/dL,http://loinc.org,1742-6,mg/dL,5.0,2000.0
+Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma between 5.0 and 2000.0 ug/dL,http://loinc.org,1742-6,ug/dL,5.0,2000.0
+Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma between 5.0 and 2000.0 mmol/L,http://loinc.org,1742-6,mmol/L,5.0,2000.0
+Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma between 5.0 and 2000.0 g/dL,http://loinc.org,1742-6,g/dL,5.0,2000.0
+Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma between 5.0 and 2000.0 %,http://loinc.org,1742-6,%,5.0,2000.0
+Albumin [Mass/volume] in Serum or Plasma between 1000.0 and 18000.0 mg/dL,http://loinc.org,1751-7,mg/dL,1000.0,18000.0
+Albumin [Mass/time] in 24 hour Urine between 1.0 and 1000.0 mg/(24.h),http://loinc.org,1755-8,mg/(24.h),1.0,1000.0
+Albumin/Globulin [Mass Ratio] in Serum or Plasma between 0.0 and 10.0 {ratio},http://loinc.org,1759-0,{ratio},0.0,10.0
+Aldosterone [Mass/volume] in Serum or Plasma between 0.001 and 500.0 ng/dL,http://loinc.org,1763-2,ng/dL,0.001,500.0
+Alkaline phosphatase.bone [Mass/volume] in Serum or Plasma between 10.0 and 76.0 ng/mL,http://loinc.org,17838-4,ng/mL,10.0,76.0
+Hemoglobin A1c/Hemoglobin.total in Blood by calculation between 0.0 and 100.0 %,http://loinc.org,17855-8,%,0.0,100.0
+Hemoglobin A1c/Hemoglobin.total in Blood by HPLC between 0.01 and 20.0 %,http://loinc.org,17856-6,%,0.01,20.0
+Calcium [Mass/volume] in Serum or Plasma between 7.0 and 13.0 mg/mL,http://loinc.org,17861-6,mg/mL,7.0,13.0
+Calcium.ionized [Mass/volume] in Serum or Plasma by Ion-selective membrane electrode (ISE) between 4.0 and 5800.0 mg/dL,http://loinc.org,17864-0,mg/dL,4.0,5800.0
+Glucose [Mass/volume] in Serum or Plasma --8 hours fasting between 1.0 and 200.0 mg/dL,http://loinc.org,17865-7,mg/dL,1.0,200.0
+Amylase [Enzymatic activity/volume] in Serum or Plasma between 6.0 and 107.0 [U]/L,http://loinc.org,1798-8,[U]/L,6.0,107.0
+Osmolality of Serum or Plasma by calculation between 220.0 and 420.0 mmol/kg,http://loinc.org,18182-6,mmol/kg,220.0,420.0
+Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay between 418.0 and 2500.0 nmol/L,http://loinc.org,18262-6,nmol/L,418.0,2500.0
+Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma between 0.0 and 100.0 ng/mL,http://loinc.org,1834-1,ng/mL,0.0,100.0
+Albumin [Mass/volume] in Serum or Plasma between 1.0 and 18.0 mmol/L,http://loinc.org,1751-7,mmol/L,1.0,18.0
+Albumin [Mass/time] in 24 hour Urine between 1.0 and 1000.0 ug/mL,http://loinc.org,1755-8,ug/mL,1.0,1000.0
+Alkaline phosphatase.bone [Mass/volume] in Serum or Plasma between 10.0 and 76.0 ug/L,http://loinc.org,17838-4,ug/L,10.0,76.0
+Calcium [Mass/volume] in Serum or Plasma between 7.0 and 13.0 pg/mL,http://loinc.org,17861-6,pg/mL,7.0,13.0
+Calcium.ionized [Mass/volume] in Serum or Plasma by Ion-selective membrane electrode (ISE) between 1.0 and 3.0 mmol/L,http://loinc.org,17864-0,mmol/L,1.0,3.0
+Osmolality of Serum or Plasma by calculation between 220.0 and 420.0 mosm/kg,http://loinc.org,18182-6,mosm/kg,220.0,420.0
+Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay between 1.0 and 400.0 mg/dL,http://loinc.org,18262-6,mg/dL,1.0,400.0
+Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma between 0.0 and 100.0 ug/L,http://loinc.org,1834-1,ug/L,0.0,100.0
+Albumin [Mass/volume] in Urine between 0.0 and 1000.0 mg/L,http://loinc.org,1754-1,mg/L,0.0,1000.0
+Albumin [Mass/time] in 24 hour Urine between 1.0 and 1000.0 mg/dL,http://loinc.org,1755-8,mg/dL,1.0,1000.0
+Calcium [Mass/volume] in Serum or Plasma between 7.0 and 13.0 mg/dL,http://loinc.org,17861-6,mg/dL,7.0,13.0
+Osmolality of Serum or Plasma by calculation between 220.0 and 420.0 mosm,http://loinc.org,18182-6,mosm,220.0,420.0
+Albumin [Mass/volume] in Serum or Plasma between 1.0 and 18.0 g/L,http://loinc.org,1751-7,g/L,1.0,18.0
+Albumin [Mass/volume] in Urine between 0.0 and 1000.0 g/dL,http://loinc.org,1754-1,g/dL,0.0,1000.0
+Calcium [Mass/volume] in Serum or Plasma between 2.0 and 81.0 mmol/L,http://loinc.org,17861-6,mmol/L,2.0,81.0
+Apolipoprotein B [Mass/volume] in Serum or Plasma between 24.0 and 280.0 mg/dL,http://loinc.org,1884-6,mg/dL,24.0,280.0
+Magnesium [Mass/volume] in Serum or Plasma between 0.0 and 3.0 10*-3.eq/L,http://loinc.org,19123-9,10*-3.eq/L,0.0,3.0
+Prostate specific Ag [Units/volume] in Serum or Plasma between 0.0 and 10.0 ng/mL,http://loinc.org,19195-7,ng/mL,0.0,10.0
+Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma between 5.0 and 2000.0 [iU]/L,http://loinc.org,1920-8,[iU]/L,5.0,2000.0
+Magnesium [Mass/volume] in Serum or Plasma between 0.0 and 3.0 mg/dL,http://loinc.org,19123-9,mg/dL,0.0,3.0
+Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma between 5.0 and 2000.0 mg/dL,http://loinc.org,1920-8,mg/dL,5.0,2000.0
+Magnesium [Mass/volume] in Serum or Plasma between 0.0 and 3.0 mmol/L,http://loinc.org,19123-9,mmol/L,0.0,3.0
+Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma between 5.0 and 2000.0 [U]/L,http://loinc.org,1920-8,[U]/L,5.0,2000.0
+Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma between 5.0 and 2000.0 %,http://loinc.org,1920-8,%,5.0,2000.0
+Beta-2-Microglobulin [Mass/volume] in Serum or Plasma between 0.01 and 6.0 ug/mL,http://loinc.org,1952-1,ug/mL,0.01,6.0
+Beta-2-Microglobulin [Mass/volume] in Urine between 0.0 and 548.0 mg/L,http://loinc.org,1953-9,mg/L,0.0,548.0
+Bicarbonate [Moles/volume] in Blood between 17.0 and 55.0 10*-3.eq/L,http://loinc.org,1959-6,10*-3.eq/L,17.0,55.0
+Bicarbonate [Moles/volume] in Plasma between 18.0 and 47.0 10*-3.eq/L,http://loinc.org,1962-0,10*-3.eq/L,18.0,47.0
+Bicarbonate [Moles/volume] in Serum or Plasma between 18.0 and 47.0 10*-3.eq/L,http://loinc.org,1963-8,10*-3.eq/L,18.0,47.0
+Bilirubin.direct [Mass/volume] in Serum or Plasma between 0.0 and 4.0 mg/dL,http://loinc.org,1968-7,mg/dL,0.0,4.0
+Bilirubin.indirect [Mass/volume] in Serum or Plasma between 1.0 and 100.0 mg/dL,http://loinc.org,1971-1,mg/dL,1.0,100.0
+Bilirubin.total [Mass/volume] in Serum or Plasma between 0.0 and 100.0 mg/dL,http://loinc.org,1975-2,mg/dL,0.0,100.0
+C peptide [Mass/volume] in Serum or Plasma between 0.0 and 20.0 ng/mL,http://loinc.org,1986-9,ng/mL,0.0,20.0
+C reactive protein [Mass/volume] in Serum or Plasma between 0.0 and 5.0 mg/dL,http://loinc.org,1988-5,mg/dL,0.0,5.0
+Calcidiol [Mass/volume] in Serum or Plasma between 8.0 and 103.0 pg/mL,http://loinc.org,1989-3,pg/mL,8.0,103.0
+Cholecalciferol (Vit D3) [Mass/volume] in Serum or Plasma between 23.0 and 124.0 pg/mL,http://loinc.org,1990-1,pg/mL,23.0,124.0
+FEV1/FVC between 0.0 and 90.0 [in_us],http://loinc.org,19926-5,[in_us],0.0,90.0
+Calcium.ionized [Moles/volume] in Blood between 1.0 and 2.0 10*-3.eq/L,http://loinc.org,1994-3,10*-3.eq/L,1.0,2.0
+Oxygen/Inspired gas setting [Volume Fraction] Ventilator between 0.0 and 100.0 %,http://loinc.org,19994-3,%,0.0,100.0
+Calcium [Moles/volume] in Serum or Plasma between 8.0 and 10000.0 mg/dL,http://loinc.org,2000-8,mg/dL,8.0,10000.0
+Carbon dioxide [Partial pressure] in Venous blood between 10.0 and 127.0 mm[Hg],http://loinc.org,2021-4,mm[Hg],10.0,127.0
+"Carbon dioxide, total [Moles/volume] in Serum or Plasma between 20.0 and 100.0 10*-3.eq/L",http://loinc.org,2028-9,10*-3.eq/L,20.0,100.0
+Beta-2-Microglobulin [Mass/volume] in Serum or Plasma between 100.0 and 6000.0 ng/mL,http://loinc.org,1952-1,ng/mL,100.0,6000.0
+Bicarbonate [Moles/volume] in Blood between 1.0 and 55.0 10*-3.eq/kg,http://loinc.org,1959-6,10*-3.eq/kg,1.0,55.0
+Bicarbonate [Moles/volume] in Serum or Plasma between 18.0 and 47.0 mmol/L,http://loinc.org,1963-8,mmol/L,18.0,47.0
+Bilirubin.direct [Mass/volume] in Serum or Plasma between 4.2 and 107.0 mmol/L,http://loinc.org,1968-7,mmol/L,4.2,107.0
+Bilirubin.total [Mass/volume] in Serum or Plasma between 1.0 and 143.0 mmol/L,http://loinc.org,1975-2,mmol/L,1.0,143.0
+C reactive protein [Mass/volume] in Serum or Plasma between 50.0 and 2300.0 pmol/L,http://loinc.org,1986-9,pmol/L,50.0,2300.0
+Cholecalciferol (Vit D3) [Mass/volume] in Serum or Plasma between 5.0 and 200.0 ng/mL,http://loinc.org,1990-1,ng/mL,5.0,200.0
+FEV1/FVC between 1.0 and 120.0 %,http://loinc.org,19926-5,%,1.0,120.0
+Calcium.ionized [Moles/volume] in Blood between 1.0 and 9.0 mg/dL,http://loinc.org,1994-3,mg/dL,1.0,9.0
+Calcium [Moles/volume] in Serum or Plasma between 7.0 and 13.0 mmol/L,http://loinc.org,2000-8,mmol/L,7.0,13.0
+FEV1 between 0.0 and 3.0 L/min,http://loinc.org,20150-9,L/min,0.0,3.0
+Beta-2-Microglobulin [Mass/volume] in Serum or Plasma between 0.01 and 60.0 mg/dL,http://loinc.org,1952-1,mg/dL,0.01,60.0
+Bicarbonate [Moles/volume] in Blood between 18.0 and 47.0 mmol/L,http://loinc.org,1959-6,mmol/L,18.0,47.0
+Bilirubin.direct [Mass/volume] in Serum or Plasma between 1.0 and 440.0 umol/L,http://loinc.org,1968-7,umol/L,1.0,440.0
+FEV1/FVC between 0.0 and 100.0 {ratio},http://loinc.org,19926-5,{ratio},0.0,100.0
+Calcium.ionized [Moles/volume] in Blood between 1.0 and 4.0 mmol/L,http://loinc.org,1994-3,mmol/L,1.0,4.0
+Calcium [Moles/volume] in Serum or Plasma between 1.0 and 37.0 g/dL,http://loinc.org,2000-8,g/dL,1.0,37.0
+FEV1 between 0.0 and 1000.0 mL,http://loinc.org,20150-9,mL,0.0,1000.0
+"Carbon dioxide, total [Moles/volume] in Serum or Plasma between 12.0 and 100.0 mmol/L",http://loinc.org,2028-9,mmol/L,12.0,100.0
+Beta-2-Microglobulin [Mass/volume] in Serum or Plasma between 0.01 and 11.0 mg/L,http://loinc.org,1952-1,mg/L,0.01,11.0
+Bilirubin.direct [Mass/volume] in Serum or Plasma between 1.0 and 35.0 g/dL,http://loinc.org,1968-7,g/dL,1.0,35.0
+Bilirubin.total [Mass/volume] in Serum or Plasma between 1.0 and 37.0 g/dL,http://loinc.org,1975-2,g/dL,1.0,37.0
+FEV1/FVC between 0.0 and 4.0 L,http://loinc.org,19926-5,L,0.0,4.0
+FEV1 between 0.0 and 100.0 %,http://loinc.org,20150-9,%,0.0,100.0
+"Carbon dioxide, total [Moles/volume] in Serum or Plasma between 232.0 and 1000.0 /uL",http://loinc.org,2028-9,/uL,232.0,1000.0
+Beta-2-Microglobulin [Mass/volume] in Serum or Plasma between 100.0 and 6000.0 ug/L,http://loinc.org,1952-1,ug/L,100.0,6000.0
+Carcinoembryonic Ag [Mass/volume] in Serum or Plasma between 0.0 and 1000.0 ng/mL,http://loinc.org,2039-6,ng/mL,0.0,1000.0
+Insulin [Units/volume] in Serum or Plasma between 5.0 and 46.0 10*-3.[U]/L,http://loinc.org,20448-7,10*-3.[U]/L,5.0,46.0
+Creatine kinase.MB/Creatine kinase.total in Serum or Plasma between 1.0 and 29.0 %,http://loinc.org,20569-0,%,1.0,29.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 0.5 L/L,http://loinc.org,20570-8,L/L,0.0,0.5
+Ceruloplasmin [Mass/volume] in Serum or Plasma between 19.0 and 1000.0 mg/dL,http://loinc.org,2064-4,mg/dL,19.0,1000.0
+Chloride [Moles/volume] in Serum or Plasma between 49.0 and 1000.0 10*-3.eq/L,http://loinc.org,2075-0,10*-3.eq/L,49.0,1000.0
+Cholesterol in HDL [Mass/volume] in Serum or Plasma between 0.1 and 5.0 mmol/L,http://loinc.org,2085-9,mmol/L,0.1,5.0
+Cholesterol in LDL [Mass/volume] in Serum or Plasma between 864.0 and 2500.0 nmol/L,http://loinc.org,2089-1,nmol/L,864.0,2500.0
+Cholesterol [Mass/volume] in Serum or Plasma between 1.0 and 15.0 mmol/L,http://loinc.org,2093-3,mmol/L,1.0,15.0
+Cholesterol in HDL/Cholesterol.total [Mass Ratio] in Serum or Plasma between 1.0 and 100.0 %,http://loinc.org,2095-8,%,1.0,100.0
+Choriogonadotropin [Moles/volume] in Serum or Plasma between 1.0 and 9999999.0 mmol/L,http://loinc.org,2119-6,mmol/L,1.0,9999999.0
+Carcinoembryonic Ag [Mass/volume] in Serum or Plasma between 0.0 and 1000.0 ug/L,http://loinc.org,2039-6,ug/L,0.0,1000.0
+Insulin [Units/volume] in Serum or Plasma between 0.0 and 100.0 [iU]/mL,http://loinc.org,20448-7,[iU]/mL,0.0,100.0
+Ceruloplasmin [Mass/volume] in Serum or Plasma between 121.0 and 412.0 mg/L,http://loinc.org,2064-4,mg/L,121.0,412.0
+Cholesterol in HDL [Mass/volume] in Serum or Plasma between 5.0 and 150.0 mg/dL,http://loinc.org,2085-9,mg/dL,5.0,150.0
+Cholesterol in LDL [Mass/volume] in Serum or Plasma between 0.1 and 11.0 mmol/L,http://loinc.org,2089-1,mmol/L,0.1,11.0
+Cholesterol [Mass/volume] in Serum or Plasma between 90.0 and 400.0 mg/dL,http://loinc.org,2093-3,mg/dL,90.0,400.0
+Carcinoembryonic Ag [Mass/volume] in Serum or Plasma between 1.0 and 6.0 [U],http://loinc.org,2039-6,[U],1.0,6.0
+Insulin [Units/volume] in Serum or Plasma between 0.0 and 50.0 10*-6.[U]/mL,http://loinc.org,20448-7,10*-6.[U]/mL,0.0,50.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 50.0 m,http://loinc.org,20570-8,m,0.0,50.0
+Chloride [Moles/volume] in Serum or Plasma between 95.0 and 103.0 ng/mL,http://loinc.org,2075-0,ng/mL,95.0,103.0
+Cholesterol in HDL [Mass/volume] in Serum or Plasma between 24.0 and 43.0 umol/L,http://loinc.org,2085-9,umol/L,24.0,43.0
+Cholesterol in LDL [Mass/volume] in Serum or Plasma between 20.0 and 300.0 mg/dL,http://loinc.org,2089-1,mg/dL,20.0,300.0
+Cholesterol [Mass/volume] in Serum or Plasma between 2.6 and 36.0 g/dL,http://loinc.org,2093-3,g/dL,2.6,36.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 90000.0 kg,http://loinc.org,20570-8,kg,0.0,90000.0
+Ceruloplasmin [Mass/volume] in Serum or Plasma between 1.0 and 2.0 g/L,http://loinc.org,2064-4,g/L,1.0,2.0
+Chloride [Moles/volume] in Serum or Plasma between 0.0 and 180.0 mg/dL,http://loinc.org,2075-0,mg/dL,0.0,180.0
+Cholesterol in HDL [Mass/volume] in Serum or Plasma between 0.01 and 5.0 g/dL,http://loinc.org,2085-9,g/dL,0.01,5.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 100.0 %{vol},http://loinc.org,20570-8,%{vol},0.0,100.0
+Chloride [Moles/volume] in Serum or Plasma between 49.0 and 212.0 mmol/L,http://loinc.org,2075-0,mmol/L,49.0,212.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 250.0 10*3/mm3,http://loinc.org,20570-8,10*3/mm3,0.0,250.0
+Chloride [Moles/volume] in Serum or Plasma between 2.0 and 37.0 g/dL,http://loinc.org,2075-0,g/dL,2.0,37.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 50.0 mg/dL,http://loinc.org,20570-8,mg/dL,0.0,50.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 40.0 [lb_us],http://loinc.org,20570-8,[lb_us],0.0,40.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 40.0 g/dL,http://loinc.org,20570-8,g/dL,0.0,40.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 20.0 mm,http://loinc.org,20570-8,mm,0.0,20.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 50.0 mL,http://loinc.org,20570-8,mL,0.0,50.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 50.0 fL,http://loinc.org,20570-8,fL,0.0,50.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 5.0 cm,http://loinc.org,20570-8,cm,0.0,5.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 40.0 mg,http://loinc.org,20570-8,mg,0.0,40.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 0.5 {ratio},http://loinc.org,20570-8,{ratio},0.0,0.5
+Hematocrit [Volume Fraction] of Blood between 0.0 and 50.0 [U],http://loinc.org,20570-8,[U],0.0,50.0
+Cobalamin (Vitamin B12) [Mass/volume] in Serum or Plasma between 278.0 and 1200.0 pg/mL,http://loinc.org,2132-9,pg/mL,278.0,1200.0
+Cortisol [Mass/volume] in Serum or Plasma between 0.001 and 1000.0 ug/dL,http://loinc.org,2143-6,ug/dL,0.001,1000.0
+Creatine kinase [Enzymatic activity/volume] in Serum or Plasma between 47.0 and 1000.0 [iU]/L,http://loinc.org,2157-6,[iU]/L,47.0,1000.0
+Creatinine [Mass/volume] in Urine between 17.0 and 500.0 mg/dL,http://loinc.org,2161-8,mg/dL,17.0,500.0
+Creatinine renal clearance in 24 hour between 1.0 and 4.0 mL/s,http://loinc.org,2164-2,mL/s,1.0,4.0
+Cobalamin (Vitamin B12) [Mass/volume] in Serum or Plasma between 5.0 and 346.0 nmol/L,http://loinc.org,2132-9,nmol/L,5.0,346.0
+Creatine kinase [Enzymatic activity/volume] in Serum or Plasma between 1.0 and 455.0 ng/mL,http://loinc.org,2157-6,ng/mL,1.0,455.0
+Creatinine [Mass/volume] in Serum or Plasma between 44.0 and 294.0 mL/min/1.73.m2,http://loinc.org,2160-0,mL/min/1.73.m2,44.0,294.0
+Creatinine [Mass/volume] in Urine between 6.0 and 268.0 mL/min/1.73.m2,http://loinc.org,2161-8,mL/min/1.73.m2,6.0,268.0
+Creatinine [Mass/time] in 24 hour Urine between 1.0 and 1000.0 g/(24.h),http://loinc.org,2162-6,g/(24.h),1.0,1000.0
+Creatinine renal clearance in 24 hour between 20.0 and 206.0 mL/min/1.73.m2,http://loinc.org,2164-2,mL/min/1.73.m2,20.0,206.0
+Cobalamin (Vitamin B12) [Mass/volume] in Serum or Plasma between 5.0 and 600.0 pmol/L,http://loinc.org,2132-9,pmol/L,5.0,600.0
+Creatinine [Mass/volume] in Serum or Plasma between 3.5 and 142.0 mmol/L,http://loinc.org,2160-0,mmol/L,3.5,142.0
+Creatinine [Mass/time] in 24 hour Urine between 47.0 and 335.0 mL/min,http://loinc.org,2162-6,mL/min,47.0,335.0
+Cobalamin (Vitamin B12) [Mass/volume] in Serum or Plasma between 302.0 and 1000.0 ng/L,http://loinc.org,2132-9,ng/L,302.0,1000.0
+Creatinine [Mass/volume] in Serum or Plasma between 10.0 and 200.0 umol/L,http://loinc.org,2160-0,umol/L,10.0,200.0
+Creatinine [Mass/volume] in Urine between 2.0 and 706.0 ng/mL,http://loinc.org,2161-8,ng/mL,2.0,706.0
+Creatinine [Mass/volume] in Serum or Plasma between 2.5 and 36.0 g/dL,http://loinc.org,2160-0,g/dL,2.5,36.0
+Creatinine [Mass/volume] in Urine between 300.0 and 3000.0 mg/L,http://loinc.org,2161-8,mg/L,300.0,3000.0
+Creatinine [Mass/volume] in Urine between 1.0 and 8.0 mg/g,http://loinc.org,2161-8,mg/g,1.0,8.0
+Creatinine [Mass/volume] in Urine between 0.01 and 40.0 g/L,http://loinc.org,2161-8,g/L,0.01,40.0
+Estradiol (E2) [Mass/volume] in Serum or Plasma between 0.0 and 40000.0 pg/mL,http://loinc.org,2243-4,pg/mL,0.0,40000.0
+Estriol (E3).unconjugated [Mass/volume] in Serum or Plasma between 0.01 and 10.0 ng/mL,http://loinc.org,2250-9,ng/mL,0.01,10.0
+Cholesterol in LDL [Moles/volume] in Serum or Plasma between 19.0 and 2500.0 nmol/L,http://loinc.org,22748-8,nmol/L,19.0,2500.0
+Ferritin [Mass/volume] in Serum or Plasma between 0.01 and 400.0 ng/mL,http://loinc.org,2276-4,ng/mL,0.01,400.0
+Cholesterol in LDL [Moles/volume] in Serum or Plasma between 0.1 and 11.0 mmol/L,http://loinc.org,22748-8,mmol/L,0.1,11.0
+Ferritin [Mass/volume] in Serum or Plasma between 0.0 and 500.0 ug/L,http://loinc.org,2276-4,ug/L,0.0,500.0
+Folate [Mass/volume] in Blood between 2.0 and 50.0 %,http://loinc.org,2282-2,%,2.0,50.0
+Estradiol (E2) [Mass/volume] in Serum or Plasma between 0.0 and 500.0 ng/L,http://loinc.org,2243-4,ng/L,0.0,500.0
+Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma between 0.01 and 90.0 [iU]/L,http://loinc.org,2324-2,[iU]/L,0.01,90.0
+Glucose [Mass/volume] in Blood between 1.0 and 300.0 mg/dL,http://loinc.org,2339-0,mg/dL,1.0,300.0
+Glucose [Mass/volume] in Cerebral spinal fluid between 1.0 and 100.0 mg/dL,http://loinc.org,2342-4,mg/dL,1.0,100.0
+Glucose [Mass/volume] in Urine between 0.0 and 800.0 mosm/kg,http://loinc.org,2350-7,mosm/kg,0.0,800.0
+Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma between 10.0 and 70.0 ug/mL,http://loinc.org,2324-2,ug/mL,10.0,70.0
+Glucose [Mass/volume] in Urine between 0.01 and 500.0 mg/dL,http://loinc.org,2350-7,mg/dL,0.01,500.0
+Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma between 10.0 and 60.0 [U],http://loinc.org,2324-2,[U],10.0,60.0
+Cancer Ag 19-9 [Units/volume] in Serum or Plasma between 1.0 and 1000.0 [iU]/mL,http://loinc.org,24108-3,[iU]/mL,1.0,1000.0
+Iron [Mass/volume] in Serum or Plasma between 0.01 and 150.0 ug/dL,http://loinc.org,2498-4,ug/dL,0.01,150.0
+Iron binding capacity.unsaturated [Mass/volume] in Serum or Plasma between 0.01 and 500.0 ug/dL,http://loinc.org,2501-5,ug/dL,0.01,500.0
+Iron saturation [Mass Fraction] in Serum or Plasma between 0.0 and 100.0 %,http://loinc.org,2502-3,%,0.0,100.0
+Cancer Ag 19-9 [Units/volume] in Serum or Plasma between 1.0 and 1000.0 [arb'U]/mL,http://loinc.org,24108-3,[arb'U]/mL,1.0,1000.0
+Iron binding capacity [Mass/volume] in Serum or Plasma between 0.0 and 1000.0 umol/L,http://loinc.org,2500-7,umol/L,0.0,1000.0
+Iron binding capacity.unsaturated [Mass/volume] in Serum or Plasma between 0.0 and 100.0 %,http://loinc.org,2501-5,%,0.0,100.0
+Cancer Ag 19-9 [Units/volume] in Serum or Plasma between 1.0 and 1000.0 10*3.[U]/L,http://loinc.org,24108-3,10*3.[U]/L,1.0,1000.0
+Iron [Mass/volume] in Serum or Plasma between 0.0 and 100.0 %,http://loinc.org,2498-4,%,0.0,100.0
+Iron binding capacity [Mass/volume] in Serum or Plasma between 0.0 and 100.0 %,http://loinc.org,2500-7,%,0.0,100.0
+Cancer Ag 19-9 [Units/volume] in Serum or Plasma between 1.0 and 1000.0 [U]/mL,http://loinc.org,24108-3,[U]/mL,1.0,1000.0
+Lipids [Mass/volume] in Serum between 20.0 and 500.0 mg/dL,http://loinc.org,2569-2,mg/dL,20.0,500.0
+Triglyceride [Mass/volume] in Serum or Plasma between 1.0 and 10.0 mmol/L,http://loinc.org,2571-8,mmol/L,1.0,10.0
+Eosinophils [#/volume] in Blood between 0.0 and 1.0 10*3/L,http://loinc.org,26449-9,10*3/L,0.0,1.0
+Eosinophils/100 leukocytes in Blood between 0.0 and 500.0 uL,http://loinc.org,26450-7,uL,0.0,500.0
+Leukocytes [#/volume] in Blood between 0.0 and 100.0 {cells},http://loinc.org,26464-8,{cells},0.0,100.0
+Lymphocytes [#/volume] in Blood between 0.01 and 50.0 10*3/uL,http://loinc.org,26474-7,10*3/uL,0.01,50.0
+Lymphocytes/100 leukocytes in Blood between 0.0 and 2300.0 uL,http://loinc.org,26478-8,uL,0.0,2300.0
+Monocytes [#/volume] in Blood between 0.0 and 1000.0 10*3/uL,http://loinc.org,26484-6,10*3/uL,0.0,1000.0
+Monocytes/100 leukocytes in Blood between 0.0 and 100.0 %{vol},http://loinc.org,26485-3,%{vol},0.0,100.0
+Neutrophils/100 leukocytes in Blood between 45.0 and 75.0 %,http://loinc.org,26511-6,%,45.0,75.0
+Promyelocytes [#/volume] in Blood between 1.0 and 1000.0 10*3/uL,http://loinc.org,26523-1,10*3/uL,1.0,1000.0
+Osmolality of Serum or Plasma between 220.0 and 420.0 mosm/L,http://loinc.org,2692-2,mosm/L,220.0,420.0
+Basophils [#/volume] in Blood between 0.01 and 1.0 10*3/mm3,http://loinc.org,26444-0,10*3/mm3,0.01,1.0
+Eosinophils [#/volume] in Blood between 0.0 and 1.0 10*3/mm3,http://loinc.org,26449-9,10*3/mm3,0.0,1.0
+Leukocytes [#/volume] in Blood between 0.0 and 12.0 uL,http://loinc.org,26464-8,uL,0.0,12.0
+Lymphocytes [#/volume] in Blood between 0.0 and 3000.0 /uL,http://loinc.org,26474-7,/uL,0.0,3000.0
+Lymphocytes/100 leukocytes in Blood between 0.0 and 35.0 %{vol},http://loinc.org,26478-8,%{vol},0.0,35.0
+Monocytes/100 leukocytes in Blood between 0.0 and 100.0 %,http://loinc.org,26485-3,%,0.0,100.0
+Neutrophils [#/volume] in Blood between 0.01 and 50.0 10*3/uL,http://loinc.org,26499-4,10*3/uL,0.01,50.0
+Osmolality of Serum or Plasma between 220.0 and 420.0 mmol/kg,http://loinc.org,2692-2,mmol/kg,220.0,420.0
+Magnesium [Moles/volume] in Serum or Plasma between 0.0 and 3.0 mmol/L,http://loinc.org,2601-3,mmol/L,0.0,3.0
+Basophils [#/volume] in Blood between 0.01 and 1.0 10*3/uL,http://loinc.org,26444-0,10*3/uL,0.01,1.0
+Eosinophils [#/volume] in Blood between 0.001 and 1.0 10*3/uL,http://loinc.org,26449-9,10*3/uL,0.001,1.0
+Eosinophils/100 leukocytes in Blood between 0.0 and 1.0 mm3,http://loinc.org,26450-7,mm3,0.0,1.0
+Leukocytes [#/volume] in Blood between 0.01 and 150.0 10*3/uL,http://loinc.org,26464-8,10*3/uL,0.01,150.0
+Lymphocytes [#/volume] in Blood between 0.0 and 100.0 %,http://loinc.org,26474-7,%,0.0,100.0
+Neutrophils [#/volume] in Blood between 1.0 and 50000.0 /mm3,http://loinc.org,26499-4,/mm3,1.0,50000.0
+Leukocytes [#/volume] in Blood between 0.0 and 20.0 mm3,http://loinc.org,26464-8,mm3,0.0,20.0
+Neutrophils [#/volume] in Blood between 1.0 and 50000.0 mm3,http://loinc.org,26499-4,mm3,1.0,50000.0
+Osmolality of Serum or Plasma between 220.0 and 420.0 mosm,http://loinc.org,2692-2,mosm,220.0,420.0
+Leukocytes [#/volume] in Blood between 0.0 and 25000.0 /uL,http://loinc.org,26464-8,/uL,0.0,25000.0
+Erythrocytes [#/volume] in Blood between 300000.0 and 10000000.0 uL,http://loinc.org,26453-1,uL,300000.0,10000000.0
+Lymphocytes/100 leukocytes in Blood between 0.0 and 3300.0 fL,http://loinc.org,26478-8,fL,0.0,3300.0
+Erythrocytes [#/volume] in Blood between 0.0 and 550.0 {cells}/mm3,http://loinc.org,26453-1,{cells}/mm3,0.0,550.0
+Leukocytes [#/volume] in Blood between 0.0 and 10.0 mg,http://loinc.org,26464-8,mg,0.0,10.0
+Lymphocytes/100 leukocytes in Blood between 0.0 and 100.0 %,http://loinc.org,26478-8,%,0.0,100.0
+Erythrocytes [#/volume] in Blood between 0.0 and 100.0 10*6/uL,http://loinc.org,26453-1,10*6/uL,0.0,100.0
+Leukocytes [#/volume] in Blood between 0.0 and 100.0 %,http://loinc.org,26464-8,%,0.0,100.0
+Erythrocytes [#/volume] in Blood between 0.0 and 200.0 /[HPF],http://loinc.org,26453-1,/[HPF],0.0,200.0
+Leukocytes [#/volume] in Blood between 0.0 and 10.0 L,http://loinc.org,26464-8,L,0.0,10.0
+Erythrocytes [#/volume] in Blood between 0.0 and 6.0 g/dL,http://loinc.org,26453-1,g/dL,0.0,6.0
+Leukocytes [#/volume] in Blood between 0.0 and 14.0 pH,http://loinc.org,26464-8,pH,0.0,14.0
+Erythrocytes [#/volume] in Blood between 0.0 and 20000.0 mm3,http://loinc.org,26453-1,mm3,0.0,20000.0
+Erythrocytes [#/volume] in Blood between 0.0 and 8.0 mm,http://loinc.org,26453-1,mm,0.0,8.0
+Erythrocytes [#/volume] in Blood between 0.0 and 5.0 mL,http://loinc.org,26453-1,mL,0.0,5.0
+Erythrocytes [#/volume] in Blood between 0.0 and 500000.0 fL,http://loinc.org,26453-1,fL,0.0,500000.0
+Erythrocytes [#/volume] in Blood between 0.0 and 100.0 %,http://loinc.org,26453-1,%,0.0,100.0
+Osmolality of Urine between 100.0 and 1000.0 mosm/L,http://loinc.org,2695-5,mosm/L,100.0,1000.0
+Oxygen [Partial pressure] in Arterial blood between 30.0 and 150.0 mm[Hg],http://loinc.org,2703-7,mm[Hg],30.0,150.0
+Oxygen [Partial pressure] in Venous blood between 20.0 and 100.0 mm[Hg],http://loinc.org,2705-2,mm[Hg],20.0,100.0
+pH of Urine between 5.0 and 11.0 pH,http://loinc.org,2756-5,pH,5.0,11.0
+Osmolality of Urine between 100.0 and 1000.0 mosm/kg,http://loinc.org,2695-5,mosm/kg,100.0,1000.0
+Osmolality of Urine between 100.0 and 1000.0 mosm,http://loinc.org,2695-5,mosm,100.0,1000.0
+Potassium [Moles/volume] in Serum or Plasma between 3.0 and 8.0 mmol,http://loinc.org,2823-3,mmol,3.0,8.0
+Prolactin [Mass/volume] in Serum or Plasma between 1.0 and 1000.0 ng/mL,http://loinc.org,2842-3,ng/mL,1.0,1000.0
+MCHC [Mass/volume] between 0.0 and 100.0 g/dL,http://loinc.org,28540-3,g/dL,0.0,100.0
+Prostate specific Ag [Mass/volume] in Serum or Plasma between 0.0 and 20.0 ng/mL,http://loinc.org,2857-1,ng/mL,0.0,20.0
+Potassium [Moles/volume] in Serum or Plasma between 3.0 and 8.0 10*-3.eq/L,http://loinc.org,2823-3,10*-3.eq/L,3.0,8.0
+MCH [Entitic mass] between 0.0 and 100.0 %,http://loinc.org,28539-5,%,0.0,100.0
+Albumin [Mass/volume] in Serum or Plasma by Electrophoresis between 2.0 and 1000.0 g/dL,http://loinc.org,2862-1,g/dL,2.0,1000.0
+Gamma globulin [Mass/volume] in Serum or Plasma by Electrophoresis between 0.01 and 20.0 g/L,http://loinc.org,2874-6,g/L,0.01,20.0
+Potassium [Moles/volume] in Serum or Plasma between 3.0 and 8.0 mmol/L,http://loinc.org,2823-3,mmol/L,3.0,8.0
+Prostate specific Ag [Mass/volume] in Serum or Plasma between 0.0 and 6.0 ug/L,http://loinc.org,2857-1,ug/L,0.0,6.0
+Albumin [Mass/volume] in Serum or Plasma by Electrophoresis between 10.0 and 100.0 %,http://loinc.org,2862-1,%,10.0,100.0
+Protein [Mass/volume] in Serum or Plasma between 6.0 and 15.0 g/dL,http://loinc.org,2885-2,g/dL,6.0,15.0
+Sex hormone binding globulin [Mass/volume] in Serum or Plasma between 0.01 and 200.0 nmol/L,http://loinc.org,2942-1,nmol/L,0.01,200.0
+Specific gravity of Urine between 1.0 and 21.0 u,http://loinc.org,2965-2,u,1.0,21.0
+Protein [Mass/volume] in Serum or Plasma between 0.0 and 100.0 g/L,http://loinc.org,2885-2,g/L,0.0,100.0
+Protein [Mass/volume] in Urine between 0.0 and 1000.0 mg/dL,http://loinc.org,2888-6,mg/dL,0.0,1000.0
+Body weight between 7.0 and 24000.0 [oz_av],http://loinc.org,29463-7,[oz_av],7.0,24000.0
+Sodium [Moles/volume] in Serum or Plasma between 100.0 and 150.0 mmol/L,http://loinc.org,2951-2,mmol/L,100.0,150.0
+Protein [Mass/volume] in Urine between 0.0 and 1000.0 mg/L,http://loinc.org,2888-6,mg/L,0.0,1000.0
+Body weight between 4.0 and 1000.0 [lb_us],http://loinc.org,29463-7,[lb_us],4.0,1000.0
+Sodium [Moles/volume] in Serum or Plasma between 0.0 and 100.0 %,http://loinc.org,2951-2,%,0.0,100.0
+Protein [Mass/volume] in Urine between 0.0 and 100.0 %,http://loinc.org,2888-6,%,0.0,100.0
+Body weight between 198.0 and 680388.6 g,http://loinc.org,29463-7,g,198.0,680388.6
+Microalbumin/Creatinine [Ratio] in Urine between 0.001 and 100.0 mg/mmol{creat},http://loinc.org,30000-4,mg/mmol{creat},0.001,100.0
+Thyrotropin [Units/volume] in Serum or Plasma between 0.001 and 100.0 10*-3.[U]/L,http://loinc.org,3016-3,10*-3.[U]/L,0.001,100.0
+Basophils/100 leukocytes in Blood between 0.01 and 2.0 %,http://loinc.org,30180-4,%,0.01,2.0
+Thyroxine (T4) free [Mass/volume] in Serum or Plasma between 0.1 and 100.0 ng/dL,http://loinc.org,3024-7,ng/dL,0.1,100.0
+Thyroxine (T4) [Mass/volume] in Serum or Plasma between 0.1 and 10.0 mg/dL,http://loinc.org,3026-2,mg/dL,0.1,10.0
+Blasts [#/volume] in Blood between 1.0 and 326.0 10*3/uL,http://loinc.org,30376-8,10*3/uL,1.0,326.0
+MCV [Entitic volume] between 70.0 and 120.0 fL,http://loinc.org,30428-7,fL,70.0,120.0
+Segmented neutrophils [#/volume] in Blood between 0.1 and 10.0 10*3/mm3,http://loinc.org,30451-9,10*3/mm3,0.1,10.0
+Triiodothyronine (T3) Free [Mass/volume] in Serum or Plasma between 1.0 and 100.0 pg/mL,http://loinc.org,3051-0,pg/mL,1.0,100.0
+C reactive protein [Mass/volume] in Serum or Plasma by High sensitivity method between 9.0 and 127.0 ng/mL,http://loinc.org,30522-7,ng/mL,9.0,127.0
+Triiodothyronine (T3) [Mass/volume] in Serum or Plasma between 0.001 and 1000.0 ng/mL,http://loinc.org,3053-6,ng/mL,0.001,1000.0
+Testosterone [Mass/volume] in Serum or Plasma between 0.0 and 100.0 %,http://loinc.org,2986-8,%,0.0,100.0
+Testosterone Free [Mass/volume] in Serum or Plasma between 0.001 and 1000.0 ng/dL,http://loinc.org,2991-8,ng/dL,0.001,1000.0
+Microalbumin/Creatinine [Ratio] in Urine between 0.001 and 100.0 ug/mg,http://loinc.org,30000-4,ug/mg,0.001,100.0
+Thyrotropin [Units/volume] in Serum or Plasma between 0.1 and 20.0 10*-3.[iU]/L,http://loinc.org,3016-3,10*-3.[iU]/L,0.1,20.0
+Thyroxine (T4) [Mass/volume] in Serum or Plasma between 0.1 and 10.0 ug/dL,http://loinc.org,3026-2,ug/dL,0.1,10.0
+Erythrocyte sedimentation rate between 0.0 and 100.0 %,http://loinc.org,30341-2,%,0.0,100.0
+Transferrin [Mass/volume] in Serum or Plasma between 0.0 and 100.0 umol/L,http://loinc.org,3034-6,umol/L,0.0,100.0
+Lipase [Enzymatic activity/volume] in Serum or Plasma between 0.01 and 120.0 [U]/L,http://loinc.org,3040-3,[U]/L,0.01,120.0
+Segmented neutrophils [#/volume] in Blood between 0.1 and 100.0 10*3/uL,http://loinc.org,30451-9,10*3/uL,0.1,100.0
+Triiodothyronine (T3) Free [Mass/volume] in Serum or Plasma between 100.0 and 1000.0 pg/dL,http://loinc.org,3051-0,pg/dL,100.0,1000.0
+C reactive protein [Mass/volume] in Serum or Plasma by High sensitivity method between 0.0 and 35.0 mg/dL,http://loinc.org,30522-7,mg/dL,0.0,35.0
+Triiodothyronine (T3) [Mass/volume] in Serum or Plasma between 1.0 and 100.0 mg/dL,http://loinc.org,3053-6,mg/dL,1.0,100.0
+Thyrotropin [Units/volume] in Serum or Plasma between 0.1 and 20.0 10*-6.[U]/mL,http://loinc.org,3016-3,10*-6.[U]/mL,0.1,20.0
+Transferrin [Mass/volume] in Serum or Plasma between 1.0 and 10.0 g/L,http://loinc.org,3034-6,g/L,1.0,10.0
+Segmented neutrophils [#/volume] in Blood between 0.0 and 100.0 %,http://loinc.org,30451-9,%,0.0,100.0
+Triiodothyronine (T3) Free [Mass/volume] in Serum or Plasma between 3.0 and 10.0 pmol/L,http://loinc.org,3051-0,pmol/L,3.0,10.0
+Triiodothyronine (T3) [Mass/volume] in Serum or Plasma between 60.0 and 1000.0 ng/dL,http://loinc.org,3053-6,ng/dL,60.0,1000.0
+Thyroxine (T4) [Mass/volume] in Serum or Plasma between 0.1 and 10.0 g/dL,http://loinc.org,3026-2,g/dL,0.1,10.0
+Transferrin [Mass/volume] in Serum or Plasma between 0.0 and 100.0 %,http://loinc.org,3034-6,%,0.0,100.0
+Urate [Mass/volume] in Serum or Plasma between 1.0 and 10.0 mg/dL,http://loinc.org,3084-1,mg/dL,1.0,10.0
+Urate [Mass/volume] in Urine between 200.0 and 1000.0 mg/(24.h),http://loinc.org,3086-6,mg/(24.h),200.0,1000.0
+Urea [Mass/volume] in Serum or Plasma between 1.0 and 200.0 mg/dL,http://loinc.org,3091-6,mg/dL,1.0,200.0
+Natriuretic peptide B [Mass/volume] in Serum or Plasma between 0.0 and 5000.0 pg/mL,http://loinc.org,30934-4,pg/mL,0.0,5000.0
+Reticulocytes/100 erythrocytes in Blood by Manual between 0.01 and 100.0 %,http://loinc.org,31112-6,%,0.01,100.0
+Inhaled oxygen flow rate between 0.0 and 50.0 L/min,http://loinc.org,3151-8,L/min,0.0,50.0
+Urate [Mass/volume] in Urine between 0.0 and 100.0 mg/dL,http://loinc.org,3086-6,mg/dL,0.0,100.0
+Urea nitrogen [Mass/volume] in Serum or Plasma between 0.0 and 1000.0 mmol/L,http://loinc.org,3094-0,mmol/L,0.0,1000.0
+Urea nitrogen/Creatinine [Mass Ratio] in Serum or Plasma between 0.0 and 100.0 %,http://loinc.org,3097-3,%,0.0,100.0
+Body weight Measured between 5.0 and 1000.0 mg,http://loinc.org,3141-9,mg,5.0,1000.0
+Urea nitrogen [Mass/volume] in Serum or Plasma between 0.0 and 100.0 %,http://loinc.org,3094-0,%,0.0,100.0
+aPTT in Blood by Coagulation assay between 18.0 and 60.0 s,http://loinc.org,3173-2,s,18.0,60.0
+Cardiolipin IgG Ab [Units/volume] in Serum by Immunoassay between 1.0 and 39.0 [GPL'U],http://loinc.org,3181-5,[GPL'U],1.0,39.0
+Cardiolipin IgM Ab [Units/volume] in Serum by Immunoassay between 1.0 and 98.0 [MPL'U],http://loinc.org,3182-3,[MPL'U],1.0,98.0
+Glucose [Mass/volume] in Capillary blood between 1.0 and 250.0 mg/dL,http://loinc.org,32016-8,mg/dL,1.0,250.0
+Thyroxine (T4) free index in Serum or Plasma by calculation between 0.0 and 100.0 %,http://loinc.org,32215-6,%,0.0,100.0
+Albumin/Creatinine [Ratio] in Urine between 1.0 and 1000.0 {ratio},http://loinc.org,32294-1,{ratio},1.0,1000.0
+Cardiolipin IgG Ab [Units/volume] in Serum by Immunoassay between 1.0 and 3.0 mmol/L,http://loinc.org,3181-5,mmol/L,1.0,3.0
+Anion gap in Serum or Plasma between 4.0 and 41.0 10*-3.eq/L,http://loinc.org,33037-3,10*-3.eq/L,4.0,41.0
+Transferrin receptor.soluble [Moles/volume] in Serum or Plasma between 11.0 and 1000.0 nmol/L,http://loinc.org,33210-6,nmol/L,11.0,1000.0
+Acetaminophen [Mass/volume] in Serum or Plasma between 0.0 and 6.0 ng/mL,http://loinc.org,3298-7,ng/mL,0.0,6.0
+Anion gap in Serum or Plasma between 4.0 and 18.0 mmol/L,http://loinc.org,33037-3,mmol/L,4.0,18.0
+Amiodarone [Mass/volume] in Serum or Plasma between 1.0 and 6.0 mg/L,http://loinc.org,3330-8,mg/L,1.0,6.0
+Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Serum or Plasma between 0.0 and 27000.0 pg/mL,http://loinc.org,33762-6,pg/mL,0.0,27000.0
+Cyclic citrullinated peptide IgG Ab [Units/volume] in Serum or Plasma between 1.0 and 1000.0 [U]/mL,http://loinc.org,33935-8,[U]/mL,1.0,1000.0
+Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Serum or Plasma between 0.0 and 27.0 ng/mL,http://loinc.org,33762-6,ng/mL,0.0,27.0
+Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Serum or Plasma between 0.0 and 50.0 ng/dL,http://loinc.org,33762-6,ng/dL,0.0,50.0
+Glasgow coma scale between 3.0 and 15.0 No matching concept,http://loinc.org,35088-4,No matching concept,3.0,15.0
+INR in Blood by Coagulation assay between 0.0 and 30.0 '',http://loinc.org,34714-6,'',0.0,30.0
+INR in Blood by Coagulation assay between 0.0 and 30.0 y,http://loinc.org,34714-6,y,0.0,30.0
+INR in Blood by Coagulation assay between 0.0 and 30.0 [U],http://loinc.org,34714-6,[U],0.0,30.0
+Insulin [Mass/volume] in Serum or Plasma between 0.0 and 1000.0 10*-6.[U]/mL,http://loinc.org,3695-4,10*-6.[U]/mL,0.0,1000.0
+Lithium [Mass/volume] in Serum or Plasma between 0.0 and 150.0 10*-3.eq/L,http://loinc.org,3719-2,10*-3.eq/L,0.0,150.0
+Lithium [Mass/volume] in Serum or Plasma between 0.0 and 3.0 ug/mL,http://loinc.org,3719-2,ug/mL,0.0,3.0
+Lithium [Mass/volume] in Serum or Plasma between 0.0 and 1000.0 mmol/L,http://loinc.org,3719-2,mmol/L,0.0,1000.0
+Creatinine [Mass/volume] in Blood between 0.1 and 5.0 mg/dL,http://loinc.org,38483-4,mg/dL,0.1,5.0
+Immature granulocytes/100 leukocytes in Blood between 0.0 and 100.0 %,http://loinc.org,38518-7,%,0.0,100.0
+Phenytoin [Mass/volume] in Serum or Plasma between 0.0 and 40.0 mg/L,http://loinc.org,3968-5,mg/L,0.0,40.0
+Valproate [Mass/volume] in Serum or Plasma between 0.0 and 1000.0 ug/mL,http://loinc.org,4086-5,ug/mL,0.0,1000.0
+Valproate [Mass/volume] in Serum or Plasma between 0.0 and 1000.0 mg/L,http://loinc.org,4086-5,mg/L,0.0,1000.0
+Anion gap in Blood between 4.0 and 41.0 10*-3.eq/L,http://loinc.org,41276-7,10*-3.eq/L,4.0,41.0
+Anion gap in Blood between 1.0 and 25.0 10*-3.eq,http://loinc.org,41276-7,10*-3.eq,1.0,25.0
+Anion gap in Blood between 1.0 and 25.0 mmol/L,http://loinc.org,41276-7,mmol/L,1.0,25.0
+Anion gap in Blood between 2.2 and 19.0 g/dL,http://loinc.org,41276-7,g/dL,2.2,19.0
+Hemoglobin A1c [Mass/volume] in Blood between 1.0 and 20.0 g/dL,http://loinc.org,41995-2,g/dL,1.0,20.0
+Hemoglobin A1c [Mass/volume] in Blood between 0.0 and 100.0 %,http://loinc.org,41995-2,%,0.0,100.0
+Urea nitrogen/Creatinine [Mass Ratio] in Blood between 0.0 and 100.0 %,http://loinc.org,44734-2,%,0.0,100.0
+Complement C3 [Mass/volume] in Serum or Plasma between 30.0 and 1000.0 mg/dL,http://loinc.org,4485-9,mg/dL,30.0,1000.0
+Complement C4 [Mass/volume] in Serum or Plasma between 15.0 and 1000.0 mg/dL,http://loinc.org,4498-2,mg/dL,15.0,1000.0
+Erythrocyte sedimentation rate by Wintrobe method between 0.0 and 100.0 mm/h,http://loinc.org,4538-5,mm/h,0.0,100.0
+Hematocrit [Volume Fraction] of Blood by Automated count between 0.0 and 47.0 L/L,http://loinc.org,4544-3,L/L,0.0,47.0
+Hemoglobin A1/Hemoglobin.total in Blood between 1.0 and 100.0 %,http://loinc.org,4547-6,%,1.0,100.0
+Complement C3 [Mass/volume] in Serum or Plasma between 560.0 and 2000.0 mg/L,http://loinc.org,4485-9,mg/L,560.0,2000.0
+Erythrocyte sedimentation rate by Westergren method between 2.0 and 59.0 mm,http://loinc.org,4537-7,mm,2.0,59.0
+Hematocrit [Volume Fraction] of Blood by Automated count between 1.0 and 50.0 %,http://loinc.org,4544-3,%,1.0,50.0
+Hemoglobin A1c/Hemoglobin.total in Blood between 4.0 and 15.0 %,http://loinc.org,4548-4,%,4.0,15.0
+Complement C3 [Mass/volume] in Serum or Plasma between 1.0 and 4.0 g/L,http://loinc.org,4485-9,g/L,1.0,4.0
+Prothrombin time (PT) in Capillary blood by Coagulation assay between 3.0 and 170.0 s,http://loinc.org,46417-2,s,3.0,170.0
+"Glomerular filtration rate/1.73 sq M predicted among non-blacks [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD) between 10.0 and 150.0 m",http://loinc.org,48642-3,m,10.0,150.0
+"Glomerular filtration rate/1.73 sq M predicted among non-blacks [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD) between 10.0 and 150.0 [in_us]",http://loinc.org,48642-3,[in_us],10.0,150.0
+"Glomerular filtration rate/1.73 sq M predicted among blacks [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD) between 6.0 and 240.0 mL/min",http://loinc.org,48643-1,mL/min,6.0,240.0
+"Glomerular filtration rate/1.73 sq M predicted among non-blacks [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD) between 10.0 and 150.0 mL/min/1.73.m2",http://loinc.org,48642-3,mL/min/1.73.m2,10.0,150.0
+"Glomerular filtration rate/1.73 sq M predicted among blacks [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD) between 10.0 and 150.0 [U]",http://loinc.org,48643-1,[U],10.0,150.0
+"Glomerular filtration rate/1.73 sq M predicted among non-blacks [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD) between 5.0 and 200.0 mL/min",http://loinc.org,48642-3,mL/min,5.0,200.0
+"Glomerular filtration rate/1.73 sq M predicted among non-blacks [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD) between 10.0 and 150.0 mL",http://loinc.org,48642-3,mL,10.0,150.0
+"Glomerular filtration rate/1.73 sq M predicted among non-blacks [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD) between 10.0 and 150.0 L",http://loinc.org,48642-3,L,10.0,150.0
+"Glomerular filtration rate/1.73 sq M predicted among non-blacks [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD) between 10.0 and 150.0 [U]",http://loinc.org,48642-3,[U],10.0,150.0
+Nuclear Ab [Titer] in Serum by Immunofluorescence between 40.0 and 640.0 {titer},http://loinc.org,5048-4,{titer},40.0,640.0
+DNA double strand Ab [Units/volume] in Serum between 0.0 and 1000.0 [iU]/mL,http://loinc.org,5130-0,[iU]/mL,0.0,1000.0
+Immature granulocytes [#/volume] in Blood between 0.0 and 1.0 10*3/mm3,http://loinc.org,51584-1,10*3/mm3,0.0,1.0
+"t(9;22)(q34.1;q11)(ABL1,BCR) b2a2 fusion transcript/control transcript [# Ratio] in Blood or Tissue by Molecular genetics method between 0.0 and 100.0 %",http://loinc.org,52130-2,%,0.0,100.0
+"t(9;22)(q34.1;q11)(ABL1,BCR) b3a2 fusion transcript/control transcript [# Ratio] in Blood or Tissue by Molecular genetics method between 0.0 and 100.0 %",http://loinc.org,52131-0,%,0.0,100.0
+Immature granulocytes [#/volume] in Blood between 0.0 and 1.0 10*3/uL,http://loinc.org,51584-1,10*3/uL,0.0,1.0
+Alpha-1-fetoprotein.tumor marker [Moles/volume] in Serum or Plasma between 2.0 and 20.0 umol/L,http://loinc.org,53960-1,umol/L,2.0,20.0
+Alpha-1-fetoprotein.tumor marker [Mass/volume] in Serum or Plasma between 0.0 and 150000.0 ng/mL,http://loinc.org,53962-7,ng/mL,0.0,150000.0
+Alpha-1-fetoprotein.tumor marker [Mass/volume] in Serum or Plasma between 2.0 and 100.0 ug/L,http://loinc.org,53962-7,ug/L,2.0,100.0
+Thyrotropin receptor Ab [Units/volume] in Serum between 0.0 and 100.0 %,http://loinc.org,5385-0,%,0.0,100.0
+Hemoglobin A1c in Blood between 0.0 and 12.0 [in_us],http://loinc.org,55454-3,[in_us],0.0,12.0
+Hemoglobin A1c in Blood between 0.0 and 150.0 mg/dL,http://loinc.org,55454-3,mg/dL,0.0,150.0
+Hemoglobin A1c in Blood between 0.0 and 200.0 [lb_us],http://loinc.org,55454-3,[lb_us],0.0,200.0
+Hemoglobin A1c in Blood between 0.0 and 20.0 g/dL,http://loinc.org,55454-3,g/dL,0.0,20.0
+Hemoglobin A1c in Blood between 0.0 and 5.0 L,http://loinc.org,55454-3,L,0.0,5.0
+Prothrombin time (PT) between 3.0 and 170.0 s,http://loinc.org,5902-2,s,3.0,170.0
+Monocytes/100 leukocytes in Blood by Automated count between 0.0 and 100.0 %,http://loinc.org,5905-5,%,0.0,100.0
+Urea nitrogen [Moles/volume] in Blood between 5.0 and 100.0 mg/dL,http://loinc.org,59570-2,mg/dL,5.0,100.0
+Prothrombin time (PT) in Blood by Coagulation assay between 3.0 and 170.0 '',http://loinc.org,5964-2,'',3.0,170.0
+Prothrombin time (PT) between 0.0 and 100.0 %,http://loinc.org,5902-2,%,0.0,100.0
+Prothrombin time (PT) in Blood by Coagulation assay between 3.0 and 170.0 s,http://loinc.org,5964-2,s,3.0,170.0
+Creatinine [Moles/volume] in Blood between 0.1 and 5.0 mg/dL,http://loinc.org,59826-8,mg/dL,0.1,5.0
+Alternaria alternata IgE Ab [Units/volume] in Serum between 1.0 and 39.0 10*3/uL,http://loinc.org,6020-2,10*3/uL,1.0,39.0
+Aspergillus fumigatus IgE Ab [Units/volume] in Serum between 1.0 and 16.0 10*3/uL,http://loinc.org,6025-1,10*3/uL,1.0,16.0
+Bermuda grass IgE Ab [Units/volume] in Serum between 1.0 and 12.0 10*3/uL,http://loinc.org,6041-8,10*3/uL,1.0,12.0
+Creatinine [Moles/volume] in Blood between 10.0 and 200.0 umol/L,http://loinc.org,59826-8,umol/L,10.0,200.0
+Nitrous oxide [VFr/PPres] Gas delivery system between 0.0 and 100.0 %,http://loinc.org,60860-4,%,0.0,100.0
+American house dust mite IgE Ab [Units/volume] in Serum between 1.0 and 88.0 10*3/uL,http://loinc.org,6095-4,10*3/uL,1.0,88.0
+European house dust mite IgE Ab [Units/volume] in Serum between 0.0 and 20.0 10*3/uL,http://loinc.org,6096-2,10*3/uL,0.0,20.0
+Nitrous oxide [VFr/PPres] Gas delivery system between 0.0 and 50.0 L/min,http://loinc.org,60860-4,L/min,0.0,50.0
+European house dust mite IgE Ab [Units/volume] in Serum between 0.0 and 40.0 10*3.[U]/L,http://loinc.org,6096-2,10*3.[U]/L,0.0,40.0
+European house dust mite IgE Ab [Units/volume] in Serum between 0.0 and 100.0 %,http://loinc.org,6096-2,%,0.0,100.0
+Fasting cholesterol level between 1.0 and 15.0 mmol/L,http://snomed.info/sct,315017003,mmol/L,1.0,15.0
+Fasting cholesterol level between 50.0 and 500.0 mg/dL,http://snomed.info/sct,315017003,mg/dL,50.0,500.0
+Target systolic blood pressure between 10.0 and 250.0 No matching concept,http://snomed.info/sct,315612005,No matching concept,10.0,250.0
+Target systolic blood pressure between 10.0 and 250.0 mm[Hg],http://snomed.info/sct,315612005,mm[Hg],10.0,250.0
+Bilirubin; total between 1.0 and 398.0 mg/dL,http://www.ama-assn.org/go/cpt,82247,mg/dL,1.0,398.0
+Bilirubin; direct between 1.0 and 148.0 10*-3.eq/L,http://www.ama-assn.org/go/cpt,82248,10*-3.eq/L,1.0,148.0
+Calcium; total between 7.0 and 13.0 mg/mL,http://www.ama-assn.org/go/cpt,82310,mg/mL,7.0,13.0
+"Creatine kinase (CK), (CPK); total between 1.0 and 242.0 10*-3.eq/L",http://www.ama-assn.org/go/cpt,82550,10*-3.eq/L,1.0,242.0
+Creatinine; other source between 10.0 and 200.0 umol/L,http://www.ama-assn.org/go/cpt,82570,umol/L,10.0,200.0
+Hemoglobin; glycosylated (A1C) between 0.0 and 200.0 pg/mL,http://www.ama-assn.org/go/cpt,83036,pg/mL,0.0,200.0
+Iron between 0.0 and 270.0 ng/mL,http://www.ama-assn.org/go/cpt,83540,ng/mL,0.0,270.0
+Lipase between 0.0 and 100.0 %,http://www.ama-assn.org/go/cpt,83690,%,0.0,100.0
+"Lipoprotein, direct measurement; LDL cholesterol between 0.0 and 100.0 %",http://www.ama-assn.org/go/cpt,83721,%,0.0,100.0
+Magnesium between 0.0 and 10.0 10*-3.eq/L,http://www.ama-assn.org/go/cpt,83735,10*-3.eq/L,0.0,10.0
+"Phosphatase, alkaline between 1.0 and 360.0 mg/dL",http://www.ama-assn.org/go/cpt,84075,mg/dL,1.0,360.0
+Phosphorus inorganic (phosphate) between 1.0 and 10.0 mg/dL,http://www.ama-assn.org/go/cpt,84100,mg/dL,1.0,10.0
+"Potassium; serum, plasma or whole blood between 3.0 and 8.0 10*-3.eq/L",http://www.ama-assn.org/go/cpt,84132,10*-3.eq/L,3.0,8.0
+Bilirubin; total between 1.0 and 34.0 g/dL,http://www.ama-assn.org/go/cpt,82247,g/dL,1.0,34.0
+Bilirubin; direct between 1.0 and 1900.0 ng/mL,http://www.ama-assn.org/go/cpt,82248,ng/mL,1.0,1900.0
+Calcium; total between 1.2 and 448.0 pg/mL,http://www.ama-assn.org/go/cpt,82310,pg/mL,1.2,448.0
+Carbon dioxide (bicarbonate) between 2.0 and 42.0 mmol/L,http://www.ama-assn.org/go/cpt,82374,mmol/L,2.0,42.0
+Chloride; blood between 1.0 and 97.0 mg/dL,http://www.ama-assn.org/go/cpt,82435,mg/dL,1.0,97.0
+"Creatine kinase (CK), (CPK); total between 1.0 and 242.0 10*3/uL",http://www.ama-assn.org/go/cpt,82550,10*3/uL,1.0,242.0
+Creatinine; blood between 10.0 and 30.0 mg/L,http://www.ama-assn.org/go/cpt,82565,mg/L,10.0,30.0
+Ferritin between 0.01 and 700.0 ng/mL,http://www.ama-assn.org/go/cpt,82728,ng/mL,0.01,700.0
+Hemoglobin; glycosylated (A1C) between 0.0 and 300.0 mg/dL,http://www.ama-assn.org/go/cpt,83036,mg/dL,0.0,300.0
+Iron between 0.0 and 1000.0 ug/dL,http://www.ama-assn.org/go/cpt,83540,ug/dL,0.0,1000.0
+"Lipoprotein, direct measurement; LDL cholesterol between 5.0 and 400.0 mg/dL",http://www.ama-assn.org/go/cpt,83721,mg/dL,5.0,400.0
+Magnesium between 0.0 and 1000.0 mg/dL,http://www.ama-assn.org/go/cpt,83735,mg/dL,0.0,1000.0
+"Phosphatase, alkaline between 1.0 and 36.0 g/dL",http://www.ama-assn.org/go/cpt,84075,g/dL,1.0,36.0
+Phosphorus inorganic (phosphate) between 1.0 and 10.0 mmol/L,http://www.ama-assn.org/go/cpt,84100,mmol/L,1.0,10.0
+"Potassium; serum, plasma or whole blood between 3.0 and 8.0 mmol/L",http://www.ama-assn.org/go/cpt,84132,mmol/L,3.0,8.0
+Bilirubin; direct between 1.0 and 37000.0 mg/dL,http://www.ama-assn.org/go/cpt,82248,mg/dL,1.0,37000.0
+Calcium; total between 7.0 and 13.0 mg/dL,http://www.ama-assn.org/go/cpt,82310,mg/dL,7.0,13.0
+Chloride; blood between 90.0 and 147.0 mmol/L,http://www.ama-assn.org/go/cpt,82435,mmol/L,90.0,147.0
+Creatinine; blood between 0.1 and 5.0 mg/dL,http://www.ama-assn.org/go/cpt,82565,mg/dL,0.1,5.0
+Creatinine; other source between 0.1 and 5.0 mg/dL,http://www.ama-assn.org/go/cpt,82570,mg/dL,0.1,5.0
+Ferritin between 0.0 and 150.0 mg/dL,http://www.ama-assn.org/go/cpt,82728,mg/dL,0.0,150.0
+Iron between 0.0 and 100.0 %,http://www.ama-assn.org/go/cpt,83540,%,0.0,100.0
+Magnesium between 0.0 and 6000.0 ug/dL,http://www.ama-assn.org/go/cpt,83735,ug/dL,0.0,6000.0
+Phosphorus inorganic (phosphate) between 1.0 and 10.0 g/dL,http://www.ama-assn.org/go/cpt,84100,g/dL,1.0,10.0
+Bilirubin; direct between 1.0 and 483.0 ug/dL,http://www.ama-assn.org/go/cpt,82248,ug/dL,1.0,483.0
+"Creatine kinase (CK), (CPK); total between 1.0 and 1000.0 mg/dL",http://www.ama-assn.org/go/cpt,82550,mg/dL,1.0,1000.0
+Magnesium between 0.0 and 10.0 mmol/L,http://www.ama-assn.org/go/cpt,83735,mmol/L,0.0,10.0
+Bilirubin; direct between 1.0 and 148.0 mmol/L,http://www.ama-assn.org/go/cpt,82248,mmol/L,1.0,148.0
+Calcium; total between 3.4 and 36.0 g/dL,http://www.ama-assn.org/go/cpt,82310,g/dL,3.4,36.0
+"Creatine kinase (CK), (CPK); total between 1.0 and 915.0 ug/dL",http://www.ama-assn.org/go/cpt,82550,ug/dL,1.0,915.0
+Ferritin between 0.0 and 100.0 fL,http://www.ama-assn.org/go/cpt,82728,fL,0.0,100.0
+Hemoglobin; glycosylated (A1C) between 0.01 and 20.0 %,http://www.ama-assn.org/go/cpt,83036,%,0.01,20.0
+Bilirubin; direct between 1.0 and 1000.0 nmol/L,http://www.ama-assn.org/go/cpt,82248,nmol/L,1.0,1000.0
+"Creatine kinase (CK), (CPK); total between 1.58 and 1000.0 ng/dL",http://www.ama-assn.org/go/cpt,82550,ng/dL,1.58,1000.0
+Ferritin between 0.0 and 40.0 %,http://www.ama-assn.org/go/cpt,82728,%,0.0,40.0
+Magnesium between 0.0 and 100.0 %,http://www.ama-assn.org/go/cpt,83735,%,0.0,100.0
+Bilirubin; direct between 1.0 and 37.0 g/dL,http://www.ama-assn.org/go/cpt,82248,g/dL,1.0,37.0
+Prolactin between 1.0 and 1000.0 ng/mL,http://www.ama-assn.org/go/cpt,84146,ng/mL,1.0,1000.0
+Testosterone; total between 5.0 and 1000.0 ng/dL,http://www.ama-assn.org/go/cpt,84403,ng/dL,5.0,1000.0
+Thyroid stimulating hormone (TSH) between 0.0 and 100.0 %,http://www.ama-assn.org/go/cpt,84443,%,0.0,100.0
+Triglycerides between 40.0 and 1000.0 mg/dL,http://www.ama-assn.org/go/cpt,84478,mg/dL,40.0,1000.0
+"Thromboplastin time, partial (PTT); plasma or whole blood between 0.0 and 100.0 %",http://www.ama-assn.org/go/cpt,85730,%,0.0,100.0
+Testosterone; total between 0.0 and 100.0 %,http://www.ama-assn.org/go/cpt,84403,%,0.0,100.0
+Blood count; hemoglobin (Hgb) between 3.0 and 36.0 g/dL,http://www.ama-assn.org/go/cpt,85018,g/dL,3.0,36.0
+Cancer Ag 125 [Units/volume] in Serum or Plasma between 1.0 and 628.0 [U]/mL,http://loinc.org,10334-1,[U]/mL,1.0,628.0
+Sex hormone binding globulin [Moles/volume] in Serum or Plasma between 0.01 and 200.0 nmol/L,http://loinc.org,13967-5,nmol/L,0.01,200.0
+Microalbumin/Creatinine [Mass Ratio] in Urine between 0.001 and 100.0 mg/g{creat},http://loinc.org,14959-1,mg/g{creat},0.001,100.0
+aPTT in Platelet poor plasma by Coagulation assay between 18.0 and 60.0 s,http://loinc.org,14979-9,s,18.0,60.0
+Bilirubin.total [Moles/volume] in Serum or Plasma between 1.0 and 46.0 umol/L,http://loinc.org,14631-6,umol/L,1.0,46.0
+Fasting glucose [Mass/volume] in Serum or Plasma between 50.0 and 200.0 [U],http://loinc.org,1558-6,[U],50.0,200.0
+Calcitriol [Mass/volume] in Serum or Plasma between 1.0 and 160.0 pg/mL,http://loinc.org,1649-3,pg/mL,1.0,160.0
+Cholesterol in HDL/Cholesterol in LDL [Mass Ratio] in Serum or Plasma between 1.0 and 100.0 {ratio},http://loinc.org,16616-5,{ratio},1.0,100.0
+Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma between 5.0 and 2000.0 [iU]/L,http://loinc.org,1742-6,[iU]/L,5.0,2000.0
+Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma between 5.0 and 2000.0 [U]/L,http://loinc.org,1742-6,[U]/L,5.0,2000.0
+Albumin [Mass/volume] in Serum or Plasma between 1.0 and 18.0 g/dL,http://loinc.org,1751-7,g/dL,1.0,18.0
+Albumin [Mass/time] in 24 hour Urine between 1.0 and 1000.0 mg/g,http://loinc.org,1755-8,mg/g,1.0,1000.0
+C reactive protein [Mass/volume] in Serum or Plasma between 0.0 and 24.0 mg/L,http://loinc.org,1988-5,mg/L,0.0,24.0
+Calcidiol [Mass/volume] in Serum or Plasma between 14.0 and 50.0 ng/mL,http://loinc.org,1989-3,ng/mL,14.0,50.0
+Ceruloplasmin [Mass/volume] in Serum or Plasma between 164.0 and 439.0 umol/L,http://loinc.org,2064-4,umol/L,164.0,439.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 40.0 L,http://loinc.org,20570-8,L,0.0,40.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 70.0 F,http://loinc.org,20570-8,F,0.0,70.0
+Creatinine [Mass/volume] in Serum or Plasma between 0.1 and 5.0 mg/dL,http://loinc.org,2160-0,mg/dL,0.1,5.0
+Cortisol [Mass/volume] in Serum or Plasma between 8.0 and 1000.0 nmol/L,http://loinc.org,2143-6,nmol/L,8.0,1000.0
+Creatinine [Mass/volume] in Urine between 0.01 and 51.0 mg/mL,http://loinc.org,2161-8,mg/mL,0.01,51.0
+Estradiol (E2) [Mass/volume] in Serum or Plasma between 0.0 and 800.0 pmol/L,http://loinc.org,2243-4,pmol/L,0.0,800.0
+Monocytes [#/volume] in Blood between 0.0 and 100.0 %,http://loinc.org,26484-6,%,0.0,100.0
+pH of Venous blood between 7.0 and 9.0 pH,http://loinc.org,2746-6,pH,7.0,9.0
+MCH [Entitic mass] between 0.0 and 100.0 pg,http://loinc.org,28539-5,pg,0.0,100.0
+Thyroglobulin [Mass/volume] in Serum or Plasma between 0.0 and 6000.0 ng/mL,http://loinc.org,3013-0,ng/mL,0.0,6000.0
+Microalbumin/Creatinine [Ratio] in Urine between 0.001 and 100.0 mg/g,http://loinc.org,30000-4,mg/g,0.001,100.0
+Acetaminophen [Mass/volume] in Serum or Plasma between 0.0 and 1000.0 ug/mL,http://loinc.org,3298-7,ug/mL,0.0,1000.0
+INR in Blood by Coagulation assay between 0.0 and 30.0 wk,http://loinc.org,34714-6,wk,0.0,30.0
+Calcium.ionized [Mass/volume] in Blood between 1.0 and 7.0 mg/dL,http://loinc.org,38230-9,mg/dL,1.0,7.0
+Body mass index (BMI) [Ratio] between 16.0 and 100.0 kg/m2,http://loinc.org,39156-5,kg/m2,16.0,100.0
+Hemoglobin A1c/Hemoglobin.total in Blood between 0.0 and 1000.0 mmol/mol,http://loinc.org,4548-4,mmol/mol,0.0,1000.0
+Hemoglobin A1c in Blood between 0.0 and 10.0 pg,http://loinc.org,55454-3,pg,0.0,10.0
+Creatine between 1.0 and 20.0 mg/dL,http://www.ama-assn.org/go/cpt,82540,mg/dL,1.0,20.0
+Glucose [Mass/volume] in Serum or Plasma --30 minutes post 75 g glucose PO between 1.0 and 300.0 mg/dL,http://loinc.org,1527-1,mg/dL,1.0,300.0
+Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma between 5.0 and 2000.0 ug/L,http://loinc.org,1742-6,ug/L,5.0,2000.0
+Albumin [Mass/volume] in Urine between 0.0 and 1000.0 mg/dL,http://loinc.org,1754-1,mg/dL,0.0,1000.0
+Beta-2-Microglobulin [Mass/volume] in Urine between 0.0 and 548345.0 ug/L,http://loinc.org,1953-9,ug/L,0.0,548345.0
+Beta-2-Microglobulin [Mass/volume] in Serum or Plasma between 0.01 and 6.0 g/dL,http://loinc.org,1952-1,g/dL,0.01,6.0
+Cholesterol in IDL [Mass/volume] in Serum or Plasma between 1.0 and 50.0 mg/dL,http://loinc.org,2087-5,mg/dL,1.0,50.0
+Hematocrit [Volume Fraction] of Blood between 1.0 and 50.0 %,http://loinc.org,20570-8,%,1.0,50.0
+Creatinine renal clearance in 24 hour between 26.0 and 194.0 mL/min,http://loinc.org,2164-2,mL/min,26.0,194.0
+Folate [Mass/volume] in Blood between 2.0 and 600.0 ng/mL,http://loinc.org,2282-2,ng/mL,2.0,600.0
+Glucose [Mass/volume] in Blood by Automated test strip between 1.0 and 300.0 mg/dL,http://loinc.org,2340-8,mg/dL,1.0,300.0
+Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma between 0.01 and 80.0 [U]/L,http://loinc.org,2324-2,[U]/L,0.01,80.0
+Triglyceride [Mass/volume] in Serum or Plasma between 40.0 and 1000.0 mg/dL,http://loinc.org,2571-8,mg/dL,40.0,1000.0
+Triglyceride [Mass/volume] in Serum or Plasma between 0.0 and 100.0 %,http://loinc.org,2571-8,%,0.0,100.0
+Magnesium [Moles/volume] in Serum or Plasma between 0.0 and 1000.0 mg/dL,http://loinc.org,2601-3,mg/dL,0.0,1000.0
+Basophils [#/volume] in Blood between 0.0 and 100.0 %,http://loinc.org,26444-0,%,0.0,100.0
+Eosinophils/100 leukocytes in Blood between 0.0 and 400.0 /uL,http://loinc.org,26450-7,/uL,0.0,400.0
+Lymphocytes/100 leukocytes in Blood between 0.0 and 3.0 mm3,http://loinc.org,26478-8,mm3,0.0,3.0
+Eosinophils [#/volume] in Blood between 0.0 and 12.0 %,http://loinc.org,26449-9,%,0.0,12.0
+Lymphocytes/100 leukocytes in Blood between 0.0 and 3100.0 /uL,http://loinc.org,26478-8,/uL,0.0,3100.0
+Lymphocytes/100 leukocytes in Blood between 0.0 and 1200.0 L,http://loinc.org,26478-8,L,0.0,1200.0
+MCHC [Mass/volume] between 0.0 and 100.0 %,http://loinc.org,28540-3,%,0.0,100.0
+Testosterone Free [Mass/volume] in Serum or Plasma between 0.001 and 1000.0 pg/mL,http://loinc.org,2991-8,pg/mL,0.001,1000.0
+Transferrin [Mass/volume] in Serum or Plasma between 100.0 and 1000.0 mg/dL,http://loinc.org,3034-6,mg/dL,100.0,1000.0
+Triglyceride [Mass/volume] in Blood between 40.0 and 1000.0 mg/dL,http://loinc.org,3043-7,mg/dL,40.0,1000.0
+Triiodothyronine resin uptake (T3RU) in Serum or Plasma between 20.0 and 40.0 %,http://loinc.org,3050-2,%,20.0,40.0
+Thyrotropin [Units/volume] in Serum or Plasma between 0.0 and 100.0 %,http://loinc.org,3016-3,%,0.0,100.0
+Body weight Measured between 4.0 and 1000.0 [lb_us],http://loinc.org,3141-9,[lb_us],4.0,1000.0
+Urea nitrogen/Creatinine [Mass Ratio] in Serum or Plasma between 10.0 and 100.0 {ratio},http://loinc.org,3097-3,{ratio},10.0,100.0
+Cystatin C [Mass/volume] in Serum or Plasma between 0.0 and 1000.0 mg/L,http://loinc.org,33863-2,mg/L,0.0,1000.0
+Procalcitonin [Mass/volume] in Serum or Plasma between 0.0 and 10.0 ng/mL,http://loinc.org,33959-8,ng/mL,0.0,10.0
+INR in Blood by Coagulation assay between 0.01 and 30.0 {ratio},http://loinc.org,34714-6,{ratio},0.01,30.0
+Calcium.ionized [Mass/volume] in Blood between 1.0 and 13.0 10*-3.eq/L,http://loinc.org,38230-9,10*-3.eq/L,1.0,13.0
+Calcium.ionized [Mass/volume] in Blood between 1.0 and 3.0 mmol/L,http://loinc.org,38230-9,mmol/L,1.0,3.0
+Calcium.ionized [Mass/volume] in Blood between 870.0 and 1500.0 umol/L,http://loinc.org,38230-9,umol/L,870.0,1500.0
+Phenytoin [Mass/volume] in Serum or Plasma between 0.0 and 40.0 ug/mL,http://loinc.org,3968-5,ug/mL,0.0,40.0
+Protein.monoclonal/Protein.total in Urine by Electrophoresis between 0.0 and 15.0 %,http://loinc.org,42483-8,%,0.0,15.0
+Complement C4 [Mass/volume] in Serum or Plasma between 1.0 and 2.0 g/L,http://loinc.org,4498-2,g/L,1.0,2.0
+Haptoglobin [Mass/volume] in Serum or Plasma by Nephelometry between 0.0 and 360.0 g/dL,http://loinc.org,46127-7,g/dL,0.0,360.0
+Creatine kinase.MB/Creatine kinase.total [Ratio] in Serum or Plasma between 1.0 and 53.0 %,http://loinc.org,49136-5,%,1.0,53.0
+Hemoglobin A1c in Blood between 1.0 and 20.0 %,http://loinc.org,55454-3,%,1.0,20.0
+Common Ragweed IgE Ab [Units/volume] in Serum between 1.0 and 42.0 10*3/uL,http://loinc.org,6085-5,10*3/uL,1.0,42.0
+Central venous pressure (CVP) between 10.0 and 500.0 mm[Hg],http://loinc.org,60985-9,mm[Hg],10.0,500.0
+24 hour systolic blood pressure between 10.0 and 250.0 mm[Hg],http://snomed.info/sct,314464000,mm[Hg],10.0,250.0
+Chloride; blood between 95.0 and 111.0 10*-3.eq/L,http://www.ama-assn.org/go/cpt,82435,10*-3.eq/L,95.0,111.0
+Lactate (lactic acid) between 0.0 and 100.0 mmol/L,http://www.ama-assn.org/go/cpt,83605,mmol/L,0.0,100.0
+"Creatine kinase (CK), (CPK); total between 1.0 and 1000.0 ng/mL",http://www.ama-assn.org/go/cpt,82550,ng/mL,1.0,1000.0
+Hemoglobin; glycosylated (A1C) between 0.0 and 3000.0 nmol/L,http://www.ama-assn.org/go/cpt,83036,nmol/L,0.0,3000.0
+Calcium; total between 1.0 and 147.0 mmol/L,http://www.ama-assn.org/go/cpt,82310,mmol/L,1.0,147.0
+Hemoglobin; glycosylated (A1C) between 0.0 and 36.0 pg,http://www.ama-assn.org/go/cpt,83036,pg,0.0,36.0
+Magnesium between 0.0 and 2100.0 nmol/L,http://www.ama-assn.org/go/cpt,83735,nmol/L,0.0,2100.0
+"Creatine kinase (CK), (CPK); total between 1.0 and 242.0 mmol/L",http://www.ama-assn.org/go/cpt,82550,mmol/L,1.0,242.0
+Triglycerides between 0.0 and 100.0 %,http://www.ama-assn.org/go/cpt,84478,%,0.0,100.0
+Reticulocytes [#/volume] in Blood between 0.01 and 1000.0 10*3/mm3,http://loinc.org,14196-0,10*3/mm3,0.01,1000.0
+Urea nitrogen [Moles/volume] in Serum or Plasma between 0.0 and 1000.0 mmol/L,http://loinc.org,14937-7,mmol/L,0.0,1000.0
+Bicarbonate [Moles/volume] in Plasma between 18.0 and 47.0 mmol/L,http://loinc.org,1962-0,mmol/L,18.0,47.0
+Bilirubin.total [Mass/volume] in Serum or Plasma between 1.0 and 530.0 umol/L,http://loinc.org,1975-2,umol/L,1.0,530.0
+FEV1 between 0.0 and 100.0 {ratio},http://loinc.org,20150-9,{ratio},0.0,100.0
+FEV1 between 0.1 and 9.0 L,http://loinc.org,20150-9,L,0.1,9.0
+Ferritin [Mass/volume] in Serum or Plasma between 0.0 and 400.0 [U],http://loinc.org,2276-4,[U],0.0,400.0
+Iron binding capacity [Mass/volume] in Serum or Plasma between 0.01 and 500.0 ug/dL,http://loinc.org,2500-7,ug/dL,0.01,500.0
+Magnesium [Moles/volume] in Serum or Plasma between 0.0 and 3.0 10*-3.eq/L,http://loinc.org,2601-3,10*-3.eq/L,0.0,3.0
+Albumin [Mass/volume] in Serum or Plasma by Electrophoresis between 2.0 and 1000.0 mg/L,http://loinc.org,2862-1,mg/L,2.0,1000.0
+Protein [Mass/volume] in Urine between 1.0 and 10000.0 mg/(24.h),http://loinc.org,2888-6,mg/(24.h),1.0,10000.0
+Protein [Mass/volume] in Urine between 0.0 and 1000.0 g/dL,http://loinc.org,2888-6,g/dL,0.0,1000.0
+Creatinine; blood between 10.0 and 200.0 umol/L,http://www.ama-assn.org/go/cpt,82565,umol/L,10.0,200.0
+"Creatine kinase (CK), (CPK); total between 1.0 and 242.0 g/dL",http://www.ama-assn.org/go/cpt,82550,g/dL,1.0,242.0
+Cholesterol in LDL [Mass/volume] in Serum or Plasma by calculation between 51.0 and 372.0 ng/dL,http://loinc.org,13457-7,ng/dL,51.0,372.0
+Creatine kinase.MM [Enzymatic activity/volume] in Serum or Plasma by Electrophoresis between 9.0 and 389.0 %,http://loinc.org,2155-0,%,9.0,389.0
+Creatinine [Mass/time] in 24 hour Urine between 100.0 and 4000.0 mg/(24.h),http://loinc.org,2162-6,mg/(24.h),100.0,4000.0
+Iron [Mass/volume] in Serum or Plasma between 0.0 and 1000.0 umol/L,http://loinc.org,2498-4,umol/L,0.0,1000.0
+Eosinophils [#/volume] in Blood between 0.0 and 300.0 /mm3,http://loinc.org,26449-9,/mm3,0.0,300.0
+Gamma globulin [Mass/volume] in Serum or Plasma by Electrophoresis between 0.01 and 2.0 g/dL,http://loinc.org,2874-6,g/dL,0.01,2.0
+C reactive protein [Mass/volume] in Serum or Plasma by High sensitivity method between 0.0 and 20.0 mg/L,http://loinc.org,30522-7,mg/L,0.0,20.0
+"Glomerular filtration rate/1.73 sq M predicted among blacks [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD) between 10.0 and 150.0 mL/min/1.73.m2",http://loinc.org,48643-1,mL/min/1.73.m2,10.0,150.0
+"Lipoprotein, direct measurement; high density cholesterol (HDL cholesterol) between 5.0 and 150.0 mg/dL",http://www.ama-assn.org/go/cpt,83718,mg/dL,5.0,150.0
+Blood count; hemoglobin (Hgb) between 2.0 and 319.0 ug/dL,http://www.ama-assn.org/go/cpt,85018,ug/dL,2.0,319.0
+FEV1 between 0.0 and 4.0 [in_us],http://loinc.org,20150-9,[in_us],0.0,4.0
+Calcidiol [Mass/volume] in Serum or Plasma between 5.0 and 716.0 nmol/L,http://loinc.org,1989-3,nmol/L,5.0,716.0
+Lymphocytes/100 leukocytes in Blood between 0.0 and 500.0 mg/dL,http://loinc.org,26478-8,mg/dL,0.0,500.0
+Leukocytes [#/volume] in Blood between 0.0 and 1.0 mL,http://loinc.org,26464-8,mL,0.0,1.0
+Progesterone [Mass/volume] in Serum or Plasma between 0.0 and 10.0 ng/mL,http://loinc.org,2839-9,ng/mL,0.0,10.0
+Albumin [Mass/volume] in Serum or Plasma by Electrophoresis between 2.0 and 1000.0 g/L,http://loinc.org,2862-1,g/L,2.0,1000.0
+Gamma globulin [Mass/volume] in Serum or Plasma by Electrophoresis between 0.0 and 100.0 %,http://loinc.org,2874-6,%,0.0,100.0
+Body weight between 1.0 and 1000.0 mg,http://loinc.org,29463-7,mg,1.0,1000.0
+Amiodarone [Mass/volume] in Serum or Plasma between 0.0 and 556.0 ug/mL,http://loinc.org,3330-8,ug/mL,0.0,556.0
+Acetaminophen [Mass/volume] in Serum or Plasma between 0.0 and 1000.0 mg/L,http://loinc.org,3298-7,mg/L,0.0,1000.0
+INR in Blood by Coagulation assay between 0.0 and 30.0 mo,http://loinc.org,34714-6,mo,0.0,30.0
+INR in Blood by Coagulation assay between 0.0 and 30.0 L,http://loinc.org,34714-6,L,0.0,30.0
+Erythrocyte sedimentation rate by Westergren method between 0.0 and 100.0 mm/h,http://loinc.org,4537-7,mm/h,0.0,100.0
+Complement C4 [Mass/volume] in Serum or Plasma between 15.0 and 601.0 mg/L,http://loinc.org,4498-2,mg/L,15.0,601.0
+Erythrocyte sedimentation rate by Wintrobe method between 0.0 and 100.0 mm,http://loinc.org,4538-5,mm,0.0,100.0
+Hemoglobin [Moles/volume] in Blood between 0.0 and 15.0 g/dL,http://loinc.org,59260-0,g/dL,0.0,15.0
+Prostate specific antigen (PSA); total between 1.0 and 100.0 mg/dL,http://www.ama-assn.org/go/cpt,84153,mg/dL,1.0,100.0
+Globulin [Mass/volume] in Serum by calculation between 2.0 and 40.0 g/L,http://loinc.org,10834-0,g/L,2.0,40.0
+Creatinine [Mass/volume] in Body fluid between 10.0 and 200.0 umol/L,http://loinc.org,12190-5,umol/L,10.0,200.0
+Cholesterol in VLDL [Mass/volume] in Serum or Plasma by calculation between 6.0 and 100.0 mg/dL,http://loinc.org,13458-5,mg/dL,6.0,100.0
+Beta-2-Microglobulin [Mass/volume] in Serum or Plasma between 0.01 and 60.0 g/L,http://loinc.org,1952-1,g/L,0.01,60.0
+Prostate specific Ag [Mass/volume] in Serum or Plasma between 0.0 and 60.0 ng/dL,http://loinc.org,2857-1,ng/dL,0.0,60.0
+Protein [Mass/volume] in Serum or Plasma between 0.0 and 100.0 %,http://loinc.org,2885-2,%,0.0,100.0
+Testosterone Free [Mass/volume] in Serum or Plasma between 0.0 and 100.0 %,http://loinc.org,2991-8,%,0.0,100.0
+Urea nitrogen/Creatinine [Mass Ratio] in Serum or Plasma between 10.0 and 100.0 mg/mg{creat},http://loinc.org,3097-3,mg/mg{creat},10.0,100.0
+Haptoglobin [Mass/volume] in Serum or Plasma by Nephelometry between 0.01 and 500.0 mg/dL,http://loinc.org,46127-7,mg/dL,0.01,500.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 50.0 u,http://loinc.org,20570-8,u,0.0,50.0
+Lipase [Enzymatic activity/volume] in Serum or Plasma between 0.01 and 70.0 [iU]/L,http://loinc.org,3040-3,[iU]/L,0.01,70.0
+Thyroxine (T4) [Mass/volume] in Serum or Plasma between 0.1 and 10.0 ng/dL,http://loinc.org,3026-2,ng/dL,0.1,10.0
+Ferritin between 0.0 and 32.0 g/dL,http://www.ama-assn.org/go/cpt,82728,g/dL,0.0,32.0
+Basophils [#/volume] in Blood between 0.01 and 1.0 10*3/L,http://loinc.org,26444-0,10*3/L,0.01,1.0
+Erythrocytes [#/volume] in Blood between 0.0 and 45.0 /uL,http://loinc.org,26453-1,/uL,0.0,45.0
+Creatine kinase [Enzymatic activity/volume] in Serum or Plasma between 3.0 and 1000.0 [U]/L,http://loinc.org,2157-6,[U]/L,3.0,1000.0
+Eosinophils/100 leukocytes in Blood between 0.0 and 100.0 %{vol},http://loinc.org,26450-7,%{vol},0.0,100.0
+Erythrocytes [#/volume] in Blood between 0.0 and 100.0 {cells},http://loinc.org,26453-1,{cells},0.0,100.0
+Haptoglobin [Mass/volume] in Serum or Plasma between 0.01 and 500.0 mg/dL,http://loinc.org,4542-7,mg/dL,0.01,500.0
+Estradiol (E2) [Mass/volume] in Serum or Plasma between 0.0 and 20.0 ng/dL,http://loinc.org,2243-4,ng/dL,0.0,20.0
+Eosinophils/100 leukocytes in Blood between 0.0 and 6.0 %,http://loinc.org,26450-7,%,0.0,6.0
+Hemoglobin A1c in Blood between 0.0 and 15.0 mg,http://loinc.org,55454-3,mg,0.0,15.0
+Ferritin between 0.0 and 70.0 10*3/uL,http://www.ama-assn.org/go/cpt,82728,10*3/uL,0.0,70.0
+Carbon dioxide (bicarbonate) between 2.0 and 42.0 10*-3.eq/L,http://www.ama-assn.org/go/cpt,82374,10*-3.eq/L,2.0,42.0
+Prostate specific antigen (PSA); total between 0.0 and 10.0 ng/mL,http://www.ama-assn.org/go/cpt,84153,ng/mL,0.0,10.0
+Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma between 5.0 and 2000.0 g/dL,http://loinc.org,1920-8,g/dL,5.0,2000.0
+Neutrophils [#/volume] in Blood between 0.01 and 50.0 10*3/mm3,http://loinc.org,26499-4,10*3/mm3,0.01,50.0
+Osmolality of Serum or Plasma between 220.0 and 420.0 mosm/kg,http://loinc.org,2692-2,mosm/kg,220.0,420.0
+Urea nitrogen [Mass/volume] in Serum or Plasma between 5.0 and 100.0 mg/dL,http://loinc.org,3094-0,mg/dL,5.0,100.0
+Sodium [Moles/volume] in Serum or Plasma between 100.0 and 150.0 10*-3.eq/L,http://loinc.org,2951-2,10*-3.eq/L,100.0,150.0
+Thyrotropin receptor Ab [Units/volume] in Serum between 0.0 and 345.0 [iU]/L,http://loinc.org,5385-0,[iU]/L,0.0,345.0
+Chloride [Moles/volume] in Serum or Plasma between 77.0 and 1000.0 10*-3.eq/dL,http://loinc.org,2075-0,10*-3.eq/dL,77.0,1000.0
+Testosterone [Mass/volume] in Serum or Plasma between 5.0 and 1000.0 ng/dL,http://loinc.org,2986-8,ng/dL,5.0,1000.0
+Urate [Mass/volume] in Serum or Plasma between 0.001 and 0.01 g/dL,http://loinc.org,3084-1,g/dL,0.001,0.01
+Thyrotropin receptor Ab [Units/volume] in Serum between 0.0 and 345.0 [U]/L,http://loinc.org,5385-0,[U]/L,0.0,345.0
+Platelets [#/volume] in Blood between 100.0 and 1000.0 10*3/uL,http://loinc.org,26515-7,10*3/uL,100.0,1000.0
+Albumin [Mass/volume] in Urine between 0.0 and 1000.0 ug/mL,http://loinc.org,1754-1,ug/mL,0.0,1000.0
+Hepatitis B virus DNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection between 0.0 and 4000.0 [iU]/mL,http://loinc.org,42595-9,[iU]/mL,0.0,4000.0
+Blood count; hemoglobin (Hgb) between 3.0 and 36.0 mg/dL,http://www.ama-assn.org/go/cpt,85018,mg/dL,3.0,36.0
+Erythrocyte sedimentation rate between 0.0 and 100.0 mm/h,http://loinc.org,30341-2,mm/h,0.0,100.0
+Lymphocytes/100 leukocytes in Cerebral spinal fluid by Manual count between 0.0 and 100.0 %,http://loinc.org,10328-3,%,0.0,100.0
+Creatinine [Mass/volume] in Urine between 2.0 and 22.0 mmol/L,http://loinc.org,2161-8,mmol/L,2.0,22.0
+"Carbon dioxide, total [Moles/volume] in Serum or Plasma between 360.0 and 1000.0 mg/dL",http://loinc.org,2028-9,mg/dL,360.0,1000.0
+Body weight between 2.0 and 500.0 kg,http://loinc.org,29463-7,kg,2.0,500.0
+Creatinine; other source between 10.0 and 30.0 mg/L,http://www.ama-assn.org/go/cpt,82570,mg/L,10.0,30.0
+Glucose [Moles/volume] in Serum or Plasma between 0.0 and 500.0 mg/dL,http://loinc.org,14749-6,mg/dL,0.0,500.0
+"Creatinine measurement, body fluid between 10.0 and 200.0 umol/L",http://snomed.info/sct,269924007,umol/L,10.0,200.0
+"Creatinine measurement, body fluid between 0.1 and 5.0 mg/dL",http://snomed.info/sct,269924007,mg/dL,0.1,5.0
+"Creatinine measurement, urine between 300.0 and 3000.0 mg/L",http://snomed.info/sct,271260009,mg/L,300.0,3000.0
+Systolic blood pressure between 10.0 and 250.0 No matching concept,http://snomed.info/sct,271649006,No matching concept,10.0,250.0
+Diastolic blood pressure between 30.0 and 200.0 mm[Hg],http://snomed.info/sct,271650006,mm[Hg],30.0,200.0
+Diastolic blood pressure between 30.0 and 200.0 No matching concept,http://snomed.info/sct,271653008,No matching concept,30.0,200.0
+Systolic blood pressure between 10.0 and 250.0 mm[Hg],http://snomed.info/sct,271649006,mm[Hg],10.0,250.0
+Diastolic blood pressure between 0.0 and 100.0 %,http://snomed.info/sct,271650006,%,0.0,100.0
+Serum fasting total cholesterol between 1.0 and 15.0 mmol/L,http://snomed.info/sct,247801000000106,mmol/L,1.0,15.0
+Serum fasting total cholesterol between 50.0 and 500.0 mg/dL,http://snomed.info/sct,247801000000106,mg/dL,50.0,500.0
+"Creatinine measurement, urine between 17.0 and 500.0 mg/dL",http://snomed.info/sct,271260009,mg/dL,17.0,500.0
+"Creatinine measurement, body fluid between 10.0 and 30.0 mg/L",http://snomed.info/sct,269924007,mg/L,10.0,30.0
+Systolic blood pressure of neonate at birth between 10.0 and 250.0 mm[Hg],http://snomed.info/sct,708502007,mm[Hg],10.0,250.0
+Creatinine measurement between 10.0 and 200.0 umol/L,http://snomed.info/sct,70901006,umol/L,10.0,200.0
+Creatinine measurement between 10.0 and 30.0 mg/L,http://snomed.info/sct,70901006,mg/L,10.0,30.0
+Baseline systolic blood pressure between 10.0 and 250.0 mm[Hg],http://snomed.info/sct,716579001,mm[Hg],10.0,250.0
+Pulse rate between 0.0 and 300.0 /min,http://snomed.info/sct,78564009,/min,0.0,300.0
+Systolic arterial pressure between 10.0 and 250.0 mm[Hg],http://snomed.info/sct,72313002,mm[Hg],10.0,250.0
+Systolic blood pressure centile between 10.0 and 250.0 mm[Hg],http://snomed.info/sct,814101000000107,mm[Hg],10.0,250.0
+Pulse rate between 0.0 and 300.0 {hb},http://snomed.info/sct,78564009,{hb},0.0,300.0
+Creatinine measurement between 0.1 and 5.0 mg/dL,http://snomed.info/sct,70901006,mg/dL,0.1,5.0
+Total cholesterol level between 50.0 and 500.0 mg/dL,http://snomed.info/sct,853681000000104,mg/dL,50.0,500.0
+Serum total cholesterol level between 1.0 and 15.0 mmol/L,http://snomed.info/sct,994351000000103,mmol/L,1.0,15.0
+Total cholesterol level between 1.0 and 15.0 mmol/L,http://snomed.info/sct,853681000000104,mmol/L,1.0,15.0
+Serum total cholesterol level between 50.0 and 500.0 mg/dL,http://snomed.info/sct,994351000000103,mg/dL,50.0,500.0
+Ambulatory systolic BP between 10.0 and 250.0 mm[Hg],http://snomed.info/sct,198081000000101,mm[Hg],10.0,250.0
+"Potassium; serum, plasma or whole blood between 3.0 and 8.0 10*-3.eq/L",http://snomed.info/sct,312468003,10*-3.eq/L,3.0,8.0
+"Potassium; serum, plasma or whole blood between 3.0 and 8.0 mmol/L",http://snomed.info/sct,312468003,mmol/L,3.0,8.0
+Bilirubin; total between 1.0 and 34.0 g/dL,http://snomed.info/sct,359986008,g/dL,1.0,34.0
+Magnesium between 0.0 and 6000.0 ug/dL,http://snomed.info/sct,38151008,ug/dL,0.0,6000.0
+Magnesium between 0.0 and 10.0 mmol/L,http://snomed.info/sct,38151008,mmol/L,0.0,10.0
+Magnesium between 0.0 and 2100.0 nmol/L,http://snomed.info/sct,38151008,nmol/L,0.0,2100.0
+"Potassium; serum, plasma or whole blood between 3.0 and 8.0 mmol/L",http://snomed.info/sct,390964008,mmol/L,3.0,8.0
+Lactate (lactic acid) between 0.0 and 100.0 mmol/L,http://snomed.info/sct,3926003,mmol/L,0.0,100.0
+Bilirubin; direct between 1.0 and 148.0 10*-3.eq/L,http://snomed.info/sct,39748002,10*-3.eq/L,1.0,148.0
+Bilirubin; direct between 1.0 and 1900.0 ng/mL,http://snomed.info/sct,39748002,ng/mL,1.0,1900.0
+Bilirubin; direct between 1.0 and 148.0 mmol/L,http://snomed.info/sct,39748002,mmol/L,1.0,148.0
+"Creatine kinase (CK), (CPK); total between 1.0 and 242.0 10*-3.eq/L",http://snomed.info/sct,397798009,10*-3.eq/L,1.0,242.0
+"Creatine kinase (CK), (CPK); total between 1.0 and 242.0 10*3/uL",http://snomed.info/sct,397798009,10*3/uL,1.0,242.0
+"Creatine kinase (CK), (CPK); total between 1.0 and 1000.0 mg/dL",http://snomed.info/sct,397798009,mg/dL,1.0,1000.0
+"Creatine kinase (CK), (CPK); total between 1.0 and 915.0 ug/dL",http://snomed.info/sct,397798009,ug/dL,1.0,915.0
+"Creatine kinase (CK), (CPK); total between 1.0 and 242.0 mmol/L",http://snomed.info/sct,397798009,mmol/L,1.0,242.0
+"Creatine kinase (CK), (CPK); total between 1.0 and 242.0 g/dL",http://snomed.info/sct,397798009,g/dL,1.0,242.0
+Hemoglobin; glycosylated (A1C) between 0.0 and 200.0 pg/mL,http://snomed.info/sct,408254005,pg/mL,0.0,200.0
+Hemoglobin; glycosylated (A1C) between 0.0 and 300.0 mg/dL,http://snomed.info/sct,408254005,mg/dL,0.0,300.0
+Hemoglobin; glycosylated (A1C) between 0.0 and 3000.0 nmol/L,http://snomed.info/sct,408254005,nmol/L,0.0,3000.0
+Hemoglobin; glycosylated (A1C) between 0.01 and 20.0 %,http://snomed.info/sct,408254005,%,0.01,20.0
+Bilirubin; total between 1.0 and 398.0 mg/dL,http://snomed.info/sct,359986008,mg/dL,1.0,398.0
+"Potassium; serum, plasma or whole blood between 3.0 and 8.0 10*-3.eq/L",http://snomed.info/sct,390964008,10*-3.eq/L,3.0,8.0
+Bilirubin; direct between 1.0 and 483.0 ug/dL,http://snomed.info/sct,39748002,ug/dL,1.0,483.0
+Bilirubin; direct between 1.0 and 1000.0 nmol/L,http://snomed.info/sct,39748002,nmol/L,1.0,1000.0
+Magnesium between 0.0 and 10.0 10*-3.eq/L,http://snomed.info/sct,38151008,10*-3.eq/L,0.0,10.0
+"Creatine kinase (CK), (CPK); total between 1.0 and 1000.0 ng/mL",http://snomed.info/sct,397798009,ng/mL,1.0,1000.0
+"Creatine kinase (CK), (CPK); total between 1.58 and 1000.0 ng/dL",http://snomed.info/sct,397798009,ng/dL,1.58,1000.0
+Magnesium between 0.0 and 1000.0 mg/dL,http://snomed.info/sct,38151008,mg/dL,0.0,1000.0
+Bilirubin; direct between 1.0 and 37000.0 mg/dL,http://snomed.info/sct,39748002,mg/dL,1.0,37000.0
+Hemoglobin; glycosylated (A1C) between 0.0 and 36.0 pg,http://snomed.info/sct,408254005,pg,0.0,36.0
+Magnesium between 0.0 and 100.0 %,http://snomed.info/sct,38151008,%,0.0,100.0
+Bilirubin; direct between 1.0 and 37.0 g/dL,http://snomed.info/sct,39748002,g/dL,1.0,37.0
+Iron between 0.0 and 270.0 ng/mL,http://snomed.info/sct,42950004,ng/mL,0.0,270.0
+Hemoglobin; glycosylated (A1C) between 0.0 and 3000.0 nmol/L,http://snomed.info/sct,43396009,nmol/L,0.0,3000.0
+Hemoglobin; glycosylated (A1C) between 0.0 and 36.0 pg,http://snomed.info/sct,43396009,pg,0.0,36.0
+Blood count; hemoglobin (Hgb) between 3.0 and 36.0 mg/dL,http://snomed.info/sct,441689006,mg/dL,3.0,36.0
+Blood count; hemoglobin (Hgb) between 2.0 and 319.0 ug/dL,http://snomed.info/sct,441689006,ug/dL,2.0,319.0
+Blood count; hemoglobin (Hgb) between 3.0 and 36.0 g/dL,http://snomed.info/sct,441689006,g/dL,3.0,36.0
+Ferritin between 0.0 and 70.0 10*3/uL,http://snomed.info/sct,489004,10*3/uL,0.0,70.0
+Ferritin between 0.0 and 150.0 mg/dL,http://snomed.info/sct,489004,mg/dL,0.0,150.0
+Ferritin between 0.0 and 32.0 g/dL,http://snomed.info/sct,489004,g/dL,0.0,32.0
+Ferritin between 0.0 and 40.0 %,http://snomed.info/sct,489004,%,0.0,40.0
+Iron between 0.0 and 1000.0 ug/dL,http://snomed.info/sct,42950004,ug/dL,0.0,1000.0
+Iron between 0.0 and 100.0 %,http://snomed.info/sct,42950004,%,0.0,100.0
+Hemoglobin; glycosylated (A1C) between 0.0 and 200.0 pg/mL,http://snomed.info/sct,43396009,pg/mL,0.0,200.0
+Hemoglobin; glycosylated (A1C) between 0.01 and 20.0 %,http://snomed.info/sct,43396009,%,0.01,20.0
+Ferritin between 0.0 and 100.0 fL,http://snomed.info/sct,489004,fL,0.0,100.0
+Ferritin between 0.01 and 700.0 ng/mL,http://snomed.info/sct,489004,ng/mL,0.01,700.0
+Thyroid stimulating hormone (TSH) between 0.0 and 100.0 %,http://snomed.info/sct,61167004,%,0.0,100.0
+"Thromboplastin time, partial (PTT); plasma or whole blood between 0.0 and 100.0 %",http://snomed.info/sct,42525009,%,0.0,100.0
+Hemoglobin; glycosylated (A1C) between 0.0 and 300.0 mg/dL,http://snomed.info/sct,43396009,mg/dL,0.0,300.0
+Creatinine; other source between 10.0 and 30.0 mg/L,http://loinc.org,25386-4,mg/L,10.0,30.0
+Creatinine; other source between 10.0 and 200.0 umol/L,http://loinc.org,12190-5,umol/L,10.0,200.0
+Calcium; total between 1.2 and 448.0 pg/mL,http://loinc.org,12181-4,pg/mL,1.2,448.0
+Creatinine; other source between 10.0 and 30.0 mg/L,http://loinc.org,12190-5,mg/L,10.0,30.0
+Creatinine; other source between 10.0 and 30.0 mg/L,http://loinc.org,12588-0,mg/L,10.0,30.0
+Creatinine; other source between 0.1 and 5.0 mg/dL,http://loinc.org,12190-5,mg/dL,0.1,5.0
+Calcium; total between 3.4 and 36.0 g/dL,http://loinc.org,12181-4,g/dL,3.4,36.0
+Calcium; total between 7.0 and 13.0 mg/mL,http://loinc.org,14415-4,mg/mL,7.0,13.0
+Calcium; total between 7.0 and 13.0 mg/mL,http://loinc.org,14416-2,mg/mL,7.0,13.0
+Calcium; total between 7.0 and 13.0 mg/mL,http://loinc.org,14418-8,mg/mL,7.0,13.0
+Calcium; total between 1.2 and 448.0 pg/mL,http://loinc.org,14417-0,pg/mL,1.2,448.0
+Calcium; total between 1.2 and 448.0 pg/mL,http://loinc.org,14418-8,pg/mL,1.2,448.0
+Calcium; total between 1.2 and 448.0 pg/mL,http://loinc.org,14419-6,pg/mL,1.2,448.0
+Calcium; total between 7.0 and 13.0 mg/dL,http://loinc.org,14416-2,mg/dL,7.0,13.0
+Calcium; total between 7.0 and 13.0 mg/dL,http://loinc.org,14417-0,mg/dL,7.0,13.0
+Calcium; total between 1.0 and 147.0 mmol/L,http://loinc.org,14418-8,mmol/L,1.0,147.0
+Calcium; total between 1.0 and 147.0 mmol/L,http://loinc.org,14419-6,mmol/L,1.0,147.0
+Calcium; total between 3.4 and 36.0 g/dL,http://loinc.org,14415-4,g/dL,3.4,36.0
+Creatinine; other source between 10.0 and 200.0 umol/L,http://loinc.org,14683-7,umol/L,10.0,200.0
+Blood count; hemoglobin (Hgb) between 3.0 and 36.0 mg/dL,http://loinc.org,14775-1,mg/dL,3.0,36.0
+Blood count; hemoglobin (Hgb) between 2.0 and 319.0 ug/dL,http://loinc.org,14775-1,ug/dL,2.0,319.0
+Creatinine; blood between 0.1 and 5.0 mg/dL,http://loinc.org,14682-9,mg/dL,0.1,5.0
+Bilirubin; direct between 1.0 and 483.0 ug/dL,http://loinc.org,15152-2,ug/dL,1.0,483.0
+Calcium; total between 1.0 and 147.0 mmol/L,http://loinc.org,15155-5,mmol/L,1.0,147.0
+Bilirubin; direct between 1.0 and 1000.0 nmol/L,http://loinc.org,15152-2,nmol/L,1.0,1000.0
+Bilirubin; direct between 1.0 and 37.0 g/dL,http://loinc.org,15152-2,g/dL,1.0,37.0
+Calcium; total between 3.4 and 36.0 g/dL,http://loinc.org,16273-5,g/dL,3.4,36.0
+Calcium; total between 1.2 and 448.0 pg/mL,http://loinc.org,17861-6,pg/mL,1.2,448.0
+"Lipoprotein, direct measurement; LDL cholesterol between 5.0 and 400.0 mg/dL",http://loinc.org,18262-6,mg/dL,5.0,400.0
+Calcium; total between 7.0 and 13.0 mg/dL,http://loinc.org,17861-6,mg/dL,7.0,13.0
+Calcium; total between 1.0 and 147.0 mmol/L,http://loinc.org,17861-6,mmol/L,1.0,147.0
+Magnesium between 0.0 and 1000.0 mg/dL,http://loinc.org,19123-9,mg/dL,0.0,1000.0
+Magnesium between 0.0 and 10.0 mmol/L,http://loinc.org,19123-9,mmol/L,0.0,10.0
+Magnesium between 0.0 and 2100.0 nmol/L,http://loinc.org,19123-9,nmol/L,0.0,2100.0
+Magnesium between 0.0 and 100.0 %,http://loinc.org,19123-9,%,0.0,100.0
+Bilirubin; direct between 1.0 and 148.0 10*-3.eq/L,http://loinc.org,1968-7,10*-3.eq/L,1.0,148.0
+Bilirubin; total between 1.0 and 398.0 mg/dL,http://loinc.org,1975-2,mg/dL,1.0,398.0
+Calcium; total between 7.0 and 13.0 mg/mL,http://loinc.org,1996-8,mg/mL,7.0,13.0
+Calcium; total between 7.0 and 13.0 mg/mL,http://loinc.org,1998-4,mg/mL,7.0,13.0
+Carbon dioxide (bicarbonate) between 2.0 and 42.0 10*-3.eq/L,http://loinc.org,2028-9,10*-3.eq/L,2.0,42.0
+Bilirubin; total between 1.0 and 34.0 g/dL,http://loinc.org,1975-2,g/dL,1.0,34.0
+Calcium; total between 1.2 and 448.0 pg/mL,http://loinc.org,1999-2,pg/mL,1.2,448.0
+Calcium; total between 1.2 and 448.0 pg/mL,http://loinc.org,2002-4,pg/mL,1.2,448.0
+Bilirubin; direct between 1.0 and 37000.0 mg/dL,http://loinc.org,1968-7,mg/dL,1.0,37000.0
+Calcium; total between 7.0 and 13.0 mg/dL,http://loinc.org,1996-8,mg/dL,7.0,13.0
+Calcium; total between 7.0 and 13.0 mg/dL,http://loinc.org,1997-6,mg/dL,7.0,13.0
+Calcium; total between 7.0 and 13.0 mg/dL,http://loinc.org,1999-2,mg/dL,7.0,13.0
+Calcium; total between 7.0 and 13.0 mg/dL,http://loinc.org,2001-6,mg/dL,7.0,13.0
+Calcium; total between 1.0 and 147.0 mmol/L,http://loinc.org,1998-4,mmol/L,1.0,147.0
+Calcium; total between 3.4 and 36.0 g/dL,http://loinc.org,1997-6,g/dL,3.4,36.0
+Bilirubin; direct between 1.0 and 1000.0 nmol/L,http://loinc.org,1968-7,nmol/L,1.0,1000.0
+Bilirubin; direct between 1.0 and 37.0 g/dL,http://loinc.org,1968-7,g/dL,1.0,37.0
+Chloride; blood between 95.0 and 111.0 10*-3.eq/L,http://loinc.org,2075-0,10*-3.eq/L,95.0,111.0
+Chloride; blood between 90.0 and 147.0 mmol/L,http://loinc.org,2075-0,mmol/L,90.0,147.0
+"Creatine kinase (CK), (CPK); total between 1.0 and 242.0 10*-3.eq/L",http://loinc.org,2157-6,10*-3.eq/L,1.0,242.0
+"Creatine kinase (CK), (CPK); total between 1.0 and 242.0 10*3/uL",http://loinc.org,2157-6,10*3/uL,1.0,242.0
+Creatinine; blood between 10.0 and 30.0 mg/L,http://loinc.org,2160-0,mg/L,10.0,30.0
+"Creatine kinase (CK), (CPK); total between 1.0 and 1000.0 ng/mL",http://loinc.org,2157-6,ng/mL,1.0,1000.0
+Creatinine; other source between 0.1 and 5.0 mg/dL,http://loinc.org,2161-8,mg/dL,0.1,5.0
+"Creatine kinase (CK), (CPK); total between 1.0 and 1000.0 mg/dL",http://loinc.org,2157-6,mg/dL,1.0,1000.0
+"Creatine kinase (CK), (CPK); total between 1.0 and 915.0 ug/dL",http://loinc.org,2157-6,ug/dL,1.0,915.0
+Ferritin between 0.0 and 70.0 10*3/uL,http://loinc.org,2276-4,10*3/uL,0.0,70.0
+Ferritin between 0.01 and 700.0 ng/mL,http://loinc.org,2276-4,ng/mL,0.01,700.0
+Iron between 0.0 and 100.0 %,http://loinc.org,2498-4,%,0.0,100.0
+Magnesium between 0.0 and 10.0 10*-3.eq/L,http://loinc.org,2598-1,10*-3.eq/L,0.0,10.0
+Triglycerides between 0.0 and 100.0 %,http://loinc.org,2571-8,%,0.0,100.0
+Magnesium between 0.0 and 1000.0 mg/dL,http://loinc.org,2598-1,mg/dL,0.0,1000.0
+Magnesium between 0.0 and 6000.0 ug/dL,http://loinc.org,2598-1,ug/dL,0.0,6000.0
+Magnesium between 0.0 and 2100.0 nmol/L,http://loinc.org,2598-1,nmol/L,0.0,2100.0
+Magnesium between 0.0 and 100.0 %,http://loinc.org,2598-1,%,0.0,100.0
+Phosphorus inorganic (phosphate) between 1.0 and 10.0 mg/dL,http://loinc.org,2777-1,mg/dL,1.0,10.0
+Calcium; total between 1.2 and 448.0 pg/mL,http://loinc.org,27172-6,pg/mL,1.2,448.0
+Calcium; total between 7.0 and 13.0 mg/dL,http://loinc.org,27172-6,mg/dL,7.0,13.0
+Calcium; total between 7.0 and 13.0 mg/dL,http://loinc.org,27373-0,mg/dL,7.0,13.0
+Phosphorus inorganic (phosphate) between 1.0 and 10.0 g/dL,http://loinc.org,2777-1,g/dL,1.0,10.0
+Calcium; total between 1.0 and 147.0 mmol/L,http://loinc.org,27172-6,mmol/L,1.0,147.0
+Calcium; total between 1.0 and 147.0 mmol/L,http://loinc.org,27373-0,mmol/L,1.0,147.0
+Calcium; total between 3.4 and 36.0 g/dL,http://loinc.org,27373-0,g/dL,3.4,36.0
+"Potassium; serum, plasma or whole blood between 3.0 and 8.0 10*-3.eq/L",http://loinc.org,2823-3,10*-3.eq/L,3.0,8.0
+Prostate specific antigen (PSA); total between 1.0 and 100.0 mg/dL,http://loinc.org,2857-1,mg/dL,1.0,100.0
+Lactate (lactic acid) between 0.0 and 100.0 mmol/L,http://loinc.org,29246-6,mmol/L,0.0,100.0
+Testosterone; total between 5.0 and 1000.0 ng/dL,http://loinc.org,2986-8,ng/dL,5.0,1000.0
+Calcium; total between 7.0 and 13.0 mg/mL,http://loinc.org,30527-6,mg/mL,7.0,13.0
+Calcium; total between 1.0 and 147.0 mmol/L,http://loinc.org,30527-6,mmol/L,1.0,147.0
+Calcium; total between 3.4 and 36.0 g/dL,http://loinc.org,30527-6,g/dL,3.4,36.0
+Calcium; total between 7.0 and 13.0 mg/mL,http://loinc.org,32305-5,mg/mL,7.0,13.0
+Calcium; total between 7.0 and 13.0 mg/dL,http://loinc.org,32305-5,mg/dL,7.0,13.0
+Calcium; total between 3.4 and 36.0 g/dL,http://loinc.org,32305-5,g/dL,3.4,36.0
+Calcium; total between 7.0 and 13.0 mg/mL,http://loinc.org,38250-7,mg/mL,7.0,13.0
+Creatinine; blood between 10.0 and 200.0 umol/L,http://loinc.org,38483-4,umol/L,10.0,200.0
+Calcium; total between 7.0 and 13.0 mg/dL,http://loinc.org,38250-7,mg/dL,7.0,13.0
+Creatinine; blood between 0.1 and 5.0 mg/dL,http://loinc.org,38483-4,mg/dL,0.1,5.0
+Calcium; total between 3.4 and 36.0 g/dL,http://loinc.org,38250-7,g/dL,3.4,36.0
+Creatinine; other source between 10.0 and 200.0 umol/L,http://loinc.org,5919-6,umol/L,10.0,200.0
+Creatinine; other source between 10.0 and 30.0 mg/L,http://loinc.org,5919-6,mg/L,10.0,30.0
+Creatinine; other source between 0.1 and 5.0 mg/dL,http://loinc.org,5919-6,mg/dL,0.1,5.0
+Creatinine; blood between 10.0 and 200.0 umol/L,http://snomed.info/sct,70901006,umol/L,10.0,200.0
+Calcium; total between 1.2 and 448.0 pg/mL,http://snomed.info/sct,71878006,pg/mL,1.2,448.0
+Calcium; total between 7.0 and 13.0 mg/dL,http://snomed.info/sct,71878006,mg/dL,7.0,13.0
+Calcium; total between 1.0 and 147.0 mmol/L,http://snomed.info/sct,71878006,mmol/L,1.0,147.0
+Creatinine; other source between 10.0 and 200.0 umol/L,http://loinc.org,25386-4,umol/L,10.0,200.0
+Triglycerides between 40.0 and 1000.0 mg/dL,http://loinc.org,12228-3,mg/dL,40.0,1000.0
+Creatinine; other source between 10.0 and 200.0 umol/L,http://loinc.org,12588-0,umol/L,10.0,200.0
+Calcium; total between 7.0 and 13.0 mg/dL,http://loinc.org,12181-4,mg/dL,7.0,13.0
+Calcium; total between 1.0 and 147.0 mmol/L,http://loinc.org,12181-4,mmol/L,1.0,147.0
+Calcium; total between 7.0 and 13.0 mg/mL,http://loinc.org,14417-0,mg/mL,7.0,13.0
+Calcium; total between 7.0 and 13.0 mg/dL,http://loinc.org,14418-8,mg/dL,7.0,13.0
+Calcium; total between 1.0 and 147.0 mmol/L,http://loinc.org,14415-4,mmol/L,1.0,147.0
+Calcium; total between 1.0 and 147.0 mmol/L,http://loinc.org,14416-2,mmol/L,1.0,147.0
+Calcium; total between 3.4 and 36.0 g/dL,http://loinc.org,14419-6,g/dL,3.4,36.0
+Creatinine; blood between 10.0 and 200.0 umol/L,http://loinc.org,14682-9,umol/L,10.0,200.0
+Bilirubin; direct between 1.0 and 148.0 10*-3.eq/L,http://loinc.org,15152-2,10*-3.eq/L,1.0,148.0
+Creatinine; blood between 10.0 and 30.0 mg/L,http://loinc.org,14682-9,mg/L,10.0,30.0
+Creatinine; other source between 10.0 and 30.0 mg/L,http://loinc.org,15050-8,mg/L,10.0,30.0
+Bilirubin; direct between 1.0 and 1900.0 ng/mL,http://loinc.org,15152-2,ng/mL,1.0,1900.0
+Creatinine; other source between 0.1 and 5.0 mg/dL,http://loinc.org,14683-7,mg/dL,0.1,5.0
+Blood count; hemoglobin (Hgb) between 3.0 and 36.0 g/dL,http://loinc.org,14775-1,g/dL,3.0,36.0
+Calcium; total between 3.4 and 36.0 g/dL,http://loinc.org,15155-5,g/dL,3.4,36.0
+Calcium; total between 1.0 and 147.0 mmol/L,http://loinc.org,16273-5,mmol/L,1.0,147.0
+Calcium; total between 7.0 and 13.0 mg/mL,http://loinc.org,17861-6,mg/mL,7.0,13.0
+Calcium; total between 7.0 and 13.0 mg/mL,http://loinc.org,1997-6,mg/mL,7.0,13.0
+Calcium; total between 7.0 and 13.0 mg/mL,http://loinc.org,1999-2,mg/mL,7.0,13.0
+Calcium; total between 7.0 and 13.0 mg/mL,http://loinc.org,2001-6,mg/mL,7.0,13.0
+Calcium; total between 7.0 and 13.0 mg/mL,http://loinc.org,2002-4,mg/mL,7.0,13.0
+Calcium; total between 1.2 and 448.0 pg/mL,http://loinc.org,2001-6,pg/mL,1.2,448.0
+Calcium; total between 7.0 and 13.0 mg/dL,http://loinc.org,1998-4,mg/dL,7.0,13.0
+Calcium; total between 1.0 and 147.0 mmol/L,http://loinc.org,2001-6,mmol/L,1.0,147.0
+Calcium; total between 3.4 and 36.0 g/dL,http://loinc.org,2001-6,g/dL,3.4,36.0
+Chloride; blood between 1.0 and 97.0 mg/dL,http://loinc.org,2075-0,mg/dL,1.0,97.0
+Creatinine; other source between 10.0 and 30.0 mg/L,http://loinc.org,2161-8,mg/L,10.0,30.0
+Creatinine; blood between 0.1 and 5.0 mg/dL,http://loinc.org,2160-0,mg/dL,0.1,5.0
+"Creatine kinase (CK), (CPK); total between 1.58 and 1000.0 ng/dL",http://loinc.org,2157-6,ng/dL,1.58,1000.0
+"Creatine kinase (CK), (CPK); total between 1.0 and 242.0 mmol/L",http://loinc.org,2157-6,mmol/L,1.0,242.0
+"Creatine kinase (CK), (CPK); total between 1.0 and 242.0 g/dL",http://loinc.org,2157-6,g/dL,1.0,242.0
+Calcium; total between 3.4 and 36.0 g/dL,http://loinc.org,25583-6,g/dL,3.4,36.0
+Calcium; total between 1.2 and 448.0 pg/mL,http://loinc.org,27373-0,pg/mL,1.2,448.0
+"Potassium; serum, plasma or whole blood between 3.0 and 8.0 mmol/L",http://loinc.org,2823-3,mmol/L,3.0,8.0
+Prolactin between 1.0 and 1000.0 ng/mL,http://loinc.org,2842-3,ng/mL,1.0,1000.0
+Calcium; total between 1.0 and 147.0 mmol/L,http://loinc.org,32305-5,mmol/L,1.0,147.0
+Calcium; total between 1.2 and 448.0 pg/mL,http://loinc.org,38250-7,pg/mL,1.2,448.0
+Creatinine; blood between 0.1 and 5.0 mg/dL,http://snomed.info/sct,70901006,mg/dL,0.1,5.0
+Calcium; total between 7.0 and 13.0 mg/mL,http://snomed.info/sct,71878006,mg/mL,7.0,13.0
+Triglycerides between 0.0 and 100.0 %,http://loinc.org,12228-3,%,0.0,100.0
+Creatinine; other source between 0.1 and 5.0 mg/dL,http://loinc.org,12588-0,mg/dL,0.1,5.0
+Calcium; total between 7.0 and 13.0 mg/mL,http://loinc.org,14419-6,mg/mL,7.0,13.0
+Calcium; total between 1.2 and 448.0 pg/mL,http://loinc.org,14416-2,pg/mL,1.2,448.0
+Calcium; total between 1.0 and 147.0 mmol/L,http://loinc.org,14417-0,mmol/L,1.0,147.0
+Calcium; total between 3.4 and 36.0 g/dL,http://loinc.org,14418-8,g/dL,3.4,36.0
+Carbon dioxide (bicarbonate) between 2.0 and 42.0 10*-3.eq/L,http://loinc.org,14627-4,10*-3.eq/L,2.0,42.0
+Calcium; total between 7.0 and 13.0 mg/mL,http://loinc.org,16273-5,mg/mL,7.0,13.0
+Calcium; total between 7.0 and 13.0 mg/dL,http://loinc.org,16273-5,mg/dL,7.0,13.0
+"Lipoprotein, direct measurement; LDL cholesterol between 0.0 and 100.0 %",http://loinc.org,18262-6,%,0.0,100.0
+Calcium; total between 3.4 and 36.0 g/dL,http://loinc.org,17861-6,g/dL,3.4,36.0
+Bilirubin; total between 1.0 and 398.0 mg/dL,http://loinc.org,1974-5,mg/dL,1.0,398.0
+Calcium; total between 1.2 and 448.0 pg/mL,http://loinc.org,1998-4,pg/mL,1.2,448.0
+Calcium; total between 7.0 and 13.0 mg/dL,http://loinc.org,2002-4,mg/dL,7.0,13.0
+Bilirubin; direct between 1.0 and 483.0 ug/dL,http://loinc.org,1968-7,ug/dL,1.0,483.0
+Calcium; total between 1.0 and 147.0 mmol/L,http://loinc.org,2000-8,mmol/L,1.0,147.0
+Calcium; total between 1.0 and 147.0 mmol/L,http://loinc.org,2002-4,mmol/L,1.0,147.0
+Calcium; total between 3.4 and 36.0 g/dL,http://loinc.org,2002-4,g/dL,3.4,36.0
+Ferritin between 0.0 and 100.0 fL,http://loinc.org,2276-4,fL,0.0,100.0
+Calcium; total between 7.0 and 13.0 mg/mL,http://loinc.org,25583-6,mg/mL,7.0,13.0
+Triglycerides between 40.0 and 1000.0 mg/dL,http://loinc.org,2571-8,mg/dL,40.0,1000.0
+Calcium; total between 7.0 and 13.0 mg/dL,http://loinc.org,25583-6,mg/dL,7.0,13.0
+Calcium; total between 7.0 and 13.0 mg/dL,http://loinc.org,30527-6,mg/dL,7.0,13.0
+Calcium; total between 1.0 and 147.0 mmol/L,http://loinc.org,38250-7,mmol/L,1.0,147.0
+Calcium; total between 1.2 and 448.0 pg/mL,http://loinc.org,1997-6,pg/mL,1.2,448.0
+Calcium; total between 7.0 and 13.0 mg/mL,http://loinc.org,12181-4,mg/mL,7.0,13.0
+Calcium; total between 7.0 and 13.0 mg/mL,http://loinc.org,15155-5,mg/mL,7.0,13.0
+Bilirubin; total between 1.0 and 34.0 g/dL,http://loinc.org,14631-6,g/dL,1.0,34.0
+Magnesium between 0.0 and 10.0 10*-3.eq/L,http://loinc.org,19123-9,10*-3.eq/L,0.0,10.0
+Calcium; total between 7.0 and 13.0 mg/mL,http://loinc.org,2000-8,mg/mL,7.0,13.0
+Bilirubin; total between 1.0 and 34.0 g/dL,http://loinc.org,1974-5,g/dL,1.0,34.0
+Calcium; total between 1.2 and 448.0 pg/mL,http://loinc.org,1996-8,pg/mL,1.2,448.0
+Calcium; total between 1.2 and 448.0 pg/mL,http://loinc.org,2000-8,pg/mL,1.2,448.0
+Calcium; total between 1.0 and 147.0 mmol/L,http://loinc.org,1997-6,mmol/L,1.0,147.0
+Bilirubin; direct between 1.0 and 148.0 mmol/L,http://loinc.org,1968-7,mmol/L,1.0,148.0
+Calcium; total between 3.4 and 36.0 g/dL,http://loinc.org,1996-8,g/dL,3.4,36.0
+Calcium; total between 3.4 and 36.0 g/dL,http://loinc.org,1998-4,g/dL,3.4,36.0
+Iron between 0.0 and 270.0 ng/mL,http://loinc.org,2498-4,ng/mL,0.0,270.0
+Iron between 0.0 and 1000.0 ug/dL,http://loinc.org,2498-4,ug/dL,0.0,1000.0
+Lactate (lactic acid) between 0.0 and 100.0 mmol/L,http://loinc.org,2524-7,mmol/L,0.0,100.0
+Magnesium between 0.0 and 10.0 mmol/L,http://loinc.org,2598-1,mmol/L,0.0,10.0
+Lactate (lactic acid) between 0.0 and 100.0 mmol/L,http://loinc.org,30242-2,mmol/L,0.0,100.0
+Calcium; total between 1.2 and 448.0 pg/mL,http://loinc.org,30527-6,pg/mL,1.2,448.0
+Bilirubin; total between 1.0 and 398.0 mg/dL,http://loinc.org,14631-6,mg/dL,1.0,398.0
+Prostate specific antigen (PSA); total between 0.0 and 10.0 ng/mL,http://snomed.info/sct,63476009,ng/mL,0.0,10.0
+Calcium; total between 7.0 and 13.0 mg/dL,http://loinc.org,14419-6,mg/dL,7.0,13.0
+"Thromboplastin time, partial (PTT); plasma or whole blood between 0.0 and 100.0 %",http://loinc.org,14979-9,%,0.0,100.0
+Lactate (lactic acid) between 0.0 and 100.0 mmol/L,http://loinc.org,15078-9,mmol/L,0.0,100.0
+Calcium; total between 7.0 and 13.0 mg/dL,http://loinc.org,15155-5,mg/dL,7.0,13.0
+Creatinine; other source between 10.0 and 30.0 mg/L,http://loinc.org,2162-6,mg/L,10.0,30.0
+Calcium; total between 1.2 and 448.0 pg/mL,http://loinc.org,25583-6,pg/mL,1.2,448.0
+Calcium; total between 7.0 and 13.0 mg/mL,http://loinc.org,27373-0,mg/mL,7.0,13.0
+Phosphorus inorganic (phosphate) between 1.0 and 10.0 mmol/L,http://loinc.org,2777-1,mmol/L,1.0,10.0
+Calcium; total between 3.4 and 36.0 g/dL,http://loinc.org,27172-6,g/dL,3.4,36.0
+Prostate specific antigen (PSA); total between 1.0 and 100.0 mg/dL,http://snomed.info/sct,63476009,mg/dL,1.0,100.0
+Lipase between 0.0 and 100.0 %,http://loinc.org,3040-3,%,0.0,100.0
+Calcium; total between 7.0 and 13.0 mg/dL,http://loinc.org,14415-4,mg/dL,7.0,13.0
+Calcium; total between 1.2 and 448.0 pg/mL,http://loinc.org,15155-5,pg/mL,1.2,448.0
+Calcium; total between 3.4 and 36.0 g/dL,http://loinc.org,1999-2,g/dL,3.4,36.0
+Ferritin between 0.0 and 40.0 %,http://loinc.org,2276-4,%,0.0,40.0
+Testosterone; total between 0.0 and 100.0 %,http://loinc.org,2986-8,%,0.0,100.0
+Creatinine; blood between 10.0 and 30.0 mg/L,http://loinc.org,38483-4,mg/L,10.0,30.0
+Creatinine; blood between 10.0 and 30.0 mg/L,http://snomed.info/sct,70901006,mg/L,10.0,30.0
+Calcium; total between 3.4 and 36.0 g/dL,http://snomed.info/sct,71878006,g/dL,3.4,36.0
+Creatinine; other source between 10.0 and 200.0 umol/L,http://loinc.org,15050-8,umol/L,10.0,200.0
+Creatinine; other source between 0.1 and 5.0 mg/dL,http://loinc.org,15050-8,mg/dL,0.1,5.0
+Bilirubin; direct between 1.0 and 37000.0 mg/dL,http://loinc.org,15152-2,mg/dL,1.0,37000.0
+Calcium; total between 1.2 and 448.0 pg/mL,http://loinc.org,16273-5,pg/mL,1.2,448.0
+Bilirubin; direct between 1.0 and 1900.0 ng/mL,http://loinc.org,1968-7,ng/mL,1.0,1900.0
+Creatinine; blood between 10.0 and 200.0 umol/L,http://loinc.org,2160-0,umol/L,10.0,200.0
+Creatinine; other source between 10.0 and 200.0 umol/L,http://loinc.org,2162-6,umol/L,10.0,200.0
+Thyroid stimulating hormone (TSH) between 0.0 and 100.0 %,http://loinc.org,3016-3,%,0.0,100.0
+Creatinine; other source between 10.0 and 200.0 umol/L,http://loinc.org,2161-8,umol/L,10.0,200.0
+Creatinine; other source between 0.1 and 5.0 mg/dL,http://loinc.org,25386-4,mg/dL,0.1,5.0
+Creatinine; other source between 10.0 and 30.0 mg/L,http://loinc.org,14683-7,mg/L,10.0,30.0
+Magnesium between 0.0 and 6000.0 ug/dL,http://loinc.org,19123-9,ug/dL,0.0,6000.0
+Carbon dioxide (bicarbonate) between 2.0 and 42.0 mmol/L,http://loinc.org,2028-9,mmol/L,2.0,42.0
+Calcium; total between 1.0 and 147.0 mmol/L,http://loinc.org,25583-6,mmol/L,1.0,147.0
+Calcium; total between 7.0 and 13.0 mg/mL,http://loinc.org,27172-6,mg/mL,7.0,13.0
+Carbon dioxide (bicarbonate) between 2.0 and 42.0 mmol/L,http://loinc.org,14627-4,mmol/L,2.0,42.0
+Bilirubin; direct between 1.0 and 148.0 mmol/L,http://loinc.org,15152-2,mmol/L,1.0,148.0
+Calcium; total between 1.0 and 147.0 mmol/L,http://loinc.org,1999-2,mmol/L,1.0,147.0
+Ferritin between 0.0 and 32.0 g/dL,http://loinc.org,2276-4,g/dL,0.0,32.0
+Calcium; total between 1.0 and 147.0 mmol/L,http://loinc.org,1996-8,mmol/L,1.0,147.0
+Lactate (lactic acid) between 0.0 and 100.0 mmol/L,http://loinc.org,2520-5,mmol/L,0.0,100.0
+Calcium; total between 3.4 and 36.0 g/dL,http://loinc.org,2000-8,g/dL,3.4,36.0
+Ferritin between 0.0 and 150.0 mg/dL,http://loinc.org,2276-4,mg/dL,0.0,150.0
+Calcium; total between 3.4 and 36.0 g/dL,http://loinc.org,14417-0,g/dL,3.4,36.0
+Calcium; total between 7.0 and 13.0 mg/dL,http://loinc.org,2000-8,mg/dL,7.0,13.0
+Creatinine; other source between 0.1 and 5.0 mg/dL,http://loinc.org,2162-6,mg/dL,0.1,5.0
+Calcium; total between 1.2 and 448.0 pg/mL,http://loinc.org,14415-4,pg/mL,1.2,448.0
+Calcium; total between 1.2 and 448.0 pg/mL,http://loinc.org,32305-5,pg/mL,1.2,448.0
+Calcium; total between 3.4 and 36.0 g/dL,http://loinc.org,14416-2,g/dL,3.4,36.0
+Prostate specific antigen (PSA); total between 0.0 and 10.0 ng/mL,http://loinc.org,2857-1,ng/mL,0.0,10.0
+Amiodarone [Mass/volume] in Serum or Plasma between 0.0 and 556.0 ug/mL,http://www.ama-assn.org/go/cpt,80299,ug/mL,0.0,556.0
+Aldosterone [Mass/volume] in Serum or Plasma between 0.001 and 500.0 ng/dL,http://www.ama-assn.org/go/cpt,82088,ng/dL,0.001,500.0
+Amylase [Enzymatic activity/volume] in Serum or Plasma between 6.0 and 107.0 [U]/L,http://www.ama-assn.org/go/cpt,82150,[U]/L,6.0,107.0
+Bilirubin.conjugated [Mass/volume] in Serum or Plasma between 0.01 and 100.0 mg/dL,http://www.ama-assn.org/go/cpt,82248,mg/dL,0.01,100.0
+Calcidiol [Mass/volume] in Serum or Plasma between 8.0 and 103.0 pg/mL,http://www.ama-assn.org/go/cpt,82306,pg/mL,8.0,103.0
+"Carbon dioxide, total [Moles/volume] in Serum or Plasma between 20.0 and 100.0 10*-3.eq/L",http://www.ama-assn.org/go/cpt,82374,10*-3.eq/L,20.0,100.0
+Ceruloplasmin [Mass/volume] in Serum or Plasma between 19.0 and 1000.0 mg/dL,http://www.ama-assn.org/go/cpt,82390,mg/dL,19.0,1000.0
+Serum total cholesterol measurement between 1.0 and 15.0 mmol/L,http://www.ama-assn.org/go/cpt,82465,mmol/L,1.0,15.0
+Creatine kinase [Enzymatic activity/volume] in Serum or Plasma between 47.0 and 1000.0 [iU]/L,http://www.ama-assn.org/go/cpt,82550,[iU]/L,47.0,1000.0
+Creatinine [Mass/volume] in Body fluid between 10.0 and 200.0 umol/L,http://www.ama-assn.org/go/cpt,82570,umol/L,10.0,200.0
+pH of Venous blood between 7.0 and 9.0 pH,http://www.ama-assn.org/go/cpt,82800,pH,7.0,9.0
+Fasting glucose [Mass/volume] in Serum or Plasma between 50.0 and 200.0 pg/mL,http://www.ama-assn.org/go/cpt,82947,pg/mL,50.0,200.0
+Glucose [Mass/volume] in Serum or Plasma --2 hours post 75 g glucose PO between 1.0 and 1100.0 mg/dL,http://www.ama-assn.org/go/cpt,82950,mg/dL,1.0,1100.0
+Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma between 0.01 and 90.0 [iU]/L,http://www.ama-assn.org/go/cpt,82977,[iU]/L,0.01,90.0
+Iron [Mass/volume] in Serum or Plasma between 0.01 and 150.0 ug/dL,http://www.ama-assn.org/go/cpt,83540,ug/dL,0.01,150.0
+Lipase [Enzymatic activity/volume] in Serum or Plasma between 0.01 and 70.0 [iU]/L,http://www.ama-assn.org/go/cpt,83690,[iU]/L,0.01,70.0
+Natriuretic peptide B [Mass/volume] in Serum or Plasma between 0.0 and 5000.0 pg/mL,http://www.ama-assn.org/go/cpt,83880,pg/mL,0.0,5000.0
+Osmolality of Serum or Plasma between 220.0 and 420.0 mosm/L,http://www.ama-assn.org/go/cpt,83930,mosm/L,220.0,420.0
+pH of Urine between 5.0 and 11.0 pH,http://www.ama-assn.org/go/cpt,83986,pH,5.0,11.0
+Potassium [Moles/volume] in Serum or Plasma between 3.0 and 8.0 mmol,http://www.ama-assn.org/go/cpt,84132,mmol,3.0,8.0
+Digoxin [Mass/volume] in Serum or Plasma between 0.0 and 3.0 ng/dL,http://www.ama-assn.org/go/cpt,80162,ng/dL,0.0,3.0
+Valproate [Mass/volume] in Serum or Plasma between 0.0 and 1000.0 mg/L,http://www.ama-assn.org/go/cpt,80164,mg/L,0.0,1000.0
+Phenytoin [Mass/volume] in Serum or Plasma between 0.0 and 40.0 mg/L,http://www.ama-assn.org/go/cpt,80185,mg/L,0.0,40.0
+Acetaminophen [Mass/volume] in Serum or Plasma between 0.0 and 6.0 ng/mL,http://www.ama-assn.org/go/cpt,82003,ng/mL,0.0,6.0
+Albumin [Mass/volume] in Serum or Plasma between 1.0 and 18.0 mmol/L,http://www.ama-assn.org/go/cpt,82040,mmol/L,1.0,18.0
+Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma between 0.0 and 100.0 ug/L,http://www.ama-assn.org/go/cpt,82105,ug/L,0.0,100.0
+Bilirubin.total [Mass/volume] in Serum or Plasma between 1.0 and 143.0 mmol/L,http://www.ama-assn.org/go/cpt,82247,mmol/L,1.0,143.0
+Bilirubin.direct [Mass/volume] in Serum or Plasma between 0.0 and 4.0 mg/dL,http://www.ama-assn.org/go/cpt,82248,mg/dL,0.0,4.0
+Calcidiol [Mass/volume] in Serum or Plasma between 14.0 and 50.0 ng/mL,http://www.ama-assn.org/go/cpt,82306,ng/mL,14.0,50.0
+Ceruloplasmin [Mass/volume] in Serum or Plasma between 121.0 and 412.0 mg/L,http://www.ama-assn.org/go/cpt,82390,mg/L,121.0,412.0
+Chloride [Moles/volume] in Serum or Plasma between 77.0 and 1000.0 10*-3.eq/dL,http://www.ama-assn.org/go/cpt,82435,10*-3.eq/dL,77.0,1000.0
+Cortisol [Mass/volume] in Serum or Plasma between 8.0 and 1000.0 nmol/L,http://www.ama-assn.org/go/cpt,82533,nmol/L,8.0,1000.0
+Creatinine [Mass/volume] in Serum or Plasma between 0.1 and 5.0 mg/dL,http://www.ama-assn.org/go/cpt,82565,mg/dL,0.1,5.0
+Creatinine [Mass/volume] in Body fluid between 10.0 and 30.0 mg/L,http://www.ama-assn.org/go/cpt,82570,mg/L,10.0,30.0
+Estradiol (E2) [Mass/volume] in Serum or Plasma between 0.0 and 20.0 ng/dL,http://www.ama-assn.org/go/cpt,82670,ng/dL,0.0,20.0
+Glucose [Mass/volume] in Urine between 0.0 and 800.0 mosm/kg,http://www.ama-assn.org/go/cpt,82945,mosm/kg,0.0,800.0
+Glucose [Mass/volume] in Serum or Plasma --2 hours post meal between 1.0 and 200.0 mg/dL,http://www.ama-assn.org/go/cpt,82950,mg/dL,1.0,200.0
+Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma between 10.0 and 70.0 ug/mL,http://www.ama-assn.org/go/cpt,82977,ug/mL,10.0,70.0
+Iron binding capacity [Mass/volume] in Serum or Plasma between 0.0 and 1000.0 umol/L,http://www.ama-assn.org/go/cpt,83550,umol/L,0.0,1000.0
+Osmolality of Urine between 100.0 and 1000.0 mosm/kg,http://www.ama-assn.org/go/cpt,83935,mosm/kg,100.0,1000.0
+Acetaminophen [Mass/volume] in Serum or Plasma between 0.0 and 1000.0 mg/L,http://www.ama-assn.org/go/cpt,82003,mg/L,0.0,1000.0
+Calcidiol [Mass/volume] in Serum or Plasma between 5.0 and 716.0 nmol/L,http://www.ama-assn.org/go/cpt,82306,nmol/L,5.0,716.0
+Calcium [Moles/volume] in Serum or Plasma between 1.0 and 37.0 g/dL,http://www.ama-assn.org/go/cpt,82310,g/dL,1.0,37.0
+"Carbon dioxide, total [Moles/volume] in Serum or Plasma between 12.0 and 100.0 mmol/L",http://www.ama-assn.org/go/cpt,82374,mmol/L,12.0,100.0
+Chloride [Moles/volume] in Serum or Plasma between 95.0 and 103.0 ng/mL,http://www.ama-assn.org/go/cpt,82435,ng/mL,95.0,103.0
+Creatinine [Moles/volume] in Urine between 300.0 and 3000.0 mg/L,http://www.ama-assn.org/go/cpt,82570,mg/L,300.0,3000.0
+Calcitriol [Mass/volume] in Serum or Plasma between 20.0 and 373.0 pmol/L,http://www.ama-assn.org/go/cpt,82652,pmol/L,20.0,373.0
+Ferritin [Mass/volume] in Serum or Plasma between 0.0 and 400.0 [U],http://www.ama-assn.org/go/cpt,82728,[U],0.0,400.0
+Glucose [Mass/volume] in Urine between 0.01 and 500.0 mg/dL,http://www.ama-assn.org/go/cpt,82945,mg/dL,0.01,500.0
+Osmolality of Serum or Plasma between 220.0 and 420.0 mosm/kg,http://www.ama-assn.org/go/cpt,83930,mosm/kg,220.0,420.0
+Potassium [Moles/volume] in Serum or Plasma between 3.0 and 8.0 mmol/L,http://www.ama-assn.org/go/cpt,84132,mmol/L,3.0,8.0
+Digoxin [Mass/volume] in Serum or Plasma between 0.0 and 2.0 nmol/L,http://www.ama-assn.org/go/cpt,80162,nmol/L,0.0,2.0
+Bilirubin.total [Mass/volume] in Serum or Plasma between 1.0 and 37.0 g/dL,http://www.ama-assn.org/go/cpt,82247,g/dL,1.0,37.0
+Calcium.ionized [Mass/volume] in Blood between 870.0 and 1500.0 umol/L,http://www.ama-assn.org/go/cpt,82330,umol/L,870.0,1500.0
+Chloride [Moles/volume] in Serum or Plasma between 0.0 and 180.0 mg/dL,http://www.ama-assn.org/go/cpt,82435,mg/dL,0.0,180.0
+Creatinine [Mass/volume] in Body fluid between 0.1 and 5.0 mg/dL,http://www.ama-assn.org/go/cpt,82570,mg/dL,0.1,5.0
+Fasting glucose [Mass/volume] in Serum or Plasma between 0.0 and 10.0 mmol/L,http://www.ama-assn.org/go/cpt,82947,mmol/L,0.0,10.0
+Osmolality of Serum or Plasma between 220.0 and 420.0 mosm,http://www.ama-assn.org/go/cpt,83930,mosm,220.0,420.0
+Calcium.ionized [Moles/volume] in Blood between 1.0 and 2.0 10*-3.eq/L,http://www.ama-assn.org/go/cpt,82330,10*-3.eq/L,1.0,2.0
+Chloride [Moles/volume] in Serum or Plasma between 49.0 and 212.0 mmol/L,http://www.ama-assn.org/go/cpt,82435,mmol/L,49.0,212.0
+Creatinine [Moles/volume] in Serum or Plasma between 0.1 and 5.0 mg/dL,http://www.ama-assn.org/go/cpt,82565,mg/dL,0.1,5.0
+Creatinine [Moles/volume] in Urine between 17.0 and 500.0 mg/dL,http://www.ama-assn.org/go/cpt,82570,mg/dL,17.0,500.0
+Fasting glucose [Mass/volume] in Serum or Plasma between 50.0 and 200.0 [U],http://www.ama-assn.org/go/cpt,82947,[U],50.0,200.0
+Total cholesterol measurement between 1.0 and 10.0 g/L,http://www.ama-assn.org/go/cpt,82465,g/L,1.0,10.0
+Creatinine [Mass/volume] in Serum or Plasma between 10.0 and 200.0 umol/L,http://www.ama-assn.org/go/cpt,82565,umol/L,10.0,200.0
+Creatinine [Moles/volume] in Serum or Plasma between 10.0 and 200.0 umol/L,http://www.ama-assn.org/go/cpt,82565,umol/L,10.0,200.0
+Creatinine [Mass/volume] in Urine between 6.0 and 268.0 mL/min/1.73.m2,http://www.ama-assn.org/go/cpt,82570,mL/min/1.73.m2,6.0,268.0
+Calcium.ionized [Moles/volume] in Serum or Plasma by calculation between 3.0 and 6.0 mg/dL,http://www.ama-assn.org/go/cpt,82330,mg/dL,3.0,6.0
+Creatinine [Mass/volume] in Serum or Plasma between 2.5 and 36.0 g/dL,http://www.ama-assn.org/go/cpt,82565,g/dL,2.5,36.0
+Cholesterol [Mass/volume] in Serum or Plasma between 2.6 and 36.0 g/dL,http://www.ama-assn.org/go/cpt,82465,g/dL,2.6,36.0
+Creatinine [Mass/volume] in Urine between 2.0 and 22.0 mmol/L,http://www.ama-assn.org/go/cpt,82570,mmol/L,2.0,22.0
+Creatinine [Mass/volume] in Urine between 1.0 and 8.0 mg/g,http://www.ama-assn.org/go/cpt,82570,mg/g,1.0,8.0
+Creatinine [Mass/time] in 24 hour Urine between 100.0 and 4000.0 mg/(24.h),http://www.ama-assn.org/go/cpt,82570,mg/(24.h),100.0,4000.0
+Creatinine [Mass/time] in 24 hour Urine between 47.0 and 335.0 mL/min,http://www.ama-assn.org/go/cpt,82570,mL/min,47.0,335.0
+Protein [Mass/volume] in Serum or Plasma between 6.0 and 15.0 g/dL,http://www.ama-assn.org/go/cpt,84155,g/dL,6.0,15.0
+Sodium [Moles/volume] in Serum or Plasma between 100.0 and 150.0 10*-3.eq/L,http://www.ama-assn.org/go/cpt,84295,10*-3.eq/L,100.0,150.0
+Thyroglobulin [Mass/volume] in Serum or Plasma between 0.0 and 6000.0 ng/mL,http://www.ama-assn.org/go/cpt,84432,ng/mL,0.0,6000.0
+Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma between 5.0 and 2000.0 [iU]/L,http://www.ama-assn.org/go/cpt,84450,[iU]/L,5.0,2000.0
+Transferrin [Mass/volume] in Serum or Plasma between 100.0 and 1000.0 mg/dL,http://www.ama-assn.org/go/cpt,84466,mg/dL,100.0,1000.0
+Urate [Mass/volume] in Urine between 200.0 and 1000.0 mg/(24.h),http://www.ama-assn.org/go/cpt,84560,mg/(24.h),200.0,1000.0
+C peptide [Mass/volume] in Serum or Plasma between 0.0 and 20.0 ng/mL,http://www.ama-assn.org/go/cpt,84681,ng/mL,0.0,20.0
+C-reactive protein measurement between 0.1 and 50.0 mg/dL,http://www.ama-assn.org/go/cpt,86141,mg/dL,0.1,50.0
+Prostate Specific Ag Free [Mass/volume] in Serum or Plasma between 0.0 and 10.0 ug/L,http://www.ama-assn.org/go/cpt,84154,ug/L,0.0,10.0
+Sex hormone binding globulin [Moles/volume] in Serum or Plasma between 0.0 and 100.0 %,http://www.ama-assn.org/go/cpt,84270,%,0.0,100.0
+Sodium [Moles/volume] in Serum or Plasma between 100.0 and 150.0 mmol/L,http://www.ama-assn.org/go/cpt,84295,mmol/L,100.0,150.0
+Testosterone Free [Mass/volume] in Serum or Plasma between 0.001 and 1000.0 ng/dL,http://www.ama-assn.org/go/cpt,84402,ng/dL,0.001,1000.0
+Testosterone [Mass/volume] in Serum or Plasma between 0.0 and 100.0 %,http://www.ama-assn.org/go/cpt,84403,%,0.0,100.0
+Thyroxine (T4) [Mass/volume] in Serum or Plasma between 0.1 and 10.0 ug/dL,http://www.ama-assn.org/go/cpt,84436,ug/dL,0.1,10.0
+Triglyceride [Mass/volume] in Serum or Plasma between 1.0 and 10.0 mmol/L,http://www.ama-assn.org/go/cpt,84478,mmol/L,1.0,10.0
+Triiodothyronine (T3) [Mass/volume] in Serum or Plasma between 1.0 and 100.0 mg/dL,http://www.ama-assn.org/go/cpt,84480,mg/dL,1.0,100.0
+Urea nitrogen [Mass/volume] in Serum or Plasma between 0.0 and 1000.0 mmol/L,http://www.ama-assn.org/go/cpt,84520,mmol/L,0.0,1000.0
+Urate [Mass/volume] in Urine between 0.0 and 100.0 mg/dL,http://www.ama-assn.org/go/cpt,84560,mg/dL,0.0,100.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 50.0 u,http://www.ama-assn.org/go/cpt,85014,u,0.0,50.0
+Prothrombin time (PT) between 0.0 and 100.0 %,http://www.ama-assn.org/go/cpt,85610,%,0.0,100.0
+Sodium [Moles/volume] in Serum or Plasma between 0.0 and 100.0 %,http://www.ama-assn.org/go/cpt,84295,%,0.0,100.0
+Testosterone Free [Mass/volume] in Serum or Plasma between 0.0 and 100.0 %,http://www.ama-assn.org/go/cpt,84402,%,0.0,100.0
+Thyroxine (T4) [Mass/volume] in Serum or Plasma between 0.1 and 10.0 ng/dL,http://www.ama-assn.org/go/cpt,84436,ng/dL,0.1,10.0
+Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma between 5.0 and 2000.0 mg/dL,http://www.ama-assn.org/go/cpt,84460,mg/dL,5.0,2000.0
+Transferrin [Mass/volume] in Serum or Plasma between 1.0 and 10.0 g/L,http://www.ama-assn.org/go/cpt,84466,g/L,1.0,10.0
+Triiodothyronine (T3) [Mass/volume] in Serum or Plasma between 60.0 and 1000.0 ng/dL,http://www.ama-assn.org/go/cpt,84480,ng/dL,60.0,1000.0
+Triiodothyronine (T3) Free [Mass/volume] in Serum or Plasma between 3.0 and 10.0 pmol/L,http://www.ama-assn.org/go/cpt,84481,pmol/L,3.0,10.0
+Urea nitrogen [Mass/volume] in Serum or Plasma between 0.0 and 100.0 %,http://www.ama-assn.org/go/cpt,84520,%,0.0,100.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 50.0 m,http://www.ama-assn.org/go/cpt,85014,m,0.0,50.0
+C-reactive protein measurement between 1.0 and 18.0 mg,http://www.ama-assn.org/go/cpt,86141,mg,1.0,18.0
+Complement C4 [Mass/volume] in Serum or Plasma between 1.0 and 2.0 g/L,http://www.ama-assn.org/go/cpt,86160,g/L,1.0,2.0
+Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma between 5.0 and 2000.0 [U]/L,http://www.ama-assn.org/go/cpt,84450,[U]/L,5.0,2000.0
+Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma between 5.0 and 2000.0 ug/dL,http://www.ama-assn.org/go/cpt,84460,ug/dL,5.0,2000.0
+European house dust mite IgE Ab [Units/volume] in Serum between 0.0 and 100.0 %,http://www.ama-assn.org/go/cpt,86003,%,0.0,100.0
+C reactive protein [Mass/volume] in Serum or Plasma between 0.0 and 5.0 mg/dL,http://www.ama-assn.org/go/cpt,86140,mg/dL,0.0,5.0
+Cancer Ag 125 [Units/volume] in Serum or Plasma between 1.0 and 628.0 [U]/mL,http://www.ama-assn.org/go/cpt,86304,[U]/mL,1.0,628.0
+Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma between 5.0 and 2000.0 %,http://www.ama-assn.org/go/cpt,84450,%,5.0,2000.0
+Cancer Ag 125 [Units/volume] in Serum or Plasma between 1.0 and 628.0 umol/L,http://www.ama-assn.org/go/cpt,86304,umol/L,1.0,628.0
+Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma between 5.0 and 2000.0 ug/L,http://www.ama-assn.org/go/cpt,84460,ug/L,5.0,2000.0
+Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma between 5.0 and 2000.0 g/dL,http://www.ama-assn.org/go/cpt,84460,g/dL,5.0,2000.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 50.0 mg/dL,http://www.ama-assn.org/go/cpt,85014,mg/dL,0.0,50.0
+Bermuda grass IgE Ab [Units/volume] in Serum between 1.0 and 12.0 10*3/uL,http://www.ama-assn.org/go/cpt,86003,10*3/uL,1.0,12.0
+Soybean IgE Ab [Units/volume] in Serum between 0.0 and 100.0 %,http://www.ama-assn.org/go/cpt,86003,%,0.0,100.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 50.0 mL,http://www.ama-assn.org/go/cpt,85014,mL,0.0,50.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 40.0 L,http://www.ama-assn.org/go/cpt,85014,L,0.0,40.0
+Valproate [Mass/volume] in Serum or Plasma between 0.0 and 1000.0 ug/mL,http://www.ama-assn.org/go/cpt,80164,ug/mL,0.0,1000.0
+Acetaminophen [Mass/volume] in Serum or Plasma between 0.0 and 1000.0 ug/mL,http://www.ama-assn.org/go/cpt,82003,ug/mL,0.0,1000.0
+Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma between 0.0 and 100.0 ng/mL,http://www.ama-assn.org/go/cpt,82105,ng/mL,0.0,100.0
+Lithium [Mass/volume] in Serum or Plasma between 0.0 and 3.0 ug/mL,http://www.ama-assn.org/go/cpt,80178,ug/mL,0.0,3.0
+Calcium.ionized [Mass/volume] in Blood between 1.0 and 7.0 mg/dL,http://www.ama-assn.org/go/cpt,82330,mg/dL,1.0,7.0
+"Carbon dioxide, total [Moles/volume] in Serum or Plasma between 360.0 and 1000.0 mg/dL",http://www.ama-assn.org/go/cpt,82374,mg/dL,360.0,1000.0
+Ferritin [Mass/volume] in Serum or Plasma between 0.0 and 500.0 ug/L,http://www.ama-assn.org/go/cpt,82728,ug/L,0.0,500.0
+Iron [Mass/volume] in Serum or Plasma between 0.0 and 1000.0 umol/L,http://www.ama-assn.org/go/cpt,83540,umol/L,0.0,1000.0
+Lipase [Enzymatic activity/volume] in Serum or Plasma between 0.01 and 120.0 [U]/L,http://www.ama-assn.org/go/cpt,83690,[U]/L,0.01,120.0
+Magnesium [Mass/volume] in Serum or Plasma between 0.0 and 3.0 mg/dL,http://www.ama-assn.org/go/cpt,83735,mg/dL,0.0,3.0
+Osmolality of Serum or Plasma between 220.0 and 420.0 mmol/kg,http://www.ama-assn.org/go/cpt,83930,mmol/kg,220.0,420.0
+Bilirubin.direct [Mass/volume] in Serum or Plasma between 4.2 and 107.0 mmol/L,http://www.ama-assn.org/go/cpt,82248,mmol/L,4.2,107.0
+Calcium.ionized [Mass/volume] in Blood between 1.0 and 3.0 mmol/L,http://www.ama-assn.org/go/cpt,82330,mmol/L,1.0,3.0
+Creatinine [Mass/volume] in Serum or Plasma between 44.0 and 294.0 mL/min/1.73.m2,http://www.ama-assn.org/go/cpt,82565,mL/min/1.73.m2,44.0,294.0
+Iron [Mass/volume] in Serum or Plasma between 0.0 and 100.0 %,http://www.ama-assn.org/go/cpt,83540,%,0.0,100.0
+Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma between 4.2 and 37.0 g/dL,http://www.ama-assn.org/go/cpt,84075,g/dL,4.2,37.0
+Calcium [Mass/volume] in Serum or Plasma between 7.0 and 13.0 mg/mL,http://www.ama-assn.org/go/cpt,82310,mg/mL,7.0,13.0
+Ceruloplasmin [Mass/volume] in Serum or Plasma between 1.0 and 2.0 g/L,http://www.ama-assn.org/go/cpt,82390,g/L,1.0,2.0
+Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma between 10.0 and 60.0 [U],http://www.ama-assn.org/go/cpt,82977,[U],10.0,60.0
+Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma between 20.0 and 731.0 [U]/L,http://www.ama-assn.org/go/cpt,84075,[U]/L,20.0,731.0
+Bicarbonate [Moles/volume] in Venous blood between 18.0 and 47.0 10*-3.eq/L,http://www.ama-assn.org/go/cpt,82374,10*-3.eq/L,18.0,47.0
+Calcium [Mass/volume] in Serum or Plasma between 7.0 and 13.0 mg/dL,http://www.ama-assn.org/go/cpt,82310,mg/dL,7.0,13.0
+Calcium.ionized [Moles/volume] in Blood between 1.0 and 9.0 mg/dL,http://www.ama-assn.org/go/cpt,82330,mg/dL,1.0,9.0
+Chloride [Moles/volume] in Serum or Plasma between 2.0 and 37.0 g/dL,http://www.ama-assn.org/go/cpt,82435,g/dL,2.0,37.0
+Cholesterol [Mass/volume] in Serum or Plasma between 90.0 and 400.0 mg/dL,http://www.ama-assn.org/go/cpt,82465,mg/dL,90.0,400.0
+Creatinine measurement between 10.0 and 200.0 umol/L,http://www.ama-assn.org/go/cpt,82565,umol/L,10.0,200.0
+Prostate specific Ag [Mass/volume] in Serum or Plasma between 0.0 and 20.0 ng/mL,http://www.ama-assn.org/go/cpt,84153,ng/mL,0.0,20.0
+Sex hormone binding globulin [Moles/volume] in Serum or Plasma between 0.01 and 200.0 nmol/L,http://www.ama-assn.org/go/cpt,84270,nmol/L,0.01,200.0
+Triglyceride [Mass/volume] in Serum or Plasma between 40.0 and 1000.0 mg/dL,http://www.ama-assn.org/go/cpt,84478,mg/dL,40.0,1000.0
+Triiodothyronine (T3) Free [Mass/volume] in Serum or Plasma between 1.0 and 100.0 pg/mL,http://www.ama-assn.org/go/cpt,84481,pg/mL,1.0,100.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 0.5 L/L,http://www.ama-assn.org/go/cpt,85014,L/L,0.0,0.5
+Protein [Mass/volume] in Serum or Plasma between 0.0 and 100.0 g/L,http://www.ama-assn.org/go/cpt,84155,g/L,0.0,100.0
+Triiodothyronine (T3) Free [Mass/volume] in Serum or Plasma between 100.0 and 1000.0 pg/dL,http://www.ama-assn.org/go/cpt,84481,pg/dL,100.0,1000.0
+C reactive protein [Mass/volume] in Serum or Plasma between 50.0 and 2300.0 pmol/L,http://www.ama-assn.org/go/cpt,84681,pmol/L,50.0,2300.0
+European house dust mite IgE Ab [Units/volume] in Serum between 0.0 and 40.0 10*3.[U]/L,http://www.ama-assn.org/go/cpt,86003,10*3.[U]/L,0.0,40.0
+Complement C4 [Mass/volume] in Serum or Plasma between 15.0 and 601.0 mg/L,http://www.ama-assn.org/go/cpt,86160,mg/L,15.0,601.0
+Thyrotropin [Units/volume] in Serum or Plasma between 0.1 and 20.0 10*-6.[U]/mL,http://www.ama-assn.org/go/cpt,84443,10*-6.[U]/mL,0.1,20.0
+C-reactive protein measurement between 1.0 and 18.0 mg,http://www.ama-assn.org/go/cpt,86140,mg,1.0,18.0
+Thyroxine (T4) [Mass/volume] in Serum or Plasma between 0.1 and 10.0 g/dL,http://www.ama-assn.org/go/cpt,84436,g/dL,0.1,10.0
+Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma between 5.0 and 2000.0 mmol/L,http://www.ama-assn.org/go/cpt,84460,mmol/L,5.0,2000.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 100.0 %{vol},http://www.ama-assn.org/go/cpt,85014,%{vol},0.0,100.0
+Peanut IgE Ab [Units/volume] in Serum between 4.0 and 1000.0 %,http://www.ama-assn.org/go/cpt,86003,%,4.0,1000.0
+Complement C3 [Mass/volume] in Serum or Plasma between 560.0 and 2000.0 mg/L,http://www.ama-assn.org/go/cpt,86160,mg/L,560.0,2000.0
+American house dust mite IgE Ab [Units/volume] in Serum between 1.0 and 88.0 10*3/uL,http://www.ama-assn.org/go/cpt,86003,10*3/uL,1.0,88.0
+Estradiol (E2) [Mass/volume] in Serum or Plasma between 0.0 and 40000.0 pg/mL,http://www.ama-assn.org/go/cpt,82670,pg/mL,0.0,40000.0
+Carcinoembryonic Ag [Mass/volume] in Serum or Plasma between 1.0 and 6.0 [U],http://www.ama-assn.org/go/cpt,82378,[U],1.0,6.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 50.0 fL,http://www.ama-assn.org/go/cpt,85014,fL,0.0,50.0
+Tacrolimus [Mass/volume] in Blood between 0.0 and 51.0 ng/mL,http://www.ama-assn.org/go/cpt,80197,ng/mL,0.0,51.0
+Creatine kinase.MB [Mass/volume] in Serum or Plasma between 0.0 and 1000.0 ng/mL,http://www.ama-assn.org/go/cpt,82553,ng/mL,0.0,1000.0
+Ferritin [Mass/volume] in Serum or Plasma between 0.01 and 400.0 ng/mL,http://www.ama-assn.org/go/cpt,82728,ng/mL,0.01,400.0
+Glucose [Mass/volume] in Cerebral spinal fluid between 1.0 and 100.0 mg/dL,http://www.ama-assn.org/go/cpt,82945,mg/dL,1.0,100.0
+Iron binding capacity [Mass/volume] in Serum or Plasma between 0.01 and 500.0 ug/dL,http://www.ama-assn.org/go/cpt,83550,ug/dL,0.01,500.0
+Serum total cholesterol measurement between 50.0 and 500.0 mg/dL,http://www.ama-assn.org/go/cpt,82465,mg/dL,50.0,500.0
+Creatine kinase [Enzymatic activity/volume] in Serum or Plasma between 1.0 and 455.0 ng/mL,http://www.ama-assn.org/go/cpt,82550,ng/mL,1.0,455.0
+Potassium [Moles/volume] in Serum or Plasma between 3.0 and 8.0 10*-3.eq/L,http://www.ama-assn.org/go/cpt,84132,10*-3.eq/L,3.0,8.0
+Lithium [Mass/volume] in Serum or Plasma between 0.0 and 1000.0 mmol/L,http://www.ama-assn.org/go/cpt,80178,mmol/L,0.0,1000.0
+Fasting glucose [Mass/volume] in Serum or Plasma between 50.0 and 500.0 mg/dL,http://www.ama-assn.org/go/cpt,82947,mg/dL,50.0,500.0
+Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma between 0.01 and 80.0 [U]/L,http://www.ama-assn.org/go/cpt,82977,[U]/L,0.01,80.0
+Osmolality of Urine between 100.0 and 1000.0 mosm,http://www.ama-assn.org/go/cpt,83935,mosm,100.0,1000.0
+Estradiol (E2) [Mass/volume] in Serum or Plasma between 0.0 and 500.0 ng/L,http://www.ama-assn.org/go/cpt,82670,ng/L,0.0,500.0
+Beta-2-Microglobulin [Mass/volume] in Serum or Plasma between 0.01 and 6.0 g/dL,http://www.ama-assn.org/go/cpt,82232,g/dL,0.01,6.0
+Bicarbonate [Moles/volume] in Venous blood between 18.0 and 47.0 mmol/L,http://www.ama-assn.org/go/cpt,82374,mmol/L,18.0,47.0
+Beta-2-Microglobulin [Mass/volume] in Serum or Plasma between 0.01 and 60.0 g/L,http://www.ama-assn.org/go/cpt,82232,g/L,0.01,60.0
+Calcium.ionized [Moles/volume] in Blood between 1.0 and 4.0 mmol/L,http://www.ama-assn.org/go/cpt,82330,mmol/L,1.0,4.0
+Progesterone [Mass/volume] in Serum or Plasma between 0.0 and 10.0 ng/mL,http://www.ama-assn.org/go/cpt,84144,ng/mL,0.0,10.0
+Prostate Specific Ag Free [Mass/volume] in Serum or Plasma between 0.0 and 10.0 ng/mL,http://www.ama-assn.org/go/cpt,84154,ng/mL,0.0,10.0
+Complement C4 [Mass/volume] in Serum or Plasma between 15.0 and 1000.0 mg/dL,http://www.ama-assn.org/go/cpt,86160,mg/dL,15.0,1000.0
+Prostate specific Ag [Mass/volume] in Serum or Plasma between 0.0 and 6.0 ug/L,http://www.ama-assn.org/go/cpt,84153,ug/L,0.0,6.0
+Cancer Ag 125 [Units/volume] in Serum or Plasma between 1.0 and 628.0 10*3.[U]/L,http://www.ama-assn.org/go/cpt,86304,10*3.[U]/L,1.0,628.0
+Complement C3 [Mass/volume] in Serum or Plasma between 30.0 and 1000.0 mg/dL,http://www.ama-assn.org/go/cpt,86160,mg/dL,30.0,1000.0
+Complement C3 [Mass/volume] in Serum or Plasma between 1.0 and 4.0 g/L,http://www.ama-assn.org/go/cpt,86160,g/L,1.0,4.0
+Alanine aminotransferase measurement between 5.0 and 2000.0 [U],http://www.ama-assn.org/go/cpt,84460,[U],5.0,2000.0
+Creatinine [Mass/volume] in Serum or Plasma between 3.5 and 142.0 mmol/L,http://www.ama-assn.org/go/cpt,82565,mmol/L,3.5,142.0
+Cancer Ag 125 [Units/volume] in Serum or Plasma between 1.0 and 628.0 [iU]/mL,http://www.ama-assn.org/go/cpt,86304,[iU]/mL,1.0,628.0
+Calcium.ionized [Mass/volume] in Blood between 1.0 and 13.0 10*-3.eq/L,http://www.ama-assn.org/go/cpt,82330,10*-3.eq/L,1.0,13.0
+Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay between 418.0 and 2500.0 nmol/L,http://www.ama-assn.org/go/cpt,83721,nmol/L,418.0,2500.0
+Fasting glucose [Mass/volume] in Serum or Plasma between 50.0 and 200.0 ng/mL,http://www.ama-assn.org/go/cpt,82947,ng/mL,50.0,200.0
+Total cholesterol measurement between 0.0 and 100.0 %,http://www.ama-assn.org/go/cpt,82465,%,0.0,100.0
+Creatine kinase [Enzymatic activity/volume] in Serum or Plasma between 3.0 and 1000.0 [U]/L,http://www.ama-assn.org/go/cpt,82550,[U]/L,3.0,1000.0
+Albumin [Mass/volume] in Serum or Plasma between 1.0 and 18.0 g/L,http://www.ama-assn.org/go/cpt,82040,g/L,1.0,18.0
+Beta-2-Microglobulin [Mass/volume] in Serum or Plasma between 0.01 and 11.0 mg/L,http://www.ama-assn.org/go/cpt,82232,mg/L,0.01,11.0
+Calcium [Mass/volume] in Serum or Plasma between 7.0 and 13.0 pg/mL,http://www.ama-assn.org/go/cpt,82310,pg/mL,7.0,13.0
+Total cholesterol measurement between 50.0 and 500.0 mg/dL,http://www.ama-assn.org/go/cpt,82465,mg/dL,50.0,500.0
+Creatinine [Mass/volume] in Urine between 17.0 and 500.0 mg/dL,http://www.ama-assn.org/go/cpt,82570,mg/dL,17.0,500.0
+Testosterone [Mass/volume] in Serum or Plasma between 5.0 and 1000.0 ng/dL,http://www.ama-assn.org/go/cpt,84403,ng/dL,5.0,1000.0
+Thyroxine (T4) [Mass/volume] in Serum or Plasma between 0.1 and 10.0 mg/dL,http://www.ama-assn.org/go/cpt,84436,mg/dL,0.1,10.0
+Thyroxine (T4) free [Mass/volume] in Serum or Plasma between 0.1 and 100.0 ng/dL,http://www.ama-assn.org/go/cpt,84439,ng/dL,0.1,100.0
+Urate [Mass/volume] in Serum or Plasma between 1.0 and 10.0 mg/dL,http://www.ama-assn.org/go/cpt,84550,mg/dL,1.0,10.0
+Prothrombin time (PT) between 3.0 and 170.0 s,http://www.ama-assn.org/go/cpt,85610,s,3.0,170.0
+Rheumatoid factor [Units/volume] in Serum by Nephelometry between 0.0 and 100.0 [iU]/mL,http://www.ama-assn.org/go/cpt,86431,[iU]/mL,0.0,100.0
+Thyrotropin [Units/volume] in Serum or Plasma between 0.1 and 20.0 10*-3.[iU]/L,http://www.ama-assn.org/go/cpt,84443,10*-3.[iU]/L,0.1,20.0
+Rheumatoid factor [Units/volume] in Serum by Nephelometry between 0.0 and 1000.0 [iU]/L,http://www.ama-assn.org/go/cpt,86431,[iU]/L,0.0,1000.0
+Triglyceride [Mass/volume] in Serum or Plasma between 0.0 and 100.0 %,http://www.ama-assn.org/go/cpt,84478,%,0.0,100.0
+Transferrin [Mass/volume] in Serum or Plasma between 0.0 and 100.0 %,http://www.ama-assn.org/go/cpt,84466,%,0.0,100.0
+Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma between 5.0 and 2000.0 [U]/L,http://www.ama-assn.org/go/cpt,84460,[U]/L,5.0,2000.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 40.0 mg,http://www.ama-assn.org/go/cpt,85014,mg,0.0,40.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 0.5 {ratio},http://www.ama-assn.org/go/cpt,85014,{ratio},0.0,0.5
+Hematocrit [Volume Fraction] of Blood between 0.0 and 40.0 [lb_us],http://www.ama-assn.org/go/cpt,85014,[lb_us],0.0,40.0
+Digoxin [Mass/volume] in Serum or Plasma between 0.0 and 2.0 ng/mL,http://www.ama-assn.org/go/cpt,80162,ng/mL,0.0,2.0
+Beta-2-Microglobulin [Mass/volume] in Serum or Plasma between 0.01 and 6.0 ug/mL,http://www.ama-assn.org/go/cpt,82232,ug/mL,0.01,6.0
+Calcitriol [Mass/volume] in Serum or Plasma between 1.0 and 160.0 pg/mL,http://www.ama-assn.org/go/cpt,82652,pg/mL,1.0,160.0
+Osmolality of Urine between 100.0 and 1000.0 mosm/L,http://www.ama-assn.org/go/cpt,83935,mosm/L,100.0,1000.0
+Digoxin [Mass/volume] in Serum or Plasma between 0.0 and 2.0 ug/L,http://www.ama-assn.org/go/cpt,80162,ug/L,0.0,2.0
+Albumin [Mass/volume] in Serum or Plasma between 1.0 and 18.0 g/dL,http://www.ama-assn.org/go/cpt,82040,g/dL,1.0,18.0
+Magnesium [Mass/volume] in Serum or Plasma between 0.0 and 3.0 mmol/L,http://www.ama-assn.org/go/cpt,83735,mmol/L,0.0,3.0
+Bilirubin.total [Moles/volume] in Serum or Plasma between 0.01 and 11.0 mg/dL,http://www.ama-assn.org/go/cpt,82247,mg/dL,0.01,11.0
+Creatinine measurement between 0.1 and 5.0 mg/dL,http://www.ama-assn.org/go/cpt,82565,mg/dL,0.1,5.0
+aPTT in Platelet poor plasma by Coagulation assay between 18.0 and 60.0 s,http://www.ama-assn.org/go/cpt,85730,s,18.0,60.0
+Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma between 5.0 and 2000.0 %,http://www.ama-assn.org/go/cpt,84460,%,5.0,2000.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 50.0 [U],http://www.ama-assn.org/go/cpt,85014,[U],0.0,50.0
+Beta-2-Microglobulin [Mass/volume] in Serum or Plasma between 100.0 and 6000.0 ng/mL,http://www.ama-assn.org/go/cpt,82232,ng/mL,100.0,6000.0
+Creatinine [Mass/volume] in Blood between 0.1 and 5.0 mg/dL,http://www.ama-assn.org/go/cpt,82565,mg/dL,0.1,5.0
+Calcitriol [Mass/volume] in Serum or Plasma between 11.0 and 81.0 ng/mL,http://www.ama-assn.org/go/cpt,82652,ng/mL,11.0,81.0
+"Carbon dioxide, total [Moles/volume] in Serum or Plasma between 232.0 and 1000.0 /uL",http://www.ama-assn.org/go/cpt,82374,/uL,232.0,1000.0
+Creatinine [Mass/volume] in Urine between 2.0 and 706.0 ng/mL,http://www.ama-assn.org/go/cpt,82570,ng/mL,2.0,706.0
+Creatinine measurement between 10.0 and 30.0 mg/L,http://www.ama-assn.org/go/cpt,82565,mg/L,10.0,30.0
+Prostate specific Ag [Mass/volume] in Serum or Plasma between 0.0 and 60.0 ng/dL,http://www.ama-assn.org/go/cpt,84153,ng/dL,0.0,60.0
+Urate [Mass/volume] in Serum or Plasma between 0.001 and 0.01 g/dL,http://www.ama-assn.org/go/cpt,84550,g/dL,0.001,0.01
+Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma between 5.0 and 2000.0 g/dL,http://www.ama-assn.org/go/cpt,84450,g/dL,5.0,2000.0
+Alternaria alternata IgE Ab [Units/volume] in Serum between 1.0 and 39.0 10*3/uL,http://www.ama-assn.org/go/cpt,86003,10*3/uL,1.0,39.0
+Hematocrit [Volume Fraction] of Blood between 1.0 and 50.0 %,http://www.ama-assn.org/go/cpt,85014,%,1.0,50.0
+Creatinine [Mass/time] in 24 hour Urine between 1.0 and 1000.0 g/(24.h),http://www.ama-assn.org/go/cpt,82570,g/(24.h),1.0,1000.0
+Transferrin [Mass/volume] in Serum or Plasma between 0.0 and 100.0 umol/L,http://www.ama-assn.org/go/cpt,84466,umol/L,0.0,100.0
+Phenytoin [Mass/volume] in Serum or Plasma between 0.0 and 40.0 ug/mL,http://www.ama-assn.org/go/cpt,80185,ug/mL,0.0,40.0
+Haptoglobin [Mass/volume] in Serum or Plasma between 0.01 and 500.0 mg/dL,http://www.ama-assn.org/go/cpt,83010,mg/dL,0.01,500.0
+Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma between 1.0 and 236.0 mg/dL,http://www.ama-assn.org/go/cpt,84075,mg/dL,1.0,236.0
+European house dust mite IgE Ab [Units/volume] in Serum between 0.0 and 20.0 10*3/uL,http://www.ama-assn.org/go/cpt,86003,10*3/uL,0.0,20.0
+C reactive protein [Mass/volume] in Serum or Plasma between 0.0 and 24.0 mg/L,http://www.ama-assn.org/go/cpt,86140,mg/L,0.0,24.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 40.0 g/dL,http://www.ama-assn.org/go/cpt,85014,g/dL,0.0,40.0
+Carcinoembryonic Ag [Mass/volume] in Serum or Plasma between 0.0 and 1000.0 ug/L,http://www.ama-assn.org/go/cpt,82378,ug/L,0.0,1000.0
+Lithium [Mass/volume] in Serum or Plasma between 0.0 and 150.0 10*-3.eq/L,http://www.ama-assn.org/go/cpt,80178,10*-3.eq/L,0.0,150.0
+Carcinoembryonic Ag [Mass/volume] in Serum or Plasma between 0.0 and 1000.0 ng/mL,http://www.ama-assn.org/go/cpt,82378,ng/mL,0.0,1000.0
+Amiodarone [Mass/volume] in Serum or Plasma between 1.0 and 6.0 mg/L,http://www.ama-assn.org/go/cpt,80299,mg/L,1.0,6.0
+Beta-2-Microglobulin [Mass/volume] in Serum or Plasma between 0.01 and 60.0 mg/dL,http://www.ama-assn.org/go/cpt,82232,mg/dL,0.01,60.0
+Bilirubin.direct [Mass/volume] in Serum or Plasma between 1.0 and 35.0 g/dL,http://www.ama-assn.org/go/cpt,82248,g/dL,1.0,35.0
+Thyrotropin [Units/volume] in Serum or Plasma between 0.001 and 100.0 10*-3.[U]/L,http://www.ama-assn.org/go/cpt,84443,10*-3.[U]/L,0.001,100.0
+Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma between 5.0 and 2000.0 [iU]/L,http://www.ama-assn.org/go/cpt,84460,[iU]/L,5.0,2000.0
+C-reactive protein measurement between 0.0 and 544.0 mg/L,http://www.ama-assn.org/go/cpt,86140,mg/L,0.0,544.0
+Triiodothyronine resin uptake (T3RU) in Serum or Plasma between 20.0 and 40.0 %,http://www.ama-assn.org/go/cpt,84479,%,20.0,40.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 250.0 10*3/mm3,http://www.ama-assn.org/go/cpt,85014,10*3/mm3,0.0,250.0
+White Oak IgE Ab [Units/volume] in Serum between 0.0 and 100.0 %,http://www.ama-assn.org/go/cpt,86003,%,0.0,100.0
+Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay between 1.0 and 400.0 mg/dL,http://www.ama-assn.org/go/cpt,83721,mg/dL,1.0,400.0
+DNA double strand Ab [Units/volume] in Serum between 0.0 and 1000.0 [iU]/mL,http://www.ama-assn.org/go/cpt,86225,[iU]/mL,0.0,1000.0
+C-reactive protein measurement between 0.0 and 544.0 mg/L,http://www.ama-assn.org/go/cpt,86141,mg/L,0.0,544.0
+Calcium [Moles/volume] in Serum or Plasma between 8.0 and 10000.0 mg/dL,http://www.ama-assn.org/go/cpt,82310,mg/dL,8.0,10000.0
+Bilirubin.total [Mass/volume] in Serum or Plasma between 1.0 and 530.0 umol/L,http://www.ama-assn.org/go/cpt,82247,umol/L,1.0,530.0
+Cholesterol [Mass/volume] in Serum or Plasma between 1.0 and 15.0 mmol/L,http://www.ama-assn.org/go/cpt,82465,mmol/L,1.0,15.0
+C-reactive protein measurement between 0.1 and 50.0 mg/dL,http://www.ama-assn.org/go/cpt,86140,mg/dL,0.1,50.0
+Chloride [Moles/volume] in Serum or Plasma between 49.0 and 1000.0 10*-3.eq/L,http://www.ama-assn.org/go/cpt,82435,10*-3.eq/L,49.0,1000.0
+Total cholesterol measurement between 0.0 and 1000.0 nmol/L,http://www.ama-assn.org/go/cpt,82465,nmol/L,0.0,1000.0
+Calcium [Mass/volume] in Serum or Plasma between 2.0 and 81.0 mmol/L,http://www.ama-assn.org/go/cpt,82310,mmol/L,2.0,81.0
+Albumin [Mass/volume] in Serum or Plasma between 1000.0 and 18000.0 mg/dL,http://www.ama-assn.org/go/cpt,82040,mg/dL,1000.0,18000.0
+Testosterone Free [Mass/volume] in Serum or Plasma between 0.001 and 1000.0 pg/mL,http://www.ama-assn.org/go/cpt,84402,pg/mL,0.001,1000.0
+Triiodothyronine (T3) [Mass/volume] in Serum or Plasma between 0.001 and 1000.0 ng/mL,http://www.ama-assn.org/go/cpt,84480,ng/mL,0.001,1000.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 20.0 mm,http://www.ama-assn.org/go/cpt,85014,mm,0.0,20.0
+Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma between 20.0 and 731.0 [iU]/L,http://www.ama-assn.org/go/cpt,84075,[iU]/L,20.0,731.0
+Cancer Ag 125 [Units/volume] in Serum or Plasma between 1.0 and 628.0 [arb'U]/mL,http://www.ama-assn.org/go/cpt,86304,[arb'U]/mL,1.0,628.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 70.0 F,http://www.ama-assn.org/go/cpt,85014,F,0.0,70.0
+Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma between 5.0 and 2000.0 u,http://www.ama-assn.org/go/cpt,84460,u,5.0,2000.0
+Creatinine [Mass/volume] in Urine between 300.0 and 3000.0 mg/L,http://www.ama-assn.org/go/cpt,82570,mg/L,300.0,3000.0
+Common Ragweed IgE Ab [Units/volume] in Serum between 1.0 and 42.0 10*3/uL,http://www.ama-assn.org/go/cpt,86003,10*3/uL,1.0,42.0
+Bilirubin.direct [Mass/volume] in Serum or Plasma between 1.0 and 440.0 umol/L,http://www.ama-assn.org/go/cpt,82248,umol/L,1.0,440.0
+Ceruloplasmin [Mass/volume] in Serum or Plasma between 164.0 and 439.0 umol/L,http://www.ama-assn.org/go/cpt,82390,umol/L,164.0,439.0
+Creatinine [Mass/volume] in Urine between 0.01 and 40.0 g/L,http://www.ama-assn.org/go/cpt,82570,g/L,0.01,40.0
+Bilirubin.total [Mass/volume] in Serum or Plasma between 0.0 and 100.0 mg/dL,http://www.ama-assn.org/go/cpt,82247,mg/dL,0.0,100.0
+Magnesium [Mass/volume] in Serum or Plasma between 0.0 and 3.0 10*-3.eq/L,http://www.ama-assn.org/go/cpt,83735,10*-3.eq/L,0.0,3.0
+Iron binding capacity [Mass/volume] in Serum or Plasma between 0.0 and 100.0 %,http://www.ama-assn.org/go/cpt,83550,%,0.0,100.0
+Urea nitrogen [Mass/volume] in Serum or Plasma between 5.0 and 100.0 mg/dL,http://www.ama-assn.org/go/cpt,84520,mg/dL,5.0,100.0
+Thyrotropin [Units/volume] in Serum or Plasma between 0.0 and 100.0 %,http://www.ama-assn.org/go/cpt,84443,%,0.0,100.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 5.0 cm,http://www.ama-assn.org/go/cpt,85014,cm,0.0,5.0
+Rheumatoid factor [Units/volume] in Serum or Plasma between 0.0 and 100.0 [iU]/mL,http://www.ama-assn.org/go/cpt,86431,[iU]/mL,0.0,100.0
+Hematocrit [Volume Fraction] of Blood between 0.0 and 90000.0 kg,http://www.ama-assn.org/go/cpt,85014,kg,0.0,90000.0
+Creatinine [Mass/volume] in Urine between 0.01 and 51.0 mg/mL,http://www.ama-assn.org/go/cpt,82570,mg/mL,0.01,51.0
+Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma between 5.0 and 2000.0 mg/dL,http://www.ama-assn.org/go/cpt,84450,mg/dL,5.0,2000.0
+Estradiol (E2) [Mass/volume] in Serum or Plasma between 0.0 and 800.0 pmol/L,http://www.ama-assn.org/go/cpt,82670,pmol/L,0.0,800.0
+Aspergillus fumigatus IgE Ab [Units/volume] in Serum between 1.0 and 16.0 10*3/uL,http://www.ama-assn.org/go/cpt,86003,10*3/uL,1.0,16.0
+Cortisol [Mass/volume] in Serum or Plasma between 0.001 and 1000.0 ug/dL,http://www.ama-assn.org/go/cpt,82533,ug/dL,0.001,1000.0
+Beta-2-Microglobulin [Mass/volume] in Serum or Plasma between 100.0 and 6000.0 ug/L,http://www.ama-assn.org/go/cpt,82232,ug/L,100.0,6000.0
+Calcium [Moles/volume] in Serum or Plasma between 7.0 and 13.0 mmol/L,http://www.ama-assn.org/go/cpt,82310,mmol/L,7.0,13.0
+Bilirubin.total [Moles/volume] in Serum or Plasma between 1.0 and 46.0 umol/L,http://www.ama-assn.org/go/cpt,82247,umol/L,1.0,46.0
+Protein [Mass/volume] in Serum or Plasma between 0.0 and 100.0 %,http://www.ama-assn.org/go/cpt,84155,%,0.0,100.0
+Prolactin [Mass/volume] in Serum or Plasma between 1.0 and 1000.0 ng/mL,http://www.ama-assn.org/go/cpt,84146,ng/mL,1.0,1000.0
+Chloride; blood between 95.0 and 111.0 10*-3.eq/L,http://snomed.info/sct,104589004,10*-3.eq/L,95.0,111.0
+Creatinine; other source between 10.0 and 30.0 mg/L,http://snomed.info/sct,104612006,mg/L,10.0,30.0
+Chloride; blood between 90.0 and 147.0 mmol/L,http://snomed.info/sct,104589004,mmol/L,90.0,147.0
+Creatinine; other source between 0.1 and 5.0 mg/dL,http://snomed.info/sct,104612006,mg/dL,0.1,5.0
+Creatine between 1.0 and 20.0 mg/dL,http://snomed.info/sct,104612006,mg/dL,1.0,20.0
+Phosphorus inorganic (phosphate) between 1.0 and 10.0 mmol/L,http://snomed.info/sct,104867005,mmol/L,1.0,10.0
+Phosphorus inorganic (phosphate) between 1.0 and 10.0 g/dL,http://snomed.info/sct,104867005,g/dL,1.0,10.0
+Prolactin between 1.0 and 1000.0 ng/mL,http://snomed.info/sct,113083009,ng/mL,1.0,1000.0
+Phosphorus inorganic (phosphate) between 1.0 and 10.0 mg/dL,http://snomed.info/sct,121797002,mg/dL,1.0,10.0
+Chloride; blood between 1.0 and 97.0 mg/dL,http://snomed.info/sct,104589004,mg/dL,1.0,97.0
+Phosphorus inorganic (phosphate) between 1.0 and 10.0 mg/dL,http://snomed.info/sct,104867005,mg/dL,1.0,10.0
+"Lipoprotein, direct measurement; LDL cholesterol between 0.0 and 100.0 %",http://snomed.info/sct,113079009,%,0.0,100.0
+Creatinine; other source between 10.0 and 200.0 umol/L,http://snomed.info/sct,104612006,umol/L,10.0,200.0
+"Lipoprotein, direct measurement; LDL cholesterol between 5.0 and 400.0 mg/dL",http://snomed.info/sct,113079009,mg/dL,5.0,400.0
+Phosphorus inorganic (phosphate) between 1.0 and 10.0 mmol/L,http://snomed.info/sct,121797002,mmol/L,1.0,10.0
+"Phosphatase, alkaline between 1.0 and 360.0 mg/dL",http://loinc.org,6768-6,mg/dL,1.0,360.0
+Phosphorus inorganic (phosphate) between 1.0 and 10.0 g/dL,http://snomed.info/sct,121797002,g/dL,1.0,10.0
+"Phosphatase, alkaline between 1.0 and 36.0 g/dL",http://loinc.org,6768-6,g/dL,1.0,36.0
+Triglycerides between 40.0 and 1000.0 mg/dL,http://snomed.info/sct,14740000,mg/dL,40.0,1000.0
+Triglycerides between 0.0 and 100.0 %,http://snomed.info/sct,14740000,%,0.0,100.0
+Blood count; hemoglobin (Hgb) between 3.0 and 36.0 g/dL,http://snomed.info/sct,250221001,g/dL,3.0,36.0
+"Potassium; serum, plasma or whole blood between 3.0 and 8.0 10*-3.eq/L",http://snomed.info/sct,271236005,10*-3.eq/L,3.0,8.0
+"Potassium; serum, plasma or whole blood between 3.0 and 8.0 mmol/L",http://snomed.info/sct,271236005,mmol/L,3.0,8.0
+"Lipoprotein, direct measurement; high density cholesterol (HDL cholesterol) between 5.0 and 150.0 mg/dL",http://snomed.info/sct,28036006,mg/dL,5.0,150.0
+Blood count; hemoglobin (Hgb) between 3.0 and 36.0 mg/dL,http://snomed.info/sct,250221001,mg/dL,3.0,36.0
+Blood count; hemoglobin (Hgb) between 2.0 and 319.0 ug/dL,http://snomed.info/sct,250221001,ug/dL,2.0,319.0
+Testosterone; total between 5.0 and 1000.0 ng/dL,http://snomed.info/sct,85470006,ng/dL,5.0,1000.0
+Carbon dioxide (bicarbonate) between 2.0 and 42.0 10*-3.eq/L,http://snomed.info/sct,88645003,10*-3.eq/L,2.0,42.0
+Carbon dioxide (bicarbonate) between 2.0 and 42.0 mmol/L,http://snomed.info/sct,88645003,mmol/L,2.0,42.0
+"Phosphatase, alkaline between 1.0 and 360.0 mg/dL",http://snomed.info/sct,88810008,mg/dL,1.0,360.0
+"Phosphatase, alkaline between 1.0 and 36.0 g/dL",http://snomed.info/sct,88810008,g/dL,1.0,36.0
+Testosterone; total between 0.0 and 100.0 %,http://snomed.info/sct,85470006,%,0.0,100.0

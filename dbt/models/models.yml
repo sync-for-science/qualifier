@@ -1,0 +1,6 @@
+version: 2
+
+models:
+  - name: 'quality_metrics'
+    config:
+      materialized: 'incremental'

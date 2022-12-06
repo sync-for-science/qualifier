@@ -1,0 +1,31 @@
+name: 'qualifier'
+version: '1.3.0'
+config-version: 2
+
+profile: 'qualifier'
+
+model-paths: ["models"]
+test-paths: ["unit-tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+
+target-path: "target"  # directory which will store compiled SQL files
+clean-targets:         # directories to be removed by `dbt clean`
+  - "target"
+  - "dbt_packages"
+
+vars:
+  db_json_column: "json"
+  db_is_jsonb: True
+  metric_include_examples: "all"
+  # individual file locations can also be set in models/sources.yml
+  # see dbt-duckdb documentation at https://github.com/jwills/dbt-duckdb
+  ndjson_file_path: "/Users/dan/Projects/qualifier-wip/data/synthea/{name}.ndjson"
+
+seeds:
+  qualifier:
+    +schema: seed_data
+
+models:
+  qualifier:
+    +materialized: table

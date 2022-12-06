@@ -1,0 +1,20 @@
+qualifier:
+  outputs:
+    dev_duck:
+      type: duckdb
+      path: "./fhir.duckdb"
+      extensions:
+        - json
+
+    dev_pg:
+      type: postgres
+      user: ''
+      pass: ''
+      threads: 1
+      host: 127.0.0.1
+      port: 5432
+      dbname: fhir-uscore
+      schema: public
+
+
+  target: dev_duck

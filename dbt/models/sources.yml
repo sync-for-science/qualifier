@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: qualifier
+    schema: public
+    meta:
+      # external_location: "read_json_objects('/Users/dan/Projects/qualifier/data/synthea/{name}.ndjson')"
+      external_location: "read_json_objects('{{var('ndjson_file_path')}}')"
+    tables: 
+      - name: patient
+      - name: observation
+      - name: condition
+      - name: encounter
