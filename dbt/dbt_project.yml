@@ -15,7 +15,8 @@ clean-targets:         # directories to be removed by `dbt clean`
   - "dbt_packages"
 
 vars:
-  db_json_column: "json"
+  db_json_column: "json" # dev duckdb
+  # db_json_column: "resource" # dev postgres
   db_is_jsonb: True
   metric_include_examples: "all"
   # individual file locations can also be set in models/sources.yml
