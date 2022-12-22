@@ -34,23 +34,23 @@ WITH fhir_flat AS (
 		p.{{column}} ->> 'gender' AS gender
 
 	FROM {{table}} p
-		LEFT JOIN {{json_type}}_array_elements(resource -> 'extension') AS birthSexExtension
+		LEFT JOIN {{json_type}}_array_elements({{column}} -> 'extension') AS birthSexExtension
 			ON (birthSexExtension.value ->> 'url') =  'http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex'
 
-		LEFT JOIN {{json_type}}_array_elements(resource -> 'extension') AS sexForClinicalUseExtension
+		LEFT JOIN {{json_type}}_array_elements({{column}} -> 'extension') AS sexForClinicalUseExtension
 			ON (sexForClinicalUseExtension.value ->> 'url') =  'http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use'
 
 		LEFT JOIN {{json_type}}_array_elements(sexForClinicalUseExtension -> 'valueCodeableConcept' -> 'coding') AS sexForClinicalUseCoding
 			ON (sexForClinicalUseCoding.value ->> 'system') =  'urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000'
 
-		LEFT JOIN {{json_type}}_array_elements(resource -> 'extension') AS raceExtensionRoot
+		LEFT JOIN {{json_type}}_array_elements({{column}} -> 'extension') AS raceExtensionRoot
 			ON (raceExtensionRoot.value ->> 'url') =  'http://hl7.org/fhir/us/core/StructureDefinition/us-core-race'
 
 		LEFT JOIN {{json_type}}_array_elements(raceExtensionRoot -> 'extension') AS raceExtension
 			ON (raceExtension.value ->> 'url') =  'http://hl7.org/fhir/us/core/StructureDefinition/us-core-race/ombCategory'
 				OR (raceExtension.value ->> 'url') =  'ombCategory'
 
-		LEFT JOIN {{json_type}}_array_elements(resource -> 'extension') AS ethnicityExtensionRoot
+		LEFT JOIN {{json_type}}_array_elements({{column}} -> 'extension') AS ethnicityExtensionRoot
 			ON (ethnicityExtensionRoot.value ->> 'url') = 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity'
 
 		LEFT JOIN {{json_type}}_array_elements(ethnicityExtensionRoot -> 'extension') AS ethnicityExtension
