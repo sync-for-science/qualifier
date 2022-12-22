@@ -20,17 +20,17 @@ SELECT
 		ELSE (obs_component.value -> 'valueQuantity' ->> 'value')::NUMERIC
 	END AS quantity_value,
 	obs_component.value -> 'valueQuantity' ->> 'system' AS quantity_system,
-	obs_component.value -> 'valueQuantity' ->> 'code' AS quanitity_code,
+	obs_component.value -> 'valueQuantity' ->> 'code' AS quantity_code,
 	CASE 
 		WHEN (obs_component.value ->> 'dataAbsentReason') != '' 
 		THEN true 
 		ELSE NULL 
 	END AS has_data_absent
 FROM {{ table }} o
-	LEFT JOIN LATERAL {{ "jsonb_array_elements" if jsonb else "json_array_elements" }}({{column}} -> 'code' -> 'coding') obs_coding ON 1=1
-	LEFT JOIN LATERAL {{ "jsonb_array_elements" if jsonb else "json_array_elements" }}({{column}} -> 'component')
+	LEFT JOIN LATERAL {{ "jsonb_array_elements" if is_jsonb else "json_array_elements" }}({{column}} -> 'code' -> 'coding') obs_coding ON 1=1
+	LEFT JOIN LATERAL {{ "jsonb_array_elements" if is_jsonb else "json_array_elements" }}({{column}} -> 'component')
 		WITH ordinality AS obs_component(value, idx) ON 1=1
-	LEFT JOIN LATERAL {{ "jsonb_array_elements" if jsonb else "json_array_elements" }}(obs_component.value -> 'code' -> 'coding') obs_component_coding ON 1=1
+	LEFT JOIN LATERAL {{ "jsonb_array_elements" if is_jsonb else "json_array_elements" }}(obs_component.value -> 'code' -> 'coding') obs_component_coding ON 1=1
 	WHERE 
 		(obs_component.value -> 'valueQuantity' ->> 'value') IS NOT NULL 
 		OR (obs_component.value ->> 'dataAbsentReason') IS NOT NULL 

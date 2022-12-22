@@ -18,7 +18,7 @@ vars:
   db_json_column: "json" # dev duckdb
   # db_json_column: "resource" # dev postgres
   db_is_jsonb: True
-  metric_include_examples: "all"
+  metric_include_examples: "sample"
   # individual file locations can also be set in models/sources.yml
   # see dbt-duckdb documentation at https://github.com/jwills/dbt-duckdb
   ndjson_file_path: "/Users/dan/Projects/qualifier-wip/data/synthea/{name}.ndjson"

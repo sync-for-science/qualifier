@@ -1,4 +1,4 @@
-{% macro flat_obs_quantitative(table, column, is_jsonb=True) %}
+{% macro flat_obs_quantitative(table, column, is_jsonb) %}
 	{{ return(adapter.dispatch('flat_obs_quantitative')(table, column, is_jsonb)) }}
 {% endmacro %}
 
@@ -19,14 +19,14 @@ SELECT
 	o.{{column}} -> 'valueQuantity' ->> 'code' AS quantity_code,
 	CASE WHEN (o.{{column}} ->> 'dataAbsentReason') != '' THEN true ELSE NULL END AS has_data_absent
 FROM {{ table }} o
-	LEFT JOIN LATERAL {{ "jsonb_array_elements" if jsonb else "json_array_elements" }}({{column}} -> 'code' -> 'coding') obs_coding
+	LEFT JOIN LATERAL {{ "jsonb_array_elements" if is_jsonb else "json_array_elements" }}({{column}} -> 'code' -> 'coding') obs_coding
 		ON 1=1
 	WHERE 
 		(o.{{column}} -> 'valueQuantity' ->> 'value') IS NOT NULL 
 		OR (o.{{column}} ->> 'dataAbsentReason') IS NOT NULL 
 {% endmacro %}
 
-{% macro duckdb__flat_obs_quantitative(table, column, is_jsonb) %}
+{% macro duckdb__flat_obs_quantitative(table, column, is_jsonb=False) %}
 WITH fhir_struct AS (
 	SELECT from_json({{column}}, '{
 		"id": "VARCHAR",

@@ -17,4 +17,4 @@ qualifier:
       schema: public
 
 
-  target: dev_duck
+  target: '{{ var("target", "dev_duck") }}'

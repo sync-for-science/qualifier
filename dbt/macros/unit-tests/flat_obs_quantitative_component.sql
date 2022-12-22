@@ -347,7 +347,7 @@ flat AS (
 ),
 expect AS (
 	{% call table_to_sql() %}
-  | obs_id           | subject           | effective_date_time   | obs_system         | obs_code   | obs_display                                       | code        | system                                   | display                    | id                 |   quantity_value | quantity_system             | quanitity_code   | has_data_absent::BOOLEAN   |
+  | obs_id           | subject           | effective_date_time   | obs_system         | obs_code   | obs_display                                       | code        | system                                   | display                    | id                 |   quantity_value | quantity_system             | quantity_code   | has_data_absent::BOOLEAN   |
   |------------------|-------------------|-----------------------|--------------------|------------|---------------------------------------------------|-------------|------------------------------------------|----------------------------|--------------------|------------------|-----------------------------|------------------|-------------------|
   | 'blood-pressure' | 'Patient/example' | '2012-09-17'          | 'http://loinc.org' | '85354-9'  | 'Blood pressure panel with all children optional' | '8480-6'    | 'http://loinc.org'                       | 'Systolic blood pressure'  | 'blood-pressure-1' |              107 | 'http://unitsofmeasure.org' | 'mm[Hg]'         | NULL              |
   | 'blood-pressure' | 'Patient/example' | '2012-09-17'          | 'http://loinc.org' | '85354-9'  | 'Blood pressure panel with all children optional' | '271649006' | 'http://snomed.info/sct'                 | 'Systolic blood pressure'  | 'blood-pressure-1' |              107 | 'http://unitsofmeasure.org' | 'mm[Hg]'         | NULL              |
@@ -410,7 +410,7 @@ flat AS (
 ),
 expect AS (
 	{% call table_to_sql() %}
-  | obs_id           | subject           | effective_date_time   | obs_system         | obs_code   | obs_display                                       | code        | system                                   | display                    | id                 |   quantity_value | quantity_system             | quanitity_code   | has_data_absent::BOOLEAN   |
+  | obs_id           | subject           | effective_date_time   | obs_system         | obs_code   | obs_display                                       | code        | system                                   | display                    | id                 |   quantity_value | quantity_system             | quantity_code   | has_data_absent::BOOLEAN   |
   |------------------|-------------------|-----------------------|--------------------|------------|---------------------------------------------------|-------------|------------------------------------------|----------------------------|--------------------|------------------|-----------------------------|------------------|-------------------|
   | 'blood-pressure' | 'Patient/example' | '2012-09-17'          | 'http://loinc.org' | '85354-9'  | 'Blood pressure panel with all children optional' | '8480-6'    | 'http://loinc.org'                       | 'Systolic blood pressure'  | 'blood-pressure-1' |              107 | 'http://unitsofmeasure.org' | 'mm[Hg]'         | NULL              |
   | 'blood-pressure' | 'Patient/example' | '2012-09-17'          | 'http://loinc.org' | '85354-9'  | 'Blood pressure panel with all children optional' | '271649006' | 'http://snomed.info/sct'                 | 'Systolic blood pressure'  | 'blood-pressure-1' |              107 | 'http://unitsofmeasure.org' | 'mm[Hg]'         | NULL              |
@@ -419,7 +419,7 @@ expect AS (
   {% endcall %}
   UNION ALL
 	{% call table_to_sql() %}
-  | obs_id           | subject           | effective_date_time   | obs_system         | obs_code   | obs_display                                       | code     | system             | display                    | id                 | quantity_value   | quantity_system             | quanitity_code   | has_data_absent   |
+  | obs_id           | subject           | effective_date_time   | obs_system         | obs_code   | obs_display                                       | code     | system             | display                    | id                 | quantity_value   | quantity_system             | quantity_code   | has_data_absent   |
   |------------------|-------------------|-----------------------|--------------------|------------|---------------------------------------------------|----------|--------------------|----------------------------|--------------------|------------------|-----------------------------|------------------|-------------------|
   | 'bp-data-absent' | 'Patient/example' | '1999-07-02'          | 'http://loinc.org' | '85354-9'  | 'Blood pressure panel with all children optional' | '8480-6' | 'http://loinc.org' | 'Systolic blood pressure'  | 'bp-data-absent-1' | 109              | 'http://unitsofmeasure.org' | 'mm[Hg]'         | NULL              |
   | 'bp-data-absent' | 'Patient/example' | '1999-07-02'          | 'http://loinc.org' | '85354-9'  | 'Blood pressure panel with all children optional' | '8462-4' | 'http://loinc.org' | 'Diastolic blood pressure' | 'bp-data-absent-2' | NULL             | NULL                        | NULL             | True              |
