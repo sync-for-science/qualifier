@@ -6,3 +6,5 @@ logs/
 */.ipynb_checkpoints/*
 omop/
 .user.yml
+.env
+raw-fhir/
