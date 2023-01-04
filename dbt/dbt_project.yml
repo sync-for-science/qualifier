@@ -21,7 +21,8 @@ vars:
   metric_include_examples: "sample"
   # individual file locations can also be set in models/sources.yml
   # see dbt-duckdb documentation at https://github.com/jwills/dbt-duckdb
-  ndjson_file_path: "/Users/dan/Projects/qualifier-wip/data/synthea/{name}.ndjson"
+  # ndjson_file_path: "/Users/dan/Projects/qualifier-wip/data/synthea/{name}.ndjson"
+  ndjson_file_path: "./raw-fhir/{name}.ndjson"
 
 seeds:
   qualifier:
