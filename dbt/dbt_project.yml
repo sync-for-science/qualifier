@@ -23,6 +23,10 @@ vars:
   # see dbt-duckdb documentation at https://github.com/jwills/dbt-duckdb
   # ndjson_file_path: "/Users/dan/Projects/qualifier-wip/data/synthea/{name}.ndjson"
   ndjson_file_path: "./raw-fhir/{name}.ndjson"
+  skip_resource_count_date: False
+  skip_resource_count_category: False
+  skip_resource_count_category_encounter: True
+
 
 seeds:
   qualifier:

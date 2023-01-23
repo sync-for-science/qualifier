@@ -9,6 +9,7 @@
         {%- set cells = re.split("\s*(?<!\\\)\|\s*", row) -%}
         {%- for cell in cells -%}
             {%- set field = fields[loop.index0].split("::") -%}
+            {%- set cell = cell.replace("\|", "|") -%}
             {%- if field[1] -%}
                 {%- set ns.query_select = ns.query_select + [cell + "::" + field[1] + " AS " + field[0]] -%}
             {%- else -%}

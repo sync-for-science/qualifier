@@ -19,6 +19,7 @@ Important Files:
 	- [flat_obs_quantitative.sql](macros/flat-fhir/flat_obs_quantitative.sql) ([unit tests](macros/unit-tests/flat_obs_quantitative.sql)) -  projection of FHIR Observation resource with valueQuantity populated for metrics
 	- [flat_obs_quantitative_component.sql](macros/flat-fhir/flat_obs_quantitative_component.sql) ([unit tests](macros/unit-tests/flat_obs_quantitative_component.sql)) - projection of FHIR Observation resource with component.valueQuantity populated for metrics
 	- [q_obs_value_range](macros/metric/q_obs_value_range.sql) ([unit tests](macros/unit-tests/q_obs_value_range.sql)) - quality metric calculation using flat_obs_quantitative or flat_obs_quantitative_component
+	- [c_resource_count](macros/metric/c_resource_count.sql) ([unit tests](macros/unit-tests/c_resource_count.sql)) - characterization metric calculation for counts of resources by category and primary date (where applicable)
 	- [c_pt_count](macros/metric/c_pt_count.sql) ([unit tests](macros/unit-tests/c_pt_count.sql)) - characterization metric calculation using flat_patient
 	- [c_pt_deceased_count](macros/metric/c_pt_deceased_count.sql) ([unit tests](macros/unit-tests/c_pt_deceased_count.sql)) - characterization metric calculation using flat_patient
 	- [expectations_to_metric](macros/util/expectations_to_metric.sql) ([unit tests](macros/unit-tests/expectations_to_metric.sql)) - aggregate quality metrics into standard structure of numerator, denominator and examples

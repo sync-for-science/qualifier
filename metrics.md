@@ -283,7 +283,7 @@ Category elements:
 | Patient                  | NA                              | NA                                                                        |
 | Observation              | category                        | http://terminology.hl7.org/CodeSystem/observation-category                |
 | Condition                | category                        | http://terminology.hl7.org/CodeSystem/condition-category                  |
-| Encounter                | type                            | http://terminology.hl7.org/CodeSystem/v3-ActCode                          |
+| Encounter                | type                            | http://www.ama-assn.org/go/cpt or http://snomed.info/sct                  |
 | Immunization             | NA                              | NA                                                                        |
 | Procedure                | NA                              | NA                                                                        |
 | AllergyIntolerance       | category                        | food, medication, environment, biologic                                   |

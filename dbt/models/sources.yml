@@ -11,3 +11,6 @@ sources:
       - name: observation
       - name: condition
       - name: encounter
+      - name: immunization
+      - name: medicationrequest
+      - name: procedure
