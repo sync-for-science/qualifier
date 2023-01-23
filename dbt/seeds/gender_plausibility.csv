@@ -1,366 +1,366 @@
-expectation_name,system,code,gender,resource_type
-Hemospermia gender is Male,http://snomed.info/sct,34615008,M,condition
-Secondary malignant neoplasm of right ovary gender is Female,http://snomed.info/sct,369530001,F,condition
-Disorder of endocrine ovary gender is Female,http://snomed.info/sct,37102008,F,condition
-Inflammatory disorder of penis gender is Male,http://snomed.info/sct,371163003,M,condition
-Primary malignant neoplasm of body of uterus gender is Female,http://snomed.info/sct,371971003,F,condition
-Malignant neoplasm of body of uterus gender is Female,http://snomed.info/sct,371972005,F,condition
-Primary malignant neoplasm of fallopian tube gender is Female,http://snomed.info/sct,371987000,F,condition
-Primary malignant neoplasm of penis gender is Male,http://snomed.info/sct,372005006,M,condition
-Primary malignant neoplasm of scrotum gender is Male,http://snomed.info/sct,372009000,M,condition
-Primary malignant neoplasm of uterine cervix gender is Female,http://snomed.info/sct,372024009,F,condition
-Primary malignant neoplasm of vagina gender is Female,http://snomed.info/sct,372025005,F,condition
-Dysplasia of vagina gender is Female,http://snomed.info/sct,3754002,F,condition
-Inflammation of cervix gender is Female,http://snomed.info/sct,37610005,F,condition
-Incision of ovary gender is Female,http://snomed.info/sct,38192004,F,procedure
-Light and infrequent menstruation gender is Female,http://snomed.info/sct,386704007,F,condition
-Primary uterine inertia gender is Female,http://snomed.info/sct,387699008,F,condition
-Female infertility of tubal origin gender is Female,http://snomed.info/sct,39446004,F,condition
-Vaginal wall prolapse gender is Female,http://snomed.info/sct,398022005,F,condition
-Low cervical cesarean section gender is Female,http://snomed.info/sct,398307005,F,procedure
-Malignant tumor of prostate gender is Male,http://snomed.info/sct,399068003,M,condition
-Nodular prostate without urinary obstruction gender is Male,http://snomed.info/sct,40411000119106,M,condition
-Prostatic cyst gender is Male,http://snomed.info/sct,409658007,M,condition
-Inflammatory disorder of male genital organ gender is Male,http://snomed.info/sct,128478005,M,condition
-Induratio penis plastica gender is Male,http://snomed.info/sct,1335005,M,condition
-Benign endometrial hyperplasia gender is Female,http://snomed.info/sct,134031000119108,F,condition
-Amenorrhea gender is Female,http://snomed.info/sct,14302001,F,condition
-Vulval irritation gender is Female,http://snomed.info/sct,161818003,F,condition
-Vaginal discharge symptom gender is Female,http://snomed.info/sct,162156001,F,condition
-Obstetric examination gender is Female,http://snomed.info/sct,163497009,F,procedure
-Bacterial vaginosis gender is Female,http://snomed.info/sct,419760006,F,condition
-Abnormal menstrual cycle gender is Female,http://snomed.info/sct,42131003,F,condition
-Azoospermia gender is Male,http://snomed.info/sct,425558002,M,condition
-Hyperplasia of prostate gender is Male,http://snomed.info/sct,433234005,M,condition
-Injury of male external genital organs gender is Male,http://snomed.info/sct,43566003,M,condition
-Swelling of testicle gender is Male,http://snomed.info/sct,438457000,M,condition
-Inflammatory disease of female genital structure gender is Female,http://snomed.info/sct,442506007,F,condition
-Benign localized hyperplasia of prostate gender is Male,http://snomed.info/sct,444808002,M,condition
-Dysplasia of prostate gender is Male,http://snomed.info/sct,445068007,M,condition
-Low lying placenta gender is Female,http://snomed.info/sct,445122007,F,condition
-Herniation of rectum into vagina gender is Female,http://snomed.info/sct,447072005,F,condition
-Balanitis gender is Male,http://snomed.info/sct,44882003,M,condition
-Phimosis gender is Male,http://snomed.info/sct,449826002,M,condition
-Balanoposthitis gender is Male,http://snomed.info/sct,46090001,M,condition
-Scrotal varices gender is Male,http://snomed.info/sct,46871008,M,condition
-Spermatocele gender is Male,http://snomed.info/sct,49263001,M,condition
-Atrophic vaginitis gender is Female,http://snomed.info/sct,52441000,F,condition
-Candidal balanitis gender is Male,http://snomed.info/sct,52643007,M,condition
-Vulvovaginitis gender is Female,http://snomed.info/sct,53277000,F,condition
-Cone biopsy of cervix gender is Female,http://snomed.info/sct,54535009,F,procedure
-Mucous polyp of cervix gender is Female,http://snomed.info/sct,55310007,F,condition
-"Transurethral electrosurgical resection of prostate, including control of postoperative bleeding, complete (vasectomy, meatotomy, cystourethroscopy, urethral calibration and/or dilation, and internal urethrotomy are included) gender is Male",http://www.ama-assn.org/go/cpt,52601,M,procedure
-"Laser vaporization of prostate, including control of postoperative bleeding, complete (vasectomy, meatotomy, cystourethroscopy, urethral calibration and/or dilation, internal urethrotomy and transurethral resection of prostate are included if performed) gender is Male",http://www.ama-assn.org/go/cpt,52648,M,procedure
-"Destruction of lesion(s), penis (eg, condyloma, papilloma, molluscum contagiosum, herpetic vesicle), simple; chemical gender is Male",http://www.ama-assn.org/go/cpt,54050,M,procedure
-"Destruction of lesion(s), penis (eg, condyloma, papilloma, molluscum contagiosum, herpetic vesicle), simple; cryosurgery gender is Male",http://www.ama-assn.org/go/cpt,54056,M,procedure
-"Destruction of lesion(s), penis (eg, condyloma, papilloma, molluscum contagiosum, herpetic vesicle), extensive (eg, laser surgery, electrosurgery, cryosurgery, chemosurgery) gender is Male",http://www.ama-assn.org/go/cpt,54065,M,procedure
-"Biopsy of penis, (separate procedure) gender is Male",http://www.ama-assn.org/go/cpt,54100,M,procedure
-"Circumcision, using clamp or other device with regional dorsal penile or ring block gender is Male",http://www.ama-assn.org/go/cpt,54150,M,procedure
-"Orchiectomy, simple (including subcapsular), with or without testicular prosthesis, scrotal or inguinal approach gender is Male",http://www.ama-assn.org/go/cpt,54520,M,procedure
-"Orchiopexy, inguinal approach, with or without hernia repair gender is Male",http://www.ama-assn.org/go/cpt,54640,M,procedure
-Drainage of scrotal wall abscess gender is Male,http://www.ama-assn.org/go/cpt,55100,M,procedure
-"Vasectomy, unilateral or bilateral (separate procedure), including postoperative semen examination(s) gender is Male",http://www.ama-assn.org/go/cpt,55250,M,procedure
-"Biopsy, prostate; needle or punch, single or multiple, any approach gender is Male",http://www.ama-assn.org/go/cpt,55700,M,procedure
-"Prostatectomy, retropubic radical, with or without nerve sparing; with bilateral pelvic lymphadenectomy, including external iliac, hypogastric, and obturator nodes gender is Male",http://www.ama-assn.org/go/cpt,55845,M,procedure
-"Laparoscopy, surgical prostatectomy, retropubic radical, including nerve sparing, includes robotic assistance, when performed gender is Male",http://www.ama-assn.org/go/cpt,55866,M,procedure
-Colposcopy of the vulva gender is Female,http://www.ama-assn.org/go/cpt,56820,F,procedure
-"Colpopexy, vaginal; extra-peritoneal approach (sacrospinous, iliococcygeus) gender is Female",http://www.ama-assn.org/go/cpt,57282,F,procedure
-"Laparoscopy, surgical, colpopexy (suspension of vaginal apex) gender is Female",http://www.ama-assn.org/go/cpt,57425,F,procedure
-"Colposcopy of the cervix including upper/adjacent vagina, with biopsy(s) of the cervix and endocervical curettage gender is Female",http://www.ama-assn.org/go/cpt,57454,F,procedure
-"Endometrial sampling (biopsy) with or without endocervical sampling (biopsy), without cervical dilation, any method (separate procedure) gender is Female",http://www.ama-assn.org/go/cpt,58100,F,procedure
-"Total abdominal hysterectomy (corpus and cervix), with or without removal of tube(s), with or without removal of ovary(s) gender is Female",http://www.ama-assn.org/go/cpt,58150,F,procedure
-Insertion of intrauterine device (IUD) gender is Female,http://www.ama-assn.org/go/cpt,58300,F,procedure
-Removal of intrauterine device (IUD) gender is Female,http://www.ama-assn.org/go/cpt,58301,F,procedure
-"Endometrial ablation, thermal, without hysteroscopic guidance gender is Female",http://www.ama-assn.org/go/cpt,58353,F,procedure
-"Hysteroscopy, surgical; with sampling (biopsy) of endometrium and/or polypectomy, with or without D & C gender is Female",http://www.ama-assn.org/go/cpt,58558,F,procedure
-"Hysteroscopy, surgical; with endometrial ablation (eg, endometrial resection, electrosurgical ablation, thermoablation) gender is Female",http://www.ama-assn.org/go/cpt,58563,F,procedure
-"Laparoscopy, surgical, with total hysterectomy, for uterus 250 g or less; with removal of tube(s) and/or ovary(s) gender is Female",http://www.ama-assn.org/go/cpt,58571,F,procedure
-"Routine obstetric care including antepartum care, vaginal delivery (with or without episiotomy, and/or forceps) and postpartum care gender is Female",http://www.ama-assn.org/go/cpt,59400,F,procedure
-"Routine obstetric care including antepartum care, cesarean delivery, and postpartum care gender is Female",http://www.ama-assn.org/go/cpt,59510,F,procedure
-Cesarean delivery only gender is Female,http://www.ama-assn.org/go/cpt,59514,F,procedure
-"Cesarean delivery only, including postpartum care gender is Female",http://www.ama-assn.org/go/cpt,59515,F,procedure
-"Treatment of missed abortion, completed surgically; first trimester gender is Female",http://www.ama-assn.org/go/cpt,59820,F,procedure
-"Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation, first trimester (< 14 weeks 0 days), transabdominal approach; single or first gestation gender is Female",http://www.ama-assn.org/go/cpt,76801,F,procedure
-"Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation, after first trimester (> or = 14 weeks 0 days), transabdominal approach; single or first gestation gender is Female",http://www.ama-assn.org/go/cpt,76805,F,procedure
-"Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation plus detailed fetal anatomic examination, transabdominal approach; single or first gestation gender is Female",http://www.ama-assn.org/go/cpt,76811,F,procedure
-"Ultrasound, pregnant uterus, real time with image documentation, first trimester fetal nuchal translucency measurement, transabdominal or transvaginal approach; single or first gestation gender is Female",http://www.ama-assn.org/go/cpt,76813,F,procedure
-"Ultrasound, pregnant uterus, real time with image documentation, limited (eg, fetal heart beat, placental location, fetal position and/or qualitative amniotic fluid volume), 1 or more fetuses gender is Female",http://www.ama-assn.org/go/cpt,76815,F,procedure
-"Ultrasound, pregnant uterus, real time with image documentation, follow-up (eg, re-evaluation of fetal size by measuring standard growth parameters and amniotic fluid volume, re-evaluation of organ system(s) suspected or confirmed to be abnormal on a prev gender is Female",http://www.ama-assn.org/go/cpt,76816,F,procedure
-"Ultrasound, pregnant uterus, real time with image documentation, transvaginal gender is Female",http://www.ama-assn.org/go/cpt,76817,F,procedure
-"Ultrasound, transvaginal gender is Female",http://www.ama-assn.org/go/cpt,76830,F,procedure
-"Ultrasound, scrotum and contents gender is Male",http://www.ama-assn.org/go/cpt,76870,M,procedure
-Foreskin manipulation including lysis of preputial adhesions and stretching gender is Male,http://www.ama-assn.org/go/cpt,54450,M,procedure
-Hysteroscopy gender is Female,http://snomed.info/sct,233545006,F,procedure
-Vulvovaginal disease gender is Female,http://snomed.info/sct,23462007,F,condition
-Benign prostatic hypertrophy with outflow obstruction gender is Male,http://snomed.info/sct,236646007,M,condition
-Hysterectomy gender is Female,http://snomed.info/sct,236886002,F,procedure
-Laparoscopic supracervical hysterectomy gender is Female,http://snomed.info/sct,236889009,F,procedure
-Endometrial hyperplasia gender is Female,http://snomed.info/sct,237072009,F,condition
-Leukorrhea gender is Female,http://snomed.info/sct,237101004,F,condition
-Disorder of female genital organs gender is Female,http://snomed.info/sct,244938009,F,condition
-Acute vaginitis gender is Female,http://snomed.info/sct,24520005,F,condition
-Echography of scrotum and contents gender is Male,http://snomed.info/sct,24737001,M,procedure
-Finding of pattern of menstrual cycle gender is Female,http://snomed.info/sct,248968007,F,condition
-Large prostate gender is Male,http://snomed.info/sct,249607009,M,condition
-Cystocele gender is Female,http://snomed.info/sct,252005008,F,condition
-Penile arterial insufficiency gender is Male,http://snomed.info/sct,252036000,M,condition
-Benign prostatic hypertrophy without outflow obstruction gender is Male,http://snomed.info/sct,254902007,M,condition
-Disorder of vagina gender is Female,http://snomed.info/sct,25658005,F,condition
-Follicular cyst of ovary gender is Female,http://snomed.info/sct,2615004,F,condition
-Endometrial ablation gender is Female,http://snomed.info/sct,265060005,F,procedure
-Benign prostatic hyperplasia gender is Male,http://snomed.info/sct,266569009,M,condition
-Endometriosis of ovary gender is Female,http://snomed.info/sct,266589005,F,condition
-Stricture or atresia of the vagina gender is Female,http://snomed.info/sct,266593004,F,condition
-Dysmenorrhea gender is Female,http://snomed.info/sct,266599000,F,condition
-Excessive and frequent menstruation gender is Female,http://snomed.info/sct,266601003,F,condition
-"Contusion, scrotum or testis gender is Male",http://snomed.info/sct,269217002,M,condition
-Mechanical complication of intrauterine contraceptive device gender is Female,http://snomed.info/sct,270524007,F,condition
-Herpetic vulvovaginitis gender is Female,http://snomed.info/sct,27420004,F,condition
-Orchitis gender is Male,http://snomed.info/sct,274718005,M,condition
-Atypical endometrial hyperplasia gender is Female,http://snomed.info/sct,277158007,F,condition
-Inflammation of scrotum gender is Male,http://snomed.info/sct,236781003,M,condition
-Vaginal hysterectomy gender is Female,http://snomed.info/sct,265056007,F,procedure
-Redundant prepuce and phimosis gender is Male,http://snomed.info/sct,266570005,M,condition
-Radical prostatectomy gender is Male,http://snomed.info/sct,26294005,M,procedure
-Uterine inertia gender is Female,http://snomed.info/sct,26158002,F,condition
-Priapism gender is Male,http://snomed.info/sct,6273006,M,condition
-Disorder of uterine cervix gender is Female,http://snomed.info/sct,63339007,F,condition
-Pain in testicle gender is Male,http://snomed.info/sct,63901009,M,condition
-Disorder of male genital organ gender is Male,http://snomed.info/sct,64557000,M,condition
-Intermenstrual bleeding - irregular gender is Female,http://snomed.info/sct,64996003,F,condition
-Insertion of intrauterine contraceptive device gender is Female,http://snomed.info/sct,65200003,F,procedure
-Primary ovarian failure gender is Female,http://snomed.info/sct,65846009,F,condition
-Female infertility gender is Female,http://snomed.info/sct,6738008,F,condition
-Pruritus of vulva gender is Female,http://snomed.info/sct,67882000,F,condition
-Removal of intrauterine device gender is Female,http://snomed.info/sct,68254000,F,procedure
-Polycystic ovaries gender is Female,http://snomed.info/sct,69878008,F,condition
-Disorder of skin of penis gender is Male,http://snomed.info/sct,703863008,M,condition
-Hydrocele of tunica vaginalis gender is Male,http://snomed.info/sct,70660007,M,condition
-Candidiasis of vagina gender is Female,http://snomed.info/sct,72934000,F,condition
-Dysplasia of cervix gender is Female,http://snomed.info/sct,73391008,F,condition
-Disorder of endocrine testis gender is Male,http://snomed.info/sct,73820008,M,condition
-Prolapse of female genital organs gender is Female,http://snomed.info/sct,73998008,F,condition
-Laparoscopic-assisted vaginal hysterectomy gender is Female,http://snomed.info/sct,75835007,F,procedure
-Ulcer of penis gender is Male,http://snomed.info/sct,76046001,M,condition
-Endometriosis of uterus gender is Female,http://snomed.info/sct,76376003,F,condition
-Postmenopausal state gender is Female,http://snomed.info/sct,76498008,F,condition
-Postmenopausal bleeding gender is Female,http://snomed.info/sct,76742009,F,condition
-Vaginospasm gender is Female,http://snomed.info/sct,79012001,F,condition
-Acute prostatitis gender is Male,http://snomed.info/sct,79411002,M,condition
-Irregular periods gender is Female,http://snomed.info/sct,80182007,F,condition
-Trichomonal vulvovaginitis gender is Female,http://snomed.info/sct,81598001,F,condition
-Torsion of testis gender is Male,http://snomed.info/sct,81996005,M,condition
-Cyst of ovary gender is Female,http://snomed.info/sct,79883001,F,condition
-Female sterility gender is Female,http://snomed.info/sct,10114008,F,condition
-Primary malignant neoplasm of uterus gender is Female,http://snomed.info/sct,10708511000119108,F,condition
-Overlapping malignant neoplasm of female genital organs gender is Female,http://snomed.info/sct,109878000,F,condition
-Overlapping malignant neoplasm of body of uterus gender is Female,http://snomed.info/sct,109879008,F,condition
-Ovarian failure gender is Female,http://snomed.info/sct,111550004,F,condition
-Testicular hypofunction gender is Male,http://snomed.info/sct,111551000,M,condition
-Polyp of corpus uteri gender is Female,http://snomed.info/sct,11314008,F,condition
-Prostatism gender is Male,http://snomed.info/sct,11441004,M,condition
-Uterine prolapse without vaginal wall prolapse gender is Female,http://snomed.info/sct,11597004,F,condition
-Total abdominal hysterectomy gender is Female,http://snomed.info/sct,116143008,F,procedure
-Disorder of uterus gender is Female,http://snomed.info/sct,12337004,F,condition
-Neoplasm of endometrium gender is Female,http://snomed.info/sct,123844007,F,condition
-Stenosis of cervix gender is Female,http://snomed.info/sct,83536006,F,condition
-Gynecologic examination gender is Female,http://snomed.info/sct,83607001,F,procedure
-Calculus of prostate gender is Male,http://snomed.info/sct,85324003,M,condition
-Orchidopexy gender is Male,http://snomed.info/sct,85419002,M,procedure
-Abscess of prostate gender is Male,http://snomed.info/sct,8725005,M,condition
-Testicular mass gender is Male,http://snomed.info/sct,87860000,M,condition
-Transurethral prostatectomy gender is Male,http://snomed.info/sct,90199006,M,procedure
-Benign neoplasm of body of uterus gender is Female,http://snomed.info/sct,92021007,F,condition
-Benign neoplasm of uterine cervix gender is Female,http://snomed.info/sct,92056006,F,condition
-Benign neoplasm of female genital organ gender is Female,http://snomed.info/sct,92103006,F,condition
-Benign neoplasm of male genital organ gender is Male,http://snomed.info/sct,92207002,M,condition
-Benign neoplasm of ovary gender is Female,http://snomed.info/sct,92260003,F,condition
-Benign neoplasm of penis gender is Male,http://snomed.info/sct,92286008,M,condition
-Benign neoplasm of prostate gender is Male,http://snomed.info/sct,92308005,M,condition
-Benign neoplasm of scrotum gender is Male,http://snomed.info/sct,92336000,M,condition
-Benign neoplasm of testis gender is Male,http://snomed.info/sct,92428008,M,condition
-Benign neoplasm of uterus gender is Female,http://snomed.info/sct,92470003,F,condition
-Carcinoma in situ of uterine cervix gender is Female,http://snomed.info/sct,92564006,F,condition
-Carcinoma in situ of male genital organ gender is Male,http://snomed.info/sct,92653004,M,condition
-Carcinoma in situ of prostate gender is Male,http://snomed.info/sct,92691004,M,condition
-Intramural leiomyoma of uterus gender is Female,http://snomed.info/sct,93616000,F,condition
-Primary malignant neoplasm of endocervix gender is Female,http://snomed.info/sct,93779009,F,condition
-Primary malignant neoplasm of exocervix gender is Female,http://snomed.info/sct,93789008,F,condition
-Primary malignant neoplasm of female genital organ gender is Female,http://snomed.info/sct,93797001,F,condition
-Primary malignant neoplasm of labia majora gender is Female,http://snomed.info/sct,93850006,F,condition
-Primary malignant neoplasm of male genital organ gender is Male,http://snomed.info/sct,93885006,M,condition
-Primary malignant neoplasm of ovary gender is Female,http://snomed.info/sct,93934004,F,condition
-Primary malignant neoplasm of prostate gender is Male,http://snomed.info/sct,93974005,M,condition
-Primary malignant neoplasm of testis gender is Male,http://snomed.info/sct,94087009,M,condition
-Primary malignant neoplasm of uterine adnexa gender is Female,http://snomed.info/sct,94126000,F,condition
-Primary malignant neoplasm of vulva gender is Female,http://snomed.info/sct,94143002,F,condition
-Secondary malignant neoplasm of ovary gender is Female,http://snomed.info/sct,94455000,F,condition
-Neoplasm of uncertain behavior of female genital organ gender is Female,http://snomed.info/sct,94837001,F,condition
-Neoplasm of uncertain behavior of ovary gender is Female,http://snomed.info/sct,94974001,F,condition
-Neoplasm of uncertain behavior of prostate gender is Male,http://snomed.info/sct,95014000,M,condition
-Neoplasm of uncertain behavior of testis gender is Male,http://snomed.info/sct,95127004,M,condition
-Neoplasm of uncertain behavior of uterus gender is Female,http://snomed.info/sct,95167003,F,condition
-Submucous leiomyoma of uterus gender is Female,http://snomed.info/sct,95279007,F,condition
-Subserous leiomyoma of uterus gender is Female,http://snomed.info/sct,95280005,F,condition
-Uterine leiomyoma gender is Female,http://snomed.info/sct,95315005,F,condition
-Prostatitis gender is Male,http://snomed.info/sct,9713002,M,condition
-Lysis of penile adhesions gender is Male,http://snomed.info/sct,9788004,M,procedure
-Candidiasis of vulva gender is Female,http://snomed.info/sct,1085006,F,condition
-Open wound of penis without complication gender is Male,http://snomed.info/sct,90057007,M,condition
-Benign neoplasm of vagina gender is Female,http://snomed.info/sct,92473001,F,condition
-Ovarian hyperfunction gender is Female,http://snomed.info/sct,111549004,F,condition
-Atrophy of testis gender is Male,http://snomed.info/sct,17585008,M,condition
-Transurethral laser prostatectomy gender is Male,http://snomed.info/sct,176288003,M,procedure
-"Malignant neoplasm, overlapping lesion of cervix uteri gender is Female",http://snomed.info/sct,188180002,F,condition
-"Malignant neoplasm of corpus uteri, excluding isthmus gender is Female",http://snomed.info/sct,188189001,F,condition
-Benign neoplasm of fallopian tubes and uterine ligaments gender is Female,http://snomed.info/sct,189120005,F,condition
-Uterovaginal prolapse gender is Female,http://snomed.info/sct,18973006,F,condition
-Orchitis and epididymitis gender is Male,http://snomed.info/sct,197983000,M,condition
-Vascular disorder of penis gender is Male,http://snomed.info/sct,198029003,M,condition
-Balanitis xerotica obliterans gender is Male,http://snomed.info/sct,198033005,M,condition
-Torsion of appendix of testis gender is Male,http://snomed.info/sct,198047009,M,condition
-Edema of male genital organs gender is Male,http://snomed.info/sct,198068005,M,condition
-Female pelvic inflammatory disease gender is Female,http://snomed.info/sct,198130006,F,condition
-"Cervical, vaginal and vulval inflammatory diseases gender is Female",http://snomed.info/sct,198198001,F,condition
-Cervicitis and endocervicitis gender is Female,http://snomed.info/sct,198199009,F,condition
-Vaginitis associated with another disorder gender is Female,http://snomed.info/sct,198216009,F,condition
-Subacute and chronic vaginitis gender is Female,http://snomed.info/sct,198219002,F,condition
-"Torsion of the ovary, ovarian pedicle or fallopian tube gender is Female",http://snomed.info/sct,198308002,F,condition
-Hypertrophy of uterus gender is Female,http://snomed.info/sct,198316006,F,condition
-Complex endometrial hyperplasia gender is Female,http://snomed.info/sct,198322002,F,condition
-Malposition of uterus gender is Female,http://snomed.info/sct,198328003,F,condition
-Erosion and ectropion of the cervix gender is Female,http://snomed.info/sct,198337003,F,condition
-Female genital organ symptoms gender is Female,http://snomed.info/sct,198401009,F,condition
-Chronic prostatitis gender is Male,http://snomed.info/sct,19905009,M,condition
-"Uterine scar from previous surgery in pregnancy, childbirth and the puerperium gender is Female",http://snomed.info/sct,199461004,F,condition
-"Uterine scar from previous surgery in pregnancy, childbirth and the puerperium - delivered gender is Female",http://snomed.info/sct,199463001,F,condition
-"Uterine scar from previous surgery in pregnancy, childbirth and the puerperium with antenatal problem gender is Female",http://snomed.info/sct,199464007,F,condition
-Deliveries by cesarean gender is Female,http://snomed.info/sct,200144004,F,condition
-Undescended testicle gender is Male,http://snomed.info/sct,204878001,M,condition
-Pain in scrotum gender is Male,http://snomed.info/sct,20502007,M,condition
-"Hypospadias, penile gender is Male",http://snomed.info/sct,204888000,M,condition
-Open wound of penis gender is Male,http://snomed.info/sct,210426009,M,condition
-Open wound of scrotum and testes gender is Male,http://snomed.info/sct,210429002,M,condition
-Douche of vagina gender is Female,http://snomed.info/sct,21397001,F,procedure
-Retractile testis gender is Male,http://snomed.info/sct,21779006,M,condition
-Tumor of body of uterus affecting pregnancy gender is Female,http://snomed.info/sct,223003,F,condition
-Endometriosis of fallopian tube gender is Female,http://snomed.info/sct,22611009,F,condition
-Noninflammatory disorder of the vagina gender is Female,http://snomed.info/sct,22741003,F,condition
-Female infertility associated with anovulation gender is Female,http://snomed.info/sct,227561004,F,condition
-Edema of penis gender is Male,http://snomed.info/sct,198035003,M,condition
-Vasectomy gender is Male,http://snomed.info/sct,22523008,M,procedure
-Male genital organ vascular diseases gender is Male,http://snomed.info/sct,198057005,M,condition
-Spotting per vagina in pregnancy gender is Female,http://snomed.info/sct,284075002,F,condition
-Pain in penis gender is Male,http://snomed.info/sct,285375003,M,condition
-Cervical intraepithelial neoplasia grade 1 gender is Female,http://snomed.info/sct,285836003,F,condition
-Vaginal bleeding gender is Female,http://snomed.info/sct,289530006,F,condition
-Menopause present gender is Female,http://snomed.info/sct,289903006,F,condition
-Male infertility gender is Male,http://snomed.info/sct,2904007,M,condition
-Polyp of vagina gender is Female,http://snomed.info/sct,29609001,F,condition
-Disorder of prostate gender is Male,http://snomed.info/sct,30281009,M,condition
-Radical abdominal hysterectomy gender is Female,http://snomed.info/sct,307771009,F,procedure
-Vaginitis gender is Female,http://snomed.info/sct,30800001,F,condition
-Bicornuate uterus gender is Female,http://snomed.info/sct,31401003,F,condition
-Acute vulvitis gender is Female,http://snomed.info/sct,33028007,F,condition
-Leukoplakia of penis gender is Male,http://snomed.info/sct,3323003,M,condition
-Disorder of penis gender is Male,http://snomed.info/sct,33958003,M,condition
-Cervical intraepithelial neoplasia grade 2 gender is Female,http://snomed.info/sct,285838002,F,condition
-Testicular hyperfunction gender is Male,http://snomed.info/sct,29206004,M,condition
-Vaginal ulcer gender is Female,http://snomed.info/sct,31066003,F,condition
-Atrophy of prostate gender is Male,http://snomed.info/sct,29524003,M,condition
-Insertion of intrauterine device (IUD) gender is Female,http://snomed.info/sct,65200003,F,procedure
-"Laparoscopy, surgical prostatectomy, retropubic radical, including nerve sparing, includes robotic assistance, when performed gender is Male",http://snomed.info/sct,65551008,M,procedure
-"Biopsy, prostate; needle or punch, single or multiple, any approach gender is Male",http://snomed.info/sct,65575008,M,procedure
-Removal of intrauterine device (IUD) gender is Female,http://snomed.info/sct,68254000,F,procedure
-"Laparoscopy, surgical prostatectomy, retropubic radical, including nerve sparing, includes robotic assistance, when performed gender is Male",http://snomed.info/sct,73632009,M,procedure
-"Laparoscopy, surgical, colpopexy (suspension of vaginal apex) gender is Female",http://snomed.info/sct,73632009,F,procedure
-Drainage of scrotal wall abscess gender is Male,http://snomed.info/sct,76363009,M,procedure
-"Destruction of lesion(s), penis (eg, condyloma, papilloma, molluscum contagiosum, herpetic vesicle), extensive (eg, laser surgery, electrosurgery, cryosurgery, chemosurgery) gender is Male",http://snomed.info/sct,81865002,M,procedure
-"Cesarean delivery only, including postpartum care gender is Female",http://snomed.info/sct,11466000,F,procedure
-Cesarean delivery only gender is Female,http://snomed.info/sct,11466000,F,procedure
-"Total abdominal hysterectomy (corpus and cervix), with or without removal of tube(s), with or without removal of ovary(s) gender is Female",http://snomed.info/sct,116143008,F,procedure
-"Routine obstetric care including antepartum care, cesarean delivery, and postpartum care gender is Female",http://snomed.info/sct,11466000,F,procedure
-"Circumcision, using clamp or other device with regional dorsal penile or ring block gender is Male",http://snomed.info/sct,35180003,M,procedure
-"Endometrial ablation, thermal, without hysteroscopic guidance gender is Female",http://snomed.info/sct,407609002,F,procedure
-"Ultrasound, pregnant uterus, real time with image documentation, first trimester fetal nuchal translucency measurement, transabdominal or transvaginal approach; single or first gestation gender is Female",http://snomed.info/sct,408815001,F,procedure
-"Laser vaporization of prostate, including control of postoperative bleeding, complete (vasectomy, meatotomy, cystourethroscopy, urethral calibration and/or dilation, internal urethrotomy and transurethral resection of prostate are included if performed) gender is Male",http://snomed.info/sct,386745004,M,procedure
-"Endometrial sampling (biopsy) with or without endocervical sampling (biopsy), without cervical dilation, any method (separate procedure) gender is Female",http://snomed.info/sct,386802000,F,procedure
-Colposcopy of the vulva gender is Female,http://snomed.info/sct,236839001,F,procedure
-"Colpopexy, vaginal; extra-peritoneal approach (sacrospinous, iliococcygeus) gender is Female",http://snomed.info/sct,236859002,F,procedure
-"Laparoscopy, surgical, with total hysterectomy, for uterus 250 g or less; with removal of tube(s) and/or ovary(s) gender is Female",http://snomed.info/sct,236888001,F,procedure
-"Ultrasound, pregnant uterus, real time with image documentation, first trimester fetal nuchal translucency measurement, transabdominal or transvaginal approach; single or first gestation gender is Female",http://snomed.info/sct,23745001,F,procedure
-"Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation plus detailed fetal anatomic examination, transabdominal approach; single or first gestation gender is Female",http://snomed.info/sct,241491007,F,procedure
-"Ultrasound, scrotum and contents gender is Male",http://snomed.info/sct,24737001,M,procedure
-"Destruction of lesion(s), penis (eg, condyloma, papilloma, molluscum contagiosum, herpetic vesicle), simple; chemical gender is Male",http://snomed.info/sct,26792008,M,procedure
-"Laparoscopy, surgical, colpopexy (suspension of vaginal apex) gender is Female",http://snomed.info/sct,276188006,F,procedure
-"Orchiopexy, inguinal approach, with or without hernia repair gender is Male",http://snomed.info/sct,85419002,M,procedure
-"Laser vaporization of prostate, including control of postoperative bleeding, complete (vasectomy, meatotomy, cystourethroscopy, urethral calibration and/or dilation, internal urethrotomy and transurethral resection of prostate are included if performed) gender is Male",http://snomed.info/sct,87030009,M,procedure
-"Ultrasound, pregnant uterus, real time with image documentation, follow-up (eg, re-evaluation of fetal size by measuring standard growth parameters and amniotic fluid volume, re-evaluation of organ system(s) suspected or confirmed to be abnormal on a prev gender is Female",http://snomed.info/sct,89343007,F,procedure
-"Hysteroscopy, surgical; with endometrial ablation (eg, endometrial resection, electrosurgical ablation, thermoablation) gender is Female",http://snomed.info/sct,90742005,F,procedure
-Radical prostatectomy gender is Male,http://www.ama-assn.org/go/cpt,4163F,M,procedure
-Hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,45126,F,procedure
-Vasectomy gender is Male,http://www.ama-assn.org/go/cpt,52601,M,procedure
-Transurethral laser prostatectomy gender is Male,http://www.ama-assn.org/go/cpt,52648,M,procedure
-Lysis of penile adhesions gender is Male,http://www.ama-assn.org/go/cpt,54450,M,procedure
-Orchidopexy gender is Male,http://www.ama-assn.org/go/cpt,54640,M,procedure
-Vasectomy gender is Male,http://www.ama-assn.org/go/cpt,55250,M,procedure
-Total abdominal hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,58150,F,procedure
-Total abdominal hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,58200,F,procedure
-Vaginal hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,58260,F,procedure
-Vaginal hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,58262,F,procedure
-Laparoscopic-assisted vaginal hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,58267,F,procedure
-Vaginal hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,58290,F,procedure
-Vaginal hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,58291,F,procedure
-Insertion of intrauterine contraceptive device gender is Female,http://www.ama-assn.org/go/cpt,58300,F,procedure
-Removal of intrauterine device gender is Female,http://www.ama-assn.org/go/cpt,58301,F,procedure
-Laparoscopic supracervical hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,58541,F,procedure
-Laparoscopic supracervical hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,58543,F,procedure
-Laparoscopic-assisted vaginal hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,58550,F,procedure
-Laparoscopic-assisted vaginal hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,58552,F,procedure
-Laparoscopic-assisted vaginal hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,58554,F,procedure
-Hysteroscopy gender is Female,http://www.ama-assn.org/go/cpt,58555,F,procedure
-Total abdominal hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,58951,F,procedure
-Total abdominal hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,58953,F,procedure
-Echography of scrotum and contents gender is Male,http://www.ama-assn.org/go/cpt,93975,M,procedure
-Echography of scrotum and contents gender is Male,http://www.ama-assn.org/go/cpt,93976,M,procedure
-Foreskin manipulation including lysis of preputial adhesions and stretching gender is Male,http://snomed.info/sct,9788004,M,procedure
-Lysis of penile adhesions gender is Male,http://www.ama-assn.org/go/cpt,54162,M,procedure
-Radical abdominal hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,58210,F,procedure
-Laparoscopic-assisted vaginal hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,58553,F,procedure
-Hysteroscopy gender is Female,http://www.ama-assn.org/go/cpt,58579,F,procedure
-Echography of scrotum and contents gender is Male,http://www.ama-assn.org/go/cpt,76870,M,procedure
-Orchidopexy gender is Male,http://www.ama-assn.org/go/cpt,54692,M,procedure
-"Laser vaporization of prostate, including control of postoperative bleeding, complete (vasectomy, meatotomy, cystourethroscopy, urethral calibration and/or dilation, internal urethrotomy and transurethral resection of prostate are included if performed) gender is Male",http://snomed.info/sct,287776003,M,procedure
-"Destruction of lesion(s), penis (eg, condyloma, papilloma, molluscum contagiosum, herpetic vesicle), simple; cryosurgery gender is Male",http://snomed.info/sct,29245009,M,procedure
-"Hysteroscopy, surgical; with sampling (biopsy) of endometrium and/or polypectomy, with or without D & C gender is Female",http://snomed.info/sct,307719001,F,procedure
-"Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation plus detailed fetal anatomic examination, transabdominal approach; single or first gestation gender is Female",http://snomed.info/sct,307813007,F,procedure
-"Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation, after first trimester (> or = 14 weeks 0 days), transabdominal approach; single or first gestation gender is Female",http://snomed.info/sct,307813007,F,procedure
-"Laser vaporization of prostate, including control of postoperative bleeding, complete (vasectomy, meatotomy, cystourethroscopy, urethral calibration and/or dilation, internal urethrotomy and transurethral resection of prostate are included if performed) gender is Male",http://snomed.info/sct,288016004,M,procedure
-"Laser vaporization of prostate, including control of postoperative bleeding, complete (vasectomy, meatotomy, cystourethroscopy, urethral calibration and/or dilation, internal urethrotomy and transurethral resection of prostate are included if performed) gender is Male",http://snomed.info/sct,307283007,M,procedure
-"Ultrasound, transvaginal gender is Female",http://snomed.info/sct,13205008,F,procedure
-"Ultrasound, pregnant uterus, real time with image documentation, transvaginal gender is Female",http://snomed.info/sct,13205008,F,procedure
-"Ultrasound, pregnant uterus, real time with image documentation, first trimester fetal nuchal translucency measurement, transabdominal or transvaginal approach; single or first gestation gender is Female",http://snomed.info/sct,13205008,F,procedure
-"Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation, first trimester (< 14 weeks 0 days), transabdominal approach; single or first gestation gender is Female",http://snomed.info/sct,169668007,F,procedure
-"Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation plus detailed fetal anatomic examination, transabdominal approach; single or first gestation gender is Female",http://snomed.info/sct,169670003,F,procedure
-"Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation, after first trimester (> or = 14 weeks 0 days), transabdominal approach; single or first gestation gender is Female",http://snomed.info/sct,169670003,F,procedure
-"Ultrasound, pregnant uterus, real time with image documentation, first trimester fetal nuchal translucency measurement, transabdominal or transvaginal approach; single or first gestation gender is Female",http://snomed.info/sct,169669004,F,procedure
-"Ultrasound, pregnant uterus, real time with image documentation, first trimester fetal nuchal translucency measurement, transabdominal or transvaginal approach; single or first gestation gender is Female",http://snomed.info/sct,169668007,F,procedure
-"Laser vaporization of prostate, including control of postoperative bleeding, complete (vasectomy, meatotomy, cystourethroscopy, urethral calibration and/or dilation, internal urethrotomy and transurethral resection of prostate are included if performed) gender is Male",http://snomed.info/sct,176288003,M,procedure
-Foreskin manipulation including lysis of preputial adhesions and stretching gender is Male,http://snomed.info/sct,176549001,M,procedure
-"Biopsy of penis, (separate procedure) gender is Male",http://snomed.info/sct,176557003,M,procedure
-"Colposcopy of the cervix including upper/adjacent vagina, with biopsy(s) of the cervix and endocervical curettage gender is Female",http://snomed.info/sct,176787007,F,procedure
-"Routine obstetric care including antepartum care, vaginal delivery (with or without episiotomy, and/or forceps) and postpartum care gender is Female",http://snomed.info/sct,18114009,F,procedure
-"Routine obstetric care including antepartum care, cesarean delivery, and postpartum care gender is Female",http://snomed.info/sct,18114009,F,procedure
-"Treatment of missed abortion, completed surgically; first trimester gender is Female",http://snomed.info/sct,18489003,F,procedure
-"Transurethral electrosurgical resection of prostate, including control of postoperative bleeding, complete (vasectomy, meatotomy, cystourethroscopy, urethral calibration and/or dilation, and internal urethrotomy are included) gender is Male",http://snomed.info/sct,22523008,M,procedure
-"Vasectomy, unilateral or bilateral (separate procedure), including postoperative semen examination(s) gender is Male",http://snomed.info/sct,22523008,M,procedure
-"Prostatectomy, retropubic radical, with or without nerve sparing; with bilateral pelvic lymphadenectomy, including external iliac, hypogastric, and obturator nodes gender is Male",http://snomed.info/sct,41416003,M,procedure
-"Ultrasound, pregnant uterus, real time with image documentation, first trimester fetal nuchal translucency measurement, transabdominal or transvaginal approach; single or first gestation gender is Female",http://snomed.info/sct,414880004,F,procedure
-"Routine obstetric care including antepartum care, vaginal delivery (with or without episiotomy, and/or forceps) and postpartum care gender is Female",http://snomed.info/sct,45718005,F,procedure
-"Ultrasound, pregnant uterus, real time with image documentation, limited (eg, fetal heart beat, placental location, fetal position and/or qualitative amniotic fluid volume), 1 or more fetuses gender is Female",http://snomed.info/sct,55052008,F,procedure
-"Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation, after first trimester (> or = 14 weeks 0 days), transabdominal approach; single or first gestation gender is Female",http://snomed.info/sct,55052008,F,procedure
-"Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation, first trimester (< 14 weeks 0 days), transabdominal approach; single or first gestation gender is Female",http://snomed.info/sct,55052008,F,procedure
-"Ultrasound, pregnant uterus, real time with image documentation, transvaginal gender is Female",http://snomed.info/sct,55052008,F,procedure
-"Ultrasound, pregnant uterus, real time with image documentation, follow-up (eg, re-evaluation of fetal size by measuring standard growth parameters and amniotic fluid volume, re-evaluation of organ system(s) suspected or confirmed to be abnormal on a prev gender is Female",http://snomed.info/sct,55052008,F,procedure
-"Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation plus detailed fetal anatomic examination, transabdominal approach; single or first gestation gender is Female",http://snomed.info/sct,55052008,F,procedure
-"Ultrasound, pregnant uterus, real time with image documentation, first trimester fetal nuchal translucency measurement, transabdominal or transvaginal approach; single or first gestation gender is Female",http://snomed.info/sct,54689004,F,procedure
+expectation_name,system,system_oid,code,gender,resource_type
+Hemospermia gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,34615008,M,condition
+Secondary malignant neoplasm of right ovary gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,369530001,F,condition
+Disorder of endocrine ovary gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,37102008,F,condition
+Inflammatory disorder of penis gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,371163003,M,condition
+Primary malignant neoplasm of body of uterus gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,371971003,F,condition
+Malignant neoplasm of body of uterus gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,371972005,F,condition
+Primary malignant neoplasm of fallopian tube gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,371987000,F,condition
+Primary malignant neoplasm of penis gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,372005006,M,condition
+Primary malignant neoplasm of scrotum gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,372009000,M,condition
+Primary malignant neoplasm of uterine cervix gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,372024009,F,condition
+Primary malignant neoplasm of vagina gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,372025005,F,condition
+Dysplasia of vagina gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,3754002,F,condition
+Inflammation of cervix gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,37610005,F,condition
+Incision of ovary gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,38192004,F,procedure
+Light and infrequent menstruation gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,386704007,F,condition
+Primary uterine inertia gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,387699008,F,condition
+Female infertility of tubal origin gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,39446004,F,condition
+Vaginal wall prolapse gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,398022005,F,condition
+Low cervical cesarean section gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,398307005,F,procedure
+Malignant tumor of prostate gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,399068003,M,condition
+Nodular prostate without urinary obstruction gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,40411000119106,M,condition
+Prostatic cyst gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,409658007,M,condition
+Stenosis of cervix gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,83536006,F,condition
+Gynecologic examination gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,83607001,F,procedure
+Calculus of prostate gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,85324003,M,condition
+Orchidopexy gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,85419002,M,procedure
+Abscess of prostate gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,8725005,M,condition
+Testicular mass gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,87860000,M,condition
+Open wound of penis without complication gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,90057007,M,condition
+Transurethral prostatectomy gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,90199006,M,procedure
+Benign neoplasm of body of uterus gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,92021007,F,condition
+Benign neoplasm of uterine cervix gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,92056006,F,condition
+Benign neoplasm of female genital organ gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,92103006,F,condition
+Benign neoplasm of male genital organ gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,92207002,M,condition
+Benign neoplasm of ovary gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,92260003,F,condition
+Benign neoplasm of penis gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,92286008,M,condition
+Benign neoplasm of prostate gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,92308005,M,condition
+Benign neoplasm of scrotum gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,92336000,M,condition
+Benign neoplasm of testis gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,92428008,M,condition
+Benign neoplasm of uterus gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,92470003,F,condition
+Benign neoplasm of vagina gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,92473001,F,condition
+Carcinoma in situ of uterine cervix gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,92564006,F,condition
+Carcinoma in situ of male genital organ gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,92653004,M,condition
+Carcinoma in situ of prostate gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,92691004,M,condition
+Intramural leiomyoma of uterus gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,93616000,F,condition
+Primary malignant neoplasm of endocervix gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,93779009,F,condition
+Primary malignant neoplasm of exocervix gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,93789008,F,condition
+Primary malignant neoplasm of female genital organ gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,93797001,F,condition
+Primary malignant neoplasm of labia majora gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,93850006,F,condition
+Primary malignant neoplasm of male genital organ gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,93885006,M,condition
+Primary malignant neoplasm of ovary gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,93934004,F,condition
+Primary malignant neoplasm of prostate gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,93974005,M,condition
+Primary malignant neoplasm of testis gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,94087009,M,condition
+Primary malignant neoplasm of uterine adnexa gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,94126000,F,condition
+Primary malignant neoplasm of vulva gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,94143002,F,condition
+Secondary malignant neoplasm of ovary gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,94455000,F,condition
+Neoplasm of uncertain behavior of female genital organ gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,94837001,F,condition
+Neoplasm of uncertain behavior of ovary gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,94974001,F,condition
+Neoplasm of uncertain behavior of prostate gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,95014000,M,condition
+Neoplasm of uncertain behavior of testis gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,95127004,M,condition
+Neoplasm of uncertain behavior of uterus gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,95167003,F,condition
+Submucous leiomyoma of uterus gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,95279007,F,condition
+Subserous leiomyoma of uterus gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,95280005,F,condition
+Uterine leiomyoma gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,95315005,F,condition
+Prostatitis gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,9713002,M,condition
+Lysis of penile adhesions gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,9788004,M,procedure
+Spotting per vagina in pregnancy gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,284075002,F,condition
+Cervical intraepithelial neoplasia grade 1 gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,285836003,F,condition
+Cervical intraepithelial neoplasia grade 2 gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,285838002,F,condition
+Vaginal bleeding gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,289530006,F,condition
+Menopause present gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,289903006,F,condition
+Male infertility gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,2904007,M,condition
+Testicular hyperfunction gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,29206004,M,condition
+Atrophy of prostate gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,29524003,M,condition
+Polyp of vagina gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,29609001,F,condition
+Disorder of prostate gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,30281009,M,condition
+Radical abdominal hysterectomy gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,307771009,F,procedure
+Vaginitis gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,30800001,F,condition
+Vaginal ulcer gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,31066003,F,condition
+Bicornuate uterus gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,31401003,F,condition
+Acute vulvitis gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,33028007,F,condition
+Leukoplakia of penis gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,3323003,M,condition
+Disorder of penis gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,33958003,M,condition
+"Transurethral electrosurgical resection of prostate, including control of postoperative bleeding, complete (vasectomy, meatotomy, cystourethroscopy, urethral calibration and/or dilation, and internal urethrotomy are included) gender is Male",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,52601,M,procedure
+"Laser vaporization of prostate, including control of postoperative bleeding, complete (vasectomy, meatotomy, cystourethroscopy, urethral calibration and/or dilation, internal urethrotomy and transurethral resection of prostate are included if performed) gender is Male",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,52648,M,procedure
+"Destruction of lesion(s), penis (eg, condyloma, papilloma, molluscum contagiosum, herpetic vesicle), simple; chemical gender is Male",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,54050,M,procedure
+"Destruction of lesion(s), penis (eg, condyloma, papilloma, molluscum contagiosum, herpetic vesicle), simple; cryosurgery gender is Male",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,54056,M,procedure
+"Destruction of lesion(s), penis (eg, condyloma, papilloma, molluscum contagiosum, herpetic vesicle), extensive (eg, laser surgery, electrosurgery, cryosurgery, chemosurgery) gender is Male",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,54065,M,procedure
+"Biopsy of penis, (separate procedure) gender is Male",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,54100,M,procedure
+"Circumcision, using clamp or other device with regional dorsal penile or ring block gender is Male",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,54150,M,procedure
+Foreskin manipulation including lysis of preputial adhesions and stretching gender is Male,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,54450,M,procedure
+"Orchiectomy, simple (including subcapsular), with or without testicular prosthesis, scrotal or inguinal approach gender is Male",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,54520,M,procedure
+"Orchiopexy, inguinal approach, with or without hernia repair gender is Male",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,54640,M,procedure
+Drainage of scrotal wall abscess gender is Male,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,55100,M,procedure
+"Vasectomy, unilateral or bilateral (separate procedure), including postoperative semen examination(s) gender is Male",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,55250,M,procedure
+"Biopsy, prostate; needle or punch, single or multiple, any approach gender is Male",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,55700,M,procedure
+"Prostatectomy, retropubic radical, with or without nerve sparing; with bilateral pelvic lymphadenectomy, including external iliac, hypogastric, and obturator nodes gender is Male",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,55845,M,procedure
+"Laparoscopy, surgical prostatectomy, retropubic radical, including nerve sparing, includes robotic assistance, when performed gender is Male",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,55866,M,procedure
+Colposcopy of the vulva gender is Female,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,56820,F,procedure
+"Colpopexy, vaginal; extra-peritoneal approach (sacrospinous, iliococcygeus) gender is Female",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,57282,F,procedure
+"Laparoscopy, surgical, colpopexy (suspension of vaginal apex) gender is Female",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,57425,F,procedure
+"Colposcopy of the cervix including upper/adjacent vagina, with biopsy(s) of the cervix and endocervical curettage gender is Female",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,57454,F,procedure
+"Endometrial sampling (biopsy) with or without endocervical sampling (biopsy), without cervical dilation, any method (separate procedure) gender is Female",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,58100,F,procedure
+"Total abdominal hysterectomy (corpus and cervix), with or without removal of tube(s), with or without removal of ovary(s) gender is Female",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,58150,F,procedure
+Insertion of intrauterine device (IUD) gender is Female,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,58300,F,procedure
+Removal of intrauterine device (IUD) gender is Female,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,58301,F,procedure
+"Endometrial ablation, thermal, without hysteroscopic guidance gender is Female",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,58353,F,procedure
+"Hysteroscopy, surgical; with sampling (biopsy) of endometrium and/or polypectomy, with or without D & C gender is Female",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,58558,F,procedure
+"Hysteroscopy, surgical; with endometrial ablation (eg, endometrial resection, electrosurgical ablation, thermoablation) gender is Female",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,58563,F,procedure
+"Laparoscopy, surgical, with total hysterectomy, for uterus 250 g or less; with removal of tube(s) and/or ovary(s) gender is Female",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,58571,F,procedure
+"Routine obstetric care including antepartum care, vaginal delivery (with or without episiotomy, and/or forceps) and postpartum care gender is Female",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,59400,F,procedure
+Cesarean delivery only gender is Female,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,59514,F,procedure
+"Cesarean delivery only, including postpartum care gender is Female",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,59515,F,procedure
+"Treatment of missed abortion, completed surgically; first trimester gender is Female",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,59820,F,procedure
+"Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation, first trimester (< 14 weeks 0 days), transabdominal approach; single or first gestation gender is Female",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,76801,F,procedure
+"Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation, after first trimester (> or = 14 weeks 0 days), transabdominal approach; single or first gestation gender is Female",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,76805,F,procedure
+"Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation plus detailed fetal anatomic examination, transabdominal approach; single or first gestation gender is Female",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,76811,F,procedure
+"Ultrasound, pregnant uterus, real time with image documentation, first trimester fetal nuchal translucency measurement, transabdominal or transvaginal approach; single or first gestation gender is Female",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,76813,F,procedure
+"Ultrasound, pregnant uterus, real time with image documentation, follow-up (eg, re-evaluation of fetal size by measuring standard growth parameters and amniotic fluid volume, re-evaluation of organ system(s) suspected or confirmed to be abnormal on a prev gender is Female",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,76816,F,procedure
+"Ultrasound, pregnant uterus, real time with image documentation, transvaginal gender is Female",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,76817,F,procedure
+"Ultrasound, transvaginal gender is Female",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,76830,F,procedure
+"Ultrasound, scrotum and contents gender is Male",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,76870,M,procedure
+Pain in penis gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,285375003,M,condition
+"Routine obstetric care including antepartum care, cesarean delivery, and postpartum care gender is Female",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,59510,F,procedure
+"Ultrasound, pregnant uterus, real time with image documentation, limited (eg, fetal heart beat, placental location, fetal position and/or qualitative amniotic fluid volume), 1 or more fetuses gender is Female",http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,76815,F,procedure
+Priapism gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,6273006,M,condition
+Disorder of uterine cervix gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,63339007,F,condition
+Disorder of male genital organ gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,64557000,M,condition
+Intermenstrual bleeding - irregular gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,64996003,F,condition
+Insertion of intrauterine contraceptive device gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,65200003,F,procedure
+Primary ovarian failure gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,65846009,F,condition
+Female infertility gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,6738008,F,condition
+Pruritus of vulva gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,67882000,F,condition
+Removal of intrauterine device gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,68254000,F,procedure
+Polycystic ovaries gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,69878008,F,condition
+Disorder of skin of penis gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,703863008,M,condition
+Hydrocele of tunica vaginalis gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,70660007,M,condition
+Candidiasis of vagina gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,72934000,F,condition
+Dysplasia of cervix gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,73391008,F,condition
+Disorder of endocrine testis gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,73820008,M,condition
+Prolapse of female genital organs gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,73998008,F,condition
+Laparoscopic-assisted vaginal hysterectomy gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,75835007,F,procedure
+Ulcer of penis gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,76046001,M,condition
+Endometriosis of uterus gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,76376003,F,condition
+Postmenopausal state gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,76498008,F,condition
+Postmenopausal bleeding gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,76742009,F,condition
+Vaginospasm gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,79012001,F,condition
+Cyst of ovary gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,79883001,F,condition
+Irregular periods gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,80182007,F,condition
+Trichomonal vulvovaginitis gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,81598001,F,condition
+Torsion of testis gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,81996005,M,condition
+Pain in testicle gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,63901009,M,condition
+Acute prostatitis gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,79411002,M,condition
+Female sterility gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,10114008,F,condition
+Primary malignant neoplasm of uterus gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,10708511000119108,F,condition
+Candidiasis of vulva gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,1085006,F,condition
+Overlapping malignant neoplasm of female genital organs gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,109878000,F,condition
+Overlapping malignant neoplasm of body of uterus gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,109879008,F,condition
+Ovarian hyperfunction gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,111549004,F,condition
+Testicular hypofunction gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,111551000,M,condition
+Polyp of corpus uteri gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,11314008,F,condition
+Prostatism gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,11441004,M,condition
+Uterine prolapse without vaginal wall prolapse gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,11597004,F,condition
+Total abdominal hysterectomy gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,116143008,F,procedure
+Disorder of uterus gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,12337004,F,condition
+Neoplasm of endometrium gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,123844007,F,condition
+Ovarian failure gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,111550004,F,condition
+Inflammatory disorder of male genital organ gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,128478005,M,condition
+Induratio penis plastica gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,1335005,M,condition
+Benign endometrial hyperplasia gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,134031000119108,F,condition
+Amenorrhea gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,14302001,F,condition
+Vulval irritation gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,161818003,F,condition
+Vaginal discharge symptom gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,162156001,F,condition
+Obstetric examination gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,163497009,F,procedure
+Bacterial vaginosis gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,419760006,F,condition
+Abnormal menstrual cycle gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,42131003,F,condition
+Hyperplasia of prostate gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,433234005,M,condition
+Injury of male external genital organs gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,43566003,M,condition
+Swelling of testicle gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,438457000,M,condition
+Inflammatory disease of female genital structure gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,442506007,F,condition
+Benign localized hyperplasia of prostate gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,444808002,M,condition
+Dysplasia of prostate gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,445068007,M,condition
+Herniation of rectum into vagina gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,447072005,F,condition
+Balanitis gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,44882003,M,condition
+Balanoposthitis gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,46090001,M,condition
+Scrotal varices gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,46871008,M,condition
+Spermatocele gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,49263001,M,condition
+Atrophic vaginitis gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,52441000,F,condition
+Candidal balanitis gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,52643007,M,condition
+Vulvovaginitis gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,53277000,F,condition
+Cone biopsy of cervix gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,54535009,F,procedure
+Mucous polyp of cervix gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,55310007,F,condition
+Azoospermia gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,425558002,M,condition
+Phimosis gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,449826002,M,condition
+Low lying placenta gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,445122007,F,condition
+Hysteroscopy gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,233545006,F,procedure
+Vulvovaginal disease gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,23462007,F,condition
+Benign prostatic hypertrophy with outflow obstruction gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,236646007,M,condition
+Inflammation of scrotum gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,236781003,M,condition
+Hysterectomy gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,236886002,F,procedure
+Laparoscopic supracervical hysterectomy gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,236889009,F,procedure
+Endometrial hyperplasia gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,237072009,F,condition
+Leukorrhea gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,237101004,F,condition
+Echography of scrotum and contents gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,24737001,M,procedure
+Finding of pattern of menstrual cycle gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,248968007,F,condition
+Large prostate gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,249607009,M,condition
+Cystocele gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,252005008,F,condition
+Penile arterial insufficiency gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,252036000,M,condition
+Benign prostatic hypertrophy without outflow obstruction gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,254902007,M,condition
+Disorder of vagina gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,25658005,F,condition
+Follicular cyst of ovary gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,2615004,F,condition
+Uterine inertia gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,26158002,F,condition
+Radical prostatectomy gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,26294005,M,procedure
+Vaginal hysterectomy gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,265056007,F,procedure
+Endometrial ablation gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,265060005,F,procedure
+Benign prostatic hyperplasia gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,266569009,M,condition
+Redundant prepuce and phimosis gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,266570005,M,condition
+Endometriosis of ovary gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,266589005,F,condition
+Stricture or atresia of the vagina gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,266593004,F,condition
+Excessive and frequent menstruation gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,266601003,F,condition
+"Contusion, scrotum or testis gender is Male",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,269217002,M,condition
+Mechanical complication of intrauterine contraceptive device gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,270524007,F,condition
+Herpetic vulvovaginitis gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,27420004,F,condition
+Orchitis gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,274718005,M,condition
+Atypical endometrial hyperplasia gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,277158007,F,condition
+Disorder of female genital organs gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,244938009,F,condition
+Acute vaginitis gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,24520005,F,condition
+Dysmenorrhea gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,266599000,F,condition
+Atrophy of testis gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,17585008,M,condition
+Transurethral laser prostatectomy gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,176288003,M,procedure
+"Malignant neoplasm, overlapping lesion of cervix uteri gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,188180002,F,condition
+"Malignant neoplasm of corpus uteri, excluding isthmus gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,188189001,F,condition
+Uterovaginal prolapse gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,18973006,F,condition
+Orchitis and epididymitis gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,197983000,M,condition
+Balanitis xerotica obliterans gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,198033005,M,condition
+Edema of penis gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,198035003,M,condition
+Torsion of appendix of testis gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,198047009,M,condition
+Male genital organ vascular diseases gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,198057005,M,condition
+Edema of male genital organs gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,198068005,M,condition
+Female pelvic inflammatory disease gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,198130006,F,condition
+"Cervical, vaginal and vulval inflammatory diseases gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,198198001,F,condition
+Cervicitis and endocervicitis gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,198199009,F,condition
+Vaginitis associated with another disorder gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,198216009,F,condition
+"Torsion of the ovary, ovarian pedicle or fallopian tube gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,198308002,F,condition
+Hypertrophy of uterus gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,198316006,F,condition
+Malposition of uterus gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,198328003,F,condition
+Erosion and ectropion of the cervix gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,198337003,F,condition
+Female genital organ symptoms gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,198401009,F,condition
+Chronic prostatitis gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,19905009,M,condition
+"Uterine scar from previous surgery in pregnancy, childbirth and the puerperium gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,199461004,F,condition
+"Uterine scar from previous surgery in pregnancy, childbirth and the puerperium - delivered gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,199463001,F,condition
+"Uterine scar from previous surgery in pregnancy, childbirth and the puerperium with antenatal problem gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,199464007,F,condition
+Undescended testicle gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,204878001,M,condition
+Pain in scrotum gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,20502007,M,condition
+Open wound of penis gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,210426009,M,condition
+Open wound of scrotum and testes gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,210429002,M,condition
+Douche of vagina gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,21397001,F,procedure
+Retractile testis gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,21779006,M,condition
+Tumor of body of uterus affecting pregnancy gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,223003,F,condition
+Vasectomy gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,22523008,M,procedure
+Endometriosis of fallopian tube gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,22611009,F,condition
+Noninflammatory disorder of the vagina gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,22741003,F,condition
+Female infertility associated with anovulation gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,227561004,F,condition
+Vascular disorder of penis gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,198029003,M,condition
+Subacute and chronic vaginitis gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,198219002,F,condition
+Deliveries by cesarean gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,200144004,F,condition
+"Hypospadias, penile gender is Male",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,204888000,M,condition
+Complex endometrial hyperplasia gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,198322002,F,condition
+Benign neoplasm of fallopian tubes and uterine ligaments gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,189120005,F,condition
+"Laser vaporization of prostate, including control of postoperative bleeding, complete (vasectomy, meatotomy, cystourethroscopy, urethral calibration and/or dilation, internal urethrotomy and transurethral resection of prostate are included if performed) gender is Male",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,386745004,M,procedure
+"Endometrial sampling (biopsy) with or without endocervical sampling (biopsy), without cervical dilation, any method (separate procedure) gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,386802000,F,procedure
+"Endometrial ablation, thermal, without hysteroscopic guidance gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,407609002,F,procedure
+"Ultrasound, pregnant uterus, real time with image documentation, first trimester fetal nuchal translucency measurement, transabdominal or transvaginal approach; single or first gestation gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,408815001,F,procedure
+"Circumcision, using clamp or other device with regional dorsal penile or ring block gender is Male",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,35180003,M,procedure
+"Prostatectomy, retropubic radical, with or without nerve sparing; with bilateral pelvic lymphadenectomy, including external iliac, hypogastric, and obturator nodes gender is Male",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,41416003,M,procedure
+"Ultrasound, pregnant uterus, real time with image documentation, first trimester fetal nuchal translucency measurement, transabdominal or transvaginal approach; single or first gestation gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,414880004,F,procedure
+"Routine obstetric care including antepartum care, vaginal delivery (with or without episiotomy, and/or forceps) and postpartum care gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,45718005,F,procedure
+"Ultrasound, pregnant uterus, real time with image documentation, first trimester fetal nuchal translucency measurement, transabdominal or transvaginal approach; single or first gestation gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,54689004,F,procedure
+"Ultrasound, pregnant uterus, real time with image documentation, transvaginal gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,55052008,F,procedure
+"Ultrasound, pregnant uterus, real time with image documentation, follow-up (eg, re-evaluation of fetal size by measuring standard growth parameters and amniotic fluid volume, re-evaluation of organ system(s) suspected or confirmed to be abnormal on a prev gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,55052008,F,procedure
+"Ultrasound, pregnant uterus, real time with image documentation, limited (eg, fetal heart beat, placental location, fetal position and/or qualitative amniotic fluid volume), 1 or more fetuses gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,55052008,F,procedure
+"Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation, after first trimester (> or = 14 weeks 0 days), transabdominal approach; single or first gestation gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,55052008,F,procedure
+"Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation plus detailed fetal anatomic examination, transabdominal approach; single or first gestation gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,55052008,F,procedure
+"Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation, first trimester (< 14 weeks 0 days), transabdominal approach; single or first gestation gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,55052008,F,procedure
+"Orchiopexy, inguinal approach, with or without hernia repair gender is Male",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,85419002,M,procedure
+"Laser vaporization of prostate, including control of postoperative bleeding, complete (vasectomy, meatotomy, cystourethroscopy, urethral calibration and/or dilation, internal urethrotomy and transurethral resection of prostate are included if performed) gender is Male",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,87030009,M,procedure
+"Ultrasound, pregnant uterus, real time with image documentation, follow-up (eg, re-evaluation of fetal size by measuring standard growth parameters and amniotic fluid volume, re-evaluation of organ system(s) suspected or confirmed to be abnormal on a prev gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,89343007,F,procedure
+"Hysteroscopy, surgical; with endometrial ablation (eg, endometrial resection, electrosurgical ablation, thermoablation) gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,90742005,F,procedure
+Foreskin manipulation including lysis of preputial adhesions and stretching gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,9788004,M,procedure
+"Cesarean delivery only, including postpartum care gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,11466000,F,procedure
+Cesarean delivery only gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,11466000,F,procedure
+"Total abdominal hysterectomy (corpus and cervix), with or without removal of tube(s), with or without removal of ovary(s) gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,116143008,F,procedure
+"Routine obstetric care including antepartum care, cesarean delivery, and postpartum care gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,11466000,F,procedure
+Insertion of intrauterine device (IUD) gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,65200003,F,procedure
+"Laparoscopy, surgical prostatectomy, retropubic radical, including nerve sparing, includes robotic assistance, when performed gender is Male",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,65551008,M,procedure
+Removal of intrauterine device (IUD) gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,68254000,F,procedure
+"Laparoscopy, surgical prostatectomy, retropubic radical, including nerve sparing, includes robotic assistance, when performed gender is Male",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,73632009,M,procedure
+Drainage of scrotal wall abscess gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,76363009,M,procedure
+"Destruction of lesion(s), penis (eg, condyloma, papilloma, molluscum contagiosum, herpetic vesicle), extensive (eg, laser surgery, electrosurgery, cryosurgery, chemosurgery) gender is Male",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,81865002,M,procedure
+"Biopsy, prostate; needle or punch, single or multiple, any approach gender is Male",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,65575008,M,procedure
+"Laparoscopy, surgical, colpopexy (suspension of vaginal apex) gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,73632009,F,procedure
+"Laser vaporization of prostate, including control of postoperative bleeding, complete (vasectomy, meatotomy, cystourethroscopy, urethral calibration and/or dilation, internal urethrotomy and transurethral resection of prostate are included if performed) gender is Male",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,287776003,M,procedure
+"Laser vaporization of prostate, including control of postoperative bleeding, complete (vasectomy, meatotomy, cystourethroscopy, urethral calibration and/or dilation, internal urethrotomy and transurethral resection of prostate are included if performed) gender is Male",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,288016004,M,procedure
+"Destruction of lesion(s), penis (eg, condyloma, papilloma, molluscum contagiosum, herpetic vesicle), simple; cryosurgery gender is Male",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,29245009,M,procedure
+"Laser vaporization of prostate, including control of postoperative bleeding, complete (vasectomy, meatotomy, cystourethroscopy, urethral calibration and/or dilation, internal urethrotomy and transurethral resection of prostate are included if performed) gender is Male",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,307283007,M,procedure
+"Hysteroscopy, surgical; with sampling (biopsy) of endometrium and/or polypectomy, with or without D & C gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,307719001,F,procedure
+"Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation plus detailed fetal anatomic examination, transabdominal approach; single or first gestation gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,307813007,F,procedure
+Radical prostatectomy gender is Male,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,4163F,M,procedure
+Hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,45126,F,procedure
+Vasectomy gender is Male,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,52601,M,procedure
+Transurethral laser prostatectomy gender is Male,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,52648,M,procedure
+Lysis of penile adhesions gender is Male,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,54162,M,procedure
+Lysis of penile adhesions gender is Male,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,54450,M,procedure
+Orchidopexy gender is Male,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,54640,M,procedure
+Orchidopexy gender is Male,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,54692,M,procedure
+Vasectomy gender is Male,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,55250,M,procedure
+Total abdominal hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,58150,F,procedure
+Total abdominal hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,58200,F,procedure
+Radical abdominal hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,58210,F,procedure
+Vaginal hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,58262,F,procedure
+Laparoscopic-assisted vaginal hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,58267,F,procedure
+Vaginal hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,58290,F,procedure
+Insertion of intrauterine contraceptive device gender is Female,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,58300,F,procedure
+Laparoscopic supracervical hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,58541,F,procedure
+Laparoscopic supracervical hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,58543,F,procedure
+Laparoscopic-assisted vaginal hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,58552,F,procedure
+Laparoscopic-assisted vaginal hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,58553,F,procedure
+Laparoscopic-assisted vaginal hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,58554,F,procedure
+Hysteroscopy gender is Female,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,58555,F,procedure
+Hysteroscopy gender is Female,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,58579,F,procedure
+Total abdominal hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,58951,F,procedure
+Echography of scrotum and contents gender is Male,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,76870,M,procedure
+Echography of scrotum and contents gender is Male,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,93975,M,procedure
+Echography of scrotum and contents gender is Male,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,93976,M,procedure
+"Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation, after first trimester (> or = 14 weeks 0 days), transabdominal approach; single or first gestation gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,307813007,F,procedure
+Vaginal hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,58260,F,procedure
+Vaginal hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,58291,F,procedure
+Removal of intrauterine device gender is Female,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,58301,F,procedure
+Laparoscopic-assisted vaginal hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,58550,F,procedure
+Total abdominal hysterectomy gender is Female,http://www.ama-assn.org/go/cpt,urn:oid:2.16.840.1.113883.6.12,58953,F,procedure
+"Ultrasound, pregnant uterus, real time with image documentation, transvaginal gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,13205008,F,procedure
+"Ultrasound, pregnant uterus, real time with image documentation, first trimester fetal nuchal translucency measurement, transabdominal or transvaginal approach; single or first gestation gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,13205008,F,procedure
+"Ultrasound, transvaginal gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,13205008,F,procedure
+"Ultrasound, pregnant uterus, real time with image documentation, first trimester fetal nuchal translucency measurement, transabdominal or transvaginal approach; single or first gestation gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,169669004,F,procedure
+"Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation, first trimester (< 14 weeks 0 days), transabdominal approach; single or first gestation gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,169668007,F,procedure
+"Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation, after first trimester (> or = 14 weeks 0 days), transabdominal approach; single or first gestation gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,169670003,F,procedure
+"Ultrasound, pregnant uterus, real time with image documentation, first trimester fetal nuchal translucency measurement, transabdominal or transvaginal approach; single or first gestation gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,169668007,F,procedure
+"Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation plus detailed fetal anatomic examination, transabdominal approach; single or first gestation gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,169670003,F,procedure
+"Laser vaporization of prostate, including control of postoperative bleeding, complete (vasectomy, meatotomy, cystourethroscopy, urethral calibration and/or dilation, internal urethrotomy and transurethral resection of prostate are included if performed) gender is Male",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,176288003,M,procedure
+Foreskin manipulation including lysis of preputial adhesions and stretching gender is Male,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,176549001,M,procedure
+"Biopsy of penis, (separate procedure) gender is Male",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,176557003,M,procedure
+"Colposcopy of the cervix including upper/adjacent vagina, with biopsy(s) of the cervix and endocervical curettage gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,176787007,F,procedure
+"Routine obstetric care including antepartum care, vaginal delivery (with or without episiotomy, and/or forceps) and postpartum care gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,18114009,F,procedure
+"Routine obstetric care including antepartum care, cesarean delivery, and postpartum care gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,18114009,F,procedure
+"Treatment of missed abortion, completed surgically; first trimester gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,18489003,F,procedure
+"Vasectomy, unilateral or bilateral (separate procedure), including postoperative semen examination(s) gender is Male",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,22523008,M,procedure
+"Transurethral electrosurgical resection of prostate, including control of postoperative bleeding, complete (vasectomy, meatotomy, cystourethroscopy, urethral calibration and/or dilation, and internal urethrotomy are included) gender is Male",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,22523008,M,procedure
+Colposcopy of the vulva gender is Female,http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,236839001,F,procedure
+"Laparoscopy, surgical, with total hysterectomy, for uterus 250 g or less; with removal of tube(s) and/or ovary(s) gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,236888001,F,procedure
+"Ultrasound, pregnant uterus, real time with image documentation, first trimester fetal nuchal translucency measurement, transabdominal or transvaginal approach; single or first gestation gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,23745001,F,procedure
+"Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation plus detailed fetal anatomic examination, transabdominal approach; single or first gestation gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,241491007,F,procedure
+"Ultrasound, scrotum and contents gender is Male",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,24737001,M,procedure
+"Destruction of lesion(s), penis (eg, condyloma, papilloma, molluscum contagiosum, herpetic vesicle), simple; chemical gender is Male",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,26792008,M,procedure
+"Colpopexy, vaginal; extra-peritoneal approach (sacrospinous, iliococcygeus) gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,236859002,F,procedure
+"Laparoscopy, surgical, colpopexy (suspension of vaginal apex) gender is Female",http://snomed.info/sct,urn:oid:2.16.840.1.113883.6.96,276188006,F,procedure

@@ -25,5 +25,8 @@ SELECT * FROM (
 	UNION ALL
 	{{ print("test_obs_plaus_invalid_ucum") }}
 	{{ count_rows( test_obs_plaus_invalid_ucum() ) }}
+	UNION ALL
+	{{ print("test_obs_plaus_oid_matching") }}
+	{{ count_rows( test_obs_plaus_oid_matching() ) }}
 ) a
 WHERE rows > 0

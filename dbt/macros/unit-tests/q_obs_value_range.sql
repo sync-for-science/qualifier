@@ -2,8 +2,8 @@
 {% set tbl = caller() %}
 WITH plausibility AS (
 	{% call table_to_sql() %}
-	| system   | code | ucum_code | low | high |
-	| 'loinc'  | '123'  | '456'       | 5   | 10   |
+	| system   | system_oid  | code   | ucum_code | low | high |
+	| 'loinc'  | 'loinc_oid' | '123'  | '456'     | 5   | 10   |
 	{% endcall %}
 ),
 obs AS (
@@ -63,4 +63,9 @@ test AS ({{ q_obs_value_range( "obs", "plausibility" ) }} )
 {% macro test_obs_plaus_invalid_ucum() %}{% call obs_plausibility_query() %}
 	| id    | quantity_value | system  | code | quantity_code  |
 	| 'id1' |             6 | 'loinc'  | '123'   | '457'            |
+{% endcall %}{% endmacro %}
+
+{% macro test_obs_plaus_oid_matching() %}{% call obs_plausibility_query() %}
+	| id    | quantity_value | system     | code  | quantity_code  |
+	| 'id1' |             18 | 'loinc_oid' | '123' | '457'          |
 {% endcall %}{% endmacro %}
