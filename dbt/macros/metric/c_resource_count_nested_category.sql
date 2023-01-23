@@ -47,8 +47,7 @@ WITH flat as (
 	{% if resource_type == "DocumentReference" %}
 		ON (category_coding ->> 'system') = 'http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category'
 	{% elif resource_type == "Encounter" %}
-		ON (category_coding ->> 'system') = 'http://www.ama-assn.org/go/cpt'
-			OR (category_coding ->> 'system') = 'http://snomed.info/sct'
+		ON (category_coding ->> 'system') IN ('http://www.ama-assn.org/go/cpt', 'http://snomed.info/sct', 'urn:oid:2.16.840.1.113883.6.12', 'urn:oid:2.16.840.1.113883.6.96')
 	{% else %}
 		ON (category_coding ->> 'system') = 'http://terminology.hl7.org/CodeSystem/{{resource_type|lower}}-category'
 	{% endif %}
@@ -137,7 +136,7 @@ ordered_category AS (
 	{% if resource_type == "DocumentReference" %}
 		WHERE codings.system = 'http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category'
 	{% elif resource_type == "Encounter" %}
-		WHERE codings.system = 'http://www.ama-assn.org/go/cpt' OR codings.system = 'http://snomed.info/sct'
+		WHERE codings.system IN ('http://www.ama-assn.org/go/cpt', 'http://snomed.info/sct', 'urn:oid:2.16.840.1.113883.6.12', 'urn:oid:2.16.840.1.113883.6.96')
 	{% else %}
 		WHERE codings.system = 'http://terminology.hl7.org/CodeSystem/{{resource_type|lower}}-category'
 	{% endif %}
