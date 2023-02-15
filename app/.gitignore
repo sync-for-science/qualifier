@@ -1,10 +1,8 @@
-target/
-dbt_packages/
-logs/
 *.duckdb
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 omop/
-.user.yml
 .env
-raw-fhir/
+data/
+quality.html
+characterization.html

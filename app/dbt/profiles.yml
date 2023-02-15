@@ -2,16 +2,26 @@ qualifier:
   outputs:
     dev_duck:
       type: duckdb
-      path: "./fhir.duckdb"
+      path: "../fhir.duckdb"
       extensions:
         - json
 
     dev_pg:
       type: postgres
-      user: ''
+      user: postgres
       pass: ''
       threads: 1
       host: 127.0.0.1
+      port: 5432
+      dbname: fhir-uscore
+      schema: public
+  
+    dev_pg_docker:
+      type: postgres
+      user: postgres
+      pass: ''
+      threads: 1
+      host: host.docker.internal
       port: 5432
       dbname: fhir-uscore
       schema: public

@@ -14,4 +14,4 @@ The work is funded by a grant from the [All of Us Research Project](https://allo
 
 ## Resources:
 - [Metric Definitions](./metrics.md)
-- [Reference Implementation](./dbt/README.md)
+- [Reference Implementation](./app/README.md)
