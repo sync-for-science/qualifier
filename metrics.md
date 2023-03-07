@@ -62,8 +62,11 @@ Date sequence pairs:
 |--------------------|------------------------------------|--------------------------|------------------------------------------|
 | Patient            | birthDate                          | Patient                  | deceasedDateTime                         |
 | Condition          | onsetPeriod.start OR onsetDateTime | Condition                | abatementDateTime OR abatementPeriod.end |
+| Condition          | onsetPeriod.start OR onsetDateTime | Condition                | recordedDate                             |
 | Encounter          | period.start                       | Encounter                | period.end                               |
+| Immunization       | occurrenceDateTime                 | Immunization             | recorded                                 |
 | AllergyIntolerance | onsetPeriod.start                  | AllergyIntolerance       | onsetPeriod.end                          |
+| AllergyIntolerance | onsetPeriod.start                  | AllergyIntolerance       | recordedDate                             |
 | MedicationRequest  | authoredOn                         | MedicationAdministration | effectiveDateTime                        |
 
 Denominator resource inclusion:
