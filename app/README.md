@@ -7,6 +7,9 @@
 
 This is a reference implementation of the [Qualifier](../metrics.md) data quality and characterization metrics for FHIR datasets. It currently includes SQL implementations of a subset of the defined metrics, with support for data stored in a Postgres database (FHIR in a JSON or JSONB column, one table per resource type) or a directory of NDJSON files of FHIR resources (via the duckdb data engine, one file per resource type).
 
+High level architecture:
+<div><img src="architecture.svg" width="75%" /></div>
+
 ## Setting up and running Qualifier
 
 ### Install prerequisites and clone this repository
