@@ -15,7 +15,7 @@ clean-targets:         # directories to be removed by `dbt clean`
   - "dbt_packages"
 
 vars:
-  db_json_column: "resource"
+  db_json_column: "json" #json is the default for duckdb, makes docker image easier to work with
   db_is_jsonb: True
   metric_include_examples: "sample"
   # individual file locations can also be set in models/sources.yml

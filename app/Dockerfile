@@ -32,13 +32,11 @@ ENV LANG=C.UTF-8
 RUN python -m pip install --upgrade pip setuptools wheel --no-cache-dir
 
 # dbt
-FROM base as dbt-duckdb
 COPY requirements-dbt.txt /usr/app/requirements-dbt.txt
 WORKDIR /usr/app
 RUN python -m pip install --no-cache-dir -r requirements-dbt.txt
 
 # Quarto
-FROM dbt-duckdb as quarto
 RUN curl -LO https://quarto.org/download/latest/quarto-linux-amd64.deb
 RUN gdebi --non-interactive quarto-linux-amd64.deb
 
@@ -46,8 +44,6 @@ RUN quarto install tinytex
 
 COPY requirements-jupyter.txt /usr/app/requirements-jupyter.txt
 RUN python -m pip install --no-cache-dir -r requirements-jupyter.txt
-
-FROM quarto as qualifier
 
 # Add qualifier files
 COPY ./dbt ./dbt
