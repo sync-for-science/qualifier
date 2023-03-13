@@ -89,6 +89,11 @@ Install the python packages to generate reports:
 pip3 install -r requirements-jupyter.txt
 ```
 
+Switch to the dbt directory:
+```
+cd dbt
+```
+
 ### Run Qualifier
 
 #### Create seed tables (only needs to be done on first run or when seeds files are changed)

@@ -33,7 +33,7 @@ SELECT * FROM (
 	{% if resource.name|lower in sources %}
 		{% set ns.prev_items = True %}
 		{% if ns.prev_items %}UNION ALL{% endif %}
-		({{ c_resource_count_no_category(source("qualifier", resource.name|lower), var('db_json_column'), resource.date, var('skip_resource_count_date')) }})
+		({{ c_resource_count_no_category(source("qualifier", resource.name|lower), var('db_json_column'), var('db_is_jsonb'), resource.date, var('skip_resource_count_date')) }})
 	{% endif %}
 {% endfor %}
 
