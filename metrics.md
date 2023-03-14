@@ -89,7 +89,7 @@ Date elements:
 | Condition                | recordedDate, onsetDateTime, onsetPeriod.start, abatementDateTime, abatementPeriod.end |
 | Encounter                | period.start                                                                           |
 | Immunization             | occurrenceDateTime                                                                     |
-| Procedure                | performedDateTime                                                                      |
+| Procedure                | performedDateTime, performedPeriod.start                                               |
 | AllergyIntolerance       | recordedDate, onsetDateTime, onsetPeriod.start, onsetPeriod.end                        |
 | DocumentReference        | date                                                                                   |
 | MedicationRequest        | authoredOn                                                                             |
@@ -271,7 +271,7 @@ Date elements:
 | Condition                | recordedDate OR onsetDateTime OR onsetPeriod.start |
 | Encounter                | period.start                                       |
 | Immunization             | occurrenceDateTime                                 |
-| Procedure                | performedDateTime                                  |
+| Procedure                | performedDateTime OR performedPeriod.start         |
 | AllergyIntolerance       | recordedDate OR onsetDateTime OR onsetPeriod.start |
 | DocumentReference        | date                                               |
 | MedicationRequest        | authoredOn                                         |
@@ -420,7 +420,7 @@ Date elements:
 | Condition                | recordedDate, onsetDateTime, onsetPeriod.start, onsetPeriod.end, abatementDateTime, abatementPeriod.start, abatementPeriod.end |
 | Encounter                | period.start, period.end                                                                                                       |
 | Immunization             | occurrenceDateTime                                                                                                             |
-| Procedure                | performedDateTime                                                                                                              |
+| Procedure                | performedDateTime, performedPeriod.start                                                                                       |
 | AllergyIntolerance       | recordedDate, onsetDateTime, onsetPeriod.start, onsetPeriod.end                                                                |
 | MedicationRequest        | authoredOn                                                                                                                     |
 | MedicationAdministration | effectiveDateTime                                                                                                              |

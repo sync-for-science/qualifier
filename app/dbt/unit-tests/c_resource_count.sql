@@ -38,7 +38,12 @@ SELECT * FROM (
 	UNION ALL
 	{{ print("test_c_resource_count_no_category_skip_date") }}
 	{{ count_rows( test_c_resource_count_no_category_skip_date() ) }}
-
+	UNION ALL
+	{{ print("test_c_resource_count_procedure_date_time") }}
+	{{ count_rows( test_c_resource_count_procedure_date_time() ) }}
+	UNION ALL
+	{{ print("test_c_resource_count_procedure_period") }}
+	{{ count_rows( test_c_resource_count_procedure_period() ) }}
 	UNION ALL
 	{{ print("test_c_resource_count_allergy_intolerance") }}
 	{{ count_rows( test_c_resource_count_allergy_intolerance() ) }}

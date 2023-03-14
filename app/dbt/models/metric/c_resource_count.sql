@@ -22,18 +22,11 @@ SELECT * FROM (
 	({{ c_resource_count_allergy_intolerance(source("qualifier", "allergyintolerance"), var('db_json_column'), var('db_is_jsonb'), var('skip_resource_count_date'), var('skip_resource_count_category')) }})
 {% endif %}
 
-{% for resource in [
-	{"name": "Patient", "date": None},
-	{"name": "Immunization", "date": "occurrenceDateTime" },
-	{"name": "Procedure", "date": "performedDateTime"},
-	{"name": "Medication", "date": None},
-	{"name": "MedicationAdministration", "date": "effectiveDateTime"},
-	{"name": "Device", "date": None}
-] %}
-	{% if resource.name|lower in sources %}
+{% for resource in ["Patient","Immunization", "Procedure", "Medication", "MedicationAdministration", "Device"] %}
+	{% if resource|lower in sources %}
 		{% set ns.prev_items = True %}
 		{% if ns.prev_items %}UNION ALL{% endif %}
-		({{ c_resource_count_no_category(source("qualifier", resource.name|lower), var('db_json_column'), var('db_is_jsonb'), resource.date, var('skip_resource_count_date')) }})
+		({{ c_resource_count_no_category(source("qualifier", resource|lower), var('db_json_column'), var('db_is_jsonb'), resource, var('skip_resource_count_date')) }})
 	{% endif %}
 {% endfor %}
 
