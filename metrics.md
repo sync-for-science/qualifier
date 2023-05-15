@@ -313,23 +313,53 @@ Notes:
 - Exclude the set of [sparsely populated](https://www.johndcook.com/blog/2016/06/29/sparsely-populated-zip-codes/) 3 digit zip codes to be HIPAA compliant, replacing them with `000`
 - Prefer `use=home`, `type=physical` or `both`, and a period without an end date. Fallback order for `address.use` element is `temp`, `work`, `billing`, any
 
+### `c_term_coverage` [terminology] Count of Resources by Terminology System (by resource type, by category)
+
+Notes:
+- For each element, return the count of resources that can be retrieved with each combination of the terminology systems being used (e.g., count of resources that have a SNOMED CT, count that have an ICD-10 code, and count with either a SNOMED CT code or ICD-10 code).
+- For each element and combination of systems, return the count of resources that also have a text description of the concept.
+
+| Resource Type             | CodeableConcept Element   |
+|---------------------------|---------------------------|
+| Observation (by category) | code                      |
+| Condition (by category)   | code                      |
+| Encounter                 | type                      |
+| Procedure                 | code                      |
+| Immunization              | vaccineCode               |
+| AllergyIntolerance        | code                      |
+| DocumentReference         | type                      |
+| MedicationRequest         | medicationCodeableConcept |
+| MedicationAdministration  | medicationCodeableConcept |
+| Device                    | type                      |
+
+### `c_identifier_coverage` [terminology] Count of Resources by Identifier System (by resource type)
+
+Notes:
+- For each element, return the count of resources that can be retrieved with each combination of the identifier systems being used.
+
+| Resource Type | Identifier Element |
+|---------------|--------------------|
+| Patient       | identifier         |
+| Encounter     | identifier         |
+
 ### `c_term_use` [terminology] Count of Resources by Coded Value (by resource type, by category, by element, by system, by code)
 
 Notes:
 - More complete exploration of elements not included here can be done with the open source [FHIR Data Census Tool](https://github.com/sync-for-science/data-census)
 
-Elements:
-- **Patient**: _identifier_ (system only to avoid leaking PHI), address.use, address.type, telecom.system, telecom.use
-- **Observation** (by category): _code_, valueCodeableConcept, status
-- **Condition** (by category): _code_, clinicalStatus, verificationStatus, severity
-- **Encounter**: type, reasonCode, dischargeDisposition, 
-- **Procedure**: _code_, category, status
-- **Immunization**: _vaccineCode_, status
-- **AllergyIntolerance**: _code_, verificationStatus, reaction.manifestation, reaction.severity
-- **DocumentReference**: _type_, docStatus, status, contentType
-- **MedicationRequest**: _medicationCodeableConcept_, medicationReference.code intent, status, reported
-- **MedicationAdministration**: _medicationCodeableConcept_, status
-- **Device**: _type_, status
+| Resource Type             | Elements                                                                                                |
+|---------------------------|---------------------------------------------------------------------------------------------------------|
+| Patient                   | _identifier_ (system only to avoid leaking PHI), address.use, address.type, telecom.system, telecom.use |
+| Observation (by category) | _code_, valueCodeableConcept, status                                                                    |
+| Condition (by category)   | _code_, clinicalStatus, verificationStatus, severity                                                    |
+| Encounter                 | type, reasonCode, dischargeDisposition                                                                  |
+| Procedure                 | _code_, category, status                                                                                |
+| Immunization              | _vaccineCode_, status                                                                                   |
+| AllergyIntolerance        | _code_, verificationStatus, reaction.manifestation, reaction.severity                                   |
+| DocumentReference         | _type_, docStatus, status, contentType                                                                  |
+| MedicationRequest         | _medicationCodeableConcept_, medicationReference.code intent, status, reported                          |
+| MedicationAdministration  | _medicationCodeableConcept_, status                                                                     |
+| Device                    | _type_, status                                                                                          |
 
 Parameters:
 - `skip_elements` - array of '{resource}.{element}' strings with one or more items from the list above
@@ -368,10 +398,11 @@ Notes:
 - Used to verify population of elements needed for specific types of analysis that are not covered by other metrics. More complete exploration can be done with the open source [FHIR Data Census Tool](https://github.com/sync-for-science/data-census).
 - This is kind of a catch-all metric, might be worth removing, but could also be useful to researchers as a base to add their own elements of interest? 
 
-Elements:
-- **Observation**: dataAbsentReason, valueQuantity, valueCodeableConcept, valueString
-- **Condition**: onsetPeriod.start, onsetDateTime
-- **DocumentReference**: context.encounter.reference, context.period.start
+| Resource Type     | Element                                                            |
+|-------------------|--------------------------------------------------------------------|
+| Observation       | dataAbsentReason, valueQuantity, valueCodeableConcept, valueString |
+| Condition         | onsetPeriod.start, onsetDateTime                                   |
+| DocumentReference | context.encounter.reference, context.period.start                  |
 
 
 ### `c_record_first` [temporality] Distribution of Earliest Patient Record (by year, by month) 
