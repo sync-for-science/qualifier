@@ -4,8 +4,7 @@ sources:
   - name: qualifier
     schema: public
     meta:
-      # external_location: "read_json_objects('/Users/dan/Projects/qualifier/data/synthea/{name}.ndjson')"
-      external_location: "read_json_objects('{{var('ndjson_file_path')}}')"
+      external_location: "read_ndjson_objects('{{var('ndjson_file_path')}}')"
     tables: 
       - name: patient
       - name: observation

@@ -4,7 +4,7 @@ matplotlib==3.6.3
 nbclient==0.7.2
 numpy==1.24.2
 sqlalchemy==1.4.46
-duckdb==0.5.1
-duckdb-engine==0.6.8
+duckdb==0.8.1
+duckdb-engine==0.9.0
 psycopg2==2.9.5
 python-dotenv==0.21.1

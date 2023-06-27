@@ -57,3 +57,4 @@ RUN nbstripout ./reports/quality.ipynb
 VOLUME ["/usr/app/data"]
 
 WORKDIR /usr/app/dbt
+RUN dbt clean
