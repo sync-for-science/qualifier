@@ -316,8 +316,9 @@ Notes:
 ### `c_term_coverage` [terminology] Count of Resources by Terminology System (by resource type, by category)
 
 Notes:
-- For each element, return the count of resources that can be retrieved with each combination of the terminology systems being used (e.g., count of resources that have a SNOMED CT, count that have an ICD-10 code, and count with either a SNOMED CT code or ICD-10 code).
+- For CodeableConcept elements, return the count of resources that can be retrieved with each combination of the terminology systems being used (e.g., count of Procedure resources that have a SNOMED CT, count that have an ICD-10 code, and count with either a SNOMED CT code or ICD-10 code since systems may partially overlap).
 - For each element and combination of systems, return the count of resources that also have a text description of the concept.
+- This metric will point to the best set of terminology systems to be used when querying the population, and/or highlight terminology mappings that should be adjusted in the source system or through a transformation step in a data pipeline to improve queryability for specific use cases.
 
 | Resource Type             | CodeableConcept Element   |
 |---------------------------|---------------------------|
@@ -335,7 +336,9 @@ Notes:
 ### `c_identifier_coverage` [terminology] Count of Resources by Identifier System (by resource type)
 
 Notes:
-- For each element, return the count of resources that can be retrieved with each combination of the identifier systems being used.
+- For Identifier elements, return the count of resources that can be retrieved with each combination of the identifier systems being used (e.g., count of patient resources that have a MRN from EHR #1, count that have a MRN from EHR #2, and count with either of those as occurrences may partially overlap).
+- This metric will indicate which identifier systems will be available to match patients and encounters with those in other data extracts.
+
 
 | Resource Type | Identifier Element |
 |---------------|--------------------|

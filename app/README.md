@@ -192,9 +192,10 @@ If you're running qualifier in a docker container, include the following at the 
 	- q_obs_comp_value_range
 
 - Characterization
-	- c_resource_count (Patient, Observation, Condition, Encounter, Immunization, AllergyIntolerance, DocumentReference, MediationRequest, Mediation, MedicationAdministration, Device)
+	- c_resource_count (Patient, Observation, Condition, Encounter, Immunization, AllergyIntolerance, DocumentReference, MedicationRequest, Medication, MedicationAdministration, Device)
 	- c_pt_count
 	- c_pt_deceased_count
+	- c_term_coverage
 
 ## Modifying Qualifier
 
@@ -231,6 +232,7 @@ dbt test
 	- [c_resource_count](dbt/macros/metric/c_resource_count.sql) ([unit tests](dbt/macros/unit-tests/c_resource_count.sql)) - characterization metric calculation for counts of resources by category and primary date (where applicable)
 	- [c_pt_count](dbt/macros/metric/c_pt_count.sql) ([unit tests](dbt/macros/unit-tests/c_pt_count.sql)) - characterization metric calculation using flat_patient
 	- [c_pt_deceased_count](dbt/macros/metric/c_pt_deceased_count.sql) ([unit tests](dbt/macros/unit-tests/c_pt_deceased_count.sql)) - characterization metric calculation using flat_patient
+	- [c_term_coverage](dbt/macros/metric/c_term_coverage.sql) ([unit tests](dbt/macros/unit-tests/c_term_coverage.sql)) - characterization metric calculation
 	- [expectations_to_metric](dbt/macros/util/expectations_to_metric.sql) ([unit tests](dbt/macros/unit-tests/expectations_to_metric.sql)) - aggregate quality metrics into standard structure of numerator, denominator and error examples
 
 - Misc
