@@ -3,9 +3,12 @@
 ## Overview
 
 > **Note** 
-> This project under active development. Only a small subset of the planned metrics have been implemented to date, and existing code is likely to change over the next few months.
+> This qualifier implementation is no longer under active development.
+> Only a small subset of the planned metrics were implemented.
+> Try the [Cumulus-based reference implementation](https://github.com/smart-on-fhir/cumulus-library-data-metrics/)
+> for an actively developed version.
 
-This is a reference implementation of the [Qualifier](../metrics.md) data quality and characterization metrics for FHIR datasets. It currently includes SQL implementations of a subset of the defined metrics, with support for data stored in a Postgres database (FHIR in a JSON or JSONB column, one table per resource type) or a directory of NDJSON files of FHIR resources (via the duckdb data engine, one file per resource type).
+This is an example implementation of the [Qualifier](../metrics.md) data quality and characterization metrics for FHIR datasets. It currently includes SQL implementations of a subset of the defined metrics, with support for data stored in a Postgres database (FHIR in a JSON or JSONB column, one table per resource type) or a directory of NDJSON files of FHIR resources (via the duckdb data engine, one file per resource type).
 
 High level architecture:
 <div><img src="architecture.svg" width="75%" /></div>
