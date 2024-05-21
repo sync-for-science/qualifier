@@ -169,7 +169,7 @@ Numerator resource inclusion:
 
 - One of the mandatory profile elements is missing or a `SHALL` profile constraint is failing.
 
-### q_term_use
+### q_system_use
 **[conformance]** Expect Common Terminology Systems to be Populated
 
 Coded elements:
@@ -304,7 +304,7 @@ Notes:
 - Exclude the set of [sparsely populated](https://www.johndcook.com/blog/2016/06/29/sparsely-populated-zip-codes/) 3 digit zip codes to be HIPAA compliant, replacing them with `000`
 - Prefer `use=home`, `type=physical` or `both`, and a period without an end date. Fallback order for `address.use` element is `temp`, `work`, `billing`, any
 
-### c_term_use
+### c_system_use
 **[terminology]** Count of Resources by Terminology System
 
 Stratified by
@@ -333,7 +333,7 @@ Notes:
 | Observation        | valueCodeableConcept      |
 | Procedure          | code                      |
 
-### c_term_coverage
+### c_system_coverage
 **[terminology]** Count of Resources by Terminology System
 
 Stratified by
@@ -345,7 +345,7 @@ Notes:
 - For CodeableConcept elements, return the count of resources that can be retrieved with each combination of the terminology systems being used (e.g., count of Procedure resources that have a SNOMED CT, count that have an ICD-10 code, and count with either a SNOMED CT code or ICD-10 code since systems may partially overlap).
 - For each element and combination of systems, return the count of resources that also have a text description of the concept.
 - This metric will point to the best set of terminology systems to be used when querying the population, and/or highlight terminology mappings that should be adjusted in the source system or through a transformation step in a data pipeline to improve queryability for specific use cases.
-- Use the same fields as [c_term_use](#c_term_use)
+- Use the same fields as [c_system_use](#c_system_use)
 
 ### c_identifier_coverage
 **[terminology]** Count of Resources by Identifier System
@@ -362,7 +362,7 @@ Notes:
 | Patient       | identifier         |
 | Encounter     | identifier         |
 
-### c_term_use
+### c_code_use
 **[terminology]** Count of Resources by Coded Value
 
 Stratified by [resource type](#by-resource), by [basic category](#by-basic-category), by element, by system, by code.
@@ -386,16 +386,16 @@ Notes:
 Parameters:
 - `skip_elements` - array of '{resource}.{element}' strings with one or more items from the list above
 
-### c_term_use_pt
+### c_code_use_pt
 **[terminology]** Count of Patients per Coded Value
 
 Stratified by resource type, by category, by element, by system, by code.
 
 Notes:
-- See coded values in [c_term_use](#c_term_use)
+- See coded values in [c_code_use](#c_code_use)
 
-### c_term_use_panel
-**[terminology]** Count of Coded Laboratory  Panel Components
+### c_code_use_panel
+**[terminology]** Count of Coded Laboratory Panel Components
 
 Stratified by panel system, by panel code, by component system, by component code.
 
@@ -403,22 +403,22 @@ Notes:
 - Count of `Observation.code` values that are referenced from a `DiagnosticReport.results` array 
 - Looks like this may be possible in Epic, though Cerner doesn't seem to have support for DiagnosticReport resources yet based on https://groups.google.com/g/cerner-fhir-developers/c/Pn1HnUMwcCo/m/MSaguilDAAAJ 
 
-### c_term_first_use
+### c_code_first_use
 **[terminology]** Count of Earliest Use of Coded Value
 
 Stratified by resource type, by category, by element, by system, by code, by year, by month.
 
 Notes:
-- See code elements in [c_term_use](#c_term_use)
+- See code elements in [c_code_use](#c_code_use)
 - Use standard [date elements](#by-date)
 
-### c_term_last_use
+### c_code_last_use
 **[terminology]** Count of Latest Use of Coded Value
 
 Stratified by resource type, by category, by element, by system, by code, by year, by month.
 
 Notes:
-- See code elements in [c_term_use](#c_term_use)
+- See code elements in [c_code_use](#c_code_use)
 - Use standard [date elements](#by-date)
 
 ### c_resources_per_pt
