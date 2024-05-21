@@ -304,7 +304,7 @@ Notes:
 - Exclude the set of [sparsely populated](https://www.johndcook.com/blog/2016/06/29/sparsely-populated-zip-codes/) 3 digit zip codes to be HIPAA compliant, replacing them with `000`
 - Prefer `use=home`, `type=physical` or `both`, and a period without an end date. Fallback order for `address.use` element is `temp`, `work`, `billing`, any
 
-### c_term_coverage
+### c_term_use
 **[terminology]** Count of Resources by Terminology System
 
 Stratified by
@@ -314,7 +314,8 @@ by [status](#by-status),
 by [year](#by-date).
 
 Notes:
-- This metric will point to the best set of terminology systems to be used when querying the population, and/or highlight terminology mappings that should be adjusted in the source system or through a transformation step in a data pipeline to improve queryability for specific use cases.
+- This metric will give a sense of what terminology systems are in use
+  over time.
 
 | Resource Type      | Coded Element             |
 |--------------------|---------------------------|
@@ -331,6 +332,20 @@ Notes:
 | Observation        | code                      |
 | Observation        | valueCodeableConcept      |
 | Procedure          | code                      |
+
+### c_term_coverage
+**[terminology]** Count of Resources by Terminology System
+
+Stratified by
+[resource type](#by-resource),
+by [basic category](#by-basic-category),
+by [status](#by-status).
+
+Notes:
+- For CodeableConcept elements, return the count of resources that can be retrieved with each combination of the terminology systems being used (e.g., count of Procedure resources that have a SNOMED CT, count that have an ICD-10 code, and count with either a SNOMED CT code or ICD-10 code since systems may partially overlap).
+- For each element and combination of systems, return the count of resources that also have a text description of the concept.
+- This metric will point to the best set of terminology systems to be used when querying the population, and/or highlight terminology mappings that should be adjusted in the source system or through a transformation step in a data pipeline to improve queryability for specific use cases.
+- Use the same fields as [c_term_use](#c_term_use)
 
 ### c_identifier_coverage
 **[terminology]** Count of Resources by Identifier System
