@@ -14,5 +14,5 @@ The work is funded by a grant from the [All of Us Research Project](https://allo
 
 ## Resources:
 - [Metric Definitions](./metrics.md)
-- [Reference Implementation](https://github.com/smart-on-fhir/cumulus-library-data-metrics/) (based off Cumulus)
-- [Example Implementation](./app/README.md) (based off dbt)
+- [Cumulus Implementation](https://github.com/smart-on-fhir/cumulus-library-data-metrics/): open source implementation of a growing subset of the Qualifier metrics on the Cumulus FHIR Analytics Platform for AWS Athena and DuckDB.
+- [Example DBT Implementation](./app/README.md): open source implementation of a subset of the Qualifier metrics using DBT (Postgres and DuckDB). Not actively maintained.
