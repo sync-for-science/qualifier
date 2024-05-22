@@ -9,7 +9,8 @@ The metrics outlined below are focused on evaluating the data quality and charac
 
 ## Draft Metrics - Data Quality
 
-### `q_obs_value_range` [plausibility] Expect Quantitative Observation Value to be in Plausible Range
+### q_obs_value_range
+**[plausibility]** Expect Quantitative Observation Value to be in Plausible Range
 
 Denominator resource inclusion:
 - `Observation.valueQuantity` element is populated 
@@ -19,7 +20,8 @@ Denominator resource inclusion:
 Numerator resource inclusion:
 - `Observation.valueQuantity` element value is above or below the range defined in the [OHDSI Data Quality Dashboard definitions](https://github.com/OHDSI/DataQualityDashboard/blob/main/inst/csv/OMOP_CDMv5.3.1_Concept_Level.csv)
 
-### `q_obs_comp_value_range` [plausibility] Expect Quantitative Observation _Component_ Value to be in Plausible Range
+### q_obs_comp_value_range
+**[plausibility]** Expect Quantitative Observation _Component_ Value to be in Plausible Range
 
 Denominator resource inclusion:
 - `Observation.component.valueQuantity` element is populated 
@@ -29,7 +31,8 @@ Denominator resource inclusion:
 Numerator resource inclusion:
 - `Observation.component.valueQuantity` element value is above or below the range defined in the [OHDSI Data Quality Dashboard definitions](https://github.com/OHDSI/DataQualityDashboard/blob/main/inst/csv/OMOP_CDMv5.3.1_Concept_Level.csv)
 
-### `q_cond_gender` [plausibility] Expect Condition Gender to be Plausible
+### q_cond_gender
+**[plausibility]** Expect Condition Gender to be Plausible
 
 Notes:
 - The FHIR Patient.gender element represents administrative gender which is not ideal for this purpose. USCDI v2 requires a `us-core-birthsex` extension, though this will be changing in v3 based on feedback from the clinical community. Epic supports inclusion of a `sex-for-clinical-use` extension, though it is unclear how often this is populated in production implementations. Qualifier will use the Epic extension preferentially, falling back to the birth sex extension and then administrative gender.
@@ -41,11 +44,11 @@ Denominator resource inclusion:
 Numerator resource inclusion:
 - Patient gender does not match the plausible gender for the condition code defined in the [OHDSI Data Quality Dashboard definitions](https://github.com/OHDSI/DataQualityDashboard/blob/main/inst/csv/OMOP_CDMv5.3.1_Concept_Level.csv)
 
-
-### `q_proc_gender` [plausibility] Expect Procedure Gender to be Plausible
+### q_proc_gender
+**[plausibility]** Expect Procedure Gender to be Plausible
 
 Notes:
-- See `q_cond_gender` for details on how Patient gender is derived
+- See [q_cond_gender](#q_cond_gender) for details on how Patient gender is derived
 
 Denominator resource inclusion:
 - `Procedure.code` matches a code with a plausible gender in the [OHDSI Data Quality Dashboard definitions](https://github.com/OHDSI/DataQualityDashboard/blob/main/inst/csv/OMOP_CDMv5.3.1_Concept_Level.csv)
@@ -54,20 +57,21 @@ Denominator resource inclusion:
 Numerator resource inclusion:
 - Patient gender does not match the plausible gender defined for this procedure code in the [OHDSI Data Quality Dashboard definitions](https://github.com/OHDSI/DataQualityDashboard/blob/main/inst/csv/OMOP_CDMv5.3.1_Concept_Level.csv)
 
-### `q_date_sequence` [plausibility] Expect Date to be in Plausible Sequence
+### q_date_sequence
+**[plausibility]** Expect Date to be in Plausible Sequence
 
 Date sequence pairs:
 
 | Resource  Type     | Date Element                       | Subsequent Resource Type | Subsequent Date Element                  |
 |--------------------|------------------------------------|--------------------------|------------------------------------------|
-| Patient            | birthDate                          | Patient                  | deceasedDateTime                         |
+| AllergyIntolerance | onsetPeriod.start                  | AllergyIntolerance       | onsetPeriod.end                          |
+| AllergyIntolerance | onsetPeriod.start                  | AllergyIntolerance       | recordedDate                             |
 | Condition          | onsetPeriod.start OR onsetDateTime | Condition                | abatementDateTime OR abatementPeriod.end |
 | Condition          | onsetPeriod.start OR onsetDateTime | Condition                | recordedDate                             |
 | Encounter          | period.start                       | Encounter                | period.end                               |
 | Immunization       | occurrenceDateTime                 | Immunization             | recorded                                 |
-| AllergyIntolerance | onsetPeriod.start                  | AllergyIntolerance       | onsetPeriod.end                          |
-| AllergyIntolerance | onsetPeriod.start                  | AllergyIntolerance       | recordedDate                             |
 | MedicationRequest  | authoredOn                         | MedicationAdministration | effectiveDateTime                        |
+| Patient            | birthDate                          | Patient                  | deceasedDateTime                         |
 
 Denominator resource inclusion:
 - Both elements in a date sequence pair are populated
@@ -79,21 +83,10 @@ Notes:
 - Partial date elements are interpreted as the earliest date possible (e.g., 1999 would be the equivalent of 1999-01-01)
 - Partial Subsequent Date elements are interpreted as the latest date possible (e.g., 1999 would be the equivalent of 1999-12-31)
 
-### `q_date_in_lifetime` [plausibility] Expect Date to be During Patient Life
+### q_date_in_lifetime
+**[plausibility]** Expect Date to be During Patient Life
 
-Date elements:
-
-| Resource Type            | Date Element                                                                           |
-|--------------------------|----------------------------------------------------------------------------------------|
-| Observation              | effectiveDateTime                                                                      |
-| Condition                | recordedDate, onsetDateTime, onsetPeriod.start, abatementDateTime, abatementPeriod.end |
-| Encounter                | period.start                                                                           |
-| Immunization             | occurrenceDateTime                                                                     |
-| Procedure                | performedDateTime, performedPeriod.start                                               |
-| AllergyIntolerance       | recordedDate, onsetDateTime, onsetPeriod.start, onsetPeriod.end                        |
-| DocumentReference        | date                                                                                   |
-| MedicationRequest        | authoredOn                                                                             |
-| MedicationAdministration | effectiveDateTime                                                                      |
+Examine each of the standard [date elements](#by-date).
 
 Parameters:
 - `threshold_days` - allowed period after death date, defaults to 30 days
@@ -110,10 +103,10 @@ Notes:
 - Partial date elements are interpreted as the latest date possible when compared to birthDate (e.g., 1999 would be the equivalent of 1999-12-31)
 - Partial date elements are interpreted as the earliest date possible when compared to deceasedDateTime (e.g., 1999 would be the equivalent of 1999-01-01)
 
-### `q_date_recent` [plausibility] Expect Date to be in Recent Past
+### q_date_recent
+**[plausibility]** Expect Date to be in Recent Past
 
-Notes:
-- Same date elements set as `q_date_lifetime` above
+Examine each of the standard [date elements](#by-date).
 
 Parameters:
 - `run_time` - the start datatime when the set of queries that includes this metric was run
@@ -121,16 +114,17 @@ Parameters:
 - `end_date` - defaults to metric run time plus 0 days
 
 Denominator resource inclusion:
-- Date from the date elements table in `q_date_lifetime` is populated
+- The date element is populated
 
 Numerator resource inclusion:
-- Date from the date elements table in `q_date_lifetime` is before `start_date` parameter and/or after `end_date` parameter
+- The date elements is before `start_date` parameter and/or after `end_date` parameter
 
 Notes:
 - Partial date elements are interpreted as the latest date possible when compared to start_date (e.g., 1999 would be the equivalent of 1999-12-31)
 - Partial date elements are interpreted as the earliest date possible when compared to end_date (e.g., 1999 would be the equivalent of 1999-01-01)
 
-### `q_obs_unit` [plausibility] Expect Quantitative Observation Value to Match Common Units
+### q_obs_unit
+**[plausibility]** Expect Quantitative Observation Value to Match Common Units
 
 Denominator resource inclusion:
 - `Observation.valueQuantity` element is populated 
@@ -140,7 +134,8 @@ Numerator resource inclusion:
 - `Observation.valueQuantity.system` is UCUM (`http://unitsofmeasure.org`) and `Observation.valueQuantity.code` is populated
 - `Observation.valueQuantity.code` element does not match a unit in the example unit set for any of the LOINC codes in the `Observation.code` element. The unit set is computed by grouping UCUM units by type (e.g., volume measures, size measures) and using these groups to expand the sample unit listed in the LOINC database.
 
-### `q_obs_comp_unit` [plausibility] Expect Quantitative Observation Component Value to Match Common Units
+### q_obs_comp_unit
+**[plausibility]** Expect Quantitative Observation Component Value to Match Common Units
 
 Denominator resource inclusion:
 - `Observation.component.valueQuantity` element is populated 
@@ -150,10 +145,11 @@ Denominator resource inclusion:
 Numerator resource inclusion:
 - `Observation.component.valueQuantity.code` element is not contained in the example unit set for at least one of the LOINC codes in the `Observation.component.code` element
 
-### `q_value_unique` [conformance] Expect Element Value to be Unique
+### q_value_unique
+**[conformance]** Expect Element Value to be Unique
 
 Denominator resource inclusion:
-- Resource Type is one of the following: Patient, Observation, Condition, Procedure, Immunization, AllergyIntolerance, DocumentReference, MedicationRequest, Medication, MedicationAdministration, Device
+- Resource is one of the standard [resource types](#by-resource)
 
 Numerator resource inclusion:
 - Resource `id` element has the same value for more than one resource of a single Resource Type
@@ -162,23 +158,35 @@ Numerator resource inclusion:
 Notes:
 - Users may add wish to add other elements to this query which can serve as a base
 
-### `q_term_use` [conformance] Expect Common Terminology Systems to be Populated
+### q_valid_us_core_v4
+**[conformance]** Expect Mandatory US Core Constraints to be Followed
+
+Denominator resource inclusion:
+
+- Resource is one of the standard [US Core profiles](#by-us-core-v4-profile).
+
+Numerator resource inclusion:
+
+- One of the mandatory profile elements is missing or a `SHALL` profile constraint is failing.
+
+### q_system_use
+**[conformance]** Expect Common Terminology Systems to be Populated
 
 Coded elements:
 
-| Resource Type            | Element                   | System                                      | System [OID](https://www.hl7.org/fhir/terminologies-systems.html) |
-|--------------------------|---------------------------|---------------------------------------------|-------------------------------------------------------------------|
-| Observation              | code                      | http://loinc.org                            | 2.16.840.1.113883.6.1                                             |
-| Observation              | valueCodeableConcept      | http://snomed.info/sct                      | 2.16.840.1.113883.6.96                                            |
-| Condition                | code                      | http://snomed.info/sct                      | 2.16.840.1.113883.6.96                                            |
-| Procedure                | code                      | http://www.ama-assn.org/go/cpt              | 2.16.840.1.113883.6.12                                            |
-| Immunization             | code                      | http://hl7.org/fhir/sid/cvx                 | 2.16.840.1.113883.12.292                                          |
-| AllergyIntolerance       | code                      | http://snomed.info/sct                      | 2.16.840.1.113883.6.96                                            |
-| DocumentReference        | type                      | http://loinc.org                            | 2.16.840.1.113883.6.1                                             |
-| MedicationRequest        | medicationCodeableConcept | http://www.nlm.nih.gov/research/umls/rxnorm | 2.16.840.1.113883.6.88                                            |
-| Medication               | code                      | http://www.nlm.nih.gov/research/umls/rxnorm | 2.16.840.1.113883.6.88                                            |
-| MedicationAdministration | medicationCodeableConcept | http://www.nlm.nih.gov/research/umls/rxnorm | 2.16.840.1.113883.6.88                                            |
-| Device                   | type                      | http://snomed.info/sct                      | 2.16.840.1.113883.6.96                                            |
+| Resource Type      | Element                   | System                                                                                                                                                                                                                           |
+|--------------------|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| AllergyIntolerance | code                      | http://snomed.info/sct or<br>http://www.nlm.nih.gov/research/umls/rxnorm                                                                                                                                                         |
+| Condition          | code                      | http://hl7.org/fhir/sid/icd-9-cm or<br>http://hl7.org/fhir/sid/icd-10-cm or<br>http://snomed.info/sct                                                                                                                            |
+| Device             | type                      | http://snomed.info/sct                                                                                                                                                                                                           |
+| DiagnosticReport   | code                      | http://loinc.org                                                                                                                                                                                                                 |
+| DocumentReference  | type                      | http://loinc.org                                                                                                                                                                                                                 |
+| Immunization       | vaccineCode               | http://hl7.org/fhir/sid/cvx                                                                                                                                                                                                      |
+| Medication         | code                      | http://www.nlm.nih.gov/research/umls/rxnorm                                                                                                                                                                                      |
+| MedicationRequest  | medicationCodeableConcept | http://www.nlm.nih.gov/research/umls/rxnorm                                                                                                                                                                                      |
+| Observation        | code                      | http://loinc.org                                                                                                                                                                                                                 |
+| Observation        | valueCodeableConcept      | http://snomed.info/sct                                                                                                                                                                                                           |
+| Procedure          | code                      | http://ada.org/cdt or <br>http://loinc.org or<br>http://snomed.info/sct or<br>http://www.ama-assn.org/go/cpt or<br>http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets or<br>http://www.cms.gov/Medicare/Coding/ICD10 |
 
 Parameters:
 - `skip_elements` - Array of strings in the form of `{resource}.{element}`
@@ -189,21 +197,23 @@ Denominator resource inclusion:
 Numerator resource inclusion:
 - Element in coded elements list does not have at least one value populated with the system specified in the elements list
 
-### `q_ref_target_pop` [conformance] Expect Reference Target to be Populated
+### q_ref_target_pop
+**[conformance]** Expect Reference Target to be Populated
 
 Reference targets:
 
-| Resource Type            | Element | Target Type |
-|--------------------------|---------|-------------|
-| Observation              | subject | Patient     |
-| Condition                | patient | Patient     |
-| Procedure                | patient | Patient     |
-| Immunization             | patient | Patient     |
-| AllergyIntolerance       | patient | Patient     |
-| DocumentReference        | subject | Patient     |
-| MedicationRequest        | subject | Patient     |
-| MedicationAdministration | subject | Patient     |
-| Device                   | patient | Patient     |
+| Resource Type      | Element | Target Type |
+|--------------------|---------|-------------|
+| AllergyIntolerance | patient | Patient     |
+| Condition          | subject | Patient     |
+| Device             | patient | Patient     |
+| DiagnosticReport   | subject | Patient     |
+| DocumentReference  | subject | Patient     |
+| Encounter          | subject | Patient     |
+| Immunization       | patient | Patient     |
+| MedicationRequest  | subject | Patient     |
+| Observation        | subject | Patient     |
+| Procedure          | subject | Patient     |
 
 Parameters:
 - `skip_elements` - Array of strings in the form of `{resource}.{element}`
@@ -212,33 +222,33 @@ Denominator resource inclusion:
 - Resource type is in reference targets list
 
 Numerator resource inclusion:
-- Element in reference target list does not have at least one reference that has a target with the url for a resource of the specified type
+- Element in reference target list does not have a reference that points at a relative URL for a resource of the specified type (e.g. `subject.reference` does not start with `Patient/`)
 
-### `q_ref_target_valid` [completeness] Expect Reference Target to be Resolvable when Populated
+### q_ref_target_valid
+**[completeness]** Expect Reference Target to be Resolvable when Populated
 
 Reference targets:
 
-| Resource Type            | Element   | Target Type |
-|--------------------------|-----------|-------------|
-| Observation              | subject   | Patient     |
-| Observation              | encounter | Encounter   |
-| Condition                | patient   | Patient     |
-| Condition                | encounter | Encounter   |
-| Procedure                | patient   | Patient     |
-| Procedure                | encounter | Encounter   |
-| Immunization             | patient   | Patient     |
-| Immunization             | encounter | Encounter   |
-| AllergyIntolerance       | patient   | Patient     |
-| AllergyIntolerance       | encounter | Encounter   |
-| DocumentReference        | subject   | Patient     |
-| DocumentReference        | encounter | Encounter   |
-| MedicationRequest        | subject   | Patient     |
-| MedicationRequest        | encounter | Encounter   |
-| MedicationAdministration | subject   | Patient     |
-| MedicationAdministration | encounter | Encounter   |
-| DocumentReference        | subject   | Patient     |
-| DocumentReference        | encounter | Encounter   |
-| Device                   | patient   | Patient     |
+| Resource Type      | Element           | Target Type |
+|--------------------|-------------------|-------------|
+| AllergyIntolerance | patient           | Patient     |
+| AllergyIntolerance | encounter         | Encounter   |
+| Condition          | subject           | Patient     |
+| Condition          | encounter         | Encounter   |
+| Device             | patient           | Patient     |
+| DiagnosticReport   | subject           | Patient     |
+| DiagnosticReport   | encounter         | Encounter   |
+| DocumentReference  | subject           | Patient     |
+| DocumentReference  | context.encounter | Encounter   |
+| Encounter          | subject           | Patient     |
+| Immunization       | patient           | Patient     |
+| Immunization       | encounter         | Encounter   |
+| MedicationRequest  | subject           | Patient     |
+| MedicationRequest  | encounter         | Encounter   |
+| Observation        | subject           | Patient     |
+| Observation        | encounter         | Encounter   |
+| Procedure          | subject           | Patient     |
+| Procedure          | encounter         | Encounter   |
 
 Parameters:
 - `skip_elements` - Array of strings in the form of `{resource}.{element}`
@@ -247,9 +257,10 @@ Denominator resource inclusion:
 - Resource type is in reference targets list
 
 Numerator resource inclusion:
-- Each element in reference target list does not have at least one reference that resolves to a resource of the specified type within the dataset being characterized
+- Each element in reference target list has at least one relative URL reference that does not resolve to a resource of the specified type within the dataset being characterized
 
-### `q_element_present` [completeness] Expect Element to be Populated
+### q_element_present
+**[completeness]** Expect Element to be Populated
 
 Notes:
 - This overlaps with profile validation - worth keeping?
@@ -257,83 +268,89 @@ Notes:
 
 ## Draft Metrics - Data Characterization
 
-### `c_resource_count` [volume] Count of Unique Resources by Resource Type (by category, by year, by month)
+### c_resource_count
+**[volume]** Count of Unique Resources
 
-Notes:
-- The resource `meta.lastUpdated` date has proven unreliable in many EHR implementations or is omitted entirely (e.g., in Epic). Instead, the  date fields in the date elements list below are used when the date stratification is applied
+Stratified
+by [resource type](#by-resource),
+by [detailed category](#by-detailed-category),
+by [status](#by-status),
+by [year](#by-date),
+by [month](#by-date).
 
-Date elements:
-	
-| Resource Type            | Date Stratification Element                        |
-|--------------------------|----------------------------------------------------|
-| Patient                  | NA                                                 |
-| Observation              | effectiveDateTime                                  |
-| Condition                | recordedDate OR onsetDateTime OR onsetPeriod.start |
-| Encounter                | period.start                                       |
-| Immunization             | occurrenceDateTime                                 |
-| Procedure                | performedDateTime OR performedPeriod.start         |
-| AllergyIntolerance       | recordedDate OR onsetDateTime OR onsetPeriod.start |
-| DocumentReference        | date                                               |
-| MedicationRequest        | authoredOn                                         |
-| Medication               | NA                                                 |
-| MedicationAdministration | effectiveDateTime                                  |
-| Device (implantable)     | NA                                                 |
+### c_pt_count
+**[demographics]** Count of Patients
 
-Category elements:
-	
-| Resource Type            | Category Stratification Element | Category System                                                           |
-|--------------------------|---------------------------------|---------------------------------------------------------------------------|
-| Patient                  | NA                              | NA                                                                        |
-| Observation              | category                        | http://terminology.hl7.org/CodeSystem/observation-category                |
-| Condition                | category                        | http://terminology.hl7.org/CodeSystem/condition-category                  |
-| Encounter                | type                            | http://www.ama-assn.org/go/cpt or http://snomed.info/sct                  |
-| Immunization             | NA                              | NA                                                                        |
-| Procedure                | NA                              | NA                                                                        |
-| AllergyIntolerance       | category                        | food, medication, environment, biologic                                   |
-| DocumentReference        | category                        | http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category |
-| MedicationRequest        | category                        | http://terminology.hl7.org/CodeSystem/medicationrequest-category          |
-| Medication               | NA                              | NA                                                                        |
-| MedicationAdministration | NA                              | NA                                                                        |
-| Device (implantable)     | NA                              | NA                                                                        |
- 
-### `c_pt_count` [demographics] Count of Patients (by birth year, by gender, by ethnicity, by race)
+Stratified by birth year, by gender, by ethnicity, by race, by [status](#by-status).
 
 Notes:
 - `valueCoding` from `us-core-race/ombCategory` extension is used for race and `valueCoding` from the `us-core-ethnicity/ombCategory` extension is used for ethnicity, concatenating the sorted values if there are multiple races listed for an individual patient
 
-### `c_pt_deceased_count` [demographics] Count of Deceased Patients (by gender, by age at death)
+### c_pt_deceased_count
+**[demographics]** Count of Deceased Patients
+
+Stratified by gender, by age at death, by [status](#by-status).
 
 Notes:
 - Patients with a `deceasedBoolean` element populated as `true` are included in the query results with a deceased age of `NULL`
+- Attempt to consider birthDate when calculating the age at death
+  (i.e. not simply `year_of_death - year_of_birth`).
 
-### `c_pt_zipcode_count` [demographics] Count of Patients By Zip Code (3 digit)
+### c_pt_zipcode_count
+**[demographics]** Count of Patients By Zip Code (3 digit)
 
 Notes:
 - Only include an address if country is USA or no country is populated and the `address.postalCode` element matches a US zip code pattern (five digits with an optional four digits following a dash)
 - Exclude the set of [sparsely populated](https://www.johndcook.com/blog/2016/06/29/sparsely-populated-zip-codes/) 3 digit zip codes to be HIPAA compliant, replacing them with `000`
 - Prefer `use=home`, `type=physical` or `both`, and a period without an end date. Fallback order for `address.use` element is `temp`, `work`, `billing`, any
 
-### `c_term_coverage` [terminology] Count of Resources by Terminology System (by resource type, by category)
+### c_system_use
+**[terminology]** Count of Resources by Terminology System
+
+Stratified by
+[resource type](#by-resource),
+by [basic category](#by-basic-category),
+by [status](#by-status),
+by [year](#by-date).
+
+Notes:
+- This metric will give a sense of what terminology systems are in use
+  over time.
+
+| Resource Type      | Coded Element             |
+|--------------------|---------------------------|
+| AllergyIntolerance | code                      |
+| Condition          | code                      |
+| Device             | type                      |
+| DiagnosticReport   | code                      |
+| DocumentReference  | type                      |
+| Encounter          | class                     |
+| Encounter          | type                      |
+| Immunization       | vaccineCode               |
+| Medication         | code                      |
+| MedicationRequest  | medicationCodeableConcept |
+| Observation        | code                      |
+| Observation        | valueCodeableConcept      |
+| Procedure          | code                      |
+
+### c_system_coverage
+**[terminology]** Count of Resources by Terminology System
+
+Stratified by
+[resource type](#by-resource),
+by [basic category](#by-basic-category),
+by [status](#by-status).
 
 Notes:
 - For CodeableConcept elements, return the count of resources that can be retrieved with each combination of the terminology systems being used (e.g., count of Procedure resources that have a SNOMED CT, count that have an ICD-10 code, and count with either a SNOMED CT code or ICD-10 code since systems may partially overlap).
 - For each element and combination of systems, return the count of resources that also have a text description of the concept.
 - This metric will point to the best set of terminology systems to be used when querying the population, and/or highlight terminology mappings that should be adjusted in the source system or through a transformation step in a data pipeline to improve queryability for specific use cases.
+- Use the same fields as [c_system_use](#c_system_use)
 
-| Resource Type             | CodeableConcept Element   |
-|---------------------------|---------------------------|
-| Observation (by category) | code                      |
-| Condition (by category)   | code                      |
-| Encounter                 | type                      |
-| Procedure                 | code                      |
-| Immunization              | vaccineCode               |
-| AllergyIntolerance        | code                      |
-| DocumentReference         | type                      |
-| MedicationRequest         | medicationCodeableConcept |
-| MedicationAdministration  | medicationCodeableConcept |
-| Device                    | type                      |
+### c_identifier_coverage
+**[terminology]** Count of Resources by Identifier System
 
-### `c_identifier_coverage` [terminology] Count of Resources by Identifier System (by resource type)
+Stratified by resource type.
 
 Notes:
 - For Identifier elements, return the count of resources that can be retrieved with each combination of the identifier systems being used (e.g., count of patient resources that have a MRN from EHR #1, count that have a MRN from EHR #2, and count with either of those as occurrences may partially overlap).
@@ -345,57 +362,72 @@ Notes:
 | Patient       | identifier         |
 | Encounter     | identifier         |
 
-### `c_term_use` [terminology] Count of Resources by Coded Value (by resource type, by category, by element, by system, by code)
+### c_code_use
+**[terminology]** Count of Resources by Coded Value
+
+Stratified by [resource type](#by-resource), by [basic category](#by-basic-category), by element, by system, by code.
 
 Notes:
 - More complete exploration of elements not included here can be done with the open source [FHIR Data Census Tool](https://github.com/sync-for-science/data-census)
 
-| Resource Type             | Elements                                                                                                |
-|---------------------------|---------------------------------------------------------------------------------------------------------|
-| Patient                   | _identifier_ (system only to avoid leaking PHI), address.use, address.type, telecom.system, telecom.use |
-| Observation (by category) | _code_, valueCodeableConcept, status                                                                    |
-| Condition (by category)   | _code_, clinicalStatus, verificationStatus, severity                                                    |
-| Encounter                 | type, reasonCode, dischargeDisposition                                                                  |
-| Procedure                 | _code_, category, status                                                                                |
-| Immunization              | _vaccineCode_, status                                                                                   |
-| AllergyIntolerance        | _code_, verificationStatus, reaction.manifestation, reaction.severity                                   |
-| DocumentReference         | _type_, docStatus, status, contentType                                                                  |
-| MedicationRequest         | _medicationCodeableConcept_, medicationReference.code intent, status, reported                          |
-| MedicationAdministration  | _medicationCodeableConcept_, status                                                                     |
-| Device                    | _type_, status                                                                                          |
+| Resource Type      | Elements                                                                                                |
+|--------------------|---------------------------------------------------------------------------------------------------------|
+| AllergyIntolerance | _code_, verificationStatus, reaction.manifestation, reaction.severity                                   |
+| Condition          | _code_, clinicalStatus, verificationStatus, severity                                                    |
+| Device             | _type_, status                                                                                          |
+| DocumentReference  | _type_, docStatus, status, contentType                                                                  |
+| Encounter          | type, reasonCode, dischargeDisposition                                                                  |
+| Immunization       | _vaccineCode_, status                                                                                   |
+| MedicationRequest  | _medicationCodeableConcept_, medicationReference.code intent, status, reported                          |
+| Observation        | _code_, valueCodeableConcept, status                                                                    |
+| Patient            | _identifier_ (system only to avoid leaking PHI), address.use, address.type, telecom.system, telecom.use |
+| Procedure          | _code_, category, status                                                                                |
 
 Parameters:
 - `skip_elements` - array of '{resource}.{element}' strings with one or more items from the list above
 
-### `c_term_use_pt` [terminology] Count of Patients per Coded Value (by resource type, by category, by element, by system, by code)
+### c_code_use_pt
+**[terminology]** Count of Patients per Coded Value
+
+Stratified by resource type, by category, by element, by system, by code.
 
 Notes:
-- See coded values in `c_term_use`
+- See coded values in [c_code_use](#c_code_use)
 
-### `c_term_use_panel` [terminology] Count of Coded Laboratory  Panel Components (by panel system, by panel code, by component system, by component code)
+### c_code_use_panel
+**[terminology]** Count of Coded Laboratory Panel Components
+
+Stratified by panel system, by panel code, by component system, by component code.
 
 Notes:
 - Count of `Observation.code` values that are referenced from a `DiagnosticReport.results` array 
 - Looks like this may be possible in Epic, though Cerner doesn't seem to have support for DiagnosticReport resources yet based on https://groups.google.com/g/cerner-fhir-developers/c/Pn1HnUMwcCo/m/MSaguilDAAAJ 
 
-### `c_term_first_use` [terminology] Count of Earliest Use of Coded Value (by resource type, by category, by element, by system, by code, by year, by month)
+### c_code_first_use
+**[terminology]** Count of Earliest Use of Coded Value
+
+Stratified by resource type, by category, by element, by system, by code, by year, by month.
 
 Notes:
-- See code elements in `c_term_use`
-- See date elements in `c_resource_count`
+- See code elements in [c_code_use](#c_code_use)
+- Use standard [date elements](#by-date)
 
-### `c_term_last_use` [terminology] Count of Latest Use of Coded Value (by resource type, by category, by element, by system, by code, by year, by month)
+### c_code_last_use
+**[terminology]** Count of Latest Use of Coded Value
 
-Notes:
-- See code elements in `c_term_use`
-- See date elements in `c_resource_count`
-
-### `c_resources_per_pt` [volume] Distribution of Unique Resources per Patient (by resource type, by category)
+Stratified by resource type, by category, by element, by system, by code, by year, by month.
 
 Notes:
-- See categories defined for `c_resource_count` 
+- See code elements in [c_code_use](#c_code_use)
+- Use standard [date elements](#by-date)
 
-### `c_element_use` [volume] Count of Resources with Element Populated
+### c_resources_per_pt
+**[volume]** Distribution of Unique Resources per Patient
+
+Stratified by [resource type](#by-resource), by [detailed category](#by-detailed-category).
+
+### c_element_use
+**[volume]** Count of Resources with Element Populated
 
 Notes:
 - Used to verify population of elements needed for specific types of analysis that are not covered by other metrics. More complete exploration can be done with the open source [FHIR Data Census Tool](https://github.com/sync-for-science/data-census).
@@ -408,64 +440,92 @@ Notes:
 | DocumentReference | context.encounter.reference, context.period.start                  |
 
 
-### `c_record_first` [temporality] Distribution of Earliest Patient Record (by year, by month) 
+### c_record_first
+**[temporality]** Distribution of Earliest Patient Record
+
+Stratified by [year](#by-date), by [month](#by-date).
 
 Notes:
 - Record defined as earliest of `Encounter`, `Observation`, or `MedicationRequest` resource
-- See date elements in `c_resource_count`
 
-### `c_record_last` [temporality] Distribution of Latest Patient Record (by year, by month) 
+### c_record_last
+**[temporality]** Distribution of Latest Patient Record
+
+Stratified by [year](#by-date), by [month](#by-date).
 
 Notes:
 - Record defined as earliest of `Encounter`, `Observation`, or `MedicationRequest` resource
-- See date elements in `c_resource_count`
 
-### `c_enc_duration` [temporality] Distribution of Encounter Duration (by encounter type)
+### c_enc_duration
+**[temporality]** Distribution of Encounter Duration
+
+Stratified by encounter type.
 
 Notes:
 - Length defined as number of days between `Encounter.period.start` and `Encounter.period.end`
 - A start and end date must be populated for a resource to be included in this metric
 
-### `c_first_enc_age` [demographics] Distribution of Patients By Age at First Encounter (by gender)
+### c_first_enc_age
+**[demographics]** Distribution of Patients By Age at First Encounter
+
+Stratified by gender.
 
 Notes:
 - Age is based on `Patient.birthDate` element
 - First encounter is based on `Encounter.period.start`
 
-### `c_diagnosis_prevalence` [condition] Count of Patients with Documented Disease (by gender, by condition code)
+### c_us_core_v4_count
+**[conformance]** Distribution of US Core supported fields
+
+Stratified
+by [US Core profile](#by-us-core-v4-profile),
+by every mandatory and must-support field,
+by [status](#by-status),
+by [year](#by-date).
+
+Notes:
+- Flag each field for whether it is present & correctly-defined.
+- The absence of a must-support field could either be the data actually missing upstream,
+  or a lack of support in the EHR. The best we can do is just flag the missing data and the
+  amount of missing fields may surface truths about EHR support.
+
+### c_diagnosis_prevalence
+**[condition]** Count of Patients with Documented Disease
+
+Stratified by gender, by condition code.
 
 Notes:
 - Include patients who have a condition where `Condition.code` that matches a code with a prevalence range in the [OHDSI Data Quality Dashboard definitions](https://github.com/OHDSI/DataQualityDashboard/blob/main/inst/csv/OMOP_CDMv5.3.1_Concept_Level.csv) 
 
-### `c_diagnosis_support` [condition] Percentage of Problem List Items with Supporting Observations (by condition, by year, by month)
+### c_diagnosis_support
+**[condition]** Percentage of Problem List Items with Supporting Observations
+
+Stratified by condition, by [year](#by-date), by [month](#by-date).
 
 Notes:
 - This would require clinical input to develop, but the idea is to identify SNOMED codes that could be supported by Observations based on LOINC codes and values. For example, a diabetes / pre-diabetes dx with supporting A1C values, an obesity dx with supporting BMI data, or a hypertension / pre-hypertension dx with supporting bp data. 
-- Stratification by condition dates listed in `c_resource_count` to address changes in documentation patterns over time
 
-### `c_date_precision` [structure] Distribution of Resource Count by DateTime Element Precision (by resource type, by category, by date element, by precision level)
+### c_date_precision
+**[structure]** Distribution of Resource Count by DateTime Element Precision
 
-Date elements:
-	
-| Resource Type            | Date Element                                                                                                                   |
-|--------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-| Patient                  | birthDate, deceasedDateTime                                                                                                    |
-| Observation              | effectiveDateTime                                                                                                              |
-| Condition                | recordedDate, onsetDateTime, onsetPeriod.start, onsetPeriod.end, abatementDateTime, abatementPeriod.start, abatementPeriod.end |
-| Encounter                | period.start, period.end                                                                                                       |
-| Immunization             | occurrenceDateTime                                                                                                             |
-| Procedure                | performedDateTime, performedPeriod.start                                                                                       |
-| AllergyIntolerance       | recordedDate, onsetDateTime, onsetPeriod.start, onsetPeriod.end                                                                |
-| MedicationRequest        | authoredOn                                                                                                                     |
-| MedicationAdministration | effectiveDateTime                                                                                                              |
-| Device (implantable)     | manufactureDate, expirationDate                                                                                                |
-| DiagnosticReport         | effectiveDateTime                                                                                                              |
+Stratified by resource type, by category, by date element, by precision level.
+
+Examine all the standard [date elements](#by-date) in addition to these extra elements:
+
+| Resource Type | Date Element                    |
+|---------------|---------------------------------|
+| Device        | manufactureDate, expirationDate |
+| Medication    | batch.expirationDate            |
+| Patient       | birthDate, deceasedDateTime     |
 
 Notes:
 - `DateTime` element precision levels are `year` (YYYY), `month` (YYYY-MM), `day` (YYYY-MM-DD), `time-seconds` (YYYY-MM-DDThh:mm:ss+zz:zz), and `time-milliseconds` (YYYY-MM-DDThh:mm:ss.fff+zz:zz)
 - `Date` element precision levels are the same with the exception of `time-seconds` or `time-milliseconds`
 
-### `c_choice_type_populated` [structure] Distribution of Resource Count by Choice Type Element Populated (by resource type, by category, by choice element, by choice type)
+### c_choice_type_populated
+**[structure]** Distribution of Resource Count by Choice Type Element Populated
+
+Stratified by resource type, by category, by choice element, by choice type.
 
 Choice elements:
 
@@ -482,3 +542,151 @@ Choice elements:
 
 Notes:
 - These are the choice fields in US Core, but could use the FHIR definitions to create a full list, or could do a more general query based on JSON key prefix (not supported by all databases and potentially slow even where supported)
+
+## Stratification
+
+Many metrics will require stratification by date or category or resource type.
+Here is implementation guidance for how to do that.
+
+### By Resource
+
+Implementations must support at least these minimum types,
+but can choose to support more.
+
+| Resource Type      |
+|--------------------|
+| AllergyIntolerance |
+| Condition          |
+| Device             |
+| DiagnosticReport   |
+| DocumentReference  |
+| Encounter          |
+| Immunization       |
+| Medication         |
+| MedicationRequest  |
+| Observation        |
+| Patient            |
+| Procedure          |
+
+### By Date
+
+Take the stratification date from these fields in order.
+This prefers "interaction with health system" dates, then administrative dates like `issued`,
+then finally best-effort start dates like `onsetDateTime`.
+
+If a Period is listed, look at both start and end date, in that order.
+
+| Resource Type      | Date Element                                                                 |
+|--------------------|------------------------------------------------------------------------------|
+| AllergyIntolerance | recordedDate, onsetDateTime, onsetPeriod                                     |
+| Condition          | recordedDate, onsetDateTime, onsetPeriod, abatementDateTime, abatementPeriod |
+| Device             | NA                                                                           |
+| DiagnosticReport   | effectiveDateTime, effectivePeriod, issued                                   |
+| DocumentReference  | context.period, date                                                         |
+| Encounter          | period                                                                       |
+| Immunization       | occurrenceDateTime, recorded                                                 |
+| Medication         | NA                                                                           |
+| MedicationRequest  | authoredOn                                                                   |
+| Observation        | effectiveDateTime, effectivePeriod, effectiveInstant, issued                 |
+| Patient            | NA                                                                           |
+| Procedure          | performedDateTime, performedPeriod                                           |
+
+### By Status
+
+Stratifying by status is often useful for ignoring `entered-in-error` resources or
+otherwise finding patterns in resource lifecycles.
+
+| Resource Type      | Status Element     | Status System                                                         |
+|--------------------|--------------------|-----------------------------------------------------------------------|
+| AllergyIntolerance | verificationStatus | http://terminology.hl7.org/CodeSystem/allergyintolerance-verification |
+| Condition          | verificationStatus | http://terminology.hl7.org/CodeSystem/condition-ver-status            |
+| Device             | status             |                                                                       |
+| DiagnosticReport   | status             |                                                                       |
+| DocumentReference  | status             |                                                                       |
+| Encounter          | status             |                                                                       |
+| Immunization       | status             |                                                                       |
+| Medication         | status             |                                                                       |
+| MedicationRequest  | status             |                                                                       |
+| Observation        | status             |                                                                       |
+| Patient            | active             |                                                                       |
+| Procedure          | status             |                                                                       |
+
+### By Basic Category
+
+| Resource Type      | Category Element | Category System                                            |
+|--------------------|------------------|------------------------------------------------------------|
+| AllergyIntolerance | NA               | NA                                                         |
+| Condition          | category         | http://terminology.hl7.org/CodeSystem/condition-category   |
+| Device             | NA               | NA                                                         |
+| DiagnosticReport   | NA               | NA                                                         |
+| DocumentReference  | NA               | NA                                                         |
+| Encounter          | NA               | NA                                                         |
+| Immunization       | NA               | NA                                                         |
+| Medication         | NA               | NA                                                         |
+| MedicationRequest  | NA               | NA                                                         |
+| Observation        | category         | http://terminology.hl7.org/CodeSystem/observation-category |
+| Patient            | NA               | NA                                                         |
+| Procedure          | NA               | NA                                                         |
+
+### By Detailed Category
+
+| Resource Type      | Category Element | Category System                                                           |
+|--------------------|------------------|---------------------------------------------------------------------------|
+| AllergyIntolerance | category         | biologic, environment, food, medication                                   |
+| Condition          | category         | http://terminology.hl7.org/CodeSystem/condition-category                  |
+| Device             | NA               | NA                                                                        |
+| DiagnosticReport   | NA               | http://loinc.org and<br>http://terminology.hl7.org/CodeSystem/v2-0074     |
+| DocumentReference  | category         | http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category |
+| Encounter          | type             | http://snomed.info/sct and<br>http://www.ama-assn.org/go/cpt              |
+| Immunization       | NA               | NA                                                                        |
+| Medication         | NA               | NA                                                                        |
+| MedicationRequest  | category         | http://terminology.hl7.org/CodeSystem/medicationrequest-category          |
+| Observation        | category         | http://terminology.hl7.org/CodeSystem/observation-category                |
+| Patient            | NA               | NA                                                                        |
+| Procedure          | NA               | NA                                                                        |
+
+### By US Core v4 Profile
+
+Some resources have multiple
+[profiles](http://hl7.org/fhir/us/core/STU4/profiles-and-extensions.html)
+that apply to them.
+Here is guidance on how to determine which profile to apply to a given resource in those cases.
+
+When detecting a profile, look **only** for the provided detection rule.
+For example, Body Height resources _should_ have both a `8302-2` LOINC code and
+a `vital-signs` category.
+But when checking validation, a resource might have the right code but be missing the category.
+It should still be detected as a Body Height resource (a non-compliant one!) in that case.
+
+| Resource Type      | Profile                                                   | Detection Rule                |
+|--------------------|-----------------------------------------------------------|-------------------------------|
+| AllergyIntolerance | AllergyIntolerance                                        | NA                            |
+| Condition          | Condition                                                 | NA                            |
+| Device             | Implantable Device                                        | NA*                           |
+| DiagnosticReport   | DiagnosticReport Lab                                      | Has a `LAB` category          |
+| DiagnosticReport   | DiagnosticReport Note                                     | Has **no** `LAB` category     |
+| DocumentReference  | DocumentReference                                         | NA                            |
+| Encounter          | Encounter                                                 | NA                            |
+| Immunization       | Immunization                                              | NA                            |
+| Medication         | Medication                                                | NA                            |
+| MedicationRequest  | MedicationRequest                                         | NA                            |
+| Observation        | Blood Pressure                                            | Has a `85354-9` LOINC code    |
+| Observation        | BMI                                                       | Has a `39156-5` LOINC code    |
+| Observation        | Body Height                                               | Has a `8302-2` LOINC code     |
+| Observation        | Body Temperature                                          | Has a `8310-5` LOINC code     |
+| Observation        | Body Weight                                               | Has a `29463-7` LOINC code    |
+| Observation        | Head Circumference                                        | Has a `9843-4` LOINC code     |
+| Observation        | Heart Rate                                                | Has a `8867-4` LOINC code     |
+| Observation        | Observation Lab                                           | Has a `laboratory` category   |
+| Observation        | Pediatric BMI for Age                                     | Has a `59576-9` LOINC code    |
+| Observation        | Pediatric Head Occipital-frontal Circumference Percentile | Has a `8289-1` LOINC code     |
+| Observation        | Pediatric Weight for Height Observation                   | Has a `77606-2` LOINC code    |
+| Observation        | Pulse Oximetry                                            | Has a `59408-5` LOINC code    |
+| Observation        | Respiratory Rate                                          | Has a `9279-1` LOINC code     |
+| Observation        | Smoking Status                                            | Has a `72166-2` LOINC code    |
+| Observation        | Vital Signs                                               | Has a `vital-signs` category  |
+| Patient            | Patient                                                   | NA                            |
+| Procedure          | Procedure                                                 | NA                            |
+
+\* Since it is difficult to restrict to only the implantable devices,
+this may be "noisy" and include non-implantable devices too.
