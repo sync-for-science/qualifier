@@ -88,9 +88,6 @@ Notes:
 
 Examine each of the standard [date elements](#by-date).
 
-Parameters:
-- `threshold_days` - allowed period after death date, defaults to 30 days
-
 Denominator resource inclusion:
 - `Patient.birthDate` is populated along with a date from the date elements table
 - Reference from the resource to a Patient resource in the dataset
@@ -103,25 +100,27 @@ Notes:
 - Partial date elements are interpreted as the latest date possible when compared to birthDate (e.g., 1999 would be the equivalent of 1999-12-31)
 - Partial date elements are interpreted as the earliest date possible when compared to deceasedDateTime (e.g., 1999 would be the equivalent of 1999-01-01)
 
+Suggested parameters:
+- `threshold_days` - allowed period after death date, defaults to 30 days
+
 ### q_date_recent
 **[plausibility]** Expect Date to be in Recent Past
 
-Examine each of the standard [date elements](#by-date).
-
-Parameters:
-- `run_time` - the start datatime when the set of queries that includes this metric was run
-- `start_date` - defaults to `1950-01-01` (kind of arbitrary, but it's what OMOP is using)
-- `end_date` - defaults to metric run time plus 0 days
-
 Denominator resource inclusion:
-- The date element is populated
+- Resource is in the table of standard [date elements](#by-date).
 
 Numerator resource inclusion:
-- The date elements is before `start_date` parameter and/or after `end_date` parameter
+- Any of the populated date elements are before `start_date` parameter and/or after `end_date` parameter
+- The [status](#by-status) is not `entered-in-error`
+- For Encounters, the [status](#by-status) is not `planned`
 
 Notes:
 - Partial date elements are interpreted as the latest date possible when compared to start_date (e.g., 1999 would be the equivalent of 1999-12-31)
 - Partial date elements are interpreted as the earliest date possible when compared to end_date (e.g., 1999 would be the equivalent of 1999-01-01)
+
+Suggested parameters:
+- `start_date` - a recommended default is `1900-01-01` (arbitrary, but it allows for patients with backdated-to-birth resources, like AllergyIntolerances)
+- `end_date` - defaults to metric run time
 
 ### q_obs_unit
 **[plausibility]** Expect Quantitative Observation Value to Match Common Units
@@ -169,6 +168,11 @@ Numerator resource inclusion:
 
 - One of the mandatory profile elements is missing or a `SHALL` profile constraint is failing.
 
+Notes:
+- This metric must at least validate all profile-specific requirements.
+  Ideally, it also validates base FHIR requirements for any fields mentioned by the profile,
+  but that can be on a best-effort basis.
+
 ### q_system_use
 **[conformance]** Expect Common Terminology Systems to be Populated
 
@@ -188,14 +192,14 @@ Coded elements:
 | Observation        | valueCodeableConcept      | http://snomed.info/sct                                                                                                                                                                                                           |
 | Procedure          | code                      | http://ada.org/cdt or <br>http://loinc.org or<br>http://snomed.info/sct or<br>http://www.ama-assn.org/go/cpt or<br>http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets or<br>http://www.cms.gov/Medicare/Coding/ICD10 |
 
-Parameters:
-- `skip_elements` - Array of strings in the form of `{resource}.{element}`
-
 Denominator resource inclusion:
-- Resource type is in coded elements list and has at least one element that is not in the `skip_elements` parameter
+- Resource type is in coded elements list
 
 Numerator resource inclusion:
 - Element in coded elements list does not have at least one value populated with the system specified in the elements list
+
+Suggested parameters:
+- `skip_elements` - Array of strings in the form of `{resource}.{element}`
 
 ### q_ref_target_pop
 **[conformance]** Expect Reference Target to be Populated
@@ -215,14 +219,14 @@ Reference targets:
 | Observation        | subject | Patient     |
 | Procedure          | subject | Patient     |
 
-Parameters:
-- `skip_elements` - Array of strings in the form of `{resource}.{element}`
-
 Denominator resource inclusion:
 - Resource type is in reference targets list
 
 Numerator resource inclusion:
 - Element in reference target list does not have a reference that points at a relative URL for a resource of the specified type (e.g. `subject.reference` does not start with `Patient/`)
+
+Suggested parameters:
+- `skip_elements` - Array of strings in the form of `{resource}.{element}`
 
 ### q_ref_target_valid
 **[completeness]** Expect Reference Target to be Resolvable when Populated
@@ -250,14 +254,14 @@ Reference targets:
 | Procedure          | subject           | Patient     |
 | Procedure          | encounter         | Encounter   |
 
-Parameters:
-- `skip_elements` - Array of strings in the form of `{resource}.{element}`
-
 Denominator resource inclusion:
 - Resource type is in reference targets list
 
 Numerator resource inclusion:
 - Each element in reference target list has at least one relative URL reference that does not resolve to a resource of the specified type within the dataset being characterized
+
+Suggested parameters:
+- `skip_elements` - Array of strings in the form of `{resource}.{element}`
 
 ### q_element_present
 **[completeness]** Expect Element to be Populated
@@ -281,10 +285,17 @@ by [month](#by-date).
 ### c_pt_count
 **[demographics]** Count of Patients
 
-Stratified by birth year, by gender, by ethnicity, by race, by [status](#by-status).
+Stratified
+by birth year,
+by deceased status,
+by gender,
+by [ethnicity](http://hl7.org/fhir/us/core/STU4/StructureDefinition-us-core-ethnicity.html),
+by [race](http://hl7.org/fhir/us/core/STU4/StructureDefinition-us-core-race.html),
+by [status](#by-status).
 
 Notes:
 - `valueCoding` from `us-core-race/ombCategory` extension is used for race and `valueCoding` from the `us-core-ethnicity/ombCategory` extension is used for ethnicity, concatenating the sorted values if there are multiple races listed for an individual patient
+- Deceased status is true if `deceasedDateTime` is set or `deceasedBoolean` is true.
 
 ### c_pt_deceased_count
 **[demographics]** Count of Deceased Patients
@@ -383,7 +394,7 @@ Notes:
 | Patient            | _identifier_ (system only to avoid leaking PHI), address.use, address.type, telecom.system, telecom.use |
 | Procedure          | _code_, category, status                                                                                |
 
-Parameters:
+Suggested parameters:
 - `skip_elements` - array of '{resource}.{element}' strings with one or more items from the list above
 
 ### c_code_use_pt
@@ -425,6 +436,17 @@ Notes:
 **[volume]** Distribution of Unique Resources per Patient
 
 Stratified by [resource type](#by-resource), by [detailed category](#by-detailed-category).
+
+Notes:
+- Include an "all resources" summary entry.
+- Include an "all categories" summary entry for resources that are sliced by category.
+- Include a "no recognized categories" entry for resources that are sliced by category,
+  which counts any records that do not have a category defined from the
+  [detailed category list](#by-detailed-category).
+- Useful stats to include:
+  - Average resources per patient
+  - Max resources among patients
+  - Standard deviation of resource count among patients
 
 ### c_element_use
 **[volume]** Count of Resources with Element Populated
