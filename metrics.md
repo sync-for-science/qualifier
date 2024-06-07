@@ -178,25 +178,33 @@ Notes:
 
 Coded elements:
 
-| Resource Type      | Element                   | System                                                                                                                                                                                                                           |
-|--------------------|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| AllergyIntolerance | code                      | http://snomed.info/sct or<br>http://www.nlm.nih.gov/research/umls/rxnorm                                                                                                                                                         |
-| Condition          | code                      | http://hl7.org/fhir/sid/icd-9-cm or<br>http://hl7.org/fhir/sid/icd-10-cm or<br>http://snomed.info/sct                                                                                                                            |
-| Device             | type                      | http://snomed.info/sct                                                                                                                                                                                                           |
-| DiagnosticReport   | code                      | http://loinc.org                                                                                                                                                                                                                 |
-| DocumentReference  | type                      | http://loinc.org                                                                                                                                                                                                                 |
-| Immunization       | vaccineCode               | http://hl7.org/fhir/sid/cvx                                                                                                                                                                                                      |
-| Medication         | code                      | http://www.nlm.nih.gov/research/umls/rxnorm                                                                                                                                                                                      |
-| MedicationRequest  | medicationCodeableConcept | http://www.nlm.nih.gov/research/umls/rxnorm                                                                                                                                                                                      |
-| Observation        | code                      | http://loinc.org                                                                                                                                                                                                                 |
-| Observation        | valueCodeableConcept      | http://snomed.info/sct                                                                                                                                                                                                           |
-| Procedure          | code                      | http://ada.org/cdt or <br>http://loinc.org or<br>http://snomed.info/sct or<br>http://www.ama-assn.org/go/cpt or<br>http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets or<br>http://www.cms.gov/Medicare/Coding/ICD10 |
+| Resource Type      | Element                   | System                                                                                                                                                                                                                         |
+|--------------------|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| AllergyIntolerance | code                      | http://snomed.info/sct or<br>http://www.nlm.nih.gov/research/umls/rxnorm                                                                                                                                                       |
+| Condition          | code                      | http://hl7.org/fhir/sid/icd-9-cm or<br>http://hl7.org/fhir/sid/icd-10-cm or<br>http://snomed.info/sct                                                                                                                          |
+| Device             | type                      | http://snomed.info/sct                                                                                                                                                                                                         |
+| DiagnosticReport   | code                      | http://loinc.org                                                                                                                                                                                                               |
+| DocumentReference  | type                      | http://loinc.org or <br>http://terminology.hl7.org/CodeSystem/v3-NullFlavor                                                                                                                                                    |
+| Immunization       | vaccineCode               | http://hl7.org/fhir/sid/cvx                                                                                                                                                                                                    |
+| Medication         | code                      | http://www.nlm.nih.gov/research/umls/rxnorm                                                                                                                                                                                    |
+| MedicationRequest  | medicationCodeableConcept | http://www.nlm.nih.gov/research/umls/rxnorm                                                                                                                                                                                    |
+| Observation        | code                      | http://loinc.org                                                                                                                                                                                                               |
+| Observation        | valueCodeableConcept      | http://snomed.info/sct                                                                                                                                                                                                         |
+| Procedure          | code                      | http://loinc.org or<br>http://snomed.info/sct or<br>http://www.ada.org/cdt or <br>http://www.ama-assn.org/go/cpt or<br>https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets or<br>http://www.cms.gov/Medicare/Coding/ICD10 |
 
 Denominator resource inclusion:
 - Resource type is in coded elements list
 
 Numerator resource inclusion:
-- Element in coded elements list does not have at least one value populated with the system specified in the elements list
+- Element in coded elements list is present and does not have at least one Coding populated with the system specified in the elements list
+
+Notes:
+- The Procedure list (like all the above lists) is based off a US Core profile.
+  You may notice some small differences in the provided list and
+  [version 4 of US Core](http://hl7.org/fhir/us/core/STU4/ValueSet-us-core-procedure-code.html)
+  (namely `www.` in the CDT URL and `https` in the HCPCS URL).
+  [Later versions of US Core](http://hl7.org/fhir/us/core/ValueSet-us-core-procedure-code.html)
+  correct the apparent typos in version 4, and this metric uses the corrected URLs.
 
 Suggested parameters:
 - `skip_elements` - Array of strings in the form of `{resource}.{element}`
