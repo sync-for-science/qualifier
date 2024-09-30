@@ -643,37 +643,47 @@ otherwise finding patterns in resource lifecycles.
 
 ### By Basic Category
 
-| Resource Type      | Category Element | Category System                                            |
-|--------------------|------------------|------------------------------------------------------------|
-| AllergyIntolerance | NA               | NA                                                         |
-| Condition          | category         | http://terminology.hl7.org/CodeSystem/condition-category   |
-| Device             | NA               | NA                                                         |
-| DiagnosticReport   | NA               | NA                                                         |
-| DocumentReference  | NA               | NA                                                         |
-| Encounter          | NA               | NA                                                         |
-| Immunization       | NA               | NA                                                         |
-| Medication         | NA               | NA                                                         |
-| MedicationRequest  | NA               | NA                                                         |
-| Observation        | category         | http://terminology.hl7.org/CodeSystem/observation-category |
-| Patient            | NA               | NA                                                         |
-| Procedure          | NA               | NA                                                         |
+Some systems below have codes in parentheses after the system URL.
+That means that you need only look for that specific code in the system.
+For example, if a `Condition.category` has a SNOMED system but a `12345678` code,
+you can treat it as an unrecognized system & code.
+
+| Resource Type      | Category Element | Category System                                                                                                                                                                           |
+|--------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| AllergyIntolerance | NA               | NA                                                                                                                                                                                        |
+| Condition          | category         | http://hl7.org/fhir/us/core/CodeSystem/condition-category (`health-concern`) and <br>http://terminology.hl7.org/CodeSystem/condition-category and <br>http://snomed.info/sct (`16100001`) |
+| Device             | NA               | NA                                                                                                                                                                                        |
+| DiagnosticReport   | NA               | NA                                                                                                                                                                                        |
+| DocumentReference  | NA               | NA                                                                                                                                                                                        |
+| Encounter          | NA               | NA                                                                                                                                                                                        |
+| Immunization       | NA               | NA                                                                                                                                                                                        |
+| Medication         | NA               | NA                                                                                                                                                                                        |
+| MedicationRequest  | NA               | NA                                                                                                                                                                                        |
+| Observation        | category         | http://terminology.hl7.org/CodeSystem/observation-category                                                                                                                                |
+| Patient            | NA               | NA                                                                                                                                                                                        |
+| Procedure          | NA               | NA                                                                                                                                                                                        |
 
 ### By Detailed Category
 
-| Resource Type      | Category Element | Category System                                                           |
-|--------------------|------------------|---------------------------------------------------------------------------|
-| AllergyIntolerance | category         | biologic, environment, food, medication                                   |
-| Condition          | category         | http://terminology.hl7.org/CodeSystem/condition-category                  |
-| Device             | NA               | NA                                                                        |
-| DiagnosticReport   | NA               | http://loinc.org and<br>http://terminology.hl7.org/CodeSystem/v2-0074     |
-| DocumentReference  | category         | http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category |
-| Encounter          | type             | http://snomed.info/sct and<br>http://www.ama-assn.org/go/cpt              |
-| Immunization       | NA               | NA                                                                        |
-| Medication         | NA               | NA                                                                        |
-| MedicationRequest  | category         | http://terminology.hl7.org/CodeSystem/medicationrequest-category          |
-| Observation        | category         | http://terminology.hl7.org/CodeSystem/observation-category                |
-| Patient            | NA               | NA                                                                        |
-| Procedure          | NA               | NA                                                                        |
+Some systems below have codes in parentheses after the system URL.
+That means that you need only look for that specific code in the system.
+For example, if a `Condition.category` has a SNOMED system but a `12345678` code,
+you can treat it as an unrecognized system & code.
+
+| Resource Type      | Category Element | Category System                                                                                                                                                                           |
+|--------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| AllergyIntolerance | category         | `biologic`, `environment`, `food`, `medication`                                                                                                                                           |
+| Condition          | category         | http://hl7.org/fhir/us/core/CodeSystem/condition-category (`health-concern`) and <br>http://terminology.hl7.org/CodeSystem/condition-category and <br>http://snomed.info/sct (`16100001`) |
+| Device             | NA               | NA                                                                                                                                                                                        |
+| DiagnosticReport   | category         | http://loinc.org (`LP29684-5`, `LP29708-2`, `LP7839-6`) and<br>http://terminology.hl7.org/CodeSystem/v2-0074 (`LAB`)                                                                      |
+| DocumentReference  | category         | http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category                                                                                                                 |
+| Encounter          | type             | http://snomed.info/sct and<br>http://www.ama-assn.org/go/cpt                                                                                                                              |
+| Immunization       | NA               | NA                                                                                                                                                                                        |
+| Medication         | NA               | NA                                                                                                                                                                                        |
+| MedicationRequest  | category         | http://terminology.hl7.org/CodeSystem/medicationrequest-category                                                                                                                          |
+| Observation        | category         | http://terminology.hl7.org/CodeSystem/observation-category                                                                                                                                |
+| Patient            | NA               | NA                                                                                                                                                                                        |
+| Procedure          | NA               | NA                                                                                                                                                                                        |
 
 ### By US Core v4 Profile
 
