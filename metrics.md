@@ -14,11 +14,11 @@ The metrics outlined below are focused on evaluating the data quality and charac
 
 Denominator resource inclusion:
 - `Observation.valueQuantity` element is populated 
-- `Observation.code` matches a code with a plausibility range in the [OHDSI Data Quality Dashboard definitions](https://github.com/OHDSI/DataQualityDashboard/blob/main/inst/csv/OMOP_CDMv5.3.1_Concept_Level.csv)
+- `Observation.code` matches a code with a plausibility range in the [OHDSI Data Quality Dashboard definitions](https://github.com/OHDSI/DataQualityDashboard/blob/main/inst/csv/OMOP_CDMv5.4_Concept_Level.csv)
 - `Observation.valueQuantity.system` is UCUM and `Observation.valueQuantity.code` is populated
 
 Numerator resource inclusion:
-- `Observation.valueQuantity` element value is above or below the range defined in the [OHDSI Data Quality Dashboard definitions](https://github.com/OHDSI/DataQualityDashboard/blob/main/inst/csv/OMOP_CDMv5.3.1_Concept_Level.csv)
+- `Observation.valueQuantity` element value is above or below the range defined in the [OHDSI Data Quality Dashboard definitions](https://github.com/OHDSI/DataQualityDashboard/blob/main/inst/csv/OMOP_CDMv5.4_Concept_Level.csv)
 
 ### q_obs_comp_value_range
 **[plausibility]** Expect Quantitative Observation _Component_ Value to be in Plausible Range
@@ -26,10 +26,10 @@ Numerator resource inclusion:
 Denominator resource inclusion:
 - `Observation.component.valueQuantity` element is populated 
 - `Observation.component.valueQuantity.system` is UCUM and `Observation.component.valueQuantity.code` is populated
-- `Observation.component.code` matches a code with a plausibility range in the [OHDSI Data Quality Dashboard definitions](https://github.com/OHDSI/DataQualityDashboard/blob/main/inst/csv/OMOP_CDMv5.3.1_Concept_Level.csv)
+- `Observation.component.code` matches a code with a plausibility range in the [OHDSI Data Quality Dashboard definitions](https://github.com/OHDSI/DataQualityDashboard/blob/main/inst/csv/OMOP_CDMv5.4_Concept_Level.csv)
 
 Numerator resource inclusion:
-- `Observation.component.valueQuantity` element value is above or below the range defined in the [OHDSI Data Quality Dashboard definitions](https://github.com/OHDSI/DataQualityDashboard/blob/main/inst/csv/OMOP_CDMv5.3.1_Concept_Level.csv)
+- `Observation.component.valueQuantity` element value is above or below the range defined in the [OHDSI Data Quality Dashboard definitions](https://github.com/OHDSI/DataQualityDashboard/blob/main/inst/csv/OMOP_CDMv5.4_Concept_Level.csv)
 
 ### q_cond_gender
 **[plausibility]** Expect Condition Gender to be Plausible
@@ -38,11 +38,11 @@ Notes:
 - The FHIR Patient.gender element represents administrative gender which is not ideal for this purpose. USCDI v2 requires a `us-core-birthsex` extension, though this will be changing in v3 based on feedback from the clinical community. Epic supports inclusion of a `sex-for-clinical-use` extension, though it is unclear how often this is populated in production implementations. Qualifier will use the Epic extension preferentially, falling back to the birth sex extension and then administrative gender.
 
 Denominator resource inclusion:
-- `Condition.code` matches a code with a plausible gender in the [OHDSI Data Quality Dashboard definitions](https://github.com/OHDSI/DataQualityDashboard/blob/main/inst/csv/OMOP_CDMv5.3.1_Concept_Level.csv)
+- `Condition.code` matches a code with a plausible gender in the [OHDSI Data Quality Dashboard definitions](https://github.com/OHDSI/DataQualityDashboard/blob/main/inst/csv/OMOP_CDMv5.4_Concept_Level.csv)
 - `Condition.patient` is populated with a reference to a Patient resource in the dataset
 
 Numerator resource inclusion:
-- Patient gender does not match the plausible gender for the condition code defined in the [OHDSI Data Quality Dashboard definitions](https://github.com/OHDSI/DataQualityDashboard/blob/main/inst/csv/OMOP_CDMv5.3.1_Concept_Level.csv)
+- Patient gender does not match the plausible gender for the condition code defined in the [OHDSI Data Quality Dashboard definitions](https://github.com/OHDSI/DataQualityDashboard/blob/main/inst/csv/OMOP_CDMv5.4_Concept_Level.csv)
 
 ### q_proc_gender
 **[plausibility]** Expect Procedure Gender to be Plausible
@@ -51,11 +51,11 @@ Notes:
 - See [q_cond_gender](#q_cond_gender) for details on how Patient gender is derived
 
 Denominator resource inclusion:
-- `Procedure.code` matches a code with a plausible gender in the [OHDSI Data Quality Dashboard definitions](https://github.com/OHDSI/DataQualityDashboard/blob/main/inst/csv/OMOP_CDMv5.3.1_Concept_Level.csv)
+- `Procedure.code` matches a code with a plausible gender in the [OHDSI Data Quality Dashboard definitions](https://github.com/OHDSI/DataQualityDashboard/blob/main/inst/csv/OMOP_CDMv5.4_Concept_Level.csv)
 - `Procedure.patient` is populated with a reference to a Patient resource in the dataset
 
 Numerator resource inclusion:
-- Patient gender does not match the plausible gender defined for this procedure code in the [OHDSI Data Quality Dashboard definitions](https://github.com/OHDSI/DataQualityDashboard/blob/main/inst/csv/OMOP_CDMv5.3.1_Concept_Level.csv)
+- Patient gender does not match the plausible gender defined for this procedure code in the [OHDSI Data Quality Dashboard definitions](https://github.com/OHDSI/DataQualityDashboard/blob/main/inst/csv/OMOP_CDMv5.4_Concept_Level.csv)
 
 ### q_date_sequence
 **[plausibility]** Expect Date to be in Plausible Sequence
@@ -420,7 +420,6 @@ Stratified by panel system, by panel code, by component system, by component cod
 
 Notes:
 - Count of `Observation.code` values that are referenced from a `DiagnosticReport.results` array 
-- Looks like this may be possible in Epic, though Cerner doesn't seem to have support for DiagnosticReport resources yet based on https://groups.google.com/g/cerner-fhir-developers/c/Pn1HnUMwcCo/m/MSaguilDAAAJ 
 
 ### c_code_first_use
 **[terminology]** Count of Earliest Use of Coded Value
@@ -525,7 +524,7 @@ Notes:
 Stratified by gender, by condition code.
 
 Notes:
-- Include patients who have a condition where `Condition.code` that matches a code with a prevalence range in the [OHDSI Data Quality Dashboard definitions](https://github.com/OHDSI/DataQualityDashboard/blob/main/inst/csv/OMOP_CDMv5.3.1_Concept_Level.csv) 
+- Include patients who have a condition where `Condition.code` that matches a code with a prevalence range in the [OHDSI Data Quality Dashboard definitions](https://github.com/OHDSI/DataQualityDashboard/blob/main/inst/csv/OMOP_CDMv5.4_Concept_Level.csv)
 
 ### c_diagnosis_support
 **[condition]** Percentage of Problem List Items with Supporting Observations
