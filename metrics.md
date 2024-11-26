@@ -572,6 +572,57 @@ Choice elements:
 Notes:
 - These are the choice fields in US Core, but could use the FHIR definitions to create a full list, or could do a more general query based on JSON key prefix (not supported by all databases and potentially slow even where supported)
 
+### c_attachment_count
+**[structure]** Survey of attachment data and formats
+
+Stratified
+by [status](#by-status),
+by content type,
+by language,
+by presence of data and/or URL fields,
+by format (when applicable).
+
+| Resource Type     | Element       |
+|-------------------|---------------|
+| DiagnosticReport  | presentedForm |
+| DocumentReference | content       |
+
+Notes:
+- This metric counts _attachments_ inside resources and their associated metadata.
+  Most other metrics count resources, but this one is looking at each attachment.
+  Only the status field is taken from the outer resource.
+- When examining the content type, you should strip off extra info like charset
+  information (e.g. `text/plain; charset=utf8`) since the primary focus here is on
+  available MIME types.
+- Only DocumentReference has a `format` field associated with the attachment.
+
+### c_content_type_use
+**[structure]** Distribution of content types among attachment resources
+
+Stratified
+by [status](#by-status),
+by content types,
+by document type,
+by document status (when applicable).
+
+| Resource Type     | Attachment Element | Document Type Element |
+|-------------------|--------------------|-----------------------|
+| DiagnosticReport  | presentedForm      | code                  |
+| DocumentReference | content            | type                  |
+
+Notes:
+- Present all the content types available for a given resource.
+  That is, if a resource has both text/plain and text/html content types, present both.
+- When examining the content type, you should strip off extra info like charset
+  information (e.g. `text/plain; charset=utf8`) since the primary focus here is on
+  available MIME types.
+- If neither `data` nor `url` fields are present in an attachment,
+  that means there is no content available for the given content type & language.
+  Thus, you should skip that attachment when surfacing content types.
+  (See the `att-1` constraint for
+  [Attachments](https://www.hl7.org/fhir/R4/datatypes.html#Attachment).)
+- Only DocumentReference has a `docStatus` field.
+
 ## Stratification
 
 Many metrics will require stratification by date or category or resource type.
