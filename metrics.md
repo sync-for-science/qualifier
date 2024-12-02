@@ -572,6 +572,61 @@ Choice elements:
 Notes:
 - These are the choice fields in US Core, but could use the FHIR definitions to create a full list, or could do a more general query based on JSON key prefix (not supported by all databases and potentially slow even where supported)
 
+### c_attachment_count
+**[structure]** Count of attachment metadata
+
+Stratified
+by [status](#by-status),
+by content type,
+by language,
+by presence of data and/or URL fields,
+by format (when applicable).
+
+| Resource Type     | Element       |
+|-------------------|---------------|
+| DiagnosticReport  | presentedForm |
+| DocumentReference | content       |
+
+Notes:
+- This metric counts _attachments_ inside resources and their associated metadata.
+  Most other metrics count resources, but this one is looking at each attachment.
+  Only the status field is taken from the outer resource.
+- Normalize content types for better comparison.
+  - Strip off extra info like charset information (e.g. `text/plain; charset=utf8`)
+    since the primary focus here is on available MIME types.
+  - Convert to lowercase, since MIME types are case-insensitive.
+- Only DocumentReference has a `format` field associated with the attachment.
+
+### c_content_type_use
+**[structure]** Count of resources by attachment content types
+
+Stratified
+by [status](#by-status),
+by [year](#by-date).
+by content types,
+by document type,
+by document status (when applicable).
+
+| Resource Type     | Attachment Element | Document Type Element |
+|-------------------|--------------------|-----------------------|
+| DiagnosticReport  | presentedForm      | code                  |
+| DocumentReference | content            | type                  |
+
+Notes:
+- Normalize content types for better comparison.
+  - Strip off extra info like charset information (e.g. `text/plain; charset=utf8`)
+    since the primary focus here is on available MIME types.
+  - Convert to lowercase, since MIME types are case-insensitive.
+- If a resource has multiple content types, present them all.
+  - Remove duplicates (a resource might have the same content type in multiple languages).
+  - Sort multiple content types in ascending alphabetical order.
+- If neither `data` nor `url` fields are present in an attachment,
+  that means there is no content available for the given content type & language.
+  Thus, you should skip that attachment when surfacing content types.
+  (See the `att-1` constraint for
+  [Attachments](https://www.hl7.org/fhir/R4/datatypes.html#Attachment).)
+- Only DocumentReference has a `docStatus` field.
+
 ## Stratification
 
 Many metrics will require stratification by date or category or resource type.
