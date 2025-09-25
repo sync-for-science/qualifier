@@ -242,26 +242,45 @@ Suggested parameters:
 
 Reference targets:
 
-| Resource Type      | Element           | Target Type |
-|--------------------|-------------------|-------------|
-| AllergyIntolerance | patient           | Patient     |
-| AllergyIntolerance | encounter         | Encounter   |
-| Condition          | subject           | Patient     |
-| Condition          | encounter         | Encounter   |
-| Device             | patient           | Patient     |
-| DiagnosticReport   | subject           | Patient     |
-| DiagnosticReport   | encounter         | Encounter   |
-| DocumentReference  | subject           | Patient     |
-| DocumentReference  | context.encounter | Encounter   |
-| Encounter          | subject           | Patient     |
-| Immunization       | patient           | Patient     |
-| Immunization       | encounter         | Encounter   |
-| MedicationRequest  | subject           | Patient     |
-| MedicationRequest  | encounter         | Encounter   |
-| Observation        | subject           | Patient     |
-| Observation        | encounter         | Encounter   |
-| Procedure          | subject           | Patient     |
-| Procedure          | encounter         | Encounter   |
+| Resource Type      | Element                | Target Types                                          |
+|--------------------|------------------------|-------------------------------------------------------|
+| AllergyIntolerance | patient                | Patient                                               |
+| AllergyIntolerance | encounter              | Encounter                                             |
+| Condition          | subject                | Patient                                               |
+| Condition          | encounter              | Encounter                                             |
+| Device             | patient                | Patient                                               |
+| DiagnosticReport   | subject                | Patient                                               |
+| DiagnosticReport   | encounter              | Encounter                                             |
+| DiagnosticReport   | performer              | Organization, Practitioner                            |
+| DiagnosticReport   | result                 | Observation                                           |
+| DocumentReference  | subject                | Patient                                               |
+| DocumentReference  | author                 | Practitioner                                          |
+| DocumentReference  | context.encounter      | Encounter                                             |
+| Encounter          | subject                | Patient                                               |
+| Encounter          | participant.individual | Practitioner                                          |
+| Encounter          | reasonReference        | Condition                                             |
+| Encounter          | location.location      | Location                                              |
+| Encounter          | serviceProvider        | Organization                                          |
+| Immunization       | patient                | Patient                                               |
+| Immunization       | encounter              | Encounter                                             |
+| Location           | managingOrganization   | Organization                                          |
+| MedicationRequest  | reportedReference      | Practitioner                                          |
+| MedicationRequest  | medicationReference    | Medication                                            |
+| MedicationRequest  | subject                | Patient                                               |
+| MedicationRequest  | encounter              | Encounter                                             |
+| MedicationRequest  | requester              | Practitioner                                          |
+| MedicationRequest  | reasonReference        | Condition, Observation                                |
+| Observation        | subject                | Patient                                               |
+| Observation        | performer              | Organization, Patient, Practitioner, PractitionerRole |
+| Observation        | encounter              | Encounter                                             |
+| Observation        | hasMember              | Observation                                           |
+| Observation        | derivedFrom            | DocumentReference, Observation                        |
+| Patient            | link.other             | Patient                                               |
+| PractitionerRole   | practitioner           | Practitioner                                          |
+| PractitionerRole   | organization           | Organization                                          |
+| PractitionerRole   | location               | Location                                              |
+| Procedure          | subject                | Patient                                               |
+| Procedure          | encounter              | Encounter                                             |
 
 Denominator resource inclusion:
 - Resource type is in reference targets list
