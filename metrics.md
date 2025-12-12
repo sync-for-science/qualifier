@@ -5,7 +5,10 @@
 
 ## Overview
 
-The metrics outlined below are focused on evaluating the data quality and characteristics of data sets that comply with the [FHIR](https://hl7.org/fhir/) [USCDI v1](https://www.healthit.gov/isa/united-states-core-data-interoperability-uscdi) data subset as described in the [FHIR US Core STU4 Implementation Guide](http://hl7.org/fhir/us/core/STU4/) (IG) implemented by current EHR systems.
+The metrics outlined below are focused on evaluating the data quality and characteristics of data sets that comply with the [FHIR](https://hl7.org/fhir/) [USCDI v3](https://www.healthit.gov/isp/united-states-core-data-interoperability-uscdi#uscdi-v3) data subset as described in the [FHIR US Core STU6.1 Implementation Guide](http://hl7.org/fhir/us/core/STU6.1/) (IG) implemented by current EHR systems.
+
+If you are working with previous US Core and USCDI versions, there is an older edition of these metric guidelines:
+- [Metrics for US Core v4 / USCDI v1](https://github.com/sync-for-science/qualifier/blob/us_core_v4/metrics.md)
 
 ## Draft Metrics - Data Quality
 
@@ -35,7 +38,13 @@ Numerator resource inclusion:
 **[plausibility]** Expect Condition Gender to be Plausible
 
 Notes:
-- The FHIR Patient.gender element represents administrative gender which is not ideal for this purpose. USCDI v2 requires a `us-core-birthsex` extension, though this will be changing in v3 based on feedback from the clinical community. Epic supports inclusion of a `sex-for-clinical-use` extension, though it is unclear how often this is populated in production implementations. Qualifier will use the Epic extension preferentially, falling back to the birth sex extension and then administrative gender.
+- The FHIR `Patient.gender` element represents administrative gender which is not ideal for this purpose.
+But there are some extensions that provide a more clinically relevant sex.
+Check these sources, preferring the first populated one:
+  1. Epic's `sex-for-clinical-use` extension
+  2. HL7's `us-core-sex` extension
+  3. HL7's `us-core-birthsex` extension
+  4. `Patient.gender`
 
 Denominator resource inclusion:
 - `Condition.code` matches a code with a plausible gender in the [OHDSI Data Quality Dashboard definitions](https://github.com/OHDSI/DataQualityDashboard/blob/main/inst/csv/OMOP_CDMv5.4_Concept_Level.csv)
@@ -157,12 +166,12 @@ Numerator resource inclusion:
 Notes:
 - Users may add wish to add other elements to this query which can serve as a base
 
-### q_valid_us_core_v4
+### q_valid_us_core_v6
 **[conformance]** Expect Mandatory US Core Constraints to be Followed
 
 Denominator resource inclusion:
 
-- Resource is one of the standard [US Core profiles](#by-us-core-v4-profile).
+- Resource is one of the standard [US Core profiles](#by-us-core-v6-profile).
 
 Numerator resource inclusion:
 
@@ -190,7 +199,8 @@ Coded elements:
 | Medication         | code                      | http://www.nlm.nih.gov/research/umls/rxnorm                                                                                                                                                                                    |
 | MedicationRequest  | medicationCodeableConcept | http://www.nlm.nih.gov/research/umls/rxnorm                                                                                                                                                                                    |
 | Observation        | code                      | http://loinc.org                                                                                                                                                                                                               |
-| Observation        | valueCodeableConcept      | http://snomed.info/sct                                                                                                                                                                                                         |
+| Observation        | valueCodeableConcept      | http://snomed.info/sct or <br>http://terminology.hl7.org/CodeSystem/v3-NullFlavor                                                                                                                                              |
+| PractitionerRole   | code                      | http://snomed.info/sct or <br>http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction                                                                                                                                   |
 | Procedure          | code                      | http://loinc.org or<br>http://snomed.info/sct or<br>http://www.ada.org/cdt or <br>http://www.ama-assn.org/go/cpt or<br>https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets or<br>http://www.cms.gov/Medicare/Coding/ICD10 |
 
 Denominator resource inclusion:
@@ -198,14 +208,6 @@ Denominator resource inclusion:
 
 Numerator resource inclusion:
 - Element in coded elements list is present and does not have at least one Coding populated with the system specified in the elements list
-
-Notes:
-- The Procedure list (like all the above lists) is based off a US Core profile.
-  You may notice some small differences in the provided list and
-  [version 4 of US Core](http://hl7.org/fhir/us/core/STU4/ValueSet-us-core-procedure-code.html)
-  (namely `www.` in the CDT URL and `https` in the HCPCS URL).
-  [Later versions of US Core](http://hl7.org/fhir/us/core/ValueSet-us-core-procedure-code.html)
-  correct the apparent typos in version 4, and this metric uses the corrected URLs.
 
 Suggested parameters:
 - `skip_elements` - Array of strings in the form of `{resource}.{element}`
@@ -317,8 +319,8 @@ Stratified
 by birth year,
 by deceased status,
 by gender,
-by [ethnicity](http://hl7.org/fhir/us/core/STU4/StructureDefinition-us-core-ethnicity.html),
-by [race](http://hl7.org/fhir/us/core/STU4/StructureDefinition-us-core-race.html),
+by [ethnicity](http://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-ethnicity.html),
+by [race](http://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-race.html),
 by [status](#by-status).
 
 Notes:
@@ -523,11 +525,11 @@ Notes:
 - Age is based on `Patient.birthDate` element
 - First encounter is based on `Encounter.period.start`
 
-### c_us_core_v4_count
+### c_us_core_v6_count
 **[conformance]** Distribution of US Core supported fields
 
 Stratified
-by [US Core profile](#by-us-core-v4-profile),
+by [US Core profile](#by-us-core-v6-profile),
 by every mandatory and must-support field,
 by [status](#by-status),
 by [year](#by-date).
@@ -759,10 +761,10 @@ you can treat it as an unrecognized system & code.
 | Patient            | NA               | NA                                                                                                                                                                                        |
 | Procedure          | NA               | NA                                                                                                                                                                                        |
 
-### By US Core v4 Profile
+### By US Core v6 Profile
 
 Some resources have multiple
-[profiles](http://hl7.org/fhir/us/core/STU4/profiles-and-extensions.html)
+[profiles](http://hl7.org/fhir/us/core/STU6.1/profiles-and-extensions.html)
 that apply to them.
 Here is guidance on how to determine which profile to apply to a given resource in those cases.
 
@@ -772,35 +774,45 @@ a `vital-signs` category.
 But when checking validation, a resource might have the right code but be missing the category.
 It should still be detected as a Body Height resource (a non-compliant one!) in that case.
 
-| Resource Type      | Profile                                                   | Detection Rule                |
-|--------------------|-----------------------------------------------------------|-------------------------------|
-| AllergyIntolerance | AllergyIntolerance                                        | NA                            |
-| Condition          | Condition                                                 | NA                            |
-| Device             | Implantable Device                                        | NA*                           |
-| DiagnosticReport   | DiagnosticReport Lab                                      | Has a `LAB` category          |
-| DiagnosticReport   | DiagnosticReport Note                                     | Has **no** `LAB` category     |
-| DocumentReference  | DocumentReference                                         | NA                            |
-| Encounter          | Encounter                                                 | NA                            |
-| Immunization       | Immunization                                              | NA                            |
-| Medication         | Medication                                                | NA                            |
-| MedicationRequest  | MedicationRequest                                         | NA                            |
-| Observation        | Blood Pressure                                            | Has a `85354-9` LOINC code    |
-| Observation        | BMI                                                       | Has a `39156-5` LOINC code    |
-| Observation        | Body Height                                               | Has a `8302-2` LOINC code     |
-| Observation        | Body Temperature                                          | Has a `8310-5` LOINC code     |
-| Observation        | Body Weight                                               | Has a `29463-7` LOINC code    |
-| Observation        | Head Circumference                                        | Has a `9843-4` LOINC code     |
-| Observation        | Heart Rate                                                | Has a `8867-4` LOINC code     |
-| Observation        | Observation Lab                                           | Has a `laboratory` category   |
-| Observation        | Pediatric BMI for Age                                     | Has a `59576-9` LOINC code    |
-| Observation        | Pediatric Head Occipital-frontal Circumference Percentile | Has a `8289-1` LOINC code     |
-| Observation        | Pediatric Weight for Height Observation                   | Has a `77606-2` LOINC code    |
-| Observation        | Pulse Oximetry                                            | Has a `59408-5` LOINC code    |
-| Observation        | Respiratory Rate                                          | Has a `9279-1` LOINC code     |
-| Observation        | Smoking Status                                            | Has a `72166-2` LOINC code    |
-| Observation        | Vital Signs                                               | Has a `vital-signs` category  |
-| Patient            | Patient                                                   | NA                            |
-| Procedure          | Procedure                                                 | NA                            |
+| Resource Type      | Profile                                                   | Detection Rule                                         |
+|--------------------|-----------------------------------------------------------|--------------------------------------------------------|
+| AllergyIntolerance | AllergyIntolerance                                        | NA                                                     |
+| Condition          | Condition Encounter Diagnosis                             | Has an `encounter-diagnosis` category                  |
+| Condition          | Condition Problems and Health Concerns                    | Has a `problem-list-item` or `health-concern` category |
+| Device             | Implantable Device                                        | NA*                                                    |
+| DiagnosticReport   | DiagnosticReport Lab                                      | Has a `LAB` category                                   |
+| DiagnosticReport   | DiagnosticReport Note                                     | Has **no** `LAB` category                              |
+| DocumentReference  | DocumentReference                                         | NA                                                     |
+| Encounter          | Encounter                                                 | NA                                                     |
+| Immunization       | Immunization                                              | NA                                                     |
+| Location           | Location                                                  | NA                                                     |
+| Medication         | Medication                                                | NA                                                     |
+| MedicationRequest  | MedicationRequest                                         | NA                                                     |
+| Observation        | Blood Pressure                                            | Has a `85354-9` LOINC code                             |
+| Observation        | BMI                                                       | Has a `39156-5` LOINC code                             |
+| Observation        | Body Height                                               | Has a `8302-2` LOINC code                              |
+| Observation        | Body Temperature                                          | Has a `8310-5` LOINC code                              |
+| Observation        | Body Weight                                               | Has a `29463-7` LOINC code                             |
+| Observation        | Head Circumference                                        | Has a `9843-4` LOINC code                              |
+| Observation        | Heart Rate                                                | Has a `8867-4` LOINC code                              |
+| Observation        | Laboratory Result Observation                             | Has a `laboratory` category                            |
+| Observation        | Observation Occupation                                    | Has a `11341-5` LOINC code                             |
+| Observation        | Observation Pregnancy Intent                              | Has a `86645-9` LOINC code                             |
+| Observation        | Observation Pregnancy Status                              | Has a `82810-3` LOINC code                             |
+| Observation        | Observation Screening Assessment                          | Has a `survey` category                                |
+| Observation        | Observation Sexual Orientation                            | Has a `76690-7` LOINC code                             |
+| Observation        | Pediatric BMI for Age Observation                         | Has a `59576-9` LOINC code                             |
+| Observation        | Pediatric Head Occipital Frontal Circumference Percentile | Has a `8289-1` LOINC code                              |
+| Observation        | Pediatric Weight for Height Observation                   | Has a `77606-2` LOINC code                             |
+| Observation        | Pulse Oximetry                                            | Has a `59408-5` LOINC code                             |
+| Observation        | Respiratory Rate                                          | Has a `9279-1` LOINC code                              |
+| Observation        | Smoking Status                                            | Has a `72166-2` LOINC code                             |
+| Observation        | Vital Signs                                               | Has a `vital-signs` category                           |
+| Organization       | Organization                                              | NA                                                     |
+| Patient            | Patient                                                   | NA                                                     |
+| Practitioner       | Practitioner                                              | NA                                                     |
+| PractitionerRole   | PractitionerRole                                          | NA                                                     |
+| Procedure          | Procedure                                                 | NA                                                     |
 
 \* Since it is difficult to restrict to only the implantable devices,
 this may be "noisy" and include non-implantable devices too.
