@@ -7,6 +7,9 @@
 
 The metrics outlined below are focused on evaluating the data quality and characteristics of data sets that comply with the [FHIR](https://hl7.org/fhir/) [USCDI v3](https://www.healthit.gov/isp/united-states-core-data-interoperability-uscdi#uscdi-v3) data subset as described in the [FHIR US Core STU6.1 Implementation Guide](http://hl7.org/fhir/us/core/STU6.1/) (IG) implemented by current EHR systems.
 
+If you are working with previous US Core & USCDI versions, there are older editions of these metric guidelines:
+- [Metrics for US Core v4 / USCDI v1](https://github.com/sync-for-science/qualifier/blob/us_core_v4/metrics.md)
+
 ## Draft Metrics - Data Quality
 
 ### q_obs_value_range
@@ -35,7 +38,13 @@ Numerator resource inclusion:
 **[plausibility]** Expect Condition Gender to be Plausible
 
 Notes:
-- The FHIR Patient.gender element represents administrative gender which is not ideal for this purpose. There are also the optional `us-core-birthsex` and `us-core-sex` extensions. Qualifier will prefer the `sex` extension, falling back to the `birthsex` extension, and then finally administrative gender.
+- The FHIR `Patient.gender` element represents administrative gender which is not ideal for this purpose.
+But there are some extensions that provide a more clinically relevant sex.
+Check these sources, preferring the first populated one:
+  1. Epic's `sex-for-clinical-use` extension
+  2. HL7's `us-core-sex` extension
+  3. HL7's `us-core-birthsex` extension
+  4. `Patient.gender`
 
 Denominator resource inclusion:
 - `Condition.code` matches a code with a plausible gender in the [OHDSI Data Quality Dashboard definitions](https://github.com/OHDSI/DataQualityDashboard/blob/main/inst/csv/OMOP_CDMv5.4_Concept_Level.csv)
